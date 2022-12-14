@@ -1,0 +1,48 @@
+###############################################################################
+################## P-OM visualization macro ###################################
+###############################################################################
+
+#######
+# Specify view
+#######
+
+/vis/open OGL
+/vis/viewer/set/background 0.1 0.1 0.6 1
+/vis/viewer/set/viewpointVector -1 0 0
+/vis/viewer/set/lightsVector -0.2 0.5 -1
+/vis/viewer/set/autoRefresh true
+# /vis/viewer/set/hiddenMarker true
+
+#######
+# Draw geometry
+#######
+
+/vis/drawVolume
+
+#######
+# Specify style (surface, wireframe, auxiliary edges,...)
+#######
+
+/vis/viewer/set/style surface
+# /vis/viewer/set/style wireframe
+# /vis/viewer/set/auxiliaryEdge true
+# /vis/viewer/set/lineSegmentsPerCircle 100
+
+#######
+# Drawing tracks
+#######
+
+/vis/scene/add/trajectories smooth
+/vis/modeling/trajectories/create/drawByCharge
+/vis/modeling/trajectories/drawByCharge-0/default/setDrawStepPts true
+/vis/modeling/trajectories/drawByCharge-0/default/setStepPtsSize 2
+
+/vis/scene/add/trajectories
+/vis/scene/add/hits
+/vis/scene/endOfEventAction accumulate
+
+#######
+# coordinate system
+#######
+
+/vis/scene/add/axes 0 0 0 10 cm

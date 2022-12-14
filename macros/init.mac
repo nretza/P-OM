@@ -1,0 +1,40 @@
+####################################################
+####################################################
+##
+##  This is a collection of macro files 
+##  for the P-OM Simulation
+##
+##  Overview:
+##
+##  init.mac           - this file, will be executed by the simulation. executes all other files.
+##  init_primary.mac   - controls for the primary particle generator
+##  init_geom          - sets detector geometry
+##  init_vis.mac       - visualisation initialisation (only if ineractive mode)
+##  run.mac            - run macro (only if batch mode)
+##
+##  optical_properties - configuration file for optical properties of materials. Read in during detector construction
+##
+####################################################
+####################################################
+
+#######
+# pre init
+#######
+
+/control/execute macros/init_primary.mac
+/control/execute macros/init_geom.mac
+
+#######
+# initialization
+#######
+
+/run/initialize
+
+#######
+# post init
+#######
+
+/control/execute macros/init_data.mac
+
+/control/ifInteractive macros/init_vis.mac
+/control/ifBatch       macros/run.mac

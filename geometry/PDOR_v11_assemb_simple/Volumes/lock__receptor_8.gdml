@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="lock__receptor_8_v0" unit="mm" x="147.0082232906141" y="68.55106033217423" z="-59.000000000000014"/>
+ <position name="lock__receptor_8_v1" unit="mm" x="153.80553169338899" y="71.72069729522947" z="-59.000000000000014"/>
+ <position name="lock__receptor_8_v2" unit="mm" x="145.8019718568165" y="71.13787487982775" z="-58.930920135142195"/>
+ <position name="lock__receptor_8_v3" unit="mm" x="152.59928025959113" y="74.30751184288361" z="-58.930920135142166"/>
+ <position name="lock__receptor_8_v4" unit="mm" x="144.5985450903418" y="73.71863190885927" z="-58.72384230422056"/>
+ <position name="lock__receptor_8_v5" unit="mm" x="151.39585349311636" y="76.8882688719151" z="-58.7238423042205"/>
+ <position name="lock__receptor_8_v6" unit="mm" x="143.40076104401706" y="76.28728808547852" z="-58.379251419390215"/>
+ <position name="lock__receptor_8_v7" unit="mm" x="150.19806944679166" y="79.45692504853436" z="-58.37925141939011"/>
+ <position name="lock__receptor_8_v8" unit="mm" x="142.21142455716608" y="78.837828412345" z="-57.897954405795375"/>
+ <position name="lock__receptor_8_v9" unit="mm" x="149.00873295994066" y="82.00746537540084" z="-57.89795440579525"/>
+ <position name="lock__receptor_8_v10" unit="mm" x="141.03332068754412" y="81.36428031382836" z="-57.28107831200066"/>
+ <position name="lock__receptor_8_v11" unit="mm" x="147.83062909031875" y="84.5339172768842" z="-57.28107831200051"/>
+ <position name="lock__receptor_8_v12" unit="mm" x="139.86920818959533" y="83.86072762193119" z="-56.530067670792285"/>
+ <position name="lock__receptor_8_v13" unit="mm" x="146.66651659236996" y="87.03036458498697" z="-56.53006767079211"/>
+ <position name="lock__receptor_8_v14" unit="mm" x="138.72181305430405" y="86.32132443012233" z="-55.64668111652961"/>
+ <position name="lock__receptor_8_v15" unit="mm" x="145.5191214570787" y="89.49096139317807" z="-55.646681116529415"/>
+ <position name="lock__receptor_8_v16" unit="mm" x="137.5938221257681" y="88.74030878263977" z="-54.6329872669681"/>
+ <position name="lock__receptor_8_v17" unit="mm" x="144.3911305285427" y="91.9099457456955" z="-54.63298726696788"/>
+ <position name="lock__receptor_8_v18" unit="mm" x="136.48787680944173" y="91.11201616720672" z="-53.49135987919705"/>
+ <position name="lock__receptor_8_v19" unit="mm" x="143.28518521221642" y="94.28165313026243" z="-53.491359879196814"/>
+ <position name="lock__receptor_8_v20" unit="mm" x="135.4065668867824" y="93.43089277956531" z="-52.22447229103563"/>
+ <position name="lock__receptor_8_v21" unit="mm" x="142.20387528955706" y="96.60052974262096" z="-52.2244722910354"/>
+ <position name="lock__receptor_8_v22" unit="mm" x="134.3524244507842" y="95.69150852876624" z="-50.835291160903516"/>
+ <position name="lock__receptor_8_v23" unit="mm" x="141.14973285355893" y="98.86114549182186" z="-50.835291160903274"/>
+ <position name="lock__receptor_8_v24" unit="mm" x="133.32791797660036" y="97.88856975276032" z="-49.327069520825546"/>
+ <position name="lock__receptor_8_v25" unit="mm" x="140.12522637937508" y="101.05820671581593" z="-49.32706952082529"/>
+ <position name="lock__receptor_8_v26" unit="mm" x="132.33544654113874" y="100.01693161451578" z="-47.703339158838034"/>
+ <position name="lock__receptor_8_v27" unit="mm" x="139.13275494391345" y="103.18656857757136" z="-47.703339158837785"/>
+ <position name="lock__receptor_8_v28" unit="mm" x="131.3773342051667" y="102.07161014963339" z="-45.96790234863497"/>
+ <position name="lock__receptor_8_v29" unit="mm" x="138.17464260794148" y="105.24124711268894" z="-45.967902348634716"/>
+ <position name="lock__receptor_8_v30" unit="mm" x="130.45582457108048" y="104.0477939372476" z="-44.12482294582034"/>
+ <position name="lock__receptor_8_v31" unit="mm" x="137.2531329738552" y="107.2174309003031" z="-44.12482294582009"/>
+ <position name="lock__receptor_8_v32" unit="mm" x="129.57307552908293" y="105.94085536688443" z="-42.178416871616825"/>
+ <position name="lock__receptor_8_v33" unit="mm" x="136.3703839318577" y="109.1104923299399" z="-42.17841687161658"/>
+ <position name="lock__receptor_8_v34" unit="mm" x="128.7311542040733" y="107.74636147489215" z="-40.133242006314724"/>
+ <position name="lock__receptor_8_v35" unit="mm" x="135.5284626068481" y="110.9159984379476" z="-40.13324200631449"/>
+ <position name="lock__receptor_8_v36" unit="mm" x="127.93203211508047" y="109.46008432506932" z="-37.99408751612779"/>
+ <position name="lock__receptor_8_v37" unit="mm" x="134.7293405178553" y="112.62972128812476" z="-37.994087516127564"/>
+ <position name="lock__receptor_8_v38" unit="mm" x="127.17758055857604" y="111.0780109091823" z="-35.765962638449"/>
+ <position name="lock__receptor_8_v39" unit="mm" x="133.97488896135084" y="114.2476478722377" z="-35.765962638448784"/>
+ <position name="lock__receptor_8_v40" unit="mm" x="126.46956622647747" y="112.59635254418765" z="-33.454084951767705"/>
+ <position name="lock__receptor_8_v41" unit="mm" x="133.2668746292523" y="115.765989507243" z="-33.454084951767506"/>
+ <position name="lock__receptor_8_v42" unit="mm" x="125.80964706910268" y="114.0115537441547" z="-31.06386815771658"/>
+ <position name="lock__receptor_8_v43" unit="mm" x="132.6069554718775" y="117.18119070721005" z="-31.063868157716392"/>
+ <position name="lock__receptor_8_v44" unit="mm" x="125.19936841276382" y="115.32030054611263" z="-28.6009094038588"/>
+ <position name="lock__receptor_8_v45" unit="mm" x="131.99667681553865" y="118.48993750916799" z="-28.60090940385863"/>
+ <position name="lock__receptor_8_v46" unit="mm" x="124.64015934109163" y="116.51952827032544" z="-26.07097617690172"/>
+ <position name="lock__receptor_8_v47" unit="mm" x="131.43746774386645" y="119.68916523338075" z="-26.07097617690157"/>
+ <position name="lock__receptor_8_v48" unit="mm" x="124.13332934856396" y="117.60642869682283" z="-23.479992797028984"/>
+ <position name="lock__receptor_8_v49" unit="mm" x="130.93063775133876" y="120.77606565987814" z="-23.479992797028853"/>
+ <position name="lock__receptor_8_v50" unit="mm" x="123.6800652740754" y="118.5784566413819" z="-20.834026544977224"/>
+ <position name="lock__receptor_8_v51" unit="mm" x="130.47737367685025" y="121.7480936044372" z="-20.834026544977114"/>
+ <position name="lock__receptor_8_v52" unit="mm" x="130.07873692450286" y="122.60297287861566" z="-18.139273454343304"/>
+ <position name="lock__receptor_8_v53" unit="mm" x="123.281428521728" y="119.43333591556036" z="-18.13927345434339"/>
+ <position name="lock__receptor_8_v54" unit="mm" x="122.93835257535154" y="120.16906465682496" z="-15.402043802392775"/>
+ <position name="lock__receptor_8_v55" unit="mm" x="129.73566097812642" y="123.33870161988023" z="-15.402043802392715"/>
+ <position name="lock__receptor_8_v56" unit="mm" x="122.65164081257362" y="120.7839200162937" z="-12.628747333343735"/>
+ <position name="lock__receptor_8_v57" unit="mm" x="129.44894921534853" y="123.95355697934897" z="-12.6287473333437"/>
+ <position name="lock__receptor_8_v58" unit="mm" x="129.21927302633267" y="124.44609915616974" z="-9.825878248731604"/>
+ <position name="lock__receptor_8_v59" unit="mm" x="122.42196462355777" y="121.27646219311447" z="-9.825878248731613"/>
+ <position name="lock__receptor_8_v60" unit="mm" x="129.0471702415907" y="124.8151747690878" z="-6.999999999999789"/>
+ <position name="lock__receptor_8_v61" unit="mm" x="122.24986183881582" y="121.64553780603254" z="-6.999999999999789"/>
+ <position name="lock__receptor_8_v62" unit="mm" x="152.55593253575975" y="74.40047133662827" z="-59.92709998850515"/>
+ <position name="lock__receptor_8_v63" unit="mm" x="147.0082232906141" y="68.55106033217425" z="-60.0"/>
+ <position name="lock__receptor_8_v64" unit="mm" x="145.74427639744314" y="71.26160319173596" z="-59.925415273135314"/>
+ <position name="lock__receptor_8_v65" unit="mm" x="153.80553169338899" y="71.7206972952295" z="-60.0"/>
+ <position name="lock__receptor_8_v66" unit="mm" x="151.30936990456235" y="77.07373352607969" z="-59.70857710107653"/>
+ <position name="lock__receptor_8_v67" unit="mm" x="144.4834718753988" y="73.96540721466981" z="-59.701846521924026"/>
+ <position name="lock__receptor_8_v68" unit="mm" x="150.06887294746824" y="79.73398783543907" z="-59.344962348414306"/>
+ <position name="lock__receptor_8_v69" unit="mm" x="143.22894428317792" y="76.65575031815759" z="-59.32984957350762"/>
+ <position name="lock__receptor_8_v70" unit="mm" x="148.83745607255844" y="82.37476984571535" z="-58.837139314506786"/>
+ <position name="lock__receptor_8_v71" unit="mm" x="141.9838125740409" y="79.32594388534781" z="-58.81034927091252"/>
+ <position name="lock__receptor_8_v72" unit="mm" x="147.61811162331088" y="84.98966245561174" z="-58.186342009520935"/>
+ <position name="lock__receptor_8_v73" unit="mm" x="140.75117234160228" y="81.96934939431098" z="-58.144637173744535"/>
+ <position name="lock__receptor_8_v74" unit="mm" x="146.41380260720436" y="87.57231147508422" z="-57.39415187115723"/>
+ <position name="lock__receptor_8_v75" unit="mm" x="139.5340881236973" y="84.57939492245112" z="-57.33436834716828"/>
+ <position name="lock__receptor_8_v76" unit="mm" x="145.22745549560943" y="90.11644106602596" z="-56.462493921755424"/>
+ <position name="lock__receptor_8_v77" unit="mm" x="138.33558578345819" y="87.14959148534089" z="-56.381557247154305"/>
+ <position name="lock__receptor_8_v78" unit="mm" x="144.06195311246194" y="92.61586899255613" z="-55.39363209048956"/>
+ <position name="lock__receptor_8_v79" unit="mm" x="137.15864498654128" y="89.67354916935923" z="-55.28857271222424"/>
+ <position name="lock__receptor_8_v80" unit="mm" x="142.92012762899947" y="95.06452164385561" z="-54.19016371201913"/>
+ <position name="lock__receptor_8_v81" unit="mm" x="136.00619179320904" y="92.14499301802346" z="-54.05813207414491"/>
+ <position name="lock__receptor_8_v82" unit="mm" x="141.80475368158432" y="97.45644879304348" z="-52.855013214964956"/>
+ <position name="lock__receptor_8_v83" unit="mm" x="134.88109138368318" y="94.55777863251978" z="-52.69329440221344"/>
+ <position name="lock__receptor_8_v84" unit="mm" x="140.71854162933607" y="99.78583805623072" z="-51.39142501554645"/>
+ <position name="lock__receptor_8_v85" unit="mm" x="133.786140934855" y="96.90590744764685" z="-51.197452897929054"/>
+ <position name="lock__receptor_8_v86" unit="mm" x="139.66413096795787" y="102.04702901661526" z="-49.802955633649006"/>
+ <position name="lock__receptor_8_v87" unit="mm" x="132.72406266606305" y="99.18354164519405" z="-49.574326458959376"/>
+ <position name="lock__receptor_8_v88" unit="mm" x="138.64408391576094" y="104.23452697929699" z="-48.09346505047926"/>
+ <position name="lock__receptor_8_v89" unit="mm" x="131.69749707122685" y="101.38501866767729" z="-47.827950433375"/>
+ <position name="lock__receptor_8_v90" unit="mm" x="137.6608791874729" y="106.34301632338841" z="-46.2671073288093"/>
+ <position name="lock__receptor_8_v91" unit="mm" x="130.70899635416308" y="103.50486529634924" z="-45.962666587138315"/>
+ <position name="lock__receptor_8_v92" unit="mm" x="136.71690597096023" y="108.36737341897548" z="-44.328320518602624"/>
+ <position name="lock__receptor_8_v93" unit="mm" x="129.76101808340462" y="105.53781125848339" z="-43.9831123097892"/>
+ <position name="lock__receptor_8_v94" unit="mm" x="135.81445812150073" y="110.3026790775403" z="-42.28181587255086"/>
+ <position name="lock__receptor_8_v95" unit="mm" x="128.8559190822981" y="107.47880233010254" z="-41.894209085163965"/>
+ <position name="lock__receptor_8_v96" unit="mm" x="134.95572858771442" y="112.144230505591" z="-40.13256639772807"/>
+ <position name="lock__receptor_8_v97" unit="mm" x="127.99594956956969" y="109.32301290157591" z="-39.70115025581115"/>
+ <position name="lock__receptor_8_v98" unit="mm" x="134.1428040826974" y="113.88755273245181" z="-37.88579477118159"/>
+ <position name="lock__receptor_8_v99" unit="mm" x="127.18324756492659" y="111.06585797484504" z="-37.409388111523576"/>
+ <position name="lock__receptor_8_v100" unit="mm" x="133.37766001330832" y="115.5284094844435" z="-35.54696064882477"/>
+ <position name="lock__receptor_8_v101" unit="mm" x="126.41983357360343" y="112.70300456245133" z="-35.02462033408694"/>
+ <position name="lock__receptor_8_v102" unit="mm" x="132.66215567992901" y="117.06281347902998" z="-33.12174739847112"/>
+ <position name="lock__receptor_8_v103" unit="mm" x="125.70760556306782" y="114.23038246002567" z="-32.5527758319451"/>
+ <position name="lock__receptor_8_v104" unit="mm" x="131.99802975836374" y="118.48703611391653" z="-30.61604828924826"/>
+ <position name="lock__receptor_8_v105" unit="mm" x="125.04833424437417" y="115.64419436545771" z="-29.999999999999538"/>
+ <position name="lock__receptor_8_v106" unit="mm" x="131.38689607485637" y="119.79761652755465" z="-28.03595217095164"/>
+ <position name="lock__receptor_8_v107" unit="mm" x="124.44365866989686" y="116.94092531958731" z="-27.3726394411893"/>
+ <position name="lock__receptor_8_v108" unit="mm" x="130.83023968449194" y="120.99137000903701" z="-25.387728678137325"/>
+ <position name="lock__receptor_8_v109" unit="mm" x="123.89508215838813" y="118.11735144494679" z="-24.677226187836204"/>
+ <position name="lock__receptor_8_v110" unit="mm" x="130.32941326251233" y="122.06539573694624" z="-22.677812994907555"/>
+ <position name="lock__receptor_8_v111" unit="mm" x="123.40396855749046" y="119.17054796082826" z="-21.9204614619832"/>
+ <position name="lock__receptor_8_v112" unit="mm" x="129.88563381731495" y="123.017083828352" z="-19.912790217410926"/>
+ <position name="lock__receptor_8_v113" unit="mm" x="122.97153885299656" y="120.09789645474933" z="-19.109199015100558"/>
+ <position name="lock__receptor_8_v114" unit="mm" x="129.49997973312156" y="123.8441216808275" z="-17.099379352056182"/>
+ <position name="lock__receptor_8_v115" unit="mm" x="122.59886813328637" y="120.89709139223906" z="-16.25042808857979"/>
+ <position name="lock__receptor_8_v116" unit="mm" x="129.17338814950455" y="124.54449959207435" z="-14.244416988324135"/>
+ <position name="lock__receptor_8_v117" unit="mm" x="122.28688291648791" y="121.56614584876002" z="-13.351256037378347"/>
+ <position name="lock__receptor_8_v118" unit="mm" x="128.90665268413724" y="125.11651564349988" z="-11.354840685852558"/>
+ <position name="lock__receptor_8_v119" unit="mm" x="122.03635884700724" y="122.1033964495156" z="-10.418890660015297"/>
+ <position name="lock__receptor_8_v120" unit="mm" x="128.70042150430268" y="125.5587798358799" z="-8.437672116163629"/>
+ <position name="lock__receptor_8_v121" unit="mm" x="121.8479187671541" y="122.50750750486198" z="-7.460622278848587"/>
+ <position name="lock__receptor_8_v122" unit="mm" x="126.7425801777736" y="125.02498094357611" z="-5.499999999999441"/>
+ <position name="lock__receptor_8_v123" unit="mm" x="121.72203116865812" y="122.77747433104292" z="-4.48380561518493"/>
+ <position name="lock__receptor_8_v124" unit="mm" x="128.55519575184692" y="125.87021746705753" z="-5.499999999999441"/>
+ <position name="lock__receptor_8_v125" unit="mm" x="126.66252441682506" y="125.19666107695691" z="-2.7528991263228337"/>
+ <position name="lock__receptor_8_v126" unit="mm" x="121.65900902792428" y="122.91262574799204" z="-1.4958415042838482"/>
+ <position name="lock__receptor_8_v127" unit="mm" x="126.63582041487389" y="125.25392799394658" z="4.961032769290577e-13"/>
+ <position name="lock__receptor_8_v128" unit="mm" x="121.65900902792427" y="122.912625747992" z="1.4958415042848947"/>
+ <position name="lock__receptor_8_v129" unit="mm" x="126.66252441682508" y="125.19666107695687" z="2.752899126323825"/>
+ <position name="lock__receptor_8_v130" unit="mm" x="121.72203116865816" y="122.77747433104287" z="4.4838056151859735"/>
+ <position name="lock__receptor_8_v131" unit="mm" x="126.74258017777368" y="125.02498094357603" z="5.500000000000557"/>
+ <position name="lock__receptor_8_v132" unit="mm" x="121.84791876715418" y="122.50750750486185" z="7.460622278849626"/>
+ <position name="lock__receptor_8_v133" unit="mm" x="128.70042150430277" y="125.55877983587976" z="8.437672116164734"/>
+ <position name="lock__receptor_8_v134" unit="mm" x="122.03635884700732" y="122.10339644951544" z="10.418890660016329"/>
+ <position name="lock__receptor_8_v135" unit="mm" x="128.55519575184695" y="125.87021746705742" z="5.500000000000557"/>
+ <position name="lock__receptor_8_v136" unit="mm" x="128.90665268413733" y="125.11651564349967" z="11.35484068585365"/>
+ <position name="lock__receptor_8_v137" unit="mm" x="122.28688291648804" y="121.56614584875982" z="13.351256037379368"/>
+ <position name="lock__receptor_8_v138" unit="mm" x="129.17338814950466" y="124.54449959207412" z="14.244416988325218"/>
+ <position name="lock__receptor_8_v139" unit="mm" x="122.5988681332865" y="120.89709139223882" z="16.2504280885808"/>
+ <position name="lock__receptor_8_v140" unit="mm" x="129.49997973312168" y="123.84412168082721" z="17.099379352057245"/>
+ <position name="lock__receptor_8_v141" unit="mm" x="122.97153885299669" y="120.09789645474902" z="19.109199015101545"/>
+ <position name="lock__receptor_8_v142" unit="mm" x="129.8856338173151" y="123.01708382835164" z="19.91279021741197"/>
+ <position name="lock__receptor_8_v143" unit="mm" x="123.4039685574906" y="119.17054796082792" z="21.920461461984175"/>
+ <position name="lock__receptor_8_v144" unit="mm" x="130.32941326251253" y="122.06539573694587" z="22.67781299490859"/>
+ <position name="lock__receptor_8_v145" unit="mm" x="123.89508215838833" y="118.1173514449464" z="24.677226187837157"/>
+ <position name="lock__receptor_8_v146" unit="mm" x="130.83023968449214" y="120.99137000903659" z="25.387728678138323"/>
+ <position name="lock__receptor_8_v147" unit="mm" x="124.44365866989708" y="116.94092531958688" z="27.372639441190227"/>
+ <position name="lock__receptor_8_v148" unit="mm" x="131.38689607485657" y="119.79761652755414" z="28.035952170952605"/>
+ <position name="lock__receptor_8_v149" unit="mm" x="125.04833424437439" y="115.64419436545722" z="30.000000000000448"/>
+ <position name="lock__receptor_8_v150" unit="mm" x="131.998029758364" y="118.48703611391602" z="30.616048289249203"/>
+ <position name="lock__receptor_8_v151" unit="mm" x="125.70760556306809" y="114.23038246002514" z="32.55277583194601"/>
+ <position name="lock__receptor_8_v152" unit="mm" x="132.6621556799293" y="117.06281347902944" z="33.12174739847206"/>
+ <position name="lock__receptor_8_v153" unit="mm" x="126.41983357360368" y="112.70300456245076" z="35.02462033408783"/>
+ <position name="lock__receptor_8_v154" unit="mm" x="133.3776600133086" y="115.5284094844429" z="35.54696064882567"/>
+ <position name="lock__receptor_8_v155" unit="mm" x="127.18324756492687" y="111.06585797484442" z="37.40938811152444"/>
+ <position name="lock__receptor_8_v156" unit="mm" x="134.1428040826977" y="113.88755273245118" z="37.88579477118245"/>
+ <position name="lock__receptor_8_v157" unit="mm" x="127.99594956957" y="109.32301290157523" z="39.70115025581198"/>
+ <position name="lock__receptor_8_v158" unit="mm" x="134.95572858771473" y="112.14423050559034" z="40.1325663977289"/>
+ <position name="lock__receptor_8_v159" unit="mm" x="128.85591908229844" y="107.47880233010181" z="41.89420908516478"/>
+ <position name="lock__receptor_8_v160" unit="mm" x="135.8144581215011" y="110.30267907753961" z="42.28181587255164"/>
+ <position name="lock__receptor_8_v161" unit="mm" x="129.76101808340496" y="105.5378112584826" z="43.98311230978998"/>
+ <position name="lock__receptor_8_v162" unit="mm" x="136.71690597096057" y="108.36737341897475" z="44.32832051860336"/>
+ <position name="lock__receptor_8_v163" unit="mm" x="130.70899635416342" y="103.50486529634843" z="45.96266658713906"/>
+ <position name="lock__receptor_8_v164" unit="mm" x="137.66087918747326" y="106.34301632338764" z="46.267107328810006"/>
+ <position name="lock__receptor_8_v165" unit="mm" x="131.69749707122722" y="101.38501866767645" z="47.82795043337572"/>
+ <position name="lock__receptor_8_v166" unit="mm" x="138.6440839157613" y="104.23452697929619" z="48.093465050479914"/>
+ <position name="lock__receptor_8_v167" unit="mm" x="132.72406266606345" y="99.18354164519317" z="49.574326458960044"/>
+ <position name="lock__receptor_8_v168" unit="mm" x="139.66413096795827" y="102.04702901661443" z="49.802955633649624"/>
+ <position name="lock__receptor_8_v169" unit="mm" x="133.78614093485544" y="96.90590744764593" z="51.197452897929665"/>
+ <position name="lock__receptor_8_v170" unit="mm" x="140.71854162933647" y="99.78583805622986" z="51.39142501554703"/>
+ <position name="lock__receptor_8_v171" unit="mm" x="134.88109138368364" y="94.5577786325188" z="52.69329440221402"/>
+ <position name="lock__receptor_8_v172" unit="mm" x="141.8047536815847" y="97.45644879304258" z="52.85501321496549"/>
+ <position name="lock__receptor_8_v173" unit="mm" x="136.0061917932095" y="92.14499301802246" z="54.05813207414543"/>
+ <position name="lock__receptor_8_v174" unit="mm" x="142.92012762899992" y="95.0645216438547" z="54.190163712019604"/>
+ <position name="lock__receptor_8_v175" unit="mm" x="137.15864498654173" y="89.67354916935818" z="55.28857271222473"/>
+ <position name="lock__receptor_8_v176" unit="mm" x="144.06195311246242" y="92.6158689925552" z="55.39363209048998"/>
+ <position name="lock__receptor_8_v177" unit="mm" x="138.33558578345864" y="87.14959148533981" z="56.38155724715474"/>
+ <position name="lock__receptor_8_v178" unit="mm" x="145.2274554956099" y="90.116441066025" z="56.4624939217558"/>
+ <position name="lock__receptor_8_v179" unit="mm" x="139.5340881236978" y="84.57939492245002" z="57.33436834716864"/>
+ <position name="lock__receptor_8_v180" unit="mm" x="146.41380260720476" y="87.57231147508325" z="57.394151871157554"/>
+ <position name="lock__receptor_8_v181" unit="mm" x="140.7511723416028" y="81.96934939430987" z="58.144637173744854"/>
+ <position name="lock__receptor_8_v182" unit="mm" x="147.6181116233113" y="84.98966245561074" z="58.186342009521205"/>
+ <position name="lock__receptor_8_v183" unit="mm" x="141.98381257404145" y="79.32594388534666" z="58.81034927091277"/>
+ <position name="lock__receptor_8_v184" unit="mm" x="148.8374560725589" y="82.37476984571435" z="58.837139314507006"/>
+ <position name="lock__receptor_8_v185" unit="mm" x="143.22894428317846" y="76.65575031815644" z="59.32984957350782"/>
+ <position name="lock__receptor_8_v186" unit="mm" x="150.0688729474687" y="79.73398783543807" z="59.34496234841448"/>
+ <position name="lock__receptor_8_v187" unit="mm" x="144.48347187539932" y="73.96540721466862" z="59.70184652192416"/>
+ <position name="lock__receptor_8_v188" unit="mm" x="151.30936990456283" y="77.07373352607868" z="59.70857710107664"/>
+ <position name="lock__receptor_8_v189" unit="mm" x="145.7442763974437" y="71.26160319173475" z="59.925415273135386"/>
+ <position name="lock__receptor_8_v190" unit="mm" x="152.5559325357602" y="74.40047133662729" z="59.927099988505205"/>
+ <position name="lock__receptor_8_v191" unit="mm" x="147.00822329061458" y="68.55106033217322" z="60.0"/>
+ <position name="lock__receptor_8_v192" unit="mm" x="153.80553169338947" y="71.7206972952285" z="60.0"/>
+ <position name="lock__receptor_8_v193" unit="mm" x="168.10801835962707" y="41.04891565898642" z="-44.61704479703628"/>
+ <position name="lock__receptor_8_v194" unit="mm" x="165.7820066466633" y="41.30466070831844" z="-45.51295162958911"/>
+ <position name="lock__receptor_8_v195" unit="mm" x="161.31070995685218" y="37.87927869593116" z="-44.617044797036286"/>
+ <position name="lock__receptor_8_v196" unit="mm" x="160.51073404615755" y="39.594832572656756" z="-45.991510925772154"/>
+ <position name="lock__receptor_8_v197" unit="mm" x="167.93802261614488" y="41.413472707341064" z="-44.91931475543178"/>
+ <position name="lock__receptor_8_v198" unit="mm" x="167.76688596459277" y="41.78047644094744" z="-45.21795840272747"/>
+ <position name="lock__receptor_8_v199" unit="mm" x="167.59462222073662" y="42.14989723179985" z="-45.51295162958911"/>
+ <position name="lock__receptor_8_v200" unit="mm" x="164.81962978874037" y="43.36848454027235" z="-47.06210444767271"/>
+ <position name="lock__receptor_8_v201" unit="mm" x="159.6871965827124" y="41.360914362313636" z="-47.28572298692244"/>
+ <position name="lock__receptor_8_v202" unit="mm" x="163.82622744805514" y="45.49884273472223" z="-48.49742261192909"/>
+ <position name="lock__receptor_8_v203" unit="mm" x="158.84153461935384" y="43.174442295147884" z="-48.49742261192879"/>
+ <position name="lock__receptor_8_v204" unit="mm" x="157.9752238156327" y="45.03225180904009" z="-49.62449541442638"/>
+ <position name="lock__receptor_8_v205" unit="mm" x="162.80420248382717" y="47.69058234344273" z="-49.8154343492984"/>
+ <position name="lock__receptor_8_v206" unit="mm" x="157.08977586282398" y="46.93110107158926" z="-50.66497467979671"/>
+ <position name="lock__receptor_8_v207" unit="mm" x="161.7560269881859" y="49.93840194775389" z="-51.01295162958894"/>
+ <position name="lock__receptor_8_v208" unit="mm" x="156.18673584606242" y="48.86767663703161" z="-51.61704479703673"/>
+ <position name="lock__receptor_8_v209" unit="mm" x="163.5686425622592" y="50.78363847123529" z="-51.01295162958894"/>
+ <position name="lock__receptor_8_v210" unit="mm" x="163.37454371481005" y="51.19988479285293" z="-51.21845627482569"/>
+ <position name="lock__receptor_8_v211" unit="mm" x="163.17967236638447" y="51.61778774816058" z="-51.41982608279886"/>
+ <position name="lock__receptor_8_v212" unit="mm" x="162.98404424883725" y="52.03731360008686" z="-51.617044797036726"/>
+ <position name="lock__receptor_8_v213" unit="mm" x="162.98404424883753" y="52.03731360008624" z="51.61704479703644"/>
+ <position name="lock__receptor_8_v214" unit="mm" x="161.7560269881866" y="49.93840194775238" z="51.012951629588194"/>
+ <position name="lock__receptor_8_v215" unit="mm" x="156.18673584606267" y="48.867676637030996" z="51.61704479703645"/>
+ <position name="lock__receptor_8_v216" unit="mm" x="157.08977586282424" y="46.93110107158873" z="50.664974679796416"/>
+ <position name="lock__receptor_8_v217" unit="mm" x="163.17967236638492" y="51.61778774815964" z="51.41982608279842"/>
+ <position name="lock__receptor_8_v218" unit="mm" x="163.3745437148106" y="51.199884792851705" z="51.21845627482509"/>
+ <position name="lock__receptor_8_v219" unit="mm" x="163.5686425622599" y="50.78363847123377" z="51.012951629588194"/>
+ <position name="lock__receptor_8_v220" unit="mm" x="162.80420248382785" y="47.69058234344125" z="49.815434349297554"/>
+ <position name="lock__receptor_8_v221" unit="mm" x="157.97522381563294" y="45.032251809039536" z="49.624495414426065"/>
+ <position name="lock__receptor_8_v222" unit="mm" x="163.82622744805582" y="45.49884273472077" z="48.497422611928165"/>
+ <position name="lock__receptor_8_v223" unit="mm" x="158.8415346193541" y="43.17444229514734" z="48.497422611928435"/>
+ <position name="lock__receptor_8_v224" unit="mm" x="159.68719658271272" y="41.36091436231309" z="47.28572298692204"/>
+ <position name="lock__receptor_8_v225" unit="mm" x="164.81962978874103" y="43.368484540270956" z="47.06210444767172"/>
+ <position name="lock__receptor_8_v226" unit="mm" x="160.5107340461578" y="39.594832572656195" z="45.99151092577173"/>
+ <position name="lock__receptor_8_v227" unit="mm" x="165.78200664666392" y="41.30466070831709" z="45.51295162958806"/>
+ <position name="lock__receptor_8_v228" unit="mm" x="161.31070995685243" y="37.879278695930644" z="44.617044797035845"/>
+ <position name="lock__receptor_8_v229" unit="mm" x="167.59462222073725" y="42.14989723179849" z="45.51295162958806"/>
+ <position name="lock__receptor_8_v230" unit="mm" x="167.76688596459323" y="41.780476440946394" z="45.21795840272662"/>
+ <position name="lock__receptor_8_v231" unit="mm" x="167.93802261614522" y="41.41347270734028" z="44.919314755431145"/>
+ <position name="lock__receptor_8_v232" unit="mm" x="168.10801835962727" y="41.04891565898588" z="44.617044797035845"/>
+ <position name="lock__receptor_8_v233" unit="mm" x="163.6227253638937" y="50.66765752884964" z="54.23460357586342"/>
+ <position name="lock__receptor_8_v234" unit="mm" x="163.30100303623652" y="51.357593286992895" z="55.634342084066425"/>
+ <position name="lock__receptor_8_v235" unit="mm" x="164.417709834922" y="48.96280782903173" z="54.492753115774235"/>
+ <position name="lock__receptor_8_v236" unit="mm" x="162.49163963182747" y="53.0932787089552" z="55.304347077725666"/>
+ <position name="lock__receptor_8_v237" unit="mm" x="162.16244278786814" y="53.799243619035856" z="56.64789082649979"/>
+ <position name="lock__receptor_8_v238" unit="mm" x="161.33982465861675" y="55.56335389015213" z="56.24210774503872"/>
+ <position name="lock__receptor_8_v239" unit="mm" x="161.0046494409507" y="56.282139464020304" z="57.53106670095011"/>
+ <position name="lock__receptor_8_v240" unit="mm" x="160.17002923008167" y="58.0719882822261" z="57.04564762875263"/>
+ <position name="lock__receptor_8_v241" unit="mm" x="159.83028761082926" y="58.800566535897914" z="58.28183711326418"/>
+ <position name="lock__receptor_8_v242" unit="mm" x="158.98504504207716" y="60.613195074096076" z="57.71304909531546"/>
+ <position name="lock__receptor_8_v243" unit="mm" x="158.6420600445543" y="61.348728774914754" z="58.89847419519445"/>
+ <position name="lock__receptor_8_v244" unit="mm" x="157.787700038161" y="63.18090972123188" z="58.242719403071355"/>
+ <position name="lock__receptor_8_v245" unit="mm" x="157.4427014006166" y="63.92076168701216" z="59.37955878101907"/>
+ <position name="lock__receptor_8_v246" unit="mm" x="156.5808516607567" y="65.76900441858109" z="58.633394503310065"/>
+ <position name="lock__receptor_8_v247" unit="mm" x="156.23497195523944" y="66.51074584072668" z="59.72398367369536"/>
+ <position name="lock__receptor_8_v248" unit="mm" x="155.36738003191869" y="68.37130272446618" z="58.8841420568966"/>
+ <position name="lock__receptor_8_v249" unit="mm" x="155.0216512497128" y="69.11272049052613" z="59.93095619302982"/>
+ <position name="lock__receptor_8_v250" unit="mm" x="154.15018107997236" y="70.98159430055213" z="58.9943636592818"/>
+ <position name="lock__receptor_8_v251" unit="mm" x="152.9321596284329" y="73.59364973270756" z="58.96379626858416"/>
+ <position name="lock__receptor_8_v252" unit="mm" x="151.71622246369623" y="76.20123539739015" z="58.79251283333451"/>
+ <position name="lock__receptor_8_v253" unit="mm" x="150.50527139804495" y="78.79812833807767" z="58.48092211838573"/>
+ <position name="lock__receptor_8_v254" unit="mm" x="149.30219634452558" y="81.3781311162424" z="58.02976772940267"/>
+ <position name="lock__receptor_8_v255" unit="mm" x="148.1098684202225" y="83.93508660142709" z="57.44012633826056"/>
+ <position name="lock__receptor_8_v256" unit="mm" x="146.93113309438868" y="86.46289266512682" z="56.71340511358689"/>
+ <position name="lock__receptor_8_v257" unit="mm" x="145.768803397784" y="88.95551674340935" z="55.85133836257861"/>
+ <position name="lock__receptor_8_v258" unit="mm" x="144.6256532094278" y="91.40701023352096" z="54.85598339210903"/>
+ <position name="lock__receptor_8_v259" unit="mm" x="143.5044106367863" y="93.81152269012058" z="53.729715599001885"/>
+ <position name="lock__receptor_8_v260" unit="mm" x="142.40775150519286" y="96.16331578726279" z="52.47522280118921"/>
+ <position name="lock__receptor_8_v261" unit="mm" x="141.33829297203863" y="98.45677701281" z="51.09549882328199"/>
+ <position name="lock__receptor_8_v262" unit="mm" x="140.2985872809735" y="100.68643306259227" z="49.59383635186136"/>
+ <position name="lock__receptor_8_v263" unit="mm" x="139.29111567102223" y="102.84696290234973" z="47.97381907754092"/>
+ <position name="lock__receptor_8_v264" unit="mm" x="138.3182824551517" y="104.93321046628566" z="46.239313142553264"/>
+ <position name="lock__receptor_8_v265" unit="mm" x="137.38240928242132" y="106.94019696192512" z="44.39445791427075"/>
+ <position name="lock__receptor_8_v266" unit="mm" x="136.48572959740906" y="108.86313275191424" z="42.44365610667927"/>
+ <position name="lock__receptor_8_v267" unit="mm" x="135.6303833101358" y="110.69742878440397" z="40.391563273380235"/>
+ <position name="lock__receptor_8_v268" unit="mm" x="134.8184116892084" y="112.4387075447401" z="38.24307669719509"/>
+ <position name="lock__receptor_8_v269" unit="mm" x="134.0517524903688" y="114.08281350232387" z="36.003323702887634"/>
+ <position name="lock__receptor_8_v270" unit="mm" x="133.33223533207462" y="115.62582302771116" z="33.67764942089511"/>
+ <position name="lock__receptor_8_v271" unit="mm" x="132.66157732914724" y="117.06405375628404" z="31.27160403127019"/>
+ <position name="lock__receptor_8_v272" unit="mm" x="132.0413789949083" y="118.39407337614797" z="28.79092951827553"/>
+ <position name="lock__receptor_8_v273" unit="mm" x="131.47312042158308" y="119.61270781928282" z="26.2415459672411"/>
+ <position name="lock__receptor_8_v274" unit="mm" x="130.958157748087" y="120.71704883639923" z="23.629537436386517"/>
+ <position name="lock__receptor_8_v275" unit="mm" x="130.49771992362435" y="121.7044609374237" z="20.961137437324975"/>
+ <position name="lock__receptor_8_v276" unit="mm" x="130.09290577482304" y="122.5725876810483" z="18.242714058899328"/>
+ <position name="lock__receptor_8_v277" unit="mm" x="129.7446813834044" y="123.31935729833575" z="15.480754769852052"/>
+ <position name="lock__receptor_8_v278" unit="mm" x="129.45387778064665" y="123.94298763695895" z="12.681850936597161"/>
+ <position name="lock__receptor_8_v279" unit="mm" x="129.22118896414332" y="124.4419904142755" z="9.852682093042265"/>
+ <position name="lock__receptor_8_v280" unit="mm" x="129.04717024159072" y="124.81517476908775" z="7.000000000000548"/>
+ <position name="lock__receptor_8_v281" unit="mm" x="130.27516540076425" y="122.18173065188788" z="6.000497872098689"/>
+ <position name="lock__receptor_8_v282" unit="mm" x="130.25333029717112" y="122.2285561826534" z="5.50000000000052"/>
+ <position name="lock__receptor_8_v283" unit="mm" x="130.2989000976378" y="122.13083143018633" z="6.50051132736734"/>
+ <position name="lock__receptor_8_v284" unit="mm" x="130.324532471703" y="122.07586262661448" z="7.00000000000052"/>
+ <position name="lock__receptor_8_v285" unit="mm" x="171.50188446668173" y="33.77074630512476" z="41.564892858900436"/>
+ <position name="lock__receptor_8_v286" unit="mm" x="171.31825888452616" y="34.164532636840015" z="43.39169139916982"/>
+ <position name="lock__receptor_8_v287" unit="mm" x="172.1953597456187" y="32.28358377024217" z="41.310147676167105"/>
+ <position name="lock__receptor_8_v288" unit="mm" x="170.6228926409044" y="35.65575035857556" z="43.56025680844141"/>
+ <position name="lock__receptor_8_v289" unit="mm" x="170.3991269974016" y="36.13561732963967" z="45.36909387159139"/>
+ <position name="lock__receptor_8_v290" unit="mm" x="172.3386442632676" y="31.97630913054222" z="39.47033503641596"/>
+ <position name="lock__receptor_8_v291" unit="mm" x="173.02832451453378" y="30.497285058763175" z="39.129458464662584"/>
+ <position name="lock__receptor_8_v292" unit="mm" x="169.703766484197" y="37.62682276245597" z="45.45166498468326"/>
+ <position name="lock__receptor_8_v293" unit="mm" x="169.44017002600683" y="38.19210719126657" z="47.23760927321277"/>
+ <position name="lock__receptor_8_v294" unit="mm" x="173.13117511838252" y="30.276721227031025" z="37.28158196574619"/>
+ <position name="lock__receptor_8_v295" unit="mm" x="173.8151540529587" y="28.809923668349562" z="36.85485747862994"/>
+ <position name="lock__receptor_8_v296" unit="mm" x="168.74669947468342" y="39.6792595877492" z="47.23460357586279"/>
+ <position name="lock__receptor_8_v297" unit="mm" x="168.44368949339932" y="40.32906658959645" z="48.99275311577409"/>
+ <position name="lock__receptor_8_v298" unit="mm" x="173.87758567132414" y="28.676038630706266" z="35.00385706692335"/>
+ <position name="lock__receptor_8_v299" unit="mm" x="174.5539599484007" y="27.225549312661045" z="34.491803822879774"/>
+ <position name="lock__receptor_8_v300" unit="mm" x="174.5760946266661" y="27.17808134193759" z="32.64259608965529"/>
+ <position name="lock__receptor_8_v301" unit="mm" x="175.24296904642824" y="25.74796453364683" z="32.04596889105833"/>
+ <position name="lock__receptor_8_v302" unit="mm" x="175.22503500528722" y="25.786424208986453" z="30.20343414100604"/>
+ <position name="lock__receptor_8_v303" unit="mm" x="175.880527706291" y="24.380715575340353" z="29.523222754146975"/>
+ <position name="lock__receptor_8_v304" unit="mm" x="175.82285812258772" y="24.50438839669495" z="27.692192237313705"/>
+ <position name="lock__receptor_8_v305" unit="mm" x="176.46510576970246" y="23.127083872776367" z="26.929620072130714"/>
+ <position name="lock__receptor_8_v306" unit="mm" x="176.36813728439705" y="23.33503346058521" z="25.114863412439114"/>
+ <position name="lock__receptor_8_v307" unit="mm" x="176.99530023326218" y="21.9900781764567" z="24.271385562648046"/>
+ <position name="lock__receptor_8_v308" unit="mm" x="176.85957119175407" y="22.281150045284967" z="22.47759841549779"/>
+ <position name="lock__receptor_8_v309" unit="mm" x="177.46983861570232" y="20.972427331266537" z="21.55489906149767"/>
+ <position name="lock__receptor_8_v310" unit="mm" x="177.2959870464339" y="21.345253224704003" z="19.786691032207223"/>
+ <position name="lock__receptor_8_v311" unit="mm" x="177.88758201187747" y="20.076573727171656" z="18.786680210857508"/>
+ <position name="lock__receptor_8_v312" unit="mm" x="177.67634334980954" y="20.529576499855494" z="17.048563064879964"/>
+ <position name="lock__receptor_8_v313" unit="mm" x="178.24752782616875" y="19.304667437415567" z="15.973372811964436"/>
+ <position name="lock__receptor_8_v314" unit="mm" x="177.9997323883701" y="19.836066468645456" z="14.269749006907235"/>
+ <position name="lock__receptor_8_v315" unit="mm" x="178.54881217874026" y="18.658561058284697" z="13.12172887980894"/>
+ <position name="lock__receptor_8_v316" unit="mm" x="178.26538239996256" y="19.26637818035207" z="11.456880448307444"/>
+ <position name="lock__receptor_8_v317" unit="mm" x="178.79071197887478" y="18.139805262826386" z="10.238592438113782"/>
+ <position name="lock__receptor_8_v318" unit="mm" x="178.47265941558834" y="18.821871185879935" z="8.616670249555327"/>
+ <position name="lock__receptor_8_v319" unit="mm" x="178.9726466604111" y="17.749645079191005" z="7.330883093489187"/>
+ <position name="lock__receptor_8_v320" unit="mm" x="178.62106877235934" y="18.503606293216258" z="5.75589652146051"/>
+ <position name="lock__receptor_8_v321" unit="mm" x="179.094179575119" y="17.489016902530274" z="4.405579428186996"/>
+ <position name="lock__receptor_8_v322" unit="mm" x="178.71025629400145" y="18.312343035831553" z="2.881386449327371"/>
+ <position name="lock__receptor_8_v323" unit="mm" x="179.1550190406667" y="17.358546247623167" z="1.4697022513116944"/>
+ <position name="lock__receptor_8_v324" unit="mm" x="178.7400091360906" y="18.248537860066634" z="-4.816146283448268e-13"/>
+ <position name="lock__receptor_8_v325" unit="mm" x="179.15501904066667" y="17.35854624762323" z="-1.4697022513141884"/>
+ <position name="lock__receptor_8_v326" unit="mm" x="178.71025629400145" y="18.312343035831567" z="-2.8813864493283363"/>
+ <position name="lock__receptor_8_v327" unit="mm" x="179.09417957511891" y="17.489016902530423" z="-4.405579428189484"/>
+ <position name="lock__receptor_8_v328" unit="mm" x="178.62106877235925" y="18.503606293216343" z="-5.755896521461475"/>
+ <position name="lock__receptor_8_v329" unit="mm" x="178.97264666041102" y="17.749645079191282" z="-7.330883093491664"/>
+ <position name="lock__receptor_8_v330" unit="mm" x="178.4726594155883" y="18.82187118588007" z="-8.616670249556282"/>
+ <position name="lock__receptor_8_v331" unit="mm" x="178.7907119788746" y="18.139805262826762" z="-10.238592438116237"/>
+ <position name="lock__receptor_8_v332" unit="mm" x="178.26538239996248" y="19.266378180352262" z="-11.456880448308397"/>
+ <position name="lock__receptor_8_v333" unit="mm" x="178.54881217874004" y="18.658561058285194" z="-13.121728879811371"/>
+ <position name="lock__receptor_8_v334" unit="mm" x="177.99973238837" y="19.836066468645676" z="-14.269749006908167"/>
+ <position name="lock__receptor_8_v335" unit="mm" x="178.24752782616847" y="19.30466743741617" z="-15.973372811966843"/>
+ <position name="lock__receptor_8_v336" unit="mm" x="177.67634334980946" y="20.52957649985572" z="-17.04856306488089"/>
+ <position name="lock__receptor_8_v337" unit="mm" x="177.88758201187719" y="20.076573727172352" z="-18.78668021085988"/>
+ <position name="lock__receptor_8_v338" unit="mm" x="177.2959870464338" y="21.345253224704337" z="-19.78669103220814"/>
+ <position name="lock__receptor_8_v339" unit="mm" x="177.4698386157019" y="20.97242733126734" z="-21.554899061500002"/>
+ <position name="lock__receptor_8_v340" unit="mm" x="176.85957119175393" y="22.28115004528528" z="-22.47759841549866"/>
+ <position name="lock__receptor_8_v341" unit="mm" x="176.99530023326176" y="21.990078176457622" z="-24.271385562650327"/>
+ <position name="lock__receptor_8_v342" unit="mm" x="176.3681372843969" y="23.33503346058557" z="-25.114863412439952"/>
+ <position name="lock__receptor_8_v343" unit="mm" x="176.46510576970203" y="23.127083872777384" z="-26.92962007213295"/>
+ <position name="lock__receptor_8_v344" unit="mm" x="175.82285812258758" y="24.50438839669532" z="-27.692192237314497"/>
+ <position name="lock__receptor_8_v345" unit="mm" x="175.88052770629048" y="24.380715575341448" z="-29.52322275414915"/>
+ <position name="lock__receptor_8_v346" unit="mm" x="175.22503500528703" y="25.786424208986844" z="-30.203434141006785"/>
+ <position name="lock__receptor_8_v347" unit="mm" x="175.24296904642767" y="25.747964533648037" z="-32.04596889106043"/>
+ <position name="lock__receptor_8_v348" unit="mm" x="174.57609462666588" y="27.178081341937997" z="-32.64259608965598"/>
+ <position name="lock__receptor_8_v349" unit="mm" x="174.55395994840003" y="27.225549312662338" z="-34.49180382288181"/>
+ <position name="lock__receptor_8_v350" unit="mm" x="173.87758567132397" y="28.676038630706728" z="-35.003857066924"/>
+ <position name="lock__receptor_8_v351" unit="mm" x="173.8151540529581" y="28.80992366835094" z="-36.85485747863191"/>
+ <position name="lock__receptor_8_v352" unit="mm" x="173.13117511838226" y="30.276721227031466" z="-37.28158196574679"/>
+ <position name="lock__receptor_8_v353" unit="mm" x="173.02832451453307" y="30.497285058764646" z="-39.129458464664474"/>
+ <position name="lock__receptor_8_v354" unit="mm" x="172.33864426326738" y="31.97630913054268" z="-39.47033503641652"/>
+ <position name="lock__receptor_8_v355" unit="mm" x="172.195359745618" y="32.283583770243695" z="-41.310147676168896"/>
+ <position name="lock__receptor_8_v356" unit="mm" x="171.50188446668156" y="33.770746305125236" z="-41.56489285890095"/>
+ <position name="lock__receptor_8_v357" unit="mm" x="171.31825888452542" y="34.16453263684168" z="-43.39169139917156"/>
+ <position name="lock__receptor_8_v358" unit="mm" x="170.62289264090418" y="35.65575035857603" z="-43.5602568084419"/>
+ <position name="lock__receptor_8_v359" unit="mm" x="170.3991269974008" y="36.13561732964142" z="-45.36909387159306"/>
+ <position name="lock__receptor_8_v360" unit="mm" x="169.70376648419682" y="37.626822762456435" z="-45.451664984683696"/>
+ <position name="lock__receptor_8_v361" unit="mm" x="169.44017002600597" y="38.19210719126842" z="-47.23760927321435"/>
+ <position name="lock__receptor_8_v362" unit="mm" x="168.74669947468317" y="39.679259587749776" z="-47.23460357586326"/>
+ <position name="lock__receptor_8_v363" unit="mm" x="168.44368949339864" y="40.329066589597886" z="-48.99275311577523"/>
+ <position name="lock__receptor_8_v364" unit="mm" x="148.2721701837856" y="65.84051747261152" z="59.925415273135314"/>
+ <position name="lock__receptor_8_v365" unit="mm" x="149.5329747058299" y="63.13671344967766" z="59.701846521924026"/>
+ <position name="lock__receptor_8_v366" unit="mm" x="150.78750229805078" y="60.44637034618985" z="59.32984957350762"/>
+ <position name="lock__receptor_8_v367" unit="mm" x="152.0326340071878" y="57.776176778999606" z="58.81034927091251"/>
+ <position name="lock__receptor_8_v368" unit="mm" x="153.26527423962642" y="55.13277127003644" z="58.14463717374452"/>
+ <position name="lock__receptor_8_v369" unit="mm" x="154.48235845753143" y="52.5227257418963" z="57.334368347168265"/>
+ <position name="lock__receptor_8_v370" unit="mm" x="155.68086079777055" y="49.95252917900652" z="56.381557247154284"/>
+ <position name="lock__receptor_8_v371" unit="mm" x="156.85780159468752" y="47.42857149498817" z="55.2885727122242"/>
+ <position name="lock__receptor_8_v372" unit="mm" x="162.60509426084872" y="48.117571305550314" z="54.492753115774235"/>
+ <position name="lock__receptor_8_v373" unit="mm" x="158.01025478801967" y="44.957127646323926" z="54.05813207414486"/>
+ <position name="lock__receptor_8_v374" unit="mm" x="163.65055598106915" y="45.875571411409844" z="53.28325219827085"/>
+ <position name="lock__receptor_8_v375" unit="mm" x="159.13535519754552" y="42.5443420318276" z="52.69329440221339"/>
+ <position name="lock__receptor_8_v376" unit="mm" x="164.67146397153724" y="43.686227160647434" z="51.961524227065894"/>
+ <position name="lock__receptor_8_v377" unit="mm" x="160.23030564637372" y="40.19621321670051" z="51.19745289792898"/>
+ <position name="lock__receptor_8_v378" unit="mm" x="165.6656679600542" y="41.55414982687469" z="50.53035307194742"/>
+ <position name="lock__receptor_8_v379" unit="mm" x="161.2923839151657" y="37.91857901915333" z="49.5743264589593"/>
+ <position name="lock__receptor_8_v380" unit="mm" x="166.631073919326" y="39.48383006611505" z="48.9927531157741"/>
+ <position name="lock__receptor_8_v381" unit="mm" x="162.31894951000191" y="35.717101996670074" z="47.827950433374916"/>
+ <position name="lock__receptor_8_v382" unit="mm" x="163.30745022706571" y="33.59725536799813" z="45.96266658713821"/>
+ <position name="lock__receptor_8_v383" unit="mm" x="164.25542849782414" y="31.564309405863952" z="43.98311230978908"/>
+ <position name="lock__receptor_8_v384" unit="mm" x="165.16052749893066" y="29.623318334244814" z="41.89420908516382"/>
+ <position name="lock__receptor_8_v385" unit="mm" x="166.02049701165907" y="27.77910776277141" z="39.701150255811"/>
+ <position name="lock__receptor_8_v386" unit="mm" x="166.8331990163022" y="26.036262689502315" z="37.409388111523405"/>
+ <position name="lock__receptor_8_v387" unit="mm" x="167.5966130076253" y="24.399116101896006" z="35.024620334086755"/>
+ <position name="lock__receptor_8_v388" unit="mm" x="168.3088410181609" y="22.871738204321687" z="32.55277583194489"/>
+ <position name="lock__receptor_8_v389" unit="mm" x="168.9681123368546" y="21.457926298889646" z="29.999999999999304"/>
+ <position name="lock__receptor_8_v390" unit="mm" x="169.57278791133186" y="20.161195344760024" z="27.37263944118905"/>
+ <position name="lock__receptor_8_v391" unit="mm" x="170.1213644228406" y="18.98476921940056" z="24.677226187835938"/>
+ <position name="lock__receptor_8_v392" unit="mm" x="170.61247802373828" y="17.9315727035191" z="21.920461461982914"/>
+ <position name="lock__receptor_8_v393" unit="mm" x="171.04490772823218" y="17.004224209598043" z="19.109199015100256"/>
+ <position name="lock__receptor_8_v394" unit="mm" x="171.41757844794233" y="16.20502927210832" z="16.25042808857947"/>
+ <position name="lock__receptor_8_v395" unit="mm" x="171.7295636647408" y="15.535974815587373" z="13.351256037378011"/>
+ <position name="lock__receptor_8_v396" unit="mm" x="171.98008773422148" y="14.99872421483181" z="10.418890660014947"/>
+ <position name="lock__receptor_8_v397" unit="mm" x="172.1685278140746" y="14.594613159485448" z="7.460622278848219"/>
+ <position name="lock__receptor_8_v398" unit="mm" x="172.29441541257057" y="14.324646333304514" z="4.483805615184547"/>
+ <position name="lock__receptor_8_v399" unit="mm" x="172.35743755330446" y="14.189494916355407" z="1.4958415042834508"/>
+ <position name="lock__receptor_8_v400" unit="mm" x="172.3574375533044" y="14.189494916355464" z="-1.4958415042853057"/>
+ <position name="lock__receptor_8_v401" unit="mm" x="172.29441541257054" y="14.32464633330462" z="-4.483805615186397"/>
+ <position name="lock__receptor_8_v402" unit="mm" x="172.16852781407448" y="14.594613159485668" z="-7.46062227885006"/>
+ <position name="lock__receptor_8_v403" unit="mm" x="171.98008773422134" y="14.998724214832095" z="-10.418890660016771"/>
+ <position name="lock__receptor_8_v404" unit="mm" x="171.72956366474065" y="15.535974815587757" z="-13.35125603737982"/>
+ <position name="lock__receptor_8_v405" unit="mm" x="171.41757844794216" y="16.205029272108767" z="-16.25042808858126"/>
+ <position name="lock__receptor_8_v406" unit="mm" x="171.04490772823192" y="17.00422420959859" z="-19.109199015102014"/>
+ <position name="lock__receptor_8_v407" unit="mm" x="170.612478023738" y="17.93157270351972" z="-21.920461461984644"/>
+ <position name="lock__receptor_8_v408" unit="mm" x="170.12136442284026" y="18.984769219401258" z="-24.67722618783763"/>
+ <position name="lock__receptor_8_v409" unit="mm" x="169.5727879113315" y="20.161195344760813" z="-27.372639441190707"/>
+ <position name="lock__receptor_8_v410" unit="mm" x="168.96811233685423" y="21.457926298890477" z="-30.00000000000091"/>
+ <position name="lock__receptor_8_v411" unit="mm" x="168.30884101816048" y="22.871738204322583" z="-32.55277583194645"/>
+ <position name="lock__receptor_8_v412" unit="mm" x="167.59661300762485" y="24.399116101897" z="-35.024620334088254"/>
+ <position name="lock__receptor_8_v413" unit="mm" x="166.83319901630168" y="26.036262689503367" z="-37.40938811152485"/>
+ <position name="lock__receptor_8_v414" unit="mm" x="166.02049701165856" y="27.77910776277256" z="-39.70115025581237"/>
+ <position name="lock__receptor_8_v415" unit="mm" x="165.16052749893012" y="29.623318334245972" z="-41.89420908516516"/>
+ <position name="lock__receptor_8_v416" unit="mm" x="164.25542849782354" y="31.564309405865217" z="-43.983112309790336"/>
+ <position name="lock__receptor_8_v417" unit="mm" x="163.30745022706512" y="33.59725536799941" z="-45.9626665871394"/>
+ <position name="lock__receptor_8_v418" unit="mm" x="162.31894951000132" y="35.71710199667141" z="-47.82795043337603"/>
+ <position name="lock__receptor_8_v419" unit="mm" x="166.63107391932533" y="39.483830066116504" z="-48.99275311577523"/>
+ <position name="lock__receptor_8_v420" unit="mm" x="161.29238391516506" y="37.91857901915471" z="-49.57432645896035"/>
+ <position name="lock__receptor_8_v421" unit="mm" x="165.66566796005347" y="41.55414982687617" z="-50.53035307194847"/>
+ <position name="lock__receptor_8_v422" unit="mm" x="160.23030564637304" y="40.19621321670194" z="-51.19745289792995"/>
+ <position name="lock__receptor_8_v423" unit="mm" x="164.67146397153655" y="43.68622716064897" z="-51.961524227066874"/>
+ <position name="lock__receptor_8_v424" unit="mm" x="159.13535519754484" y="42.54434203182906" z="-52.69329440221428"/>
+ <position name="lock__receptor_8_v425" unit="mm" x="163.65055598106838" y="45.87557141141141" z="-53.28325219827174"/>
+ <position name="lock__receptor_8_v426" unit="mm" x="158.01025478801898" y="44.95712764632542" z="-54.05813207414566"/>
+ <position name="lock__receptor_8_v427" unit="mm" x="162.60509426084795" y="48.11757130555194" z="-54.492753115775045"/>
+ <position name="lock__receptor_8_v428" unit="mm" x="156.85780159468675" y="47.4285714949897" z="-55.288572712224926"/>
+ <position name="lock__receptor_8_v429" unit="mm" x="163.3010030362358" y="51.357593286994344" z="-55.634342084067086"/>
+ <position name="lock__receptor_8_v430" unit="mm" x="155.68086079776987" y="49.95252917900809" z="-56.381557247154916"/>
+ <position name="lock__receptor_8_v431" unit="mm" x="164.41770983492125" y="48.96280782903334" z="-54.49275311577505"/>
+ <position name="lock__receptor_8_v432" unit="mm" x="162.1624427878675" y="53.799243619037284" z="-56.647890826500344"/>
+ <position name="lock__receptor_8_v433" unit="mm" x="154.48235845753064" y="52.52272574189789" z="-57.334368347168805"/>
+ <position name="lock__receptor_8_v434" unit="mm" x="161.00464944095006" y="56.28213946402168" z="-57.53106670095056"/>
+ <position name="lock__receptor_8_v435" unit="mm" x="153.2652742396257" y="55.13277127003806" z="-58.14463717374499"/>
+ <position name="lock__receptor_8_v436" unit="mm" x="159.83028761082866" y="58.80056653589925" z="-58.281837113264544"/>
+ <position name="lock__receptor_8_v437" unit="mm" x="152.03263400718706" y="57.77617677900127" z="-58.81034927091288"/>
+ <position name="lock__receptor_8_v438" unit="mm" x="158.64206004455374" y="61.34872877491603" z="-58.898474195194716"/>
+ <position name="lock__receptor_8_v439" unit="mm" x="150.78750229805001" y="60.446370346191514" z="-59.3298495735079"/>
+ <position name="lock__receptor_8_v440" unit="mm" x="157.44270140061607" y="63.92076168701337" z="-59.379558781019256"/>
+ <position name="lock__receptor_8_v441" unit="mm" x="149.53297470582913" y="63.13671344967933" z="-59.70184652192422"/>
+ <position name="lock__receptor_8_v442" unit="mm" x="156.2349719552389" y="66.5107458407278" z="-59.723983673695486"/>
+ <position name="lock__receptor_8_v443" unit="mm" x="148.27217018378477" y="65.8405174726132" z="-59.92541527313541"/>
+ <position name="lock__receptor_8_v444" unit="mm" x="155.02165124971225" y="69.1127204905272" z="-59.93095619302988"/>
+ <position name="lock__receptor_8_v445" unit="mm" x="164.70457606390696" y="30.601109342069392" z="41.5648928589003"/>
+ <position name="lock__receptor_8_v446" unit="mm" x="163.82558423812964" y="32.48611339552019" z="43.56025680844127"/>
+ <position name="lock__receptor_8_v447" unit="mm" x="165.5413358604928" y="28.806672167486894" z="39.47033503641583"/>
+ <position name="lock__receptor_8_v448" unit="mm" x="162.90645808142222" y="34.45718579940054" z="45.451664984683106"/>
+ <position name="lock__receptor_8_v449" unit="mm" x="166.33386671560766" y="27.10708426397568" z="37.281581965746085"/>
+ <position name="lock__receptor_8_v450" unit="mm" x="161.94939107190856" y="36.509622624693954" z="47.23460357586279"/>
+ <position name="lock__receptor_8_v451" unit="mm" x="167.08027726854928" y="25.506401667650977" z="35.00385706692326"/>
+ <position name="lock__receptor_8_v452" unit="mm" x="167.77878622389122" y="24.008444378882295" z="32.642596089655214"/>
+ <position name="lock__receptor_8_v453" unit="mm" x="168.4277266025124" y="22.616787245931192" z="30.203434141005985"/>
+ <position name="lock__receptor_8_v454" unit="mm" x="169.02554971981283" y="21.334751433639703" z="27.692192237313677"/>
+ <position name="lock__receptor_8_v455" unit="mm" x="169.5708288816222" y="20.16539649752997" z="25.114863412439117"/>
+ <position name="lock__receptor_8_v456" unit="mm" x="156.8254169611188" y="47.49802056579435" z="54.23460357586342"/>
+ <position name="lock__receptor_8_v457" unit="mm" x="170.0622627889792" y="19.11151308222972" z="22.47759841549781"/>
+ <position name="lock__receptor_8_v458" unit="mm" x="155.6943312290526" y="49.92364174589995" z="55.304347077725666"/>
+ <position name="lock__receptor_8_v459" unit="mm" x="170.49867864365905" y="18.175616261648784" z="19.786691032207273"/>
+ <position name="lock__receptor_8_v460" unit="mm" x="154.54251625584186" y="52.393716927096875" z="56.24210774503872"/>
+ <position name="lock__receptor_8_v461" unit="mm" x="170.8790349470347" y="17.35993953680027" z="17.048563064880014"/>
+ <position name="lock__receptor_8_v462" unit="mm" x="153.37272082730675" y="54.90235131917084" z="57.04564762875263"/>
+ <position name="lock__receptor_8_v463" unit="mm" x="171.20242398559526" y="16.66642950559023" z="14.269749006907285"/>
+ <position name="lock__receptor_8_v464" unit="mm" x="152.18773663930233" y="57.44355811104082" z="57.71304909531546"/>
+ <position name="lock__receptor_8_v465" unit="mm" x="171.46807399718767" y="16.096741217296838" z="11.456880448307496"/>
+ <position name="lock__receptor_8_v466" unit="mm" x="150.99039163538612" y="60.01127275817661" z="58.242719403071355"/>
+ <position name="lock__receptor_8_v467" unit="mm" x="171.67535101281345" y="15.65223422282471" z="8.616670249555382"/>
+ <position name="lock__receptor_8_v468" unit="mm" x="149.78354325798182" y="62.59936745552582" z="58.633394503310065"/>
+ <position name="lock__receptor_8_v469" unit="mm" x="171.82376036958442" y="15.333969330161011" z="5.75589652146056"/>
+ <position name="lock__receptor_8_v470" unit="mm" x="148.57007162914385" y="65.20166576141094" z="58.8841420568966"/>
+ <position name="lock__receptor_8_v471" unit="mm" x="171.9129478912266" y="15.142706072776306" z="2.881386449327423"/>
+ <position name="lock__receptor_8_v472" unit="mm" x="147.35287267719744" y="67.81195733749688" z="58.9943636592818"/>
+ <position name="lock__receptor_8_v473" unit="mm" x="171.9427007333157" y="15.07890089701138" z="-4.2882800675135345e-13"/>
+ <position name="lock__receptor_8_v474" unit="mm" x="146.134851225658" y="70.42401276965231" z="58.96379626858416"/>
+ <position name="lock__receptor_8_v475" unit="mm" x="171.91294789122657" y="15.142706072776328" z="-2.8813864493282795"/>
+ <position name="lock__receptor_8_v476" unit="mm" x="144.91891406092134" y="73.0315984343349" z="58.79251283333451"/>
+ <position name="lock__receptor_8_v477" unit="mm" x="171.82376036958442" y="15.333969330161096" z="-5.7558965214614135"/>
+ <position name="lock__receptor_8_v478" unit="mm" x="143.70796299527007" y="75.62849137502242" z="58.48092211838573"/>
+ <position name="lock__receptor_8_v479" unit="mm" x="171.6753510128134" y="15.652234222824823" z="-8.616670249556227"/>
+ <position name="lock__receptor_8_v480" unit="mm" x="142.50488794175067" y="78.20849415318713" z="58.02976772940267"/>
+ <position name="lock__receptor_8_v481" unit="mm" x="171.46807399718756" y="16.09674121729701" z="-11.456880448308336"/>
+ <position name="lock__receptor_8_v482" unit="mm" x="141.31256001744762" y="80.76544963837183" z="57.44012633826056"/>
+ <position name="lock__receptor_8_v483" unit="mm" x="171.20242398559517" y="16.666429505590422" z="-14.269749006908114"/>
+ <position name="lock__receptor_8_v484" unit="mm" x="140.1338246916138" y="83.29325570207156" z="56.71340511358689"/>
+ <position name="lock__receptor_8_v485" unit="mm" x="170.87903494703457" y="17.35993953680046" z="-17.048563064880838"/>
+ <position name="lock__receptor_8_v486" unit="mm" x="138.97149499500912" y="85.7858797803541" z="55.85133836257861"/>
+ <position name="lock__receptor_8_v487" unit="mm" x="170.49867864365888" y="18.17561626164907" z="-19.786691032208083"/>
+ <position name="lock__receptor_8_v488" unit="mm" x="137.82834480665292" y="88.23737327046571" z="54.85598339210903"/>
+ <position name="lock__receptor_8_v489" unit="mm" x="170.06226278897907" y="19.11151308223002" z="-22.477598415498605"/>
+ <position name="lock__receptor_8_v490" unit="mm" x="136.70710223401144" y="90.64188572706534" z="53.729715599001885"/>
+ <position name="lock__receptor_8_v491" unit="mm" x="169.570828881622" y="20.165396497530303" z="-25.114863412439895"/>
+ <position name="lock__receptor_8_v492" unit="mm" x="135.61044310241795" y="92.99367882420754" z="52.47522280118921"/>
+ <position name="lock__receptor_8_v493" unit="mm" x="169.02554971981266" y="21.334751433640065" z="-27.69219223731444"/>
+ <position name="lock__receptor_8_v494" unit="mm" x="134.54098456926374" y="95.28714004975474" z="51.09549882328199"/>
+ <position name="lock__receptor_8_v495" unit="mm" x="168.42772660251217" y="22.616787245931576" z="-30.203434141006728"/>
+ <position name="lock__receptor_8_v496" unit="mm" x="133.50127887819866" y="97.516796099537" z="49.59383635186136"/>
+ <position name="lock__receptor_8_v497" unit="mm" x="167.77878622389102" y="24.008444378882707" z="-32.64259608965593"/>
+ <position name="lock__receptor_8_v498" unit="mm" x="132.49380726824734" y="99.67732593929449" z="47.97381907754092"/>
+ <position name="lock__receptor_8_v499" unit="mm" x="167.08027726854908" y="25.506401667651453" z="-35.00385706692396"/>
+ <position name="lock__receptor_8_v500" unit="mm" x="131.5209740523768" y="101.7635735032304" z="46.239313142553264"/>
+ <position name="lock__receptor_8_v501" unit="mm" x="166.3338667156074" y="27.107084263976198" z="-37.28158196574675"/>
+ <position name="lock__receptor_8_v502" unit="mm" x="130.58510087964646" y="103.77055999886987" z="44.39445791427075"/>
+ <position name="lock__receptor_8_v503" unit="mm" x="165.54133586049255" y="28.806672167487427" z="-39.47033503641649"/>
+ <position name="lock__receptor_8_v504" unit="mm" x="129.6884211946342" y="105.69349578885898" z="42.44365610667927"/>
+ <position name="lock__receptor_8_v505" unit="mm" x="164.70457606390664" y="30.601109342069975" z="-41.564892858900926"/>
+ <position name="lock__receptor_8_v506" unit="mm" x="128.83307490736092" y="107.52779182134869" z="40.391563273380235"/>
+ <position name="lock__receptor_8_v507" unit="mm" x="163.82558423812935" y="32.486113395520775" z="-43.56025680844187"/>
+ <position name="lock__receptor_8_v508" unit="mm" x="128.02110328643352" y="109.26907058168484" z="38.24307669719509"/>
+ <position name="lock__receptor_8_v509" unit="mm" x="162.9064580814219" y="34.45718579940118" z="-45.45166498468368"/>
+ <position name="lock__receptor_8_v510" unit="mm" x="127.25444408759397" y="110.91317653926862" z="36.003323702887634"/>
+ <position name="lock__receptor_8_v511" unit="mm" x="161.94939107190828" y="36.50962262469452" z="-47.23460357586326"/>
+ <position name="lock__receptor_8_v512" unit="mm" x="126.53492692929974" y="112.4561860646559" z="33.67764942089511"/>
+ <position name="lock__receptor_8_v513" unit="mm" x="125.86426892637239" y="113.89441679322877" z="31.27160403127019"/>
+ <position name="lock__receptor_8_v514" unit="mm" x="125.24407059213343" y="115.22443641309272" z="28.79092951827553"/>
+ <position name="lock__receptor_8_v515" unit="mm" x="124.67581201880817" y="116.44307085622754" z="26.2415459672411"/>
+ <position name="lock__receptor_8_v516" unit="mm" x="124.16084934531213" y="117.54741187334399" z="23.629537436386517"/>
+ <position name="lock__receptor_8_v517" unit="mm" x="156.8254169611185" y="47.49802056579502" z="-54.23460357586372"/>
+ <position name="lock__receptor_8_v518" unit="mm" x="123.70041152084946" y="118.53482397436846" z="20.961137437324975"/>
+ <position name="lock__receptor_8_v519" unit="mm" x="155.78524664755005" y="49.728673001751105" z="-55.22392231791719"/>
+ <position name="lock__receptor_8_v520" unit="mm" x="154.72733440161937" y="51.99737313444126" z="-56.101611062567436"/>
+ <position name="lock__receptor_8_v521" unit="mm" x="123.29559737204816" y="119.40295071799304" z="18.242714058899328"/>
+ <position name="lock__receptor_8_v522" unit="mm" x="153.6538186940527" y="54.299534998593714" z="-56.865895644051264"/>
+ <position name="lock__receptor_8_v523" unit="mm" x="122.94737298062954" y="120.14972033528049" z="15.480754769852052"/>
+ <position name="lock__receptor_8_v524" unit="mm" x="152.5668695365156" y="56.63050498917408" z="-57.51523113252186"/>
+ <position name="lock__receptor_8_v525" unit="mm" x="122.65656937787176" y="120.77335067390368" z="12.681850936597161"/>
+ <position name="lock__receptor_8_v526" unit="mm" x="151.46868409513715" y="58.98557126821295" z="-58.04830495698013"/>
+ <position name="lock__receptor_8_v527" unit="mm" x="122.42388056136842" y="121.27235345122025" z="9.852682093042265"/>
+ <position name="lock__receptor_8_v528" unit="mm" x="150.36148224914407" y="61.35997328934605" z="-58.46403955851423"/>
+ <position name="lock__receptor_8_v529" unit="mm" x="123.52722406892815" y="118.90622566355921" z="7.00000000000052"/>
+ <position name="lock__receptor_8_v530" unit="mm" x="122.24986183881585" y="121.64553780603248" z="7.000000000000548"/>
+ <position name="lock__receptor_8_v531" unit="mm" x="123.42415996286118" y="119.12724735227587" z="4.673463754024753"/>
+ <position name="lock__receptor_8_v532" unit="mm" x="149.24750210358224" y="63.748911420813656" z="-58.761594568484256"/>
+ <position name="lock__receptor_8_v533" unit="mm" x="123.36224947349763" y="119.26001482516816" z="2.3387724275042285"/>
+ <position name="lock__receptor_8_v534" unit="mm" x="148.12899546519657" y="66.14755664746762" z="-58.94036850724882"/>
+ <position name="lock__receptor_8_v535" unit="mm" x="123.34160063313509" y="119.30429640622611" z="3.7023878686866117e-13"/>
+ <position name="lock__receptor_8_v536" unit="mm" x="123.36224947349761" y="119.26001482516818" z="-2.3387724275034887"/>
+ <position name="lock__receptor_8_v537" unit="mm" x="123.42415996286118" y="119.12724735227593" z="-4.673463754024015"/>
+ <position name="lock__receptor_8_v538" unit="mm" x="123.52722406892808" y="118.9062256635593" z="-6.999999999999798"/>
+ <position name="lock__receptor_8_v539" unit="mm" x="163.62272536389335" y="50.66765752885027" z="-54.23460357586372"/>
+ <position name="lock__receptor_8_v540" unit="mm" x="162.58255505032497" y="52.89830996480631" z="-55.22392231791716"/>
+ <position name="lock__receptor_8_v541" unit="mm" x="161.52464280439426" y="55.16701009749647" z="-56.101611062567414"/>
+ <position name="lock__receptor_8_v542" unit="mm" x="160.45112709682758" y="57.469171961648925" z="-56.86589564405125"/>
+ <position name="lock__receptor_8_v543" unit="mm" x="159.36417793929047" y="59.80014195222928" z="-57.51523113252185"/>
+ <position name="lock__receptor_8_v544" unit="mm" x="158.26599249791204" y="62.155208231268176" z="-58.04830495698012"/>
+ <position name="lock__receptor_8_v545" unit="mm" x="157.15879065191896" y="64.52961025240128" z="-58.46403955851423"/>
+ <position name="lock__receptor_8_v546" unit="mm" x="156.04481050635712" y="66.91854838386891" z="-58.76159456848424"/>
+ <position name="lock__receptor_8_v547" unit="mm" x="154.92630386797146" y="69.3171936105229" z="-58.94036850724882"/>
+ <position name="lock__receptor_8_v548" unit="mm" x="130.2533302971711" y="122.22855618265352" z="-5.499999999999479"/>
+ <position name="lock__receptor_8_v549" unit="mm" x="130.29890009763778" y="122.13083143018645" z="-6.500511327366518"/>
+ <position name="lock__receptor_8_v550" unit="mm" x="130.32453247170295" y="122.07586262661454" z="-6.999999999999798"/>
+ <position name="lock__receptor_8_v551" unit="mm" x="130.27516540076425" y="122.18173065188796" z="-6.0004978720977675"/>
+ <position name="lock__receptor_8_v552" unit="mm" x="128.44071472309778" y="121.38331965917212" z="-5.499999999999479"/>
+ <position name="lock__receptor_8_v553" unit="mm" x="128.35491608537944" y="121.56731543152935" z="-2.7533299016252575"/>
+ <position name="lock__receptor_8_v554" unit="mm" x="128.32629346183668" y="121.62869684579996" z="5.125947393030566e-13"/>
+ <position name="lock__receptor_8_v555" unit="mm" x="128.35491608537947" y="121.5673154315293" z="2.753329901626282"/>
+ <position name="lock__receptor_8_v556" unit="mm" x="128.4407147230978" y="121.383319659172" z="5.50000000000052"/>
+ </define>
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="lock__receptor_8_solid">
+ <triangular vertex1="lock__receptor_8_v0" vertex2="lock__receptor_8_v1" vertex3="lock__receptor_8_v2"/>
+ <triangular vertex1="lock__receptor_8_v2" vertex2="lock__receptor_8_v3" vertex3="lock__receptor_8_v4"/>
+ <triangular vertex1="lock__receptor_8_v1" vertex2="lock__receptor_8_v3" vertex3="lock__receptor_8_v2"/>
+ <triangular vertex1="lock__receptor_8_v4" vertex2="lock__receptor_8_v5" vertex3="lock__receptor_8_v6"/>
+ <triangular vertex1="lock__receptor_8_v3" vertex2="lock__receptor_8_v5" vertex3="lock__receptor_8_v4"/>
+ <triangular vertex1="lock__receptor_8_v6" vertex2="lock__receptor_8_v7" vertex3="lock__receptor_8_v8"/>
+ <triangular vertex1="lock__receptor_8_v5" vertex2="lock__receptor_8_v7" vertex3="lock__receptor_8_v6"/>
+ <triangular vertex1="lock__receptor_8_v8" vertex2="lock__receptor_8_v9" vertex3="lock__receptor_8_v10"/>
+ <triangular vertex1="lock__receptor_8_v7" vertex2="lock__receptor_8_v9" vertex3="lock__receptor_8_v8"/>
+ <triangular vertex1="lock__receptor_8_v10" vertex2="lock__receptor_8_v11" vertex3="lock__receptor_8_v12"/>
+ <triangular vertex1="lock__receptor_8_v9" vertex2="lock__receptor_8_v11" vertex3="lock__receptor_8_v10"/>
+ <triangular vertex1="lock__receptor_8_v12" vertex2="lock__receptor_8_v13" vertex3="lock__receptor_8_v14"/>
+ <triangular vertex1="lock__receptor_8_v11" vertex2="lock__receptor_8_v13" vertex3="lock__receptor_8_v12"/>
+ <triangular vertex1="lock__receptor_8_v14" vertex2="lock__receptor_8_v15" vertex3="lock__receptor_8_v16"/>
+ <triangular vertex1="lock__receptor_8_v13" vertex2="lock__receptor_8_v15" vertex3="lock__receptor_8_v14"/>
+ <triangular vertex1="lock__receptor_8_v16" vertex2="lock__receptor_8_v17" vertex3="lock__receptor_8_v18"/>
+ <triangular vertex1="lock__receptor_8_v15" vertex2="lock__receptor_8_v17" vertex3="lock__receptor_8_v16"/>
+ <triangular vertex1="lock__receptor_8_v18" vertex2="lock__receptor_8_v19" vertex3="lock__receptor_8_v20"/>
+ <triangular vertex1="lock__receptor_8_v17" vertex2="lock__receptor_8_v19" vertex3="lock__receptor_8_v18"/>
+ <triangular vertex1="lock__receptor_8_v19" vertex2="lock__receptor_8_v21" vertex3="lock__receptor_8_v20"/>
+ <triangular vertex1="lock__receptor_8_v20" vertex2="lock__receptor_8_v21" vertex3="lock__receptor_8_v22"/>
+ <triangular vertex1="lock__receptor_8_v21" vertex2="lock__receptor_8_v23" vertex3="lock__receptor_8_v22"/>
+ <triangular vertex1="lock__receptor_8_v22" vertex2="lock__receptor_8_v23" vertex3="lock__receptor_8_v24"/>
+ <triangular vertex1="lock__receptor_8_v23" vertex2="lock__receptor_8_v25" vertex3="lock__receptor_8_v24"/>
+ <triangular vertex1="lock__receptor_8_v24" vertex2="lock__receptor_8_v25" vertex3="lock__receptor_8_v26"/>
+ <triangular vertex1="lock__receptor_8_v25" vertex2="lock__receptor_8_v27" vertex3="lock__receptor_8_v26"/>
+ <triangular vertex1="lock__receptor_8_v26" vertex2="lock__receptor_8_v27" vertex3="lock__receptor_8_v28"/>
+ <triangular vertex1="lock__receptor_8_v27" vertex2="lock__receptor_8_v29" vertex3="lock__receptor_8_v28"/>
+ <triangular vertex1="lock__receptor_8_v28" vertex2="lock__receptor_8_v29" vertex3="lock__receptor_8_v30"/>
+ <triangular vertex1="lock__receptor_8_v29" vertex2="lock__receptor_8_v31" vertex3="lock__receptor_8_v30"/>
+ <triangular vertex1="lock__receptor_8_v30" vertex2="lock__receptor_8_v31" vertex3="lock__receptor_8_v32"/>
+ <triangular vertex1="lock__receptor_8_v31" vertex2="lock__receptor_8_v33" vertex3="lock__receptor_8_v32"/>
+ <triangular vertex1="lock__receptor_8_v32" vertex2="lock__receptor_8_v33" vertex3="lock__receptor_8_v34"/>
+ <triangular vertex1="lock__receptor_8_v33" vertex2="lock__receptor_8_v35" vertex3="lock__receptor_8_v34"/>
+ <triangular vertex1="lock__receptor_8_v34" vertex2="lock__receptor_8_v35" vertex3="lock__receptor_8_v36"/>
+ <triangular vertex1="lock__receptor_8_v35" vertex2="lock__receptor_8_v37" vertex3="lock__receptor_8_v36"/>
+ <triangular vertex1="lock__receptor_8_v36" vertex2="lock__receptor_8_v37" vertex3="lock__receptor_8_v38"/>
+ <triangular vertex1="lock__receptor_8_v38" vertex2="lock__receptor_8_v39" vertex3="lock__receptor_8_v40"/>
+ <triangular vertex1="lock__receptor_8_v37" vertex2="lock__receptor_8_v39" vertex3="lock__receptor_8_v38"/>
+ <triangular vertex1="lock__receptor_8_v40" vertex2="lock__receptor_8_v41" vertex3="lock__receptor_8_v42"/>
+ <triangular vertex1="lock__receptor_8_v39" vertex2="lock__receptor_8_v41" vertex3="lock__receptor_8_v40"/>
+ <triangular vertex1="lock__receptor_8_v42" vertex2="lock__receptor_8_v43" vertex3="lock__receptor_8_v44"/>
+ <triangular vertex1="lock__receptor_8_v41" vertex2="lock__receptor_8_v43" vertex3="lock__receptor_8_v42"/>
+ <triangular vertex1="lock__receptor_8_v44" vertex2="lock__receptor_8_v45" vertex3="lock__receptor_8_v46"/>
+ <triangular vertex1="lock__receptor_8_v43" vertex2="lock__receptor_8_v45" vertex3="lock__receptor_8_v44"/>
+ <triangular vertex1="lock__receptor_8_v46" vertex2="lock__receptor_8_v47" vertex3="lock__receptor_8_v48"/>
+ <triangular vertex1="lock__receptor_8_v45" vertex2="lock__receptor_8_v47" vertex3="lock__receptor_8_v46"/>
+ <triangular vertex1="lock__receptor_8_v48" vertex2="lock__receptor_8_v49" vertex3="lock__receptor_8_v50"/>
+ <triangular vertex1="lock__receptor_8_v47" vertex2="lock__receptor_8_v49" vertex3="lock__receptor_8_v48"/>
+ <triangular vertex1="lock__receptor_8_v49" vertex2="lock__receptor_8_v51" vertex3="lock__receptor_8_v50"/>
+ <triangular vertex1="lock__receptor_8_v50" vertex2="lock__receptor_8_v52" vertex3="lock__receptor_8_v53"/>
+ <triangular vertex1="lock__receptor_8_v51" vertex2="lock__receptor_8_v52" vertex3="lock__receptor_8_v50"/>
+ <triangular vertex1="lock__receptor_8_v54" vertex2="lock__receptor_8_v55" vertex3="lock__receptor_8_v56"/>
+ <triangular vertex1="lock__receptor_8_v53" vertex2="lock__receptor_8_v55" vertex3="lock__receptor_8_v54"/>
+ <triangular vertex1="lock__receptor_8_v52" vertex2="lock__receptor_8_v55" vertex3="lock__receptor_8_v53"/>
+ <triangular vertex1="lock__receptor_8_v55" vertex2="lock__receptor_8_v57" vertex3="lock__receptor_8_v56"/>
+ <triangular vertex1="lock__receptor_8_v56" vertex2="lock__receptor_8_v58" vertex3="lock__receptor_8_v59"/>
+ <triangular vertex1="lock__receptor_8_v57" vertex2="lock__receptor_8_v58" vertex3="lock__receptor_8_v56"/>
+ <triangular vertex1="lock__receptor_8_v59" vertex2="lock__receptor_8_v60" vertex3="lock__receptor_8_v61"/>
+ <triangular vertex1="lock__receptor_8_v58" vertex2="lock__receptor_8_v60" vertex3="lock__receptor_8_v59"/>
+ <triangular vertex1="lock__receptor_8_v62" vertex2="lock__receptor_8_v63" vertex3="lock__receptor_8_v64"/>
+ <triangular vertex1="lock__receptor_8_v62" vertex2="lock__receptor_8_v65" vertex3="lock__receptor_8_v63"/>
+ <triangular vertex1="lock__receptor_8_v66" vertex2="lock__receptor_8_v64" vertex3="lock__receptor_8_v67"/>
+ <triangular vertex1="lock__receptor_8_v66" vertex2="lock__receptor_8_v62" vertex3="lock__receptor_8_v64"/>
+ <triangular vertex1="lock__receptor_8_v68" vertex2="lock__receptor_8_v67" vertex3="lock__receptor_8_v69"/>
+ <triangular vertex1="lock__receptor_8_v68" vertex2="lock__receptor_8_v66" vertex3="lock__receptor_8_v67"/>
+ <triangular vertex1="lock__receptor_8_v70" vertex2="lock__receptor_8_v69" vertex3="lock__receptor_8_v71"/>
+ <triangular vertex1="lock__receptor_8_v70" vertex2="lock__receptor_8_v68" vertex3="lock__receptor_8_v69"/>
+ <triangular vertex1="lock__receptor_8_v72" vertex2="lock__receptor_8_v71" vertex3="lock__receptor_8_v73"/>
+ <triangular vertex1="lock__receptor_8_v72" vertex2="lock__receptor_8_v70" vertex3="lock__receptor_8_v71"/>
+ <triangular vertex1="lock__receptor_8_v74" vertex2="lock__receptor_8_v73" vertex3="lock__receptor_8_v75"/>
+ <triangular vertex1="lock__receptor_8_v74" vertex2="lock__receptor_8_v72" vertex3="lock__receptor_8_v73"/>
+ <triangular vertex1="lock__receptor_8_v76" vertex2="lock__receptor_8_v75" vertex3="lock__receptor_8_v77"/>
+ <triangular vertex1="lock__receptor_8_v76" vertex2="lock__receptor_8_v74" vertex3="lock__receptor_8_v75"/>
+ <triangular vertex1="lock__receptor_8_v78" vertex2="lock__receptor_8_v77" vertex3="lock__receptor_8_v79"/>
+ <triangular vertex1="lock__receptor_8_v78" vertex2="lock__receptor_8_v76" vertex3="lock__receptor_8_v77"/>
+ <triangular vertex1="lock__receptor_8_v80" vertex2="lock__receptor_8_v79" vertex3="lock__receptor_8_v81"/>
+ <triangular vertex1="lock__receptor_8_v80" vertex2="lock__receptor_8_v78" vertex3="lock__receptor_8_v79"/>
+ <triangular vertex1="lock__receptor_8_v82" vertex2="lock__receptor_8_v81" vertex3="lock__receptor_8_v83"/>
+ <triangular vertex1="lock__receptor_8_v82" vertex2="lock__receptor_8_v80" vertex3="lock__receptor_8_v81"/>
+ <triangular vertex1="lock__receptor_8_v84" vertex2="lock__receptor_8_v83" vertex3="lock__receptor_8_v85"/>
+ <triangular vertex1="lock__receptor_8_v84" vertex2="lock__receptor_8_v82" vertex3="lock__receptor_8_v83"/>
+ <triangular vertex1="lock__receptor_8_v86" vertex2="lock__receptor_8_v85" vertex3="lock__receptor_8_v87"/>
+ <triangular vertex1="lock__receptor_8_v86" vertex2="lock__receptor_8_v84" vertex3="lock__receptor_8_v85"/>
+ <triangular vertex1="lock__receptor_8_v88" vertex2="lock__receptor_8_v87" vertex3="lock__receptor_8_v89"/>
+ <triangular vertex1="lock__receptor_8_v88" vertex2="lock__receptor_8_v86" vertex3="lock__receptor_8_v87"/>
+ <triangular vertex1="lock__receptor_8_v90" vertex2="lock__receptor_8_v89" vertex3="lock__receptor_8_v91"/>
+ <triangular vertex1="lock__receptor_8_v90" vertex2="lock__receptor_8_v88" vertex3="lock__receptor_8_v89"/>
+ <triangular vertex1="lock__receptor_8_v92" vertex2="lock__receptor_8_v91" vertex3="lock__receptor_8_v93"/>
+ <triangular vertex1="lock__receptor_8_v92" vertex2="lock__receptor_8_v90" vertex3="lock__receptor_8_v91"/>
+ <triangular vertex1="lock__receptor_8_v94" vertex2="lock__receptor_8_v93" vertex3="lock__receptor_8_v95"/>
+ <triangular vertex1="lock__receptor_8_v94" vertex2="lock__receptor_8_v92" vertex3="lock__receptor_8_v93"/>
+ <triangular vertex1="lock__receptor_8_v96" vertex2="lock__receptor_8_v94" vertex3="lock__receptor_8_v95"/>
+ <triangular vertex1="lock__receptor_8_v96" vertex2="lock__receptor_8_v95" vertex3="lock__receptor_8_v97"/>
+ <triangular vertex1="lock__receptor_8_v98" vertex2="lock__receptor_8_v96" vertex3="lock__receptor_8_v97"/>
+ <triangular vertex1="lock__receptor_8_v98" vertex2="lock__receptor_8_v97" vertex3="lock__receptor_8_v99"/>
+ <triangular vertex1="lock__receptor_8_v100" vertex2="lock__receptor_8_v98" vertex3="lock__receptor_8_v99"/>
+ <triangular vertex1="lock__receptor_8_v100" vertex2="lock__receptor_8_v99" vertex3="lock__receptor_8_v101"/>
+ <triangular vertex1="lock__receptor_8_v102" vertex2="lock__receptor_8_v100" vertex3="lock__receptor_8_v101"/>
+ <triangular vertex1="lock__receptor_8_v102" vertex2="lock__receptor_8_v101" vertex3="lock__receptor_8_v103"/>
+ <triangular vertex1="lock__receptor_8_v104" vertex2="lock__receptor_8_v102" vertex3="lock__receptor_8_v103"/>
+ <triangular vertex1="lock__receptor_8_v104" vertex2="lock__receptor_8_v103" vertex3="lock__receptor_8_v105"/>
+ <triangular vertex1="lock__receptor_8_v106" vertex2="lock__receptor_8_v105" vertex3="lock__receptor_8_v107"/>
+ <triangular vertex1="lock__receptor_8_v106" vertex2="lock__receptor_8_v104" vertex3="lock__receptor_8_v105"/>
+ <triangular vertex1="lock__receptor_8_v108" vertex2="lock__receptor_8_v107" vertex3="lock__receptor_8_v109"/>
+ <triangular vertex1="lock__receptor_8_v108" vertex2="lock__receptor_8_v106" vertex3="lock__receptor_8_v107"/>
+ <triangular vertex1="lock__receptor_8_v110" vertex2="lock__receptor_8_v109" vertex3="lock__receptor_8_v111"/>
+ <triangular vertex1="lock__receptor_8_v110" vertex2="lock__receptor_8_v108" vertex3="lock__receptor_8_v109"/>
+ <triangular vertex1="lock__receptor_8_v112" vertex2="lock__receptor_8_v111" vertex3="lock__receptor_8_v113"/>
+ <triangular vertex1="lock__receptor_8_v112" vertex2="lock__receptor_8_v110" vertex3="lock__receptor_8_v111"/>
+ <triangular vertex1="lock__receptor_8_v114" vertex2="lock__receptor_8_v113" vertex3="lock__receptor_8_v115"/>
+ <triangular vertex1="lock__receptor_8_v114" vertex2="lock__receptor_8_v112" vertex3="lock__receptor_8_v113"/>
+ <triangular vertex1="lock__receptor_8_v116" vertex2="lock__receptor_8_v115" vertex3="lock__receptor_8_v117"/>
+ <triangular vertex1="lock__receptor_8_v116" vertex2="lock__receptor_8_v114" vertex3="lock__receptor_8_v115"/>
+ <triangular vertex1="lock__receptor_8_v118" vertex2="lock__receptor_8_v117" vertex3="lock__receptor_8_v119"/>
+ <triangular vertex1="lock__receptor_8_v118" vertex2="lock__receptor_8_v116" vertex3="lock__receptor_8_v117"/>
+ <triangular vertex1="lock__receptor_8_v120" vertex2="lock__receptor_8_v119" vertex3="lock__receptor_8_v121"/>
+ <triangular vertex1="lock__receptor_8_v120" vertex2="lock__receptor_8_v118" vertex3="lock__receptor_8_v119"/>
+ <triangular vertex1="lock__receptor_8_v122" vertex2="lock__receptor_8_v121" vertex3="lock__receptor_8_v123"/>
+ <triangular vertex1="lock__receptor_8_v122" vertex2="lock__receptor_8_v120" vertex3="lock__receptor_8_v121"/>
+ <triangular vertex1="lock__receptor_8_v124" vertex2="lock__receptor_8_v120" vertex3="lock__receptor_8_v122"/>
+ <triangular vertex1="lock__receptor_8_v125" vertex2="lock__receptor_8_v123" vertex3="lock__receptor_8_v126"/>
+ <triangular vertex1="lock__receptor_8_v125" vertex2="lock__receptor_8_v122" vertex3="lock__receptor_8_v123"/>
+ <triangular vertex1="lock__receptor_8_v127" vertex2="lock__receptor_8_v126" vertex3="lock__receptor_8_v128"/>
+ <triangular vertex1="lock__receptor_8_v127" vertex2="lock__receptor_8_v125" vertex3="lock__receptor_8_v126"/>
+ <triangular vertex1="lock__receptor_8_v129" vertex2="lock__receptor_8_v128" vertex3="lock__receptor_8_v130"/>
+ <triangular vertex1="lock__receptor_8_v129" vertex2="lock__receptor_8_v127" vertex3="lock__receptor_8_v128"/>
+ <triangular vertex1="lock__receptor_8_v131" vertex2="lock__receptor_8_v130" vertex3="lock__receptor_8_v132"/>
+ <triangular vertex1="lock__receptor_8_v131" vertex2="lock__receptor_8_v129" vertex3="lock__receptor_8_v130"/>
+ <triangular vertex1="lock__receptor_8_v133" vertex2="lock__receptor_8_v132" vertex3="lock__receptor_8_v134"/>
+ <triangular vertex1="lock__receptor_8_v133" vertex2="lock__receptor_8_v131" vertex3="lock__receptor_8_v132"/>
+ <triangular vertex1="lock__receptor_8_v133" vertex2="lock__receptor_8_v135" vertex3="lock__receptor_8_v131"/>
+ <triangular vertex1="lock__receptor_8_v136" vertex2="lock__receptor_8_v134" vertex3="lock__receptor_8_v137"/>
+ <triangular vertex1="lock__receptor_8_v136" vertex2="lock__receptor_8_v133" vertex3="lock__receptor_8_v134"/>
+ <triangular vertex1="lock__receptor_8_v138" vertex2="lock__receptor_8_v137" vertex3="lock__receptor_8_v139"/>
+ <triangular vertex1="lock__receptor_8_v138" vertex2="lock__receptor_8_v136" vertex3="lock__receptor_8_v137"/>
+ <triangular vertex1="lock__receptor_8_v140" vertex2="lock__receptor_8_v139" vertex3="lock__receptor_8_v141"/>
+ <triangular vertex1="lock__receptor_8_v140" vertex2="lock__receptor_8_v138" vertex3="lock__receptor_8_v139"/>
+ <triangular vertex1="lock__receptor_8_v142" vertex2="lock__receptor_8_v141" vertex3="lock__receptor_8_v143"/>
+ <triangular vertex1="lock__receptor_8_v142" vertex2="lock__receptor_8_v140" vertex3="lock__receptor_8_v141"/>
+ <triangular vertex1="lock__receptor_8_v144" vertex2="lock__receptor_8_v143" vertex3="lock__receptor_8_v145"/>
+ <triangular vertex1="lock__receptor_8_v144" vertex2="lock__receptor_8_v142" vertex3="lock__receptor_8_v143"/>
+ <triangular vertex1="lock__receptor_8_v146" vertex2="lock__receptor_8_v145" vertex3="lock__receptor_8_v147"/>
+ <triangular vertex1="lock__receptor_8_v146" vertex2="lock__receptor_8_v144" vertex3="lock__receptor_8_v145"/>
+ <triangular vertex1="lock__receptor_8_v148" vertex2="lock__receptor_8_v146" vertex3="lock__receptor_8_v147"/>
+ <triangular vertex1="lock__receptor_8_v148" vertex2="lock__receptor_8_v147" vertex3="lock__receptor_8_v149"/>
+ <triangular vertex1="lock__receptor_8_v150" vertex2="lock__receptor_8_v148" vertex3="lock__receptor_8_v149"/>
+ <triangular vertex1="lock__receptor_8_v150" vertex2="lock__receptor_8_v149" vertex3="lock__receptor_8_v151"/>
+ <triangular vertex1="lock__receptor_8_v152" vertex2="lock__receptor_8_v150" vertex3="lock__receptor_8_v151"/>
+ <triangular vertex1="lock__receptor_8_v152" vertex2="lock__receptor_8_v151" vertex3="lock__receptor_8_v153"/>
+ <triangular vertex1="lock__receptor_8_v154" vertex2="lock__receptor_8_v152" vertex3="lock__receptor_8_v153"/>
+ <triangular vertex1="lock__receptor_8_v154" vertex2="lock__receptor_8_v153" vertex3="lock__receptor_8_v155"/>
+ <triangular vertex1="lock__receptor_8_v156" vertex2="lock__receptor_8_v154" vertex3="lock__receptor_8_v155"/>
+ <triangular vertex1="lock__receptor_8_v156" vertex2="lock__receptor_8_v155" vertex3="lock__receptor_8_v157"/>
+ <triangular vertex1="lock__receptor_8_v158" vertex2="lock__receptor_8_v156" vertex3="lock__receptor_8_v157"/>
+ <triangular vertex1="lock__receptor_8_v158" vertex2="lock__receptor_8_v157" vertex3="lock__receptor_8_v159"/>
+ <triangular vertex1="lock__receptor_8_v160" vertex2="lock__receptor_8_v158" vertex3="lock__receptor_8_v159"/>
+ <triangular vertex1="lock__receptor_8_v160" vertex2="lock__receptor_8_v159" vertex3="lock__receptor_8_v161"/>
+ <triangular vertex1="lock__receptor_8_v162" vertex2="lock__receptor_8_v160" vertex3="lock__receptor_8_v161"/>
+ <triangular vertex1="lock__receptor_8_v162" vertex2="lock__receptor_8_v161" vertex3="lock__receptor_8_v163"/>
+ <triangular vertex1="lock__receptor_8_v164" vertex2="lock__receptor_8_v162" vertex3="lock__receptor_8_v163"/>
+ <triangular vertex1="lock__receptor_8_v164" vertex2="lock__receptor_8_v163" vertex3="lock__receptor_8_v165"/>
+ <triangular vertex1="lock__receptor_8_v166" vertex2="lock__receptor_8_v164" vertex3="lock__receptor_8_v165"/>
+ <triangular vertex1="lock__receptor_8_v166" vertex2="lock__receptor_8_v165" vertex3="lock__receptor_8_v167"/>
+ <triangular vertex1="lock__receptor_8_v168" vertex2="lock__receptor_8_v166" vertex3="lock__receptor_8_v167"/>
+ <triangular vertex1="lock__receptor_8_v168" vertex2="lock__receptor_8_v167" vertex3="lock__receptor_8_v169"/>
+ <triangular vertex1="lock__receptor_8_v170" vertex2="lock__receptor_8_v168" vertex3="lock__receptor_8_v169"/>
+ <triangular vertex1="lock__receptor_8_v170" vertex2="lock__receptor_8_v169" vertex3="lock__receptor_8_v171"/>
+ <triangular vertex1="lock__receptor_8_v172" vertex2="lock__receptor_8_v171" vertex3="lock__receptor_8_v173"/>
+ <triangular vertex1="lock__receptor_8_v172" vertex2="lock__receptor_8_v170" vertex3="lock__receptor_8_v171"/>
+ <triangular vertex1="lock__receptor_8_v174" vertex2="lock__receptor_8_v173" vertex3="lock__receptor_8_v175"/>
+ <triangular vertex1="lock__receptor_8_v174" vertex2="lock__receptor_8_v172" vertex3="lock__receptor_8_v173"/>
+ <triangular vertex1="lock__receptor_8_v176" vertex2="lock__receptor_8_v175" vertex3="lock__receptor_8_v177"/>
+ <triangular vertex1="lock__receptor_8_v176" vertex2="lock__receptor_8_v174" vertex3="lock__receptor_8_v175"/>
+ <triangular vertex1="lock__receptor_8_v178" vertex2="lock__receptor_8_v177" vertex3="lock__receptor_8_v179"/>
+ <triangular vertex1="lock__receptor_8_v178" vertex2="lock__receptor_8_v176" vertex3="lock__receptor_8_v177"/>
+ <triangular vertex1="lock__receptor_8_v180" vertex2="lock__receptor_8_v179" vertex3="lock__receptor_8_v181"/>
+ <triangular vertex1="lock__receptor_8_v180" vertex2="lock__receptor_8_v178" vertex3="lock__receptor_8_v179"/>
+ <triangular vertex1="lock__receptor_8_v182" vertex2="lock__receptor_8_v181" vertex3="lock__receptor_8_v183"/>
+ <triangular vertex1="lock__receptor_8_v182" vertex2="lock__receptor_8_v180" vertex3="lock__receptor_8_v181"/>
+ <triangular vertex1="lock__receptor_8_v184" vertex2="lock__receptor_8_v183" vertex3="lock__receptor_8_v185"/>
+ <triangular vertex1="lock__receptor_8_v184" vertex2="lock__receptor_8_v182" vertex3="lock__receptor_8_v183"/>
+ <triangular vertex1="lock__receptor_8_v186" vertex2="lock__receptor_8_v185" vertex3="lock__receptor_8_v187"/>
+ <triangular vertex1="lock__receptor_8_v186" vertex2="lock__receptor_8_v184" vertex3="lock__receptor_8_v185"/>
+ <triangular vertex1="lock__receptor_8_v188" vertex2="lock__receptor_8_v187" vertex3="lock__receptor_8_v189"/>
+ <triangular vertex1="lock__receptor_8_v188" vertex2="lock__receptor_8_v186" vertex3="lock__receptor_8_v187"/>
+ <triangular vertex1="lock__receptor_8_v190" vertex2="lock__receptor_8_v189" vertex3="lock__receptor_8_v191"/>
+ <triangular vertex1="lock__receptor_8_v190" vertex2="lock__receptor_8_v188" vertex3="lock__receptor_8_v189"/>
+ <triangular vertex1="lock__receptor_8_v192" vertex2="lock__receptor_8_v190" vertex3="lock__receptor_8_v191"/>
+ <triangular vertex1="lock__receptor_8_v193" vertex2="lock__receptor_8_v194" vertex3="lock__receptor_8_v195"/>
+ <triangular vertex1="lock__receptor_8_v195" vertex2="lock__receptor_8_v194" vertex3="lock__receptor_8_v196"/>
+ <triangular vertex1="lock__receptor_8_v193" vertex2="lock__receptor_8_v197" vertex3="lock__receptor_8_v194"/>
+ <triangular vertex1="lock__receptor_8_v197" vertex2="lock__receptor_8_v198" vertex3="lock__receptor_8_v194"/>
+ <triangular vertex1="lock__receptor_8_v198" vertex2="lock__receptor_8_v199" vertex3="lock__receptor_8_v194"/>
+ <triangular vertex1="lock__receptor_8_v196" vertex2="lock__receptor_8_v200" vertex3="lock__receptor_8_v201"/>
+ <triangular vertex1="lock__receptor_8_v194" vertex2="lock__receptor_8_v200" vertex3="lock__receptor_8_v196"/>
+ <triangular vertex1="lock__receptor_8_v201" vertex2="lock__receptor_8_v202" vertex3="lock__receptor_8_v203"/>
+ <triangular vertex1="lock__receptor_8_v203" vertex2="lock__receptor_8_v202" vertex3="lock__receptor_8_v204"/>
+ <triangular vertex1="lock__receptor_8_v200" vertex2="lock__receptor_8_v202" vertex3="lock__receptor_8_v201"/>
+ <triangular vertex1="lock__receptor_8_v204" vertex2="lock__receptor_8_v205" vertex3="lock__receptor_8_v206"/>
+ <triangular vertex1="lock__receptor_8_v202" vertex2="lock__receptor_8_v205" vertex3="lock__receptor_8_v204"/>
+ <triangular vertex1="lock__receptor_8_v206" vertex2="lock__receptor_8_v207" vertex3="lock__receptor_8_v208"/>
+ <triangular vertex1="lock__receptor_8_v205" vertex2="lock__receptor_8_v207" vertex3="lock__receptor_8_v206"/>
+ <triangular vertex1="lock__receptor_8_v209" vertex2="lock__receptor_8_v210" vertex3="lock__receptor_8_v207"/>
+ <triangular vertex1="lock__receptor_8_v210" vertex2="lock__receptor_8_v211" vertex3="lock__receptor_8_v207"/>
+ <triangular vertex1="lock__receptor_8_v207" vertex2="lock__receptor_8_v212" vertex3="lock__receptor_8_v208"/>
+ <triangular vertex1="lock__receptor_8_v211" vertex2="lock__receptor_8_v212" vertex3="lock__receptor_8_v207"/>
+ <triangular vertex1="lock__receptor_8_v213" vertex2="lock__receptor_8_v214" vertex3="lock__receptor_8_v215"/>
+ <triangular vertex1="lock__receptor_8_v215" vertex2="lock__receptor_8_v214" vertex3="lock__receptor_8_v216"/>
+ <triangular vertex1="lock__receptor_8_v213" vertex2="lock__receptor_8_v217" vertex3="lock__receptor_8_v214"/>
+ <triangular vertex1="lock__receptor_8_v217" vertex2="lock__receptor_8_v218" vertex3="lock__receptor_8_v214"/>
+ <triangular vertex1="lock__receptor_8_v218" vertex2="lock__receptor_8_v219" vertex3="lock__receptor_8_v214"/>
+ <triangular vertex1="lock__receptor_8_v216" vertex2="lock__receptor_8_v220" vertex3="lock__receptor_8_v221"/>
+ <triangular vertex1="lock__receptor_8_v214" vertex2="lock__receptor_8_v220" vertex3="lock__receptor_8_v216"/>
+ <triangular vertex1="lock__receptor_8_v221" vertex2="lock__receptor_8_v222" vertex3="lock__receptor_8_v223"/>
+ <triangular vertex1="lock__receptor_8_v223" vertex2="lock__receptor_8_v222" vertex3="lock__receptor_8_v224"/>
+ <triangular vertex1="lock__receptor_8_v220" vertex2="lock__receptor_8_v222" vertex3="lock__receptor_8_v221"/>
+ <triangular vertex1="lock__receptor_8_v224" vertex2="lock__receptor_8_v225" vertex3="lock__receptor_8_v226"/>
+ <triangular vertex1="lock__receptor_8_v222" vertex2="lock__receptor_8_v225" vertex3="lock__receptor_8_v224"/>
+ <triangular vertex1="lock__receptor_8_v226" vertex2="lock__receptor_8_v227" vertex3="lock__receptor_8_v228"/>
+ <triangular vertex1="lock__receptor_8_v225" vertex2="lock__receptor_8_v227" vertex3="lock__receptor_8_v226"/>
+ <triangular vertex1="lock__receptor_8_v229" vertex2="lock__receptor_8_v230" vertex3="lock__receptor_8_v227"/>
+ <triangular vertex1="lock__receptor_8_v230" vertex2="lock__receptor_8_v231" vertex3="lock__receptor_8_v227"/>
+ <triangular vertex1="lock__receptor_8_v227" vertex2="lock__receptor_8_v232" vertex3="lock__receptor_8_v228"/>
+ <triangular vertex1="lock__receptor_8_v231" vertex2="lock__receptor_8_v232" vertex3="lock__receptor_8_v227"/>
+ <triangular vertex1="lock__receptor_8_v233" vertex2="lock__receptor_8_v234" vertex3="lock__receptor_8_v235"/>
+ <triangular vertex1="lock__receptor_8_v236" vertex2="lock__receptor_8_v237" vertex3="lock__receptor_8_v234"/>
+ <triangular vertex1="lock__receptor_8_v236" vertex2="lock__receptor_8_v234" vertex3="lock__receptor_8_v233"/>
+ <triangular vertex1="lock__receptor_8_v219" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v235"/>
+ <triangular vertex1="lock__receptor_8_v238" vertex2="lock__receptor_8_v239" vertex3="lock__receptor_8_v237"/>
+ <triangular vertex1="lock__receptor_8_v238" vertex2="lock__receptor_8_v237" vertex3="lock__receptor_8_v236"/>
+ <triangular vertex1="lock__receptor_8_v218" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v219"/>
+ <triangular vertex1="lock__receptor_8_v217" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v218"/>
+ <triangular vertex1="lock__receptor_8_v213" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v217"/>
+ <triangular vertex1="lock__receptor_8_v240" vertex2="lock__receptor_8_v239" vertex3="lock__receptor_8_v238"/>
+ <triangular vertex1="lock__receptor_8_v240" vertex2="lock__receptor_8_v241" vertex3="lock__receptor_8_v239"/>
+ <triangular vertex1="lock__receptor_8_v242" vertex2="lock__receptor_8_v241" vertex3="lock__receptor_8_v240"/>
+ <triangular vertex1="lock__receptor_8_v242" vertex2="lock__receptor_8_v243" vertex3="lock__receptor_8_v241"/>
+ <triangular vertex1="lock__receptor_8_v244" vertex2="lock__receptor_8_v243" vertex3="lock__receptor_8_v242"/>
+ <triangular vertex1="lock__receptor_8_v244" vertex2="lock__receptor_8_v245" vertex3="lock__receptor_8_v243"/>
+ <triangular vertex1="lock__receptor_8_v246" vertex2="lock__receptor_8_v245" vertex3="lock__receptor_8_v244"/>
+ <triangular vertex1="lock__receptor_8_v246" vertex2="lock__receptor_8_v247" vertex3="lock__receptor_8_v245"/>
+ <triangular vertex1="lock__receptor_8_v248" vertex2="lock__receptor_8_v247" vertex3="lock__receptor_8_v246"/>
+ <triangular vertex1="lock__receptor_8_v248" vertex2="lock__receptor_8_v249" vertex3="lock__receptor_8_v247"/>
+ <triangular vertex1="lock__receptor_8_v250" vertex2="lock__receptor_8_v249" vertex3="lock__receptor_8_v248"/>
+ <triangular vertex1="lock__receptor_8_v250" vertex2="lock__receptor_8_v192" vertex3="lock__receptor_8_v249"/>
+ <triangular vertex1="lock__receptor_8_v251" vertex2="lock__receptor_8_v190" vertex3="lock__receptor_8_v192"/>
+ <triangular vertex1="lock__receptor_8_v251" vertex2="lock__receptor_8_v192" vertex3="lock__receptor_8_v250"/>
+ <triangular vertex1="lock__receptor_8_v252" vertex2="lock__receptor_8_v190" vertex3="lock__receptor_8_v251"/>
+ <triangular vertex1="lock__receptor_8_v188" vertex2="lock__receptor_8_v190" vertex3="lock__receptor_8_v252"/>
+ <triangular vertex1="lock__receptor_8_v253" vertex2="lock__receptor_8_v188" vertex3="lock__receptor_8_v252"/>
+ <triangular vertex1="lock__receptor_8_v186" vertex2="lock__receptor_8_v188" vertex3="lock__receptor_8_v253"/>
+ <triangular vertex1="lock__receptor_8_v254" vertex2="lock__receptor_8_v186" vertex3="lock__receptor_8_v253"/>
+ <triangular vertex1="lock__receptor_8_v184" vertex2="lock__receptor_8_v186" vertex3="lock__receptor_8_v254"/>
+ <triangular vertex1="lock__receptor_8_v255" vertex2="lock__receptor_8_v184" vertex3="lock__receptor_8_v254"/>
+ <triangular vertex1="lock__receptor_8_v182" vertex2="lock__receptor_8_v184" vertex3="lock__receptor_8_v255"/>
+ <triangular vertex1="lock__receptor_8_v256" vertex2="lock__receptor_8_v182" vertex3="lock__receptor_8_v255"/>
+ <triangular vertex1="lock__receptor_8_v180" vertex2="lock__receptor_8_v182" vertex3="lock__receptor_8_v256"/>
+ <triangular vertex1="lock__receptor_8_v257" vertex2="lock__receptor_8_v180" vertex3="lock__receptor_8_v256"/>
+ <triangular vertex1="lock__receptor_8_v178" vertex2="lock__receptor_8_v180" vertex3="lock__receptor_8_v257"/>
+ <triangular vertex1="lock__receptor_8_v258" vertex2="lock__receptor_8_v178" vertex3="lock__receptor_8_v257"/>
+ <triangular vertex1="lock__receptor_8_v176" vertex2="lock__receptor_8_v178" vertex3="lock__receptor_8_v258"/>
+ <triangular vertex1="lock__receptor_8_v259" vertex2="lock__receptor_8_v176" vertex3="lock__receptor_8_v258"/>
+ <triangular vertex1="lock__receptor_8_v174" vertex2="lock__receptor_8_v176" vertex3="lock__receptor_8_v259"/>
+ <triangular vertex1="lock__receptor_8_v260" vertex2="lock__receptor_8_v174" vertex3="lock__receptor_8_v259"/>
+ <triangular vertex1="lock__receptor_8_v172" vertex2="lock__receptor_8_v174" vertex3="lock__receptor_8_v260"/>
+ <triangular vertex1="lock__receptor_8_v261" vertex2="lock__receptor_8_v172" vertex3="lock__receptor_8_v260"/>
+ <triangular vertex1="lock__receptor_8_v170" vertex2="lock__receptor_8_v172" vertex3="lock__receptor_8_v261"/>
+ <triangular vertex1="lock__receptor_8_v262" vertex2="lock__receptor_8_v170" vertex3="lock__receptor_8_v261"/>
+ <triangular vertex1="lock__receptor_8_v168" vertex2="lock__receptor_8_v170" vertex3="lock__receptor_8_v262"/>
+ <triangular vertex1="lock__receptor_8_v263" vertex2="lock__receptor_8_v168" vertex3="lock__receptor_8_v262"/>
+ <triangular vertex1="lock__receptor_8_v166" vertex2="lock__receptor_8_v168" vertex3="lock__receptor_8_v263"/>
+ <triangular vertex1="lock__receptor_8_v264" vertex2="lock__receptor_8_v166" vertex3="lock__receptor_8_v263"/>
+ <triangular vertex1="lock__receptor_8_v164" vertex2="lock__receptor_8_v166" vertex3="lock__receptor_8_v264"/>
+ <triangular vertex1="lock__receptor_8_v265" vertex2="lock__receptor_8_v164" vertex3="lock__receptor_8_v264"/>
+ <triangular vertex1="lock__receptor_8_v162" vertex2="lock__receptor_8_v164" vertex3="lock__receptor_8_v265"/>
+ <triangular vertex1="lock__receptor_8_v266" vertex2="lock__receptor_8_v162" vertex3="lock__receptor_8_v265"/>
+ <triangular vertex1="lock__receptor_8_v160" vertex2="lock__receptor_8_v162" vertex3="lock__receptor_8_v266"/>
+ <triangular vertex1="lock__receptor_8_v267" vertex2="lock__receptor_8_v160" vertex3="lock__receptor_8_v266"/>
+ <triangular vertex1="lock__receptor_8_v158" vertex2="lock__receptor_8_v160" vertex3="lock__receptor_8_v267"/>
+ <triangular vertex1="lock__receptor_8_v268" vertex2="lock__receptor_8_v158" vertex3="lock__receptor_8_v267"/>
+ <triangular vertex1="lock__receptor_8_v156" vertex2="lock__receptor_8_v158" vertex3="lock__receptor_8_v268"/>
+ <triangular vertex1="lock__receptor_8_v269" vertex2="lock__receptor_8_v156" vertex3="lock__receptor_8_v268"/>
+ <triangular vertex1="lock__receptor_8_v154" vertex2="lock__receptor_8_v156" vertex3="lock__receptor_8_v269"/>
+ <triangular vertex1="lock__receptor_8_v270" vertex2="lock__receptor_8_v154" vertex3="lock__receptor_8_v269"/>
+ <triangular vertex1="lock__receptor_8_v152" vertex2="lock__receptor_8_v154" vertex3="lock__receptor_8_v270"/>
+ <triangular vertex1="lock__receptor_8_v271" vertex2="lock__receptor_8_v152" vertex3="lock__receptor_8_v270"/>
+ <triangular vertex1="lock__receptor_8_v150" vertex2="lock__receptor_8_v152" vertex3="lock__receptor_8_v271"/>
+ <triangular vertex1="lock__receptor_8_v272" vertex2="lock__receptor_8_v150" vertex3="lock__receptor_8_v271"/>
+ <triangular vertex1="lock__receptor_8_v148" vertex2="lock__receptor_8_v150" vertex3="lock__receptor_8_v272"/>
+ <triangular vertex1="lock__receptor_8_v273" vertex2="lock__receptor_8_v148" vertex3="lock__receptor_8_v272"/>
+ <triangular vertex1="lock__receptor_8_v146" vertex2="lock__receptor_8_v148" vertex3="lock__receptor_8_v273"/>
+ <triangular vertex1="lock__receptor_8_v274" vertex2="lock__receptor_8_v146" vertex3="lock__receptor_8_v273"/>
+ <triangular vertex1="lock__receptor_8_v144" vertex2="lock__receptor_8_v146" vertex3="lock__receptor_8_v274"/>
+ <triangular vertex1="lock__receptor_8_v275" vertex2="lock__receptor_8_v144" vertex3="lock__receptor_8_v274"/>
+ <triangular vertex1="lock__receptor_8_v142" vertex2="lock__receptor_8_v144" vertex3="lock__receptor_8_v275"/>
+ <triangular vertex1="lock__receptor_8_v276" vertex2="lock__receptor_8_v142" vertex3="lock__receptor_8_v275"/>
+ <triangular vertex1="lock__receptor_8_v140" vertex2="lock__receptor_8_v142" vertex3="lock__receptor_8_v276"/>
+ <triangular vertex1="lock__receptor_8_v277" vertex2="lock__receptor_8_v140" vertex3="lock__receptor_8_v276"/>
+ <triangular vertex1="lock__receptor_8_v138" vertex2="lock__receptor_8_v140" vertex3="lock__receptor_8_v277"/>
+ <triangular vertex1="lock__receptor_8_v278" vertex2="lock__receptor_8_v138" vertex3="lock__receptor_8_v277"/>
+ <triangular vertex1="lock__receptor_8_v136" vertex2="lock__receptor_8_v138" vertex3="lock__receptor_8_v278"/>
+ <triangular vertex1="lock__receptor_8_v279" vertex2="lock__receptor_8_v136" vertex3="lock__receptor_8_v278"/>
+ <triangular vertex1="lock__receptor_8_v133" vertex2="lock__receptor_8_v136" vertex3="lock__receptor_8_v279"/>
+ <triangular vertex1="lock__receptor_8_v280" vertex2="lock__receptor_8_v281" vertex3="lock__receptor_8_v282"/>
+ <triangular vertex1="lock__receptor_8_v280" vertex2="lock__receptor_8_v283" vertex3="lock__receptor_8_v281"/>
+ <triangular vertex1="lock__receptor_8_v280" vertex2="lock__receptor_8_v284" vertex3="lock__receptor_8_v283"/>
+ <triangular vertex1="lock__receptor_8_v280" vertex2="lock__receptor_8_v133" vertex3="lock__receptor_8_v279"/>
+ <triangular vertex1="lock__receptor_8_v135" vertex2="lock__receptor_8_v280" vertex3="lock__receptor_8_v282"/>
+ <triangular vertex1="lock__receptor_8_v135" vertex2="lock__receptor_8_v133" vertex3="lock__receptor_8_v280"/>
+ <triangular vertex1="lock__receptor_8_v285" vertex2="lock__receptor_8_v286" vertex3="lock__receptor_8_v287"/>
+ <triangular vertex1="lock__receptor_8_v288" vertex2="lock__receptor_8_v289" vertex3="lock__receptor_8_v286"/>
+ <triangular vertex1="lock__receptor_8_v288" vertex2="lock__receptor_8_v286" vertex3="lock__receptor_8_v285"/>
+ <triangular vertex1="lock__receptor_8_v290" vertex2="lock__receptor_8_v285" vertex3="lock__receptor_8_v287"/>
+ <triangular vertex1="lock__receptor_8_v290" vertex2="lock__receptor_8_v287" vertex3="lock__receptor_8_v291"/>
+ <triangular vertex1="lock__receptor_8_v292" vertex2="lock__receptor_8_v289" vertex3="lock__receptor_8_v288"/>
+ <triangular vertex1="lock__receptor_8_v292" vertex2="lock__receptor_8_v293" vertex3="lock__receptor_8_v289"/>
+ <triangular vertex1="lock__receptor_8_v294" vertex2="lock__receptor_8_v290" vertex3="lock__receptor_8_v291"/>
+ <triangular vertex1="lock__receptor_8_v294" vertex2="lock__receptor_8_v291" vertex3="lock__receptor_8_v295"/>
+ <triangular vertex1="lock__receptor_8_v296" vertex2="lock__receptor_8_v297" vertex3="lock__receptor_8_v293"/>
+ <triangular vertex1="lock__receptor_8_v296" vertex2="lock__receptor_8_v293" vertex3="lock__receptor_8_v292"/>
+ <triangular vertex1="lock__receptor_8_v298" vertex2="lock__receptor_8_v295" vertex3="lock__receptor_8_v299"/>
+ <triangular vertex1="lock__receptor_8_v298" vertex2="lock__receptor_8_v294" vertex3="lock__receptor_8_v295"/>
+ <triangular vertex1="lock__receptor_8_v300" vertex2="lock__receptor_8_v299" vertex3="lock__receptor_8_v301"/>
+ <triangular vertex1="lock__receptor_8_v300" vertex2="lock__receptor_8_v298" vertex3="lock__receptor_8_v299"/>
+ <triangular vertex1="lock__receptor_8_v302" vertex2="lock__receptor_8_v300" vertex3="lock__receptor_8_v301"/>
+ <triangular vertex1="lock__receptor_8_v302" vertex2="lock__receptor_8_v301" vertex3="lock__receptor_8_v303"/>
+ <triangular vertex1="lock__receptor_8_v304" vertex2="lock__receptor_8_v303" vertex3="lock__receptor_8_v305"/>
+ <triangular vertex1="lock__receptor_8_v304" vertex2="lock__receptor_8_v302" vertex3="lock__receptor_8_v303"/>
+ <triangular vertex1="lock__receptor_8_v306" vertex2="lock__receptor_8_v305" vertex3="lock__receptor_8_v307"/>
+ <triangular vertex1="lock__receptor_8_v306" vertex2="lock__receptor_8_v304" vertex3="lock__receptor_8_v305"/>
+ <triangular vertex1="lock__receptor_8_v231" vertex2="lock__receptor_8_v296" vertex3="lock__receptor_8_v232"/>
+ <triangular vertex1="lock__receptor_8_v230" vertex2="lock__receptor_8_v296" vertex3="lock__receptor_8_v231"/>
+ <triangular vertex1="lock__receptor_8_v229" vertex2="lock__receptor_8_v297" vertex3="lock__receptor_8_v296"/>
+ <triangular vertex1="lock__receptor_8_v229" vertex2="lock__receptor_8_v296" vertex3="lock__receptor_8_v230"/>
+ <triangular vertex1="lock__receptor_8_v308" vertex2="lock__receptor_8_v307" vertex3="lock__receptor_8_v309"/>
+ <triangular vertex1="lock__receptor_8_v308" vertex2="lock__receptor_8_v306" vertex3="lock__receptor_8_v307"/>
+ <triangular vertex1="lock__receptor_8_v310" vertex2="lock__receptor_8_v309" vertex3="lock__receptor_8_v311"/>
+ <triangular vertex1="lock__receptor_8_v310" vertex2="lock__receptor_8_v308" vertex3="lock__receptor_8_v309"/>
+ <triangular vertex1="lock__receptor_8_v312" vertex2="lock__receptor_8_v311" vertex3="lock__receptor_8_v313"/>
+ <triangular vertex1="lock__receptor_8_v312" vertex2="lock__receptor_8_v310" vertex3="lock__receptor_8_v311"/>
+ <triangular vertex1="lock__receptor_8_v314" vertex2="lock__receptor_8_v313" vertex3="lock__receptor_8_v315"/>
+ <triangular vertex1="lock__receptor_8_v314" vertex2="lock__receptor_8_v312" vertex3="lock__receptor_8_v313"/>
+ <triangular vertex1="lock__receptor_8_v316" vertex2="lock__receptor_8_v315" vertex3="lock__receptor_8_v317"/>
+ <triangular vertex1="lock__receptor_8_v316" vertex2="lock__receptor_8_v314" vertex3="lock__receptor_8_v315"/>
+ <triangular vertex1="lock__receptor_8_v318" vertex2="lock__receptor_8_v316" vertex3="lock__receptor_8_v317"/>
+ <triangular vertex1="lock__receptor_8_v319" vertex2="lock__receptor_8_v318" vertex3="lock__receptor_8_v317"/>
+ <triangular vertex1="lock__receptor_8_v320" vertex2="lock__receptor_8_v318" vertex3="lock__receptor_8_v319"/>
+ <triangular vertex1="lock__receptor_8_v321" vertex2="lock__receptor_8_v320" vertex3="lock__receptor_8_v319"/>
+ <triangular vertex1="lock__receptor_8_v322" vertex2="lock__receptor_8_v320" vertex3="lock__receptor_8_v321"/>
+ <triangular vertex1="lock__receptor_8_v323" vertex2="lock__receptor_8_v322" vertex3="lock__receptor_8_v321"/>
+ <triangular vertex1="lock__receptor_8_v324" vertex2="lock__receptor_8_v322" vertex3="lock__receptor_8_v323"/>
+ <triangular vertex1="lock__receptor_8_v325" vertex2="lock__receptor_8_v324" vertex3="lock__receptor_8_v323"/>
+ <triangular vertex1="lock__receptor_8_v326" vertex2="lock__receptor_8_v324" vertex3="lock__receptor_8_v325"/>
+ <triangular vertex1="lock__receptor_8_v327" vertex2="lock__receptor_8_v326" vertex3="lock__receptor_8_v325"/>
+ <triangular vertex1="lock__receptor_8_v328" vertex2="lock__receptor_8_v326" vertex3="lock__receptor_8_v327"/>
+ <triangular vertex1="lock__receptor_8_v329" vertex2="lock__receptor_8_v328" vertex3="lock__receptor_8_v327"/>
+ <triangular vertex1="lock__receptor_8_v330" vertex2="lock__receptor_8_v328" vertex3="lock__receptor_8_v329"/>
+ <triangular vertex1="lock__receptor_8_v331" vertex2="lock__receptor_8_v330" vertex3="lock__receptor_8_v329"/>
+ <triangular vertex1="lock__receptor_8_v332" vertex2="lock__receptor_8_v330" vertex3="lock__receptor_8_v331"/>
+ <triangular vertex1="lock__receptor_8_v333" vertex2="lock__receptor_8_v332" vertex3="lock__receptor_8_v331"/>
+ <triangular vertex1="lock__receptor_8_v334" vertex2="lock__receptor_8_v332" vertex3="lock__receptor_8_v333"/>
+ <triangular vertex1="lock__receptor_8_v335" vertex2="lock__receptor_8_v334" vertex3="lock__receptor_8_v333"/>
+ <triangular vertex1="lock__receptor_8_v336" vertex2="lock__receptor_8_v334" vertex3="lock__receptor_8_v335"/>
+ <triangular vertex1="lock__receptor_8_v337" vertex2="lock__receptor_8_v336" vertex3="lock__receptor_8_v335"/>
+ <triangular vertex1="lock__receptor_8_v338" vertex2="lock__receptor_8_v336" vertex3="lock__receptor_8_v337"/>
+ <triangular vertex1="lock__receptor_8_v339" vertex2="lock__receptor_8_v338" vertex3="lock__receptor_8_v337"/>
+ <triangular vertex1="lock__receptor_8_v340" vertex2="lock__receptor_8_v338" vertex3="lock__receptor_8_v339"/>
+ <triangular vertex1="lock__receptor_8_v341" vertex2="lock__receptor_8_v340" vertex3="lock__receptor_8_v339"/>
+ <triangular vertex1="lock__receptor_8_v342" vertex2="lock__receptor_8_v340" vertex3="lock__receptor_8_v341"/>
+ <triangular vertex1="lock__receptor_8_v343" vertex2="lock__receptor_8_v342" vertex3="lock__receptor_8_v341"/>
+ <triangular vertex1="lock__receptor_8_v344" vertex2="lock__receptor_8_v342" vertex3="lock__receptor_8_v343"/>
+ <triangular vertex1="lock__receptor_8_v345" vertex2="lock__receptor_8_v344" vertex3="lock__receptor_8_v343"/>
+ <triangular vertex1="lock__receptor_8_v346" vertex2="lock__receptor_8_v344" vertex3="lock__receptor_8_v345"/>
+ <triangular vertex1="lock__receptor_8_v347" vertex2="lock__receptor_8_v346" vertex3="lock__receptor_8_v345"/>
+ <triangular vertex1="lock__receptor_8_v348" vertex2="lock__receptor_8_v346" vertex3="lock__receptor_8_v347"/>
+ <triangular vertex1="lock__receptor_8_v349" vertex2="lock__receptor_8_v348" vertex3="lock__receptor_8_v347"/>
+ <triangular vertex1="lock__receptor_8_v350" vertex2="lock__receptor_8_v348" vertex3="lock__receptor_8_v349"/>
+ <triangular vertex1="lock__receptor_8_v351" vertex2="lock__receptor_8_v350" vertex3="lock__receptor_8_v349"/>
+ <triangular vertex1="lock__receptor_8_v352" vertex2="lock__receptor_8_v350" vertex3="lock__receptor_8_v351"/>
+ <triangular vertex1="lock__receptor_8_v353" vertex2="lock__receptor_8_v352" vertex3="lock__receptor_8_v351"/>
+ <triangular vertex1="lock__receptor_8_v354" vertex2="lock__receptor_8_v352" vertex3="lock__receptor_8_v353"/>
+ <triangular vertex1="lock__receptor_8_v355" vertex2="lock__receptor_8_v354" vertex3="lock__receptor_8_v353"/>
+ <triangular vertex1="lock__receptor_8_v356" vertex2="lock__receptor_8_v354" vertex3="lock__receptor_8_v355"/>
+ <triangular vertex1="lock__receptor_8_v357" vertex2="lock__receptor_8_v356" vertex3="lock__receptor_8_v355"/>
+ <triangular vertex1="lock__receptor_8_v358" vertex2="lock__receptor_8_v356" vertex3="lock__receptor_8_v357"/>
+ <triangular vertex1="lock__receptor_8_v359" vertex2="lock__receptor_8_v358" vertex3="lock__receptor_8_v357"/>
+ <triangular vertex1="lock__receptor_8_v360" vertex2="lock__receptor_8_v358" vertex3="lock__receptor_8_v359"/>
+ <triangular vertex1="lock__receptor_8_v361" vertex2="lock__receptor_8_v360" vertex3="lock__receptor_8_v359"/>
+ <triangular vertex1="lock__receptor_8_v362" vertex2="lock__receptor_8_v197" vertex3="lock__receptor_8_v193"/>
+ <triangular vertex1="lock__receptor_8_v362" vertex2="lock__receptor_8_v360" vertex3="lock__receptor_8_v361"/>
+ <triangular vertex1="lock__receptor_8_v198" vertex2="lock__receptor_8_v197" vertex3="lock__receptor_8_v362"/>
+ <triangular vertex1="lock__receptor_8_v199" vertex2="lock__receptor_8_v198" vertex3="lock__receptor_8_v362"/>
+ <triangular vertex1="lock__receptor_8_v363" vertex2="lock__receptor_8_v199" vertex3="lock__receptor_8_v362"/>
+ <triangular vertex1="lock__receptor_8_v363" vertex2="lock__receptor_8_v362" vertex3="lock__receptor_8_v361"/>
+ <triangular vertex1="lock__receptor_8_v249" vertex2="lock__receptor_8_v192" vertex3="lock__receptor_8_v191"/>
+ <triangular vertex1="lock__receptor_8_v249" vertex2="lock__receptor_8_v191" vertex3="lock__receptor_8_v364"/>
+ <triangular vertex1="lock__receptor_8_v247" vertex2="lock__receptor_8_v364" vertex3="lock__receptor_8_v365"/>
+ <triangular vertex1="lock__receptor_8_v247" vertex2="lock__receptor_8_v249" vertex3="lock__receptor_8_v364"/>
+ <triangular vertex1="lock__receptor_8_v245" vertex2="lock__receptor_8_v365" vertex3="lock__receptor_8_v366"/>
+ <triangular vertex1="lock__receptor_8_v245" vertex2="lock__receptor_8_v247" vertex3="lock__receptor_8_v365"/>
+ <triangular vertex1="lock__receptor_8_v243" vertex2="lock__receptor_8_v366" vertex3="lock__receptor_8_v367"/>
+ <triangular vertex1="lock__receptor_8_v243" vertex2="lock__receptor_8_v245" vertex3="lock__receptor_8_v366"/>
+ <triangular vertex1="lock__receptor_8_v241" vertex2="lock__receptor_8_v367" vertex3="lock__receptor_8_v368"/>
+ <triangular vertex1="lock__receptor_8_v241" vertex2="lock__receptor_8_v243" vertex3="lock__receptor_8_v367"/>
+ <triangular vertex1="lock__receptor_8_v239" vertex2="lock__receptor_8_v368" vertex3="lock__receptor_8_v369"/>
+ <triangular vertex1="lock__receptor_8_v239" vertex2="lock__receptor_8_v241" vertex3="lock__receptor_8_v368"/>
+ <triangular vertex1="lock__receptor_8_v237" vertex2="lock__receptor_8_v369" vertex3="lock__receptor_8_v370"/>
+ <triangular vertex1="lock__receptor_8_v237" vertex2="lock__receptor_8_v239" vertex3="lock__receptor_8_v369"/>
+ <triangular vertex1="lock__receptor_8_v234" vertex2="lock__receptor_8_v370" vertex3="lock__receptor_8_v371"/>
+ <triangular vertex1="lock__receptor_8_v234" vertex2="lock__receptor_8_v237" vertex3="lock__receptor_8_v370"/>
+ <triangular vertex1="lock__receptor_8_v372" vertex2="lock__receptor_8_v371" vertex3="lock__receptor_8_v373"/>
+ <triangular vertex1="lock__receptor_8_v372" vertex2="lock__receptor_8_v234" vertex3="lock__receptor_8_v371"/>
+ <triangular vertex1="lock__receptor_8_v235" vertex2="lock__receptor_8_v234" vertex3="lock__receptor_8_v372"/>
+ <triangular vertex1="lock__receptor_8_v374" vertex2="lock__receptor_8_v373" vertex3="lock__receptor_8_v375"/>
+ <triangular vertex1="lock__receptor_8_v374" vertex2="lock__receptor_8_v372" vertex3="lock__receptor_8_v373"/>
+ <triangular vertex1="lock__receptor_8_v376" vertex2="lock__receptor_8_v375" vertex3="lock__receptor_8_v377"/>
+ <triangular vertex1="lock__receptor_8_v376" vertex2="lock__receptor_8_v374" vertex3="lock__receptor_8_v375"/>
+ <triangular vertex1="lock__receptor_8_v378" vertex2="lock__receptor_8_v377" vertex3="lock__receptor_8_v379"/>
+ <triangular vertex1="lock__receptor_8_v378" vertex2="lock__receptor_8_v376" vertex3="lock__receptor_8_v377"/>
+ <triangular vertex1="lock__receptor_8_v380" vertex2="lock__receptor_8_v379" vertex3="lock__receptor_8_v381"/>
+ <triangular vertex1="lock__receptor_8_v380" vertex2="lock__receptor_8_v378" vertex3="lock__receptor_8_v379"/>
+ <triangular vertex1="lock__receptor_8_v293" vertex2="lock__receptor_8_v381" vertex3="lock__receptor_8_v382"/>
+ <triangular vertex1="lock__receptor_8_v293" vertex2="lock__receptor_8_v297" vertex3="lock__receptor_8_v380"/>
+ <triangular vertex1="lock__receptor_8_v293" vertex2="lock__receptor_8_v380" vertex3="lock__receptor_8_v381"/>
+ <triangular vertex1="lock__receptor_8_v289" vertex2="lock__receptor_8_v382" vertex3="lock__receptor_8_v383"/>
+ <triangular vertex1="lock__receptor_8_v289" vertex2="lock__receptor_8_v293" vertex3="lock__receptor_8_v382"/>
+ <triangular vertex1="lock__receptor_8_v286" vertex2="lock__receptor_8_v289" vertex3="lock__receptor_8_v383"/>
+ <triangular vertex1="lock__receptor_8_v286" vertex2="lock__receptor_8_v383" vertex3="lock__receptor_8_v384"/>
+ <triangular vertex1="lock__receptor_8_v287" vertex2="lock__receptor_8_v286" vertex3="lock__receptor_8_v384"/>
+ <triangular vertex1="lock__receptor_8_v287" vertex2="lock__receptor_8_v384" vertex3="lock__receptor_8_v385"/>
+ <triangular vertex1="lock__receptor_8_v291" vertex2="lock__receptor_8_v287" vertex3="lock__receptor_8_v385"/>
+ <triangular vertex1="lock__receptor_8_v291" vertex2="lock__receptor_8_v385" vertex3="lock__receptor_8_v386"/>
+ <triangular vertex1="lock__receptor_8_v295" vertex2="lock__receptor_8_v291" vertex3="lock__receptor_8_v386"/>
+ <triangular vertex1="lock__receptor_8_v295" vertex2="lock__receptor_8_v386" vertex3="lock__receptor_8_v387"/>
+ <triangular vertex1="lock__receptor_8_v299" vertex2="lock__receptor_8_v387" vertex3="lock__receptor_8_v388"/>
+ <triangular vertex1="lock__receptor_8_v299" vertex2="lock__receptor_8_v295" vertex3="lock__receptor_8_v387"/>
+ <triangular vertex1="lock__receptor_8_v301" vertex2="lock__receptor_8_v388" vertex3="lock__receptor_8_v389"/>
+ <triangular vertex1="lock__receptor_8_v301" vertex2="lock__receptor_8_v299" vertex3="lock__receptor_8_v388"/>
+ <triangular vertex1="lock__receptor_8_v303" vertex2="lock__receptor_8_v389" vertex3="lock__receptor_8_v390"/>
+ <triangular vertex1="lock__receptor_8_v303" vertex2="lock__receptor_8_v301" vertex3="lock__receptor_8_v389"/>
+ <triangular vertex1="lock__receptor_8_v305" vertex2="lock__receptor_8_v390" vertex3="lock__receptor_8_v391"/>
+ <triangular vertex1="lock__receptor_8_v305" vertex2="lock__receptor_8_v303" vertex3="lock__receptor_8_v390"/>
+ <triangular vertex1="lock__receptor_8_v307" vertex2="lock__receptor_8_v391" vertex3="lock__receptor_8_v392"/>
+ <triangular vertex1="lock__receptor_8_v307" vertex2="lock__receptor_8_v305" vertex3="lock__receptor_8_v391"/>
+ <triangular vertex1="lock__receptor_8_v309" vertex2="lock__receptor_8_v392" vertex3="lock__receptor_8_v393"/>
+ <triangular vertex1="lock__receptor_8_v309" vertex2="lock__receptor_8_v307" vertex3="lock__receptor_8_v392"/>
+ <triangular vertex1="lock__receptor_8_v311" vertex2="lock__receptor_8_v393" vertex3="lock__receptor_8_v394"/>
+ <triangular vertex1="lock__receptor_8_v311" vertex2="lock__receptor_8_v309" vertex3="lock__receptor_8_v393"/>
+ <triangular vertex1="lock__receptor_8_v313" vertex2="lock__receptor_8_v394" vertex3="lock__receptor_8_v395"/>
+ <triangular vertex1="lock__receptor_8_v313" vertex2="lock__receptor_8_v311" vertex3="lock__receptor_8_v394"/>
+ <triangular vertex1="lock__receptor_8_v315" vertex2="lock__receptor_8_v395" vertex3="lock__receptor_8_v396"/>
+ <triangular vertex1="lock__receptor_8_v315" vertex2="lock__receptor_8_v313" vertex3="lock__receptor_8_v395"/>
+ <triangular vertex1="lock__receptor_8_v317" vertex2="lock__receptor_8_v396" vertex3="lock__receptor_8_v397"/>
+ <triangular vertex1="lock__receptor_8_v317" vertex2="lock__receptor_8_v315" vertex3="lock__receptor_8_v396"/>
+ <triangular vertex1="lock__receptor_8_v319" vertex2="lock__receptor_8_v397" vertex3="lock__receptor_8_v398"/>
+ <triangular vertex1="lock__receptor_8_v319" vertex2="lock__receptor_8_v317" vertex3="lock__receptor_8_v397"/>
+ <triangular vertex1="lock__receptor_8_v321" vertex2="lock__receptor_8_v398" vertex3="lock__receptor_8_v399"/>
+ <triangular vertex1="lock__receptor_8_v321" vertex2="lock__receptor_8_v319" vertex3="lock__receptor_8_v398"/>
+ <triangular vertex1="lock__receptor_8_v323" vertex2="lock__receptor_8_v399" vertex3="lock__receptor_8_v400"/>
+ <triangular vertex1="lock__receptor_8_v323" vertex2="lock__receptor_8_v321" vertex3="lock__receptor_8_v399"/>
+ <triangular vertex1="lock__receptor_8_v325" vertex2="lock__receptor_8_v323" vertex3="lock__receptor_8_v400"/>
+ <triangular vertex1="lock__receptor_8_v327" vertex2="lock__receptor_8_v400" vertex3="lock__receptor_8_v401"/>
+ <triangular vertex1="lock__receptor_8_v327" vertex2="lock__receptor_8_v325" vertex3="lock__receptor_8_v400"/>
+ <triangular vertex1="lock__receptor_8_v329" vertex2="lock__receptor_8_v401" vertex3="lock__receptor_8_v402"/>
+ <triangular vertex1="lock__receptor_8_v329" vertex2="lock__receptor_8_v327" vertex3="lock__receptor_8_v401"/>
+ <triangular vertex1="lock__receptor_8_v331" vertex2="lock__receptor_8_v402" vertex3="lock__receptor_8_v403"/>
+ <triangular vertex1="lock__receptor_8_v331" vertex2="lock__receptor_8_v329" vertex3="lock__receptor_8_v402"/>
+ <triangular vertex1="lock__receptor_8_v333" vertex2="lock__receptor_8_v403" vertex3="lock__receptor_8_v404"/>
+ <triangular vertex1="lock__receptor_8_v333" vertex2="lock__receptor_8_v331" vertex3="lock__receptor_8_v403"/>
+ <triangular vertex1="lock__receptor_8_v335" vertex2="lock__receptor_8_v404" vertex3="lock__receptor_8_v405"/>
+ <triangular vertex1="lock__receptor_8_v335" vertex2="lock__receptor_8_v333" vertex3="lock__receptor_8_v404"/>
+ <triangular vertex1="lock__receptor_8_v337" vertex2="lock__receptor_8_v405" vertex3="lock__receptor_8_v406"/>
+ <triangular vertex1="lock__receptor_8_v337" vertex2="lock__receptor_8_v335" vertex3="lock__receptor_8_v405"/>
+ <triangular vertex1="lock__receptor_8_v339" vertex2="lock__receptor_8_v406" vertex3="lock__receptor_8_v407"/>
+ <triangular vertex1="lock__receptor_8_v339" vertex2="lock__receptor_8_v337" vertex3="lock__receptor_8_v406"/>
+ <triangular vertex1="lock__receptor_8_v341" vertex2="lock__receptor_8_v339" vertex3="lock__receptor_8_v407"/>
+ <triangular vertex1="lock__receptor_8_v341" vertex2="lock__receptor_8_v407" vertex3="lock__receptor_8_v408"/>
+ <triangular vertex1="lock__receptor_8_v343" vertex2="lock__receptor_8_v341" vertex3="lock__receptor_8_v408"/>
+ <triangular vertex1="lock__receptor_8_v343" vertex2="lock__receptor_8_v408" vertex3="lock__receptor_8_v409"/>
+ <triangular vertex1="lock__receptor_8_v345" vertex2="lock__receptor_8_v343" vertex3="lock__receptor_8_v409"/>
+ <triangular vertex1="lock__receptor_8_v345" vertex2="lock__receptor_8_v409" vertex3="lock__receptor_8_v410"/>
+ <triangular vertex1="lock__receptor_8_v347" vertex2="lock__receptor_8_v345" vertex3="lock__receptor_8_v410"/>
+ <triangular vertex1="lock__receptor_8_v347" vertex2="lock__receptor_8_v410" vertex3="lock__receptor_8_v411"/>
+ <triangular vertex1="lock__receptor_8_v349" vertex2="lock__receptor_8_v347" vertex3="lock__receptor_8_v411"/>
+ <triangular vertex1="lock__receptor_8_v349" vertex2="lock__receptor_8_v411" vertex3="lock__receptor_8_v412"/>
+ <triangular vertex1="lock__receptor_8_v351" vertex2="lock__receptor_8_v349" vertex3="lock__receptor_8_v412"/>
+ <triangular vertex1="lock__receptor_8_v351" vertex2="lock__receptor_8_v412" vertex3="lock__receptor_8_v413"/>
+ <triangular vertex1="lock__receptor_8_v353" vertex2="lock__receptor_8_v351" vertex3="lock__receptor_8_v413"/>
+ <triangular vertex1="lock__receptor_8_v353" vertex2="lock__receptor_8_v413" vertex3="lock__receptor_8_v414"/>
+ <triangular vertex1="lock__receptor_8_v355" vertex2="lock__receptor_8_v353" vertex3="lock__receptor_8_v414"/>
+ <triangular vertex1="lock__receptor_8_v355" vertex2="lock__receptor_8_v414" vertex3="lock__receptor_8_v415"/>
+ <triangular vertex1="lock__receptor_8_v357" vertex2="lock__receptor_8_v355" vertex3="lock__receptor_8_v415"/>
+ <triangular vertex1="lock__receptor_8_v357" vertex2="lock__receptor_8_v415" vertex3="lock__receptor_8_v416"/>
+ <triangular vertex1="lock__receptor_8_v359" vertex2="lock__receptor_8_v357" vertex3="lock__receptor_8_v416"/>
+ <triangular vertex1="lock__receptor_8_v359" vertex2="lock__receptor_8_v416" vertex3="lock__receptor_8_v417"/>
+ <triangular vertex1="lock__receptor_8_v361" vertex2="lock__receptor_8_v359" vertex3="lock__receptor_8_v417"/>
+ <triangular vertex1="lock__receptor_8_v361" vertex2="lock__receptor_8_v417" vertex3="lock__receptor_8_v418"/>
+ <triangular vertex1="lock__receptor_8_v419" vertex2="lock__receptor_8_v361" vertex3="lock__receptor_8_v418"/>
+ <triangular vertex1="lock__receptor_8_v419" vertex2="lock__receptor_8_v418" vertex3="lock__receptor_8_v420"/>
+ <triangular vertex1="lock__receptor_8_v363" vertex2="lock__receptor_8_v361" vertex3="lock__receptor_8_v419"/>
+ <triangular vertex1="lock__receptor_8_v421" vertex2="lock__receptor_8_v419" vertex3="lock__receptor_8_v420"/>
+ <triangular vertex1="lock__receptor_8_v421" vertex2="lock__receptor_8_v420" vertex3="lock__receptor_8_v422"/>
+ <triangular vertex1="lock__receptor_8_v423" vertex2="lock__receptor_8_v422" vertex3="lock__receptor_8_v424"/>
+ <triangular vertex1="lock__receptor_8_v423" vertex2="lock__receptor_8_v421" vertex3="lock__receptor_8_v422"/>
+ <triangular vertex1="lock__receptor_8_v425" vertex2="lock__receptor_8_v424" vertex3="lock__receptor_8_v426"/>
+ <triangular vertex1="lock__receptor_8_v425" vertex2="lock__receptor_8_v423" vertex3="lock__receptor_8_v424"/>
+ <triangular vertex1="lock__receptor_8_v427" vertex2="lock__receptor_8_v426" vertex3="lock__receptor_8_v428"/>
+ <triangular vertex1="lock__receptor_8_v427" vertex2="lock__receptor_8_v425" vertex3="lock__receptor_8_v426"/>
+ <triangular vertex1="lock__receptor_8_v429" vertex2="lock__receptor_8_v428" vertex3="lock__receptor_8_v430"/>
+ <triangular vertex1="lock__receptor_8_v429" vertex2="lock__receptor_8_v427" vertex3="lock__receptor_8_v428"/>
+ <triangular vertex1="lock__receptor_8_v429" vertex2="lock__receptor_8_v431" vertex3="lock__receptor_8_v427"/>
+ <triangular vertex1="lock__receptor_8_v432" vertex2="lock__receptor_8_v430" vertex3="lock__receptor_8_v433"/>
+ <triangular vertex1="lock__receptor_8_v432" vertex2="lock__receptor_8_v429" vertex3="lock__receptor_8_v430"/>
+ <triangular vertex1="lock__receptor_8_v434" vertex2="lock__receptor_8_v433" vertex3="lock__receptor_8_v435"/>
+ <triangular vertex1="lock__receptor_8_v434" vertex2="lock__receptor_8_v432" vertex3="lock__receptor_8_v433"/>
+ <triangular vertex1="lock__receptor_8_v436" vertex2="lock__receptor_8_v435" vertex3="lock__receptor_8_v437"/>
+ <triangular vertex1="lock__receptor_8_v436" vertex2="lock__receptor_8_v434" vertex3="lock__receptor_8_v435"/>
+ <triangular vertex1="lock__receptor_8_v438" vertex2="lock__receptor_8_v437" vertex3="lock__receptor_8_v439"/>
+ <triangular vertex1="lock__receptor_8_v438" vertex2="lock__receptor_8_v436" vertex3="lock__receptor_8_v437"/>
+ <triangular vertex1="lock__receptor_8_v440" vertex2="lock__receptor_8_v439" vertex3="lock__receptor_8_v441"/>
+ <triangular vertex1="lock__receptor_8_v440" vertex2="lock__receptor_8_v438" vertex3="lock__receptor_8_v439"/>
+ <triangular vertex1="lock__receptor_8_v442" vertex2="lock__receptor_8_v441" vertex3="lock__receptor_8_v443"/>
+ <triangular vertex1="lock__receptor_8_v442" vertex2="lock__receptor_8_v440" vertex3="lock__receptor_8_v441"/>
+ <triangular vertex1="lock__receptor_8_v444" vertex2="lock__receptor_8_v443" vertex3="lock__receptor_8_v63"/>
+ <triangular vertex1="lock__receptor_8_v444" vertex2="lock__receptor_8_v442" vertex3="lock__receptor_8_v443"/>
+ <triangular vertex1="lock__receptor_8_v65" vertex2="lock__receptor_8_v444" vertex3="lock__receptor_8_v63"/>
+ <triangular vertex1="lock__receptor_8_v383" vertex2="lock__receptor_8_v445" vertex3="lock__receptor_8_v384"/>
+ <triangular vertex1="lock__receptor_8_v382" vertex2="lock__receptor_8_v446" vertex3="lock__receptor_8_v383"/>
+ <triangular vertex1="lock__receptor_8_v383" vertex2="lock__receptor_8_v446" vertex3="lock__receptor_8_v445"/>
+ <triangular vertex1="lock__receptor_8_v384" vertex2="lock__receptor_8_v447" vertex3="lock__receptor_8_v385"/>
+ <triangular vertex1="lock__receptor_8_v445" vertex2="lock__receptor_8_v447" vertex3="lock__receptor_8_v384"/>
+ <triangular vertex1="lock__receptor_8_v381" vertex2="lock__receptor_8_v448" vertex3="lock__receptor_8_v382"/>
+ <triangular vertex1="lock__receptor_8_v382" vertex2="lock__receptor_8_v448" vertex3="lock__receptor_8_v446"/>
+ <triangular vertex1="lock__receptor_8_v385" vertex2="lock__receptor_8_v449" vertex3="lock__receptor_8_v386"/>
+ <triangular vertex1="lock__receptor_8_v447" vertex2="lock__receptor_8_v449" vertex3="lock__receptor_8_v385"/>
+ <triangular vertex1="lock__receptor_8_v379" vertex2="lock__receptor_8_v450" vertex3="lock__receptor_8_v381"/>
+ <triangular vertex1="lock__receptor_8_v381" vertex2="lock__receptor_8_v450" vertex3="lock__receptor_8_v448"/>
+ <triangular vertex1="lock__receptor_8_v386" vertex2="lock__receptor_8_v451" vertex3="lock__receptor_8_v387"/>
+ <triangular vertex1="lock__receptor_8_v449" vertex2="lock__receptor_8_v451" vertex3="lock__receptor_8_v386"/>
+ <triangular vertex1="lock__receptor_8_v387" vertex2="lock__receptor_8_v452" vertex3="lock__receptor_8_v388"/>
+ <triangular vertex1="lock__receptor_8_v451" vertex2="lock__receptor_8_v452" vertex3="lock__receptor_8_v387"/>
+ <triangular vertex1="lock__receptor_8_v388" vertex2="lock__receptor_8_v453" vertex3="lock__receptor_8_v389"/>
+ <triangular vertex1="lock__receptor_8_v452" vertex2="lock__receptor_8_v453" vertex3="lock__receptor_8_v388"/>
+ <triangular vertex1="lock__receptor_8_v453" vertex2="lock__receptor_8_v454" vertex3="lock__receptor_8_v389"/>
+ <triangular vertex1="lock__receptor_8_v389" vertex2="lock__receptor_8_v454" vertex3="lock__receptor_8_v390"/>
+ <triangular vertex1="lock__receptor_8_v390" vertex2="lock__receptor_8_v455" vertex3="lock__receptor_8_v391"/>
+ <triangular vertex1="lock__receptor_8_v454" vertex2="lock__receptor_8_v455" vertex3="lock__receptor_8_v390"/>
+ <triangular vertex1="lock__receptor_8_v450" vertex2="lock__receptor_8_v226" vertex3="lock__receptor_8_v228"/>
+ <triangular vertex1="lock__receptor_8_v379" vertex2="lock__receptor_8_v226" vertex3="lock__receptor_8_v450"/>
+ <triangular vertex1="lock__receptor_8_v371" vertex2="lock__receptor_8_v456" vertex3="lock__receptor_8_v373"/>
+ <triangular vertex1="lock__receptor_8_v379" vertex2="lock__receptor_8_v224" vertex3="lock__receptor_8_v226"/>
+ <triangular vertex1="lock__receptor_8_v377" vertex2="lock__receptor_8_v224" vertex3="lock__receptor_8_v379"/>
+ <triangular vertex1="lock__receptor_8_v455" vertex2="lock__receptor_8_v457" vertex3="lock__receptor_8_v391"/>
+ <triangular vertex1="lock__receptor_8_v391" vertex2="lock__receptor_8_v457" vertex3="lock__receptor_8_v392"/>
+ <triangular vertex1="lock__receptor_8_v377" vertex2="lock__receptor_8_v223" vertex3="lock__receptor_8_v224"/>
+ <triangular vertex1="lock__receptor_8_v375" vertex2="lock__receptor_8_v223" vertex3="lock__receptor_8_v377"/>
+ <triangular vertex1="lock__receptor_8_v370" vertex2="lock__receptor_8_v458" vertex3="lock__receptor_8_v371"/>
+ <triangular vertex1="lock__receptor_8_v371" vertex2="lock__receptor_8_v458" vertex3="lock__receptor_8_v456"/>
+ <triangular vertex1="lock__receptor_8_v373" vertex2="lock__receptor_8_v221" vertex3="lock__receptor_8_v375"/>
+ <triangular vertex1="lock__receptor_8_v375" vertex2="lock__receptor_8_v221" vertex3="lock__receptor_8_v223"/>
+ <triangular vertex1="lock__receptor_8_v392" vertex2="lock__receptor_8_v459" vertex3="lock__receptor_8_v393"/>
+ <triangular vertex1="lock__receptor_8_v457" vertex2="lock__receptor_8_v459" vertex3="lock__receptor_8_v392"/>
+ <triangular vertex1="lock__receptor_8_v456" vertex2="lock__receptor_8_v216" vertex3="lock__receptor_8_v373"/>
+ <triangular vertex1="lock__receptor_8_v373" vertex2="lock__receptor_8_v216" vertex3="lock__receptor_8_v221"/>
+ <triangular vertex1="lock__receptor_8_v369" vertex2="lock__receptor_8_v460" vertex3="lock__receptor_8_v370"/>
+ <triangular vertex1="lock__receptor_8_v370" vertex2="lock__receptor_8_v460" vertex3="lock__receptor_8_v458"/>
+ <triangular vertex1="lock__receptor_8_v393" vertex2="lock__receptor_8_v461" vertex3="lock__receptor_8_v394"/>
+ <triangular vertex1="lock__receptor_8_v459" vertex2="lock__receptor_8_v461" vertex3="lock__receptor_8_v393"/>
+ <triangular vertex1="lock__receptor_8_v456" vertex2="lock__receptor_8_v215" vertex3="lock__receptor_8_v216"/>
+ <triangular vertex1="lock__receptor_8_v368" vertex2="lock__receptor_8_v462" vertex3="lock__receptor_8_v369"/>
+ <triangular vertex1="lock__receptor_8_v369" vertex2="lock__receptor_8_v462" vertex3="lock__receptor_8_v460"/>
+ <triangular vertex1="lock__receptor_8_v394" vertex2="lock__receptor_8_v463" vertex3="lock__receptor_8_v395"/>
+ <triangular vertex1="lock__receptor_8_v461" vertex2="lock__receptor_8_v463" vertex3="lock__receptor_8_v394"/>
+ <triangular vertex1="lock__receptor_8_v367" vertex2="lock__receptor_8_v464" vertex3="lock__receptor_8_v368"/>
+ <triangular vertex1="lock__receptor_8_v368" vertex2="lock__receptor_8_v464" vertex3="lock__receptor_8_v462"/>
+ <triangular vertex1="lock__receptor_8_v395" vertex2="lock__receptor_8_v465" vertex3="lock__receptor_8_v396"/>
+ <triangular vertex1="lock__receptor_8_v463" vertex2="lock__receptor_8_v465" vertex3="lock__receptor_8_v395"/>
+ <triangular vertex1="lock__receptor_8_v366" vertex2="lock__receptor_8_v466" vertex3="lock__receptor_8_v367"/>
+ <triangular vertex1="lock__receptor_8_v367" vertex2="lock__receptor_8_v466" vertex3="lock__receptor_8_v464"/>
+ <triangular vertex1="lock__receptor_8_v396" vertex2="lock__receptor_8_v467" vertex3="lock__receptor_8_v397"/>
+ <triangular vertex1="lock__receptor_8_v465" vertex2="lock__receptor_8_v467" vertex3="lock__receptor_8_v396"/>
+ <triangular vertex1="lock__receptor_8_v365" vertex2="lock__receptor_8_v468" vertex3="lock__receptor_8_v366"/>
+ <triangular vertex1="lock__receptor_8_v366" vertex2="lock__receptor_8_v468" vertex3="lock__receptor_8_v466"/>
+ <triangular vertex1="lock__receptor_8_v467" vertex2="lock__receptor_8_v469" vertex3="lock__receptor_8_v397"/>
+ <triangular vertex1="lock__receptor_8_v469" vertex2="lock__receptor_8_v398" vertex3="lock__receptor_8_v397"/>
+ <triangular vertex1="lock__receptor_8_v364" vertex2="lock__receptor_8_v470" vertex3="lock__receptor_8_v365"/>
+ <triangular vertex1="lock__receptor_8_v365" vertex2="lock__receptor_8_v470" vertex3="lock__receptor_8_v468"/>
+ <triangular vertex1="lock__receptor_8_v469" vertex2="lock__receptor_8_v471" vertex3="lock__receptor_8_v398"/>
+ <triangular vertex1="lock__receptor_8_v471" vertex2="lock__receptor_8_v399" vertex3="lock__receptor_8_v398"/>
+ <triangular vertex1="lock__receptor_8_v191" vertex2="lock__receptor_8_v472" vertex3="lock__receptor_8_v364"/>
+ <triangular vertex1="lock__receptor_8_v364" vertex2="lock__receptor_8_v472" vertex3="lock__receptor_8_v470"/>
+ <triangular vertex1="lock__receptor_8_v471" vertex2="lock__receptor_8_v473" vertex3="lock__receptor_8_v399"/>
+ <triangular vertex1="lock__receptor_8_v473" vertex2="lock__receptor_8_v400" vertex3="lock__receptor_8_v399"/>
+ <triangular vertex1="lock__receptor_8_v189" vertex2="lock__receptor_8_v474" vertex3="lock__receptor_8_v191"/>
+ <triangular vertex1="lock__receptor_8_v191" vertex2="lock__receptor_8_v474" vertex3="lock__receptor_8_v472"/>
+ <triangular vertex1="lock__receptor_8_v473" vertex2="lock__receptor_8_v475" vertex3="lock__receptor_8_v400"/>
+ <triangular vertex1="lock__receptor_8_v475" vertex2="lock__receptor_8_v401" vertex3="lock__receptor_8_v400"/>
+ <triangular vertex1="lock__receptor_8_v189" vertex2="lock__receptor_8_v476" vertex3="lock__receptor_8_v474"/>
+ <triangular vertex1="lock__receptor_8_v189" vertex2="lock__receptor_8_v187" vertex3="lock__receptor_8_v476"/>
+ <triangular vertex1="lock__receptor_8_v475" vertex2="lock__receptor_8_v477" vertex3="lock__receptor_8_v401"/>
+ <triangular vertex1="lock__receptor_8_v477" vertex2="lock__receptor_8_v402" vertex3="lock__receptor_8_v401"/>
+ <triangular vertex1="lock__receptor_8_v187" vertex2="lock__receptor_8_v478" vertex3="lock__receptor_8_v476"/>
+ <triangular vertex1="lock__receptor_8_v187" vertex2="lock__receptor_8_v185" vertex3="lock__receptor_8_v478"/>
+ <triangular vertex1="lock__receptor_8_v477" vertex2="lock__receptor_8_v479" vertex3="lock__receptor_8_v402"/>
+ <triangular vertex1="lock__receptor_8_v479" vertex2="lock__receptor_8_v403" vertex3="lock__receptor_8_v402"/>
+ <triangular vertex1="lock__receptor_8_v185" vertex2="lock__receptor_8_v480" vertex3="lock__receptor_8_v478"/>
+ <triangular vertex1="lock__receptor_8_v185" vertex2="lock__receptor_8_v183" vertex3="lock__receptor_8_v480"/>
+ <triangular vertex1="lock__receptor_8_v479" vertex2="lock__receptor_8_v481" vertex3="lock__receptor_8_v403"/>
+ <triangular vertex1="lock__receptor_8_v481" vertex2="lock__receptor_8_v404" vertex3="lock__receptor_8_v403"/>
+ <triangular vertex1="lock__receptor_8_v183" vertex2="lock__receptor_8_v482" vertex3="lock__receptor_8_v480"/>
+ <triangular vertex1="lock__receptor_8_v183" vertex2="lock__receptor_8_v181" vertex3="lock__receptor_8_v482"/>
+ <triangular vertex1="lock__receptor_8_v481" vertex2="lock__receptor_8_v483" vertex3="lock__receptor_8_v404"/>
+ <triangular vertex1="lock__receptor_8_v483" vertex2="lock__receptor_8_v405" vertex3="lock__receptor_8_v404"/>
+ <triangular vertex1="lock__receptor_8_v181" vertex2="lock__receptor_8_v484" vertex3="lock__receptor_8_v482"/>
+ <triangular vertex1="lock__receptor_8_v181" vertex2="lock__receptor_8_v179" vertex3="lock__receptor_8_v484"/>
+ <triangular vertex1="lock__receptor_8_v483" vertex2="lock__receptor_8_v485" vertex3="lock__receptor_8_v405"/>
+ <triangular vertex1="lock__receptor_8_v485" vertex2="lock__receptor_8_v406" vertex3="lock__receptor_8_v405"/>
+ <triangular vertex1="lock__receptor_8_v179" vertex2="lock__receptor_8_v486" vertex3="lock__receptor_8_v484"/>
+ <triangular vertex1="lock__receptor_8_v179" vertex2="lock__receptor_8_v177" vertex3="lock__receptor_8_v486"/>
+ <triangular vertex1="lock__receptor_8_v485" vertex2="lock__receptor_8_v487" vertex3="lock__receptor_8_v406"/>
+ <triangular vertex1="lock__receptor_8_v487" vertex2="lock__receptor_8_v407" vertex3="lock__receptor_8_v406"/>
+ <triangular vertex1="lock__receptor_8_v177" vertex2="lock__receptor_8_v488" vertex3="lock__receptor_8_v486"/>
+ <triangular vertex1="lock__receptor_8_v487" vertex2="lock__receptor_8_v489" vertex3="lock__receptor_8_v407"/>
+ <triangular vertex1="lock__receptor_8_v177" vertex2="lock__receptor_8_v175" vertex3="lock__receptor_8_v488"/>
+ <triangular vertex1="lock__receptor_8_v489" vertex2="lock__receptor_8_v408" vertex3="lock__receptor_8_v407"/>
+ <triangular vertex1="lock__receptor_8_v175" vertex2="lock__receptor_8_v490" vertex3="lock__receptor_8_v488"/>
+ <triangular vertex1="lock__receptor_8_v489" vertex2="lock__receptor_8_v491" vertex3="lock__receptor_8_v408"/>
+ <triangular vertex1="lock__receptor_8_v175" vertex2="lock__receptor_8_v173" vertex3="lock__receptor_8_v490"/>
+ <triangular vertex1="lock__receptor_8_v491" vertex2="lock__receptor_8_v409" vertex3="lock__receptor_8_v408"/>
+ <triangular vertex1="lock__receptor_8_v173" vertex2="lock__receptor_8_v492" vertex3="lock__receptor_8_v490"/>
+ <triangular vertex1="lock__receptor_8_v491" vertex2="lock__receptor_8_v493" vertex3="lock__receptor_8_v409"/>
+ <triangular vertex1="lock__receptor_8_v173" vertex2="lock__receptor_8_v171" vertex3="lock__receptor_8_v492"/>
+ <triangular vertex1="lock__receptor_8_v493" vertex2="lock__receptor_8_v410" vertex3="lock__receptor_8_v409"/>
+ <triangular vertex1="lock__receptor_8_v171" vertex2="lock__receptor_8_v494" vertex3="lock__receptor_8_v492"/>
+ <triangular vertex1="lock__receptor_8_v493" vertex2="lock__receptor_8_v495" vertex3="lock__receptor_8_v410"/>
+ <triangular vertex1="lock__receptor_8_v171" vertex2="lock__receptor_8_v169" vertex3="lock__receptor_8_v494"/>
+ <triangular vertex1="lock__receptor_8_v495" vertex2="lock__receptor_8_v411" vertex3="lock__receptor_8_v410"/>
+ <triangular vertex1="lock__receptor_8_v169" vertex2="lock__receptor_8_v496" vertex3="lock__receptor_8_v494"/>
+ <triangular vertex1="lock__receptor_8_v495" vertex2="lock__receptor_8_v497" vertex3="lock__receptor_8_v411"/>
+ <triangular vertex1="lock__receptor_8_v169" vertex2="lock__receptor_8_v167" vertex3="lock__receptor_8_v496"/>
+ <triangular vertex1="lock__receptor_8_v497" vertex2="lock__receptor_8_v412" vertex3="lock__receptor_8_v411"/>
+ <triangular vertex1="lock__receptor_8_v167" vertex2="lock__receptor_8_v498" vertex3="lock__receptor_8_v496"/>
+ <triangular vertex1="lock__receptor_8_v497" vertex2="lock__receptor_8_v499" vertex3="lock__receptor_8_v412"/>
+ <triangular vertex1="lock__receptor_8_v167" vertex2="lock__receptor_8_v165" vertex3="lock__receptor_8_v498"/>
+ <triangular vertex1="lock__receptor_8_v165" vertex2="lock__receptor_8_v500" vertex3="lock__receptor_8_v498"/>
+ <triangular vertex1="lock__receptor_8_v499" vertex2="lock__receptor_8_v413" vertex3="lock__receptor_8_v412"/>
+ <triangular vertex1="lock__receptor_8_v499" vertex2="lock__receptor_8_v501" vertex3="lock__receptor_8_v413"/>
+ <triangular vertex1="lock__receptor_8_v165" vertex2="lock__receptor_8_v163" vertex3="lock__receptor_8_v500"/>
+ <triangular vertex1="lock__receptor_8_v163" vertex2="lock__receptor_8_v502" vertex3="lock__receptor_8_v500"/>
+ <triangular vertex1="lock__receptor_8_v501" vertex2="lock__receptor_8_v414" vertex3="lock__receptor_8_v413"/>
+ <triangular vertex1="lock__receptor_8_v501" vertex2="lock__receptor_8_v503" vertex3="lock__receptor_8_v414"/>
+ <triangular vertex1="lock__receptor_8_v163" vertex2="lock__receptor_8_v161" vertex3="lock__receptor_8_v502"/>
+ <triangular vertex1="lock__receptor_8_v161" vertex2="lock__receptor_8_v504" vertex3="lock__receptor_8_v502"/>
+ <triangular vertex1="lock__receptor_8_v503" vertex2="lock__receptor_8_v415" vertex3="lock__receptor_8_v414"/>
+ <triangular vertex1="lock__receptor_8_v503" vertex2="lock__receptor_8_v505" vertex3="lock__receptor_8_v415"/>
+ <triangular vertex1="lock__receptor_8_v161" vertex2="lock__receptor_8_v159" vertex3="lock__receptor_8_v504"/>
+ <triangular vertex1="lock__receptor_8_v159" vertex2="lock__receptor_8_v506" vertex3="lock__receptor_8_v504"/>
+ <triangular vertex1="lock__receptor_8_v505" vertex2="lock__receptor_8_v416" vertex3="lock__receptor_8_v415"/>
+ <triangular vertex1="lock__receptor_8_v505" vertex2="lock__receptor_8_v507" vertex3="lock__receptor_8_v416"/>
+ <triangular vertex1="lock__receptor_8_v159" vertex2="lock__receptor_8_v157" vertex3="lock__receptor_8_v506"/>
+ <triangular vertex1="lock__receptor_8_v157" vertex2="lock__receptor_8_v508" vertex3="lock__receptor_8_v506"/>
+ <triangular vertex1="lock__receptor_8_v507" vertex2="lock__receptor_8_v417" vertex3="lock__receptor_8_v416"/>
+ <triangular vertex1="lock__receptor_8_v507" vertex2="lock__receptor_8_v509" vertex3="lock__receptor_8_v417"/>
+ <triangular vertex1="lock__receptor_8_v157" vertex2="lock__receptor_8_v155" vertex3="lock__receptor_8_v508"/>
+ <triangular vertex1="lock__receptor_8_v155" vertex2="lock__receptor_8_v510" vertex3="lock__receptor_8_v508"/>
+ <triangular vertex1="lock__receptor_8_v509" vertex2="lock__receptor_8_v418" vertex3="lock__receptor_8_v417"/>
+ <triangular vertex1="lock__receptor_8_v509" vertex2="lock__receptor_8_v511" vertex3="lock__receptor_8_v418"/>
+ <triangular vertex1="lock__receptor_8_v155" vertex2="lock__receptor_8_v153" vertex3="lock__receptor_8_v510"/>
+ <triangular vertex1="lock__receptor_8_v195" vertex2="lock__receptor_8_v196" vertex3="lock__receptor_8_v511"/>
+ <triangular vertex1="lock__receptor_8_v153" vertex2="lock__receptor_8_v512" vertex3="lock__receptor_8_v510"/>
+ <triangular vertex1="lock__receptor_8_v196" vertex2="lock__receptor_8_v420" vertex3="lock__receptor_8_v511"/>
+ <triangular vertex1="lock__receptor_8_v511" vertex2="lock__receptor_8_v420" vertex3="lock__receptor_8_v418"/>
+ <triangular vertex1="lock__receptor_8_v196" vertex2="lock__receptor_8_v201" vertex3="lock__receptor_8_v420"/>
+ <triangular vertex1="lock__receptor_8_v153" vertex2="lock__receptor_8_v151" vertex3="lock__receptor_8_v512"/>
+ <triangular vertex1="lock__receptor_8_v151" vertex2="lock__receptor_8_v513" vertex3="lock__receptor_8_v512"/>
+ <triangular vertex1="lock__receptor_8_v201" vertex2="lock__receptor_8_v422" vertex3="lock__receptor_8_v420"/>
+ <triangular vertex1="lock__receptor_8_v201" vertex2="lock__receptor_8_v203" vertex3="lock__receptor_8_v422"/>
+ <triangular vertex1="lock__receptor_8_v151" vertex2="lock__receptor_8_v149" vertex3="lock__receptor_8_v513"/>
+ <triangular vertex1="lock__receptor_8_v149" vertex2="lock__receptor_8_v514" vertex3="lock__receptor_8_v513"/>
+ <triangular vertex1="lock__receptor_8_v204" vertex2="lock__receptor_8_v424" vertex3="lock__receptor_8_v203"/>
+ <triangular vertex1="lock__receptor_8_v203" vertex2="lock__receptor_8_v424" vertex3="lock__receptor_8_v422"/>
+ <triangular vertex1="lock__receptor_8_v149" vertex2="lock__receptor_8_v147" vertex3="lock__receptor_8_v514"/>
+ <triangular vertex1="lock__receptor_8_v147" vertex2="lock__receptor_8_v515" vertex3="lock__receptor_8_v514"/>
+ <triangular vertex1="lock__receptor_8_v206" vertex2="lock__receptor_8_v426" vertex3="lock__receptor_8_v204"/>
+ <triangular vertex1="lock__receptor_8_v204" vertex2="lock__receptor_8_v426" vertex3="lock__receptor_8_v424"/>
+ <triangular vertex1="lock__receptor_8_v147" vertex2="lock__receptor_8_v145" vertex3="lock__receptor_8_v515"/>
+ <triangular vertex1="lock__receptor_8_v145" vertex2="lock__receptor_8_v516" vertex3="lock__receptor_8_v515"/>
+ <triangular vertex1="lock__receptor_8_v208" vertex2="lock__receptor_8_v517" vertex3="lock__receptor_8_v206"/>
+ <triangular vertex1="lock__receptor_8_v206" vertex2="lock__receptor_8_v517" vertex3="lock__receptor_8_v426"/>
+ <triangular vertex1="lock__receptor_8_v517" vertex2="lock__receptor_8_v428" vertex3="lock__receptor_8_v426"/>
+ <triangular vertex1="lock__receptor_8_v145" vertex2="lock__receptor_8_v143" vertex3="lock__receptor_8_v516"/>
+ <triangular vertex1="lock__receptor_8_v143" vertex2="lock__receptor_8_v518" vertex3="lock__receptor_8_v516"/>
+ <triangular vertex1="lock__receptor_8_v517" vertex2="lock__receptor_8_v519" vertex3="lock__receptor_8_v428"/>
+ <triangular vertex1="lock__receptor_8_v519" vertex2="lock__receptor_8_v430" vertex3="lock__receptor_8_v428"/>
+ <triangular vertex1="lock__receptor_8_v143" vertex2="lock__receptor_8_v141" vertex3="lock__receptor_8_v518"/>
+ <triangular vertex1="lock__receptor_8_v519" vertex2="lock__receptor_8_v520" vertex3="lock__receptor_8_v430"/>
+ <triangular vertex1="lock__receptor_8_v141" vertex2="lock__receptor_8_v521" vertex3="lock__receptor_8_v518"/>
+ <triangular vertex1="lock__receptor_8_v520" vertex2="lock__receptor_8_v433" vertex3="lock__receptor_8_v430"/>
+ <triangular vertex1="lock__receptor_8_v520" vertex2="lock__receptor_8_v522" vertex3="lock__receptor_8_v433"/>
+ <triangular vertex1="lock__receptor_8_v521" vertex2="lock__receptor_8_v139" vertex3="lock__receptor_8_v523"/>
+ <triangular vertex1="lock__receptor_8_v141" vertex2="lock__receptor_8_v139" vertex3="lock__receptor_8_v521"/>
+ <triangular vertex1="lock__receptor_8_v522" vertex2="lock__receptor_8_v435" vertex3="lock__receptor_8_v433"/>
+ <triangular vertex1="lock__receptor_8_v522" vertex2="lock__receptor_8_v524" vertex3="lock__receptor_8_v435"/>
+ <triangular vertex1="lock__receptor_8_v523" vertex2="lock__receptor_8_v137" vertex3="lock__receptor_8_v525"/>
+ <triangular vertex1="lock__receptor_8_v139" vertex2="lock__receptor_8_v137" vertex3="lock__receptor_8_v523"/>
+ <triangular vertex1="lock__receptor_8_v524" vertex2="lock__receptor_8_v437" vertex3="lock__receptor_8_v435"/>
+ <triangular vertex1="lock__receptor_8_v524" vertex2="lock__receptor_8_v526" vertex3="lock__receptor_8_v437"/>
+ <triangular vertex1="lock__receptor_8_v525" vertex2="lock__receptor_8_v134" vertex3="lock__receptor_8_v527"/>
+ <triangular vertex1="lock__receptor_8_v137" vertex2="lock__receptor_8_v134" vertex3="lock__receptor_8_v525"/>
+ <triangular vertex1="lock__receptor_8_v526" vertex2="lock__receptor_8_v439" vertex3="lock__receptor_8_v437"/>
+ <triangular vertex1="lock__receptor_8_v526" vertex2="lock__receptor_8_v528" vertex3="lock__receptor_8_v439"/>
+ <triangular vertex1="lock__receptor_8_v529" vertex2="lock__receptor_8_v530" vertex3="lock__receptor_8_v531"/>
+ <triangular vertex1="lock__receptor_8_v527" vertex2="lock__receptor_8_v132" vertex3="lock__receptor_8_v530"/>
+ <triangular vertex1="lock__receptor_8_v134" vertex2="lock__receptor_8_v132" vertex3="lock__receptor_8_v527"/>
+ <triangular vertex1="lock__receptor_8_v532" vertex2="lock__receptor_8_v441" vertex3="lock__receptor_8_v528"/>
+ <triangular vertex1="lock__receptor_8_v528" vertex2="lock__receptor_8_v441" vertex3="lock__receptor_8_v439"/>
+ <triangular vertex1="lock__receptor_8_v531" vertex2="lock__receptor_8_v130" vertex3="lock__receptor_8_v533"/>
+ <triangular vertex1="lock__receptor_8_v530" vertex2="lock__receptor_8_v130" vertex3="lock__receptor_8_v531"/>
+ <triangular vertex1="lock__receptor_8_v132" vertex2="lock__receptor_8_v130" vertex3="lock__receptor_8_v530"/>
+ <triangular vertex1="lock__receptor_8_v534" vertex2="lock__receptor_8_v443" vertex3="lock__receptor_8_v532"/>
+ <triangular vertex1="lock__receptor_8_v532" vertex2="lock__receptor_8_v443" vertex3="lock__receptor_8_v441"/>
+ <triangular vertex1="lock__receptor_8_v533" vertex2="lock__receptor_8_v128" vertex3="lock__receptor_8_v535"/>
+ <triangular vertex1="lock__receptor_8_v130" vertex2="lock__receptor_8_v128" vertex3="lock__receptor_8_v533"/>
+ <triangular vertex1="lock__receptor_8_v534" vertex2="lock__receptor_8_v63" vertex3="lock__receptor_8_v443"/>
+ <triangular vertex1="lock__receptor_8_v0" vertex2="lock__receptor_8_v63" vertex3="lock__receptor_8_v534"/>
+ <triangular vertex1="lock__receptor_8_v535" vertex2="lock__receptor_8_v126" vertex3="lock__receptor_8_v536"/>
+ <triangular vertex1="lock__receptor_8_v128" vertex2="lock__receptor_8_v126" vertex3="lock__receptor_8_v535"/>
+ <triangular vertex1="lock__receptor_8_v0" vertex2="lock__receptor_8_v2" vertex3="lock__receptor_8_v63"/>
+ <triangular vertex1="lock__receptor_8_v2" vertex2="lock__receptor_8_v64" vertex3="lock__receptor_8_v63"/>
+ <triangular vertex1="lock__receptor_8_v536" vertex2="lock__receptor_8_v123" vertex3="lock__receptor_8_v537"/>
+ <triangular vertex1="lock__receptor_8_v126" vertex2="lock__receptor_8_v123" vertex3="lock__receptor_8_v536"/>
+ <triangular vertex1="lock__receptor_8_v2" vertex2="lock__receptor_8_v4" vertex3="lock__receptor_8_v64"/>
+ <triangular vertex1="lock__receptor_8_v537" vertex2="lock__receptor_8_v61" vertex3="lock__receptor_8_v538"/>
+ <triangular vertex1="lock__receptor_8_v123" vertex2="lock__receptor_8_v61" vertex3="lock__receptor_8_v537"/>
+ <triangular vertex1="lock__receptor_8_v4" vertex2="lock__receptor_8_v67" vertex3="lock__receptor_8_v64"/>
+ <triangular vertex1="lock__receptor_8_v4" vertex2="lock__receptor_8_v6" vertex3="lock__receptor_8_v67"/>
+ <triangular vertex1="lock__receptor_8_v123" vertex2="lock__receptor_8_v121" vertex3="lock__receptor_8_v61"/>
+ <triangular vertex1="lock__receptor_8_v121" vertex2="lock__receptor_8_v59" vertex3="lock__receptor_8_v61"/>
+ <triangular vertex1="lock__receptor_8_v6" vertex2="lock__receptor_8_v69" vertex3="lock__receptor_8_v67"/>
+ <triangular vertex1="lock__receptor_8_v6" vertex2="lock__receptor_8_v8" vertex3="lock__receptor_8_v69"/>
+ <triangular vertex1="lock__receptor_8_v121" vertex2="lock__receptor_8_v119" vertex3="lock__receptor_8_v59"/>
+ <triangular vertex1="lock__receptor_8_v119" vertex2="lock__receptor_8_v56" vertex3="lock__receptor_8_v59"/>
+ <triangular vertex1="lock__receptor_8_v8" vertex2="lock__receptor_8_v71" vertex3="lock__receptor_8_v69"/>
+ <triangular vertex1="lock__receptor_8_v8" vertex2="lock__receptor_8_v10" vertex3="lock__receptor_8_v71"/>
+ <triangular vertex1="lock__receptor_8_v119" vertex2="lock__receptor_8_v117" vertex3="lock__receptor_8_v56"/>
+ <triangular vertex1="lock__receptor_8_v117" vertex2="lock__receptor_8_v54" vertex3="lock__receptor_8_v56"/>
+ <triangular vertex1="lock__receptor_8_v10" vertex2="lock__receptor_8_v73" vertex3="lock__receptor_8_v71"/>
+ <triangular vertex1="lock__receptor_8_v10" vertex2="lock__receptor_8_v12" vertex3="lock__receptor_8_v73"/>
+ <triangular vertex1="lock__receptor_8_v117" vertex2="lock__receptor_8_v115" vertex3="lock__receptor_8_v54"/>
+ <triangular vertex1="lock__receptor_8_v115" vertex2="lock__receptor_8_v53" vertex3="lock__receptor_8_v54"/>
+ <triangular vertex1="lock__receptor_8_v12" vertex2="lock__receptor_8_v75" vertex3="lock__receptor_8_v73"/>
+ <triangular vertex1="lock__receptor_8_v12" vertex2="lock__receptor_8_v14" vertex3="lock__receptor_8_v75"/>
+ <triangular vertex1="lock__receptor_8_v115" vertex2="lock__receptor_8_v113" vertex3="lock__receptor_8_v53"/>
+ <triangular vertex1="lock__receptor_8_v113" vertex2="lock__receptor_8_v50" vertex3="lock__receptor_8_v53"/>
+ <triangular vertex1="lock__receptor_8_v14" vertex2="lock__receptor_8_v77" vertex3="lock__receptor_8_v75"/>
+ <triangular vertex1="lock__receptor_8_v14" vertex2="lock__receptor_8_v16" vertex3="lock__receptor_8_v77"/>
+ <triangular vertex1="lock__receptor_8_v113" vertex2="lock__receptor_8_v111" vertex3="lock__receptor_8_v50"/>
+ <triangular vertex1="lock__receptor_8_v50" vertex2="lock__receptor_8_v111" vertex3="lock__receptor_8_v48"/>
+ <triangular vertex1="lock__receptor_8_v16" vertex2="lock__receptor_8_v79" vertex3="lock__receptor_8_v77"/>
+ <triangular vertex1="lock__receptor_8_v18" vertex2="lock__receptor_8_v79" vertex3="lock__receptor_8_v16"/>
+ <triangular vertex1="lock__receptor_8_v48" vertex2="lock__receptor_8_v109" vertex3="lock__receptor_8_v46"/>
+ <triangular vertex1="lock__receptor_8_v111" vertex2="lock__receptor_8_v109" vertex3="lock__receptor_8_v48"/>
+ <triangular vertex1="lock__receptor_8_v18" vertex2="lock__receptor_8_v81" vertex3="lock__receptor_8_v79"/>
+ <triangular vertex1="lock__receptor_8_v20" vertex2="lock__receptor_8_v81" vertex3="lock__receptor_8_v18"/>
+ <triangular vertex1="lock__receptor_8_v46" vertex2="lock__receptor_8_v107" vertex3="lock__receptor_8_v44"/>
+ <triangular vertex1="lock__receptor_8_v109" vertex2="lock__receptor_8_v107" vertex3="lock__receptor_8_v46"/>
+ <triangular vertex1="lock__receptor_8_v22" vertex2="lock__receptor_8_v83" vertex3="lock__receptor_8_v20"/>
+ <triangular vertex1="lock__receptor_8_v20" vertex2="lock__receptor_8_v83" vertex3="lock__receptor_8_v81"/>
+ <triangular vertex1="lock__receptor_8_v44" vertex2="lock__receptor_8_v105" vertex3="lock__receptor_8_v42"/>
+ <triangular vertex1="lock__receptor_8_v107" vertex2="lock__receptor_8_v105" vertex3="lock__receptor_8_v44"/>
+ <triangular vertex1="lock__receptor_8_v24" vertex2="lock__receptor_8_v85" vertex3="lock__receptor_8_v22"/>
+ <triangular vertex1="lock__receptor_8_v22" vertex2="lock__receptor_8_v85" vertex3="lock__receptor_8_v83"/>
+ <triangular vertex1="lock__receptor_8_v42" vertex2="lock__receptor_8_v103" vertex3="lock__receptor_8_v40"/>
+ <triangular vertex1="lock__receptor_8_v105" vertex2="lock__receptor_8_v103" vertex3="lock__receptor_8_v42"/>
+ <triangular vertex1="lock__receptor_8_v26" vertex2="lock__receptor_8_v87" vertex3="lock__receptor_8_v24"/>
+ <triangular vertex1="lock__receptor_8_v24" vertex2="lock__receptor_8_v87" vertex3="lock__receptor_8_v85"/>
+ <triangular vertex1="lock__receptor_8_v40" vertex2="lock__receptor_8_v101" vertex3="lock__receptor_8_v38"/>
+ <triangular vertex1="lock__receptor_8_v103" vertex2="lock__receptor_8_v101" vertex3="lock__receptor_8_v40"/>
+ <triangular vertex1="lock__receptor_8_v28" vertex2="lock__receptor_8_v89" vertex3="lock__receptor_8_v26"/>
+ <triangular vertex1="lock__receptor_8_v26" vertex2="lock__receptor_8_v89" vertex3="lock__receptor_8_v87"/>
+ <triangular vertex1="lock__receptor_8_v38" vertex2="lock__receptor_8_v99" vertex3="lock__receptor_8_v36"/>
+ <triangular vertex1="lock__receptor_8_v101" vertex2="lock__receptor_8_v99" vertex3="lock__receptor_8_v38"/>
+ <triangular vertex1="lock__receptor_8_v30" vertex2="lock__receptor_8_v91" vertex3="lock__receptor_8_v28"/>
+ <triangular vertex1="lock__receptor_8_v28" vertex2="lock__receptor_8_v91" vertex3="lock__receptor_8_v89"/>
+ <triangular vertex1="lock__receptor_8_v36" vertex2="lock__receptor_8_v97" vertex3="lock__receptor_8_v34"/>
+ <triangular vertex1="lock__receptor_8_v99" vertex2="lock__receptor_8_v97" vertex3="lock__receptor_8_v36"/>
+ <triangular vertex1="lock__receptor_8_v32" vertex2="lock__receptor_8_v93" vertex3="lock__receptor_8_v30"/>
+ <triangular vertex1="lock__receptor_8_v30" vertex2="lock__receptor_8_v93" vertex3="lock__receptor_8_v91"/>
+ <triangular vertex1="lock__receptor_8_v34" vertex2="lock__receptor_8_v95" vertex3="lock__receptor_8_v32"/>
+ <triangular vertex1="lock__receptor_8_v97" vertex2="lock__receptor_8_v95" vertex3="lock__receptor_8_v34"/>
+ <triangular vertex1="lock__receptor_8_v32" vertex2="lock__receptor_8_v95" vertex3="lock__receptor_8_v93"/>
+ <triangular vertex1="lock__receptor_8_v539" vertex2="lock__receptor_8_v210" vertex3="lock__receptor_8_v209"/>
+ <triangular vertex1="lock__receptor_8_v539" vertex2="lock__receptor_8_v211" vertex3="lock__receptor_8_v210"/>
+ <triangular vertex1="lock__receptor_8_v539" vertex2="lock__receptor_8_v212" vertex3="lock__receptor_8_v211"/>
+ <triangular vertex1="lock__receptor_8_v539" vertex2="lock__receptor_8_v209" vertex3="lock__receptor_8_v431"/>
+ <triangular vertex1="lock__receptor_8_v429" vertex2="lock__receptor_8_v539" vertex3="lock__receptor_8_v431"/>
+ <triangular vertex1="lock__receptor_8_v540" vertex2="lock__receptor_8_v539" vertex3="lock__receptor_8_v429"/>
+ <triangular vertex1="lock__receptor_8_v432" vertex2="lock__receptor_8_v540" vertex3="lock__receptor_8_v429"/>
+ <triangular vertex1="lock__receptor_8_v541" vertex2="lock__receptor_8_v540" vertex3="lock__receptor_8_v432"/>
+ <triangular vertex1="lock__receptor_8_v434" vertex2="lock__receptor_8_v541" vertex3="lock__receptor_8_v432"/>
+ <triangular vertex1="lock__receptor_8_v542" vertex2="lock__receptor_8_v541" vertex3="lock__receptor_8_v434"/>
+ <triangular vertex1="lock__receptor_8_v436" vertex2="lock__receptor_8_v542" vertex3="lock__receptor_8_v434"/>
+ <triangular vertex1="lock__receptor_8_v543" vertex2="lock__receptor_8_v542" vertex3="lock__receptor_8_v436"/>
+ <triangular vertex1="lock__receptor_8_v438" vertex2="lock__receptor_8_v543" vertex3="lock__receptor_8_v436"/>
+ <triangular vertex1="lock__receptor_8_v544" vertex2="lock__receptor_8_v543" vertex3="lock__receptor_8_v438"/>
+ <triangular vertex1="lock__receptor_8_v440" vertex2="lock__receptor_8_v544" vertex3="lock__receptor_8_v438"/>
+ <triangular vertex1="lock__receptor_8_v440" vertex2="lock__receptor_8_v545" vertex3="lock__receptor_8_v544"/>
+ <triangular vertex1="lock__receptor_8_v442" vertex2="lock__receptor_8_v545" vertex3="lock__receptor_8_v440"/>
+ <triangular vertex1="lock__receptor_8_v442" vertex2="lock__receptor_8_v546" vertex3="lock__receptor_8_v545"/>
+ <triangular vertex1="lock__receptor_8_v444" vertex2="lock__receptor_8_v546" vertex3="lock__receptor_8_v442"/>
+ <triangular vertex1="lock__receptor_8_v444" vertex2="lock__receptor_8_v547" vertex3="lock__receptor_8_v546"/>
+ <triangular vertex1="lock__receptor_8_v65" vertex2="lock__receptor_8_v547" vertex3="lock__receptor_8_v444"/>
+ <triangular vertex1="lock__receptor_8_v65" vertex2="lock__receptor_8_v1" vertex3="lock__receptor_8_v547"/>
+ <triangular vertex1="lock__receptor_8_v3" vertex2="lock__receptor_8_v1" vertex3="lock__receptor_8_v65"/>
+ <triangular vertex1="lock__receptor_8_v62" vertex2="lock__receptor_8_v3" vertex3="lock__receptor_8_v65"/>
+ <triangular vertex1="lock__receptor_8_v5" vertex2="lock__receptor_8_v3" vertex3="lock__receptor_8_v62"/>
+ <triangular vertex1="lock__receptor_8_v60" vertex2="lock__receptor_8_v124" vertex3="lock__receptor_8_v548"/>
+ <triangular vertex1="lock__receptor_8_v60" vertex2="lock__receptor_8_v549" vertex3="lock__receptor_8_v550"/>
+ <triangular vertex1="lock__receptor_8_v60" vertex2="lock__receptor_8_v551" vertex3="lock__receptor_8_v549"/>
+ <triangular vertex1="lock__receptor_8_v60" vertex2="lock__receptor_8_v548" vertex3="lock__receptor_8_v551"/>
+ <triangular vertex1="lock__receptor_8_v66" vertex2="lock__receptor_8_v5" vertex3="lock__receptor_8_v62"/>
+ <triangular vertex1="lock__receptor_8_v7" vertex2="lock__receptor_8_v5" vertex3="lock__receptor_8_v66"/>
+ <triangular vertex1="lock__receptor_8_v120" vertex2="lock__receptor_8_v124" vertex3="lock__receptor_8_v60"/>
+ <triangular vertex1="lock__receptor_8_v58" vertex2="lock__receptor_8_v120" vertex3="lock__receptor_8_v60"/>
+ <triangular vertex1="lock__receptor_8_v68" vertex2="lock__receptor_8_v7" vertex3="lock__receptor_8_v66"/>
+ <triangular vertex1="lock__receptor_8_v9" vertex2="lock__receptor_8_v7" vertex3="lock__receptor_8_v68"/>
+ <triangular vertex1="lock__receptor_8_v118" vertex2="lock__receptor_8_v58" vertex3="lock__receptor_8_v57"/>
+ <triangular vertex1="lock__receptor_8_v118" vertex2="lock__receptor_8_v120" vertex3="lock__receptor_8_v58"/>
+ <triangular vertex1="lock__receptor_8_v70" vertex2="lock__receptor_8_v9" vertex3="lock__receptor_8_v68"/>
+ <triangular vertex1="lock__receptor_8_v11" vertex2="lock__receptor_8_v9" vertex3="lock__receptor_8_v70"/>
+ <triangular vertex1="lock__receptor_8_v116" vertex2="lock__receptor_8_v57" vertex3="lock__receptor_8_v55"/>
+ <triangular vertex1="lock__receptor_8_v116" vertex2="lock__receptor_8_v118" vertex3="lock__receptor_8_v57"/>
+ <triangular vertex1="lock__receptor_8_v72" vertex2="lock__receptor_8_v11" vertex3="lock__receptor_8_v70"/>
+ <triangular vertex1="lock__receptor_8_v13" vertex2="lock__receptor_8_v11" vertex3="lock__receptor_8_v72"/>
+ <triangular vertex1="lock__receptor_8_v114" vertex2="lock__receptor_8_v55" vertex3="lock__receptor_8_v52"/>
+ <triangular vertex1="lock__receptor_8_v114" vertex2="lock__receptor_8_v116" vertex3="lock__receptor_8_v55"/>
+ <triangular vertex1="lock__receptor_8_v74" vertex2="lock__receptor_8_v13" vertex3="lock__receptor_8_v72"/>
+ <triangular vertex1="lock__receptor_8_v15" vertex2="lock__receptor_8_v13" vertex3="lock__receptor_8_v74"/>
+ <triangular vertex1="lock__receptor_8_v112" vertex2="lock__receptor_8_v52" vertex3="lock__receptor_8_v51"/>
+ <triangular vertex1="lock__receptor_8_v112" vertex2="lock__receptor_8_v114" vertex3="lock__receptor_8_v52"/>
+ <triangular vertex1="lock__receptor_8_v76" vertex2="lock__receptor_8_v15" vertex3="lock__receptor_8_v74"/>
+ <triangular vertex1="lock__receptor_8_v17" vertex2="lock__receptor_8_v15" vertex3="lock__receptor_8_v76"/>
+ <triangular vertex1="lock__receptor_8_v110" vertex2="lock__receptor_8_v51" vertex3="lock__receptor_8_v49"/>
+ <triangular vertex1="lock__receptor_8_v110" vertex2="lock__receptor_8_v112" vertex3="lock__receptor_8_v51"/>
+ <triangular vertex1="lock__receptor_8_v78" vertex2="lock__receptor_8_v17" vertex3="lock__receptor_8_v76"/>
+ <triangular vertex1="lock__receptor_8_v78" vertex2="lock__receptor_8_v19" vertex3="lock__receptor_8_v17"/>
+ <triangular vertex1="lock__receptor_8_v108" vertex2="lock__receptor_8_v110" vertex3="lock__receptor_8_v49"/>
+ <triangular vertex1="lock__receptor_8_v108" vertex2="lock__receptor_8_v49" vertex3="lock__receptor_8_v47"/>
+ <triangular vertex1="lock__receptor_8_v80" vertex2="lock__receptor_8_v19" vertex3="lock__receptor_8_v78"/>
+ <triangular vertex1="lock__receptor_8_v80" vertex2="lock__receptor_8_v21" vertex3="lock__receptor_8_v19"/>
+ <triangular vertex1="lock__receptor_8_v106" vertex2="lock__receptor_8_v108" vertex3="lock__receptor_8_v47"/>
+ <triangular vertex1="lock__receptor_8_v106" vertex2="lock__receptor_8_v47" vertex3="lock__receptor_8_v45"/>
+ <triangular vertex1="lock__receptor_8_v82" vertex2="lock__receptor_8_v21" vertex3="lock__receptor_8_v80"/>
+ <triangular vertex1="lock__receptor_8_v82" vertex2="lock__receptor_8_v23" vertex3="lock__receptor_8_v21"/>
+ <triangular vertex1="lock__receptor_8_v104" vertex2="lock__receptor_8_v106" vertex3="lock__receptor_8_v45"/>
+ <triangular vertex1="lock__receptor_8_v104" vertex2="lock__receptor_8_v45" vertex3="lock__receptor_8_v43"/>
+ <triangular vertex1="lock__receptor_8_v84" vertex2="lock__receptor_8_v23" vertex3="lock__receptor_8_v82"/>
+ <triangular vertex1="lock__receptor_8_v84" vertex2="lock__receptor_8_v25" vertex3="lock__receptor_8_v23"/>
+ <triangular vertex1="lock__receptor_8_v102" vertex2="lock__receptor_8_v104" vertex3="lock__receptor_8_v43"/>
+ <triangular vertex1="lock__receptor_8_v102" vertex2="lock__receptor_8_v43" vertex3="lock__receptor_8_v41"/>
+ <triangular vertex1="lock__receptor_8_v86" vertex2="lock__receptor_8_v25" vertex3="lock__receptor_8_v84"/>
+ <triangular vertex1="lock__receptor_8_v86" vertex2="lock__receptor_8_v27" vertex3="lock__receptor_8_v25"/>
+ <triangular vertex1="lock__receptor_8_v100" vertex2="lock__receptor_8_v102" vertex3="lock__receptor_8_v41"/>
+ <triangular vertex1="lock__receptor_8_v100" vertex2="lock__receptor_8_v41" vertex3="lock__receptor_8_v39"/>
+ <triangular vertex1="lock__receptor_8_v88" vertex2="lock__receptor_8_v27" vertex3="lock__receptor_8_v86"/>
+ <triangular vertex1="lock__receptor_8_v88" vertex2="lock__receptor_8_v29" vertex3="lock__receptor_8_v27"/>
+ <triangular vertex1="lock__receptor_8_v98" vertex2="lock__receptor_8_v100" vertex3="lock__receptor_8_v39"/>
+ <triangular vertex1="lock__receptor_8_v98" vertex2="lock__receptor_8_v39" vertex3="lock__receptor_8_v37"/>
+ <triangular vertex1="lock__receptor_8_v90" vertex2="lock__receptor_8_v29" vertex3="lock__receptor_8_v88"/>
+ <triangular vertex1="lock__receptor_8_v90" vertex2="lock__receptor_8_v31" vertex3="lock__receptor_8_v29"/>
+ <triangular vertex1="lock__receptor_8_v96" vertex2="lock__receptor_8_v98" vertex3="lock__receptor_8_v37"/>
+ <triangular vertex1="lock__receptor_8_v96" vertex2="lock__receptor_8_v37" vertex3="lock__receptor_8_v35"/>
+ <triangular vertex1="lock__receptor_8_v92" vertex2="lock__receptor_8_v31" vertex3="lock__receptor_8_v90"/>
+ <triangular vertex1="lock__receptor_8_v92" vertex2="lock__receptor_8_v33" vertex3="lock__receptor_8_v31"/>
+ <triangular vertex1="lock__receptor_8_v94" vertex2="lock__receptor_8_v96" vertex3="lock__receptor_8_v35"/>
+ <triangular vertex1="lock__receptor_8_v94" vertex2="lock__receptor_8_v35" vertex3="lock__receptor_8_v33"/>
+ <triangular vertex1="lock__receptor_8_v94" vertex2="lock__receptor_8_v33" vertex3="lock__receptor_8_v92"/>
+ <triangular vertex1="lock__receptor_8_v550" vertex2="lock__receptor_8_v552" vertex3="lock__receptor_8_v538"/>
+ <triangular vertex1="lock__receptor_8_v538" vertex2="lock__receptor_8_v552" vertex3="lock__receptor_8_v537"/>
+ <triangular vertex1="lock__receptor_8_v550" vertex2="lock__receptor_8_v549" vertex3="lock__receptor_8_v552"/>
+ <triangular vertex1="lock__receptor_8_v549" vertex2="lock__receptor_8_v551" vertex3="lock__receptor_8_v552"/>
+ <triangular vertex1="lock__receptor_8_v551" vertex2="lock__receptor_8_v548" vertex3="lock__receptor_8_v552"/>
+ <triangular vertex1="lock__receptor_8_v537" vertex2="lock__receptor_8_v553" vertex3="lock__receptor_8_v536"/>
+ <triangular vertex1="lock__receptor_8_v552" vertex2="lock__receptor_8_v553" vertex3="lock__receptor_8_v537"/>
+ <triangular vertex1="lock__receptor_8_v536" vertex2="lock__receptor_8_v554" vertex3="lock__receptor_8_v535"/>
+ <triangular vertex1="lock__receptor_8_v535" vertex2="lock__receptor_8_v554" vertex3="lock__receptor_8_v533"/>
+ <triangular vertex1="lock__receptor_8_v553" vertex2="lock__receptor_8_v554" vertex3="lock__receptor_8_v536"/>
+ <triangular vertex1="lock__receptor_8_v533" vertex2="lock__receptor_8_v555" vertex3="lock__receptor_8_v531"/>
+ <triangular vertex1="lock__receptor_8_v554" vertex2="lock__receptor_8_v555" vertex3="lock__receptor_8_v533"/>
+ <triangular vertex1="lock__receptor_8_v531" vertex2="lock__receptor_8_v556" vertex3="lock__receptor_8_v529"/>
+ <triangular vertex1="lock__receptor_8_v555" vertex2="lock__receptor_8_v556" vertex3="lock__receptor_8_v531"/>
+ <triangular vertex1="lock__receptor_8_v282" vertex2="lock__receptor_8_v281" vertex3="lock__receptor_8_v556"/>
+ <triangular vertex1="lock__receptor_8_v281" vertex2="lock__receptor_8_v283" vertex3="lock__receptor_8_v556"/>
+ <triangular vertex1="lock__receptor_8_v556" vertex2="lock__receptor_8_v284" vertex3="lock__receptor_8_v529"/>
+ <triangular vertex1="lock__receptor_8_v283" vertex2="lock__receptor_8_v284" vertex3="lock__receptor_8_v556"/>
+ <triangular vertex1="lock__receptor_8_v548" vertex2="lock__receptor_8_v124" vertex3="lock__receptor_8_v552"/>
+ <triangular vertex1="lock__receptor_8_v552" vertex2="lock__receptor_8_v124" vertex3="lock__receptor_8_v122"/>
+ <triangular vertex1="lock__receptor_8_v131" vertex2="lock__receptor_8_v282" vertex3="lock__receptor_8_v556"/>
+ <triangular vertex1="lock__receptor_8_v135" vertex2="lock__receptor_8_v282" vertex3="lock__receptor_8_v131"/>
+ <triangular vertex1="lock__receptor_8_v552" vertex2="lock__receptor_8_v122" vertex3="lock__receptor_8_v553"/>
+ <triangular vertex1="lock__receptor_8_v553" vertex2="lock__receptor_8_v125" vertex3="lock__receptor_8_v554"/>
+ <triangular vertex1="lock__receptor_8_v122" vertex2="lock__receptor_8_v125" vertex3="lock__receptor_8_v553"/>
+ <triangular vertex1="lock__receptor_8_v125" vertex2="lock__receptor_8_v127" vertex3="lock__receptor_8_v554"/>
+ <triangular vertex1="lock__receptor_8_v554" vertex2="lock__receptor_8_v129" vertex3="lock__receptor_8_v555"/>
+ <triangular vertex1="lock__receptor_8_v127" vertex2="lock__receptor_8_v129" vertex3="lock__receptor_8_v554"/>
+ <triangular vertex1="lock__receptor_8_v555" vertex2="lock__receptor_8_v131" vertex3="lock__receptor_8_v556"/>
+ <triangular vertex1="lock__receptor_8_v129" vertex2="lock__receptor_8_v131" vertex3="lock__receptor_8_v555"/>
+ <triangular vertex1="lock__receptor_8_v199" vertex2="lock__receptor_8_v363" vertex3="lock__receptor_8_v194"/>
+ <triangular vertex1="lock__receptor_8_v194" vertex2="lock__receptor_8_v363" vertex3="lock__receptor_8_v419"/>
+ <triangular vertex1="lock__receptor_8_v431" vertex2="lock__receptor_8_v207" vertex3="lock__receptor_8_v427"/>
+ <triangular vertex1="lock__receptor_8_v431" vertex2="lock__receptor_8_v209" vertex3="lock__receptor_8_v207"/>
+ <triangular vertex1="lock__receptor_8_v194" vertex2="lock__receptor_8_v419" vertex3="lock__receptor_8_v200"/>
+ <triangular vertex1="lock__receptor_8_v200" vertex2="lock__receptor_8_v421" vertex3="lock__receptor_8_v202"/>
+ <triangular vertex1="lock__receptor_8_v419" vertex2="lock__receptor_8_v421" vertex3="lock__receptor_8_v200"/>
+ <triangular vertex1="lock__receptor_8_v421" vertex2="lock__receptor_8_v423" vertex3="lock__receptor_8_v202"/>
+ <triangular vertex1="lock__receptor_8_v202" vertex2="lock__receptor_8_v425" vertex3="lock__receptor_8_v205"/>
+ <triangular vertex1="lock__receptor_8_v423" vertex2="lock__receptor_8_v425" vertex3="lock__receptor_8_v202"/>
+ <triangular vertex1="lock__receptor_8_v205" vertex2="lock__receptor_8_v427" vertex3="lock__receptor_8_v207"/>
+ <triangular vertex1="lock__receptor_8_v425" vertex2="lock__receptor_8_v427" vertex3="lock__receptor_8_v205"/>
+ <triangular vertex1="lock__receptor_8_v219" vertex2="lock__receptor_8_v235" vertex3="lock__receptor_8_v214"/>
+ <triangular vertex1="lock__receptor_8_v214" vertex2="lock__receptor_8_v235" vertex3="lock__receptor_8_v372"/>
+ <triangular vertex1="lock__receptor_8_v380" vertex2="lock__receptor_8_v229" vertex3="lock__receptor_8_v227"/>
+ <triangular vertex1="lock__receptor_8_v297" vertex2="lock__receptor_8_v229" vertex3="lock__receptor_8_v380"/>
+ <triangular vertex1="lock__receptor_8_v214" vertex2="lock__receptor_8_v372" vertex3="lock__receptor_8_v220"/>
+ <triangular vertex1="lock__receptor_8_v220" vertex2="lock__receptor_8_v374" vertex3="lock__receptor_8_v222"/>
+ <triangular vertex1="lock__receptor_8_v372" vertex2="lock__receptor_8_v374" vertex3="lock__receptor_8_v220"/>
+ <triangular vertex1="lock__receptor_8_v374" vertex2="lock__receptor_8_v376" vertex3="lock__receptor_8_v222"/>
+ <triangular vertex1="lock__receptor_8_v222" vertex2="lock__receptor_8_v378" vertex3="lock__receptor_8_v225"/>
+ <triangular vertex1="lock__receptor_8_v376" vertex2="lock__receptor_8_v378" vertex3="lock__receptor_8_v222"/>
+ <triangular vertex1="lock__receptor_8_v225" vertex2="lock__receptor_8_v380" vertex3="lock__receptor_8_v227"/>
+ <triangular vertex1="lock__receptor_8_v378" vertex2="lock__receptor_8_v380" vertex3="lock__receptor_8_v225"/>
+ <triangular vertex1="lock__receptor_8_v280" vertex2="lock__receptor_8_v279" vertex3="lock__receptor_8_v530"/>
+ <triangular vertex1="lock__receptor_8_v530" vertex2="lock__receptor_8_v279" vertex3="lock__receptor_8_v527"/>
+ <triangular vertex1="lock__receptor_8_v527" vertex2="lock__receptor_8_v278" vertex3="lock__receptor_8_v525"/>
+ <triangular vertex1="lock__receptor_8_v279" vertex2="lock__receptor_8_v278" vertex3="lock__receptor_8_v527"/>
+ <triangular vertex1="lock__receptor_8_v523" vertex2="lock__receptor_8_v277" vertex3="lock__receptor_8_v521"/>
+ <triangular vertex1="lock__receptor_8_v525" vertex2="lock__receptor_8_v277" vertex3="lock__receptor_8_v523"/>
+ <triangular vertex1="lock__receptor_8_v278" vertex2="lock__receptor_8_v277" vertex3="lock__receptor_8_v525"/>
+ <triangular vertex1="lock__receptor_8_v277" vertex2="lock__receptor_8_v276" vertex3="lock__receptor_8_v521"/>
+ <triangular vertex1="lock__receptor_8_v276" vertex2="lock__receptor_8_v275" vertex3="lock__receptor_8_v521"/>
+ <triangular vertex1="lock__receptor_8_v518" vertex2="lock__receptor_8_v275" vertex3="lock__receptor_8_v516"/>
+ <triangular vertex1="lock__receptor_8_v521" vertex2="lock__receptor_8_v275" vertex3="lock__receptor_8_v518"/>
+ <triangular vertex1="lock__receptor_8_v275" vertex2="lock__receptor_8_v274" vertex3="lock__receptor_8_v516"/>
+ <triangular vertex1="lock__receptor_8_v516" vertex2="lock__receptor_8_v274" vertex3="lock__receptor_8_v515"/>
+ <triangular vertex1="lock__receptor_8_v274" vertex2="lock__receptor_8_v273" vertex3="lock__receptor_8_v515"/>
+ <triangular vertex1="lock__receptor_8_v515" vertex2="lock__receptor_8_v273" vertex3="lock__receptor_8_v514"/>
+ <triangular vertex1="lock__receptor_8_v273" vertex2="lock__receptor_8_v272" vertex3="lock__receptor_8_v514"/>
+ <triangular vertex1="lock__receptor_8_v514" vertex2="lock__receptor_8_v272" vertex3="lock__receptor_8_v513"/>
+ <triangular vertex1="lock__receptor_8_v272" vertex2="lock__receptor_8_v271" vertex3="lock__receptor_8_v513"/>
+ <triangular vertex1="lock__receptor_8_v513" vertex2="lock__receptor_8_v271" vertex3="lock__receptor_8_v512"/>
+ <triangular vertex1="lock__receptor_8_v271" vertex2="lock__receptor_8_v270" vertex3="lock__receptor_8_v512"/>
+ <triangular vertex1="lock__receptor_8_v270" vertex2="lock__receptor_8_v269" vertex3="lock__receptor_8_v512"/>
+ <triangular vertex1="lock__receptor_8_v512" vertex2="lock__receptor_8_v269" vertex3="lock__receptor_8_v510"/>
+ <triangular vertex1="lock__receptor_8_v269" vertex2="lock__receptor_8_v268" vertex3="lock__receptor_8_v510"/>
+ <triangular vertex1="lock__receptor_8_v510" vertex2="lock__receptor_8_v268" vertex3="lock__receptor_8_v508"/>
+ <triangular vertex1="lock__receptor_8_v268" vertex2="lock__receptor_8_v267" vertex3="lock__receptor_8_v508"/>
+ <triangular vertex1="lock__receptor_8_v506" vertex2="lock__receptor_8_v267" vertex3="lock__receptor_8_v504"/>
+ <triangular vertex1="lock__receptor_8_v508" vertex2="lock__receptor_8_v267" vertex3="lock__receptor_8_v506"/>
+ <triangular vertex1="lock__receptor_8_v267" vertex2="lock__receptor_8_v266" vertex3="lock__receptor_8_v504"/>
+ <triangular vertex1="lock__receptor_8_v504" vertex2="lock__receptor_8_v266" vertex3="lock__receptor_8_v502"/>
+ <triangular vertex1="lock__receptor_8_v266" vertex2="lock__receptor_8_v265" vertex3="lock__receptor_8_v502"/>
+ <triangular vertex1="lock__receptor_8_v265" vertex2="lock__receptor_8_v264" vertex3="lock__receptor_8_v502"/>
+ <triangular vertex1="lock__receptor_8_v502" vertex2="lock__receptor_8_v264" vertex3="lock__receptor_8_v500"/>
+ <triangular vertex1="lock__receptor_8_v264" vertex2="lock__receptor_8_v263" vertex3="lock__receptor_8_v500"/>
+ <triangular vertex1="lock__receptor_8_v498" vertex2="lock__receptor_8_v263" vertex3="lock__receptor_8_v496"/>
+ <triangular vertex1="lock__receptor_8_v500" vertex2="lock__receptor_8_v263" vertex3="lock__receptor_8_v498"/>
+ <triangular vertex1="lock__receptor_8_v263" vertex2="lock__receptor_8_v262" vertex3="lock__receptor_8_v496"/>
+ <triangular vertex1="lock__receptor_8_v262" vertex2="lock__receptor_8_v261" vertex3="lock__receptor_8_v496"/>
+ <triangular vertex1="lock__receptor_8_v494" vertex2="lock__receptor_8_v261" vertex3="lock__receptor_8_v492"/>
+ <triangular vertex1="lock__receptor_8_v496" vertex2="lock__receptor_8_v261" vertex3="lock__receptor_8_v494"/>
+ <triangular vertex1="lock__receptor_8_v261" vertex2="lock__receptor_8_v260" vertex3="lock__receptor_8_v492"/>
+ <triangular vertex1="lock__receptor_8_v490" vertex2="lock__receptor_8_v259" vertex3="lock__receptor_8_v488"/>
+ <triangular vertex1="lock__receptor_8_v492" vertex2="lock__receptor_8_v259" vertex3="lock__receptor_8_v490"/>
+ <triangular vertex1="lock__receptor_8_v260" vertex2="lock__receptor_8_v259" vertex3="lock__receptor_8_v492"/>
+ <triangular vertex1="lock__receptor_8_v488" vertex2="lock__receptor_8_v258" vertex3="lock__receptor_8_v486"/>
+ <triangular vertex1="lock__receptor_8_v259" vertex2="lock__receptor_8_v258" vertex3="lock__receptor_8_v488"/>
+ <triangular vertex1="lock__receptor_8_v258" vertex2="lock__receptor_8_v257" vertex3="lock__receptor_8_v486"/>
+ <triangular vertex1="lock__receptor_8_v484" vertex2="lock__receptor_8_v256" vertex3="lock__receptor_8_v482"/>
+ <triangular vertex1="lock__receptor_8_v486" vertex2="lock__receptor_8_v256" vertex3="lock__receptor_8_v484"/>
+ <triangular vertex1="lock__receptor_8_v257" vertex2="lock__receptor_8_v256" vertex3="lock__receptor_8_v486"/>
+ <triangular vertex1="lock__receptor_8_v482" vertex2="lock__receptor_8_v255" vertex3="lock__receptor_8_v480"/>
+ <triangular vertex1="lock__receptor_8_v256" vertex2="lock__receptor_8_v255" vertex3="lock__receptor_8_v482"/>
+ <triangular vertex1="lock__receptor_8_v480" vertex2="lock__receptor_8_v254" vertex3="lock__receptor_8_v478"/>
+ <triangular vertex1="lock__receptor_8_v255" vertex2="lock__receptor_8_v254" vertex3="lock__receptor_8_v480"/>
+ <triangular vertex1="lock__receptor_8_v254" vertex2="lock__receptor_8_v253" vertex3="lock__receptor_8_v478"/>
+ <triangular vertex1="lock__receptor_8_v478" vertex2="lock__receptor_8_v252" vertex3="lock__receptor_8_v476"/>
+ <triangular vertex1="lock__receptor_8_v253" vertex2="lock__receptor_8_v252" vertex3="lock__receptor_8_v478"/>
+ <triangular vertex1="lock__receptor_8_v476" vertex2="lock__receptor_8_v251" vertex3="lock__receptor_8_v474"/>
+ <triangular vertex1="lock__receptor_8_v252" vertex2="lock__receptor_8_v251" vertex3="lock__receptor_8_v476"/>
+ <triangular vertex1="lock__receptor_8_v251" vertex2="lock__receptor_8_v250" vertex3="lock__receptor_8_v474"/>
+ <triangular vertex1="lock__receptor_8_v474" vertex2="lock__receptor_8_v250" vertex3="lock__receptor_8_v472"/>
+ <triangular vertex1="lock__receptor_8_v250" vertex2="lock__receptor_8_v248" vertex3="lock__receptor_8_v472"/>
+ <triangular vertex1="lock__receptor_8_v470" vertex2="lock__receptor_8_v248" vertex3="lock__receptor_8_v468"/>
+ <triangular vertex1="lock__receptor_8_v472" vertex2="lock__receptor_8_v248" vertex3="lock__receptor_8_v470"/>
+ <triangular vertex1="lock__receptor_8_v248" vertex2="lock__receptor_8_v246" vertex3="lock__receptor_8_v468"/>
+ <triangular vertex1="lock__receptor_8_v246" vertex2="lock__receptor_8_v244" vertex3="lock__receptor_8_v468"/>
+ <triangular vertex1="lock__receptor_8_v466" vertex2="lock__receptor_8_v244" vertex3="lock__receptor_8_v464"/>
+ <triangular vertex1="lock__receptor_8_v468" vertex2="lock__receptor_8_v244" vertex3="lock__receptor_8_v466"/>
+ <triangular vertex1="lock__receptor_8_v244" vertex2="lock__receptor_8_v242" vertex3="lock__receptor_8_v464"/>
+ <triangular vertex1="lock__receptor_8_v242" vertex2="lock__receptor_8_v240" vertex3="lock__receptor_8_v464"/>
+ <triangular vertex1="lock__receptor_8_v464" vertex2="lock__receptor_8_v240" vertex3="lock__receptor_8_v462"/>
+ <triangular vertex1="lock__receptor_8_v240" vertex2="lock__receptor_8_v238" vertex3="lock__receptor_8_v462"/>
+ <triangular vertex1="lock__receptor_8_v462" vertex2="lock__receptor_8_v238" vertex3="lock__receptor_8_v460"/>
+ <triangular vertex1="lock__receptor_8_v238" vertex2="lock__receptor_8_v236" vertex3="lock__receptor_8_v460"/>
+ <triangular vertex1="lock__receptor_8_v460" vertex2="lock__receptor_8_v236" vertex3="lock__receptor_8_v458"/>
+ <triangular vertex1="lock__receptor_8_v236" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v458"/>
+ <triangular vertex1="lock__receptor_8_v458" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v456"/>
+ <triangular vertex1="lock__receptor_8_v529" vertex2="lock__receptor_8_v280" vertex3="lock__receptor_8_v530"/>
+ <triangular vertex1="lock__receptor_8_v284" vertex2="lock__receptor_8_v280" vertex3="lock__receptor_8_v529"/>
+ <triangular vertex1="lock__receptor_8_v456" vertex2="lock__receptor_8_v233" vertex3="lock__receptor_8_v215"/>
+ <triangular vertex1="lock__receptor_8_v233" vertex2="lock__receptor_8_v213" vertex3="lock__receptor_8_v215"/>
+ <triangular vertex1="lock__receptor_8_v296" vertex2="lock__receptor_8_v292" vertex3="lock__receptor_8_v450"/>
+ <triangular vertex1="lock__receptor_8_v450" vertex2="lock__receptor_8_v292" vertex3="lock__receptor_8_v448"/>
+ <triangular vertex1="lock__receptor_8_v448" vertex2="lock__receptor_8_v288" vertex3="lock__receptor_8_v446"/>
+ <triangular vertex1="lock__receptor_8_v292" vertex2="lock__receptor_8_v288" vertex3="lock__receptor_8_v448"/>
+ <triangular vertex1="lock__receptor_8_v446" vertex2="lock__receptor_8_v285" vertex3="lock__receptor_8_v445"/>
+ <triangular vertex1="lock__receptor_8_v288" vertex2="lock__receptor_8_v285" vertex3="lock__receptor_8_v446"/>
+ <triangular vertex1="lock__receptor_8_v445" vertex2="lock__receptor_8_v290" vertex3="lock__receptor_8_v447"/>
+ <triangular vertex1="lock__receptor_8_v285" vertex2="lock__receptor_8_v290" vertex3="lock__receptor_8_v445"/>
+ <triangular vertex1="lock__receptor_8_v290" vertex2="lock__receptor_8_v294" vertex3="lock__receptor_8_v447"/>
+ <triangular vertex1="lock__receptor_8_v447" vertex2="lock__receptor_8_v294" vertex3="lock__receptor_8_v449"/>
+ <triangular vertex1="lock__receptor_8_v294" vertex2="lock__receptor_8_v298" vertex3="lock__receptor_8_v449"/>
+ <triangular vertex1="lock__receptor_8_v449" vertex2="lock__receptor_8_v298" vertex3="lock__receptor_8_v451"/>
+ <triangular vertex1="lock__receptor_8_v298" vertex2="lock__receptor_8_v300" vertex3="lock__receptor_8_v451"/>
+ <triangular vertex1="lock__receptor_8_v451" vertex2="lock__receptor_8_v300" vertex3="lock__receptor_8_v452"/>
+ <triangular vertex1="lock__receptor_8_v300" vertex2="lock__receptor_8_v302" vertex3="lock__receptor_8_v452"/>
+ <triangular vertex1="lock__receptor_8_v452" vertex2="lock__receptor_8_v302" vertex3="lock__receptor_8_v453"/>
+ <triangular vertex1="lock__receptor_8_v302" vertex2="lock__receptor_8_v304" vertex3="lock__receptor_8_v453"/>
+ <triangular vertex1="lock__receptor_8_v453" vertex2="lock__receptor_8_v304" vertex3="lock__receptor_8_v454"/>
+ <triangular vertex1="lock__receptor_8_v304" vertex2="lock__receptor_8_v306" vertex3="lock__receptor_8_v454"/>
+ <triangular vertex1="lock__receptor_8_v455" vertex2="lock__receptor_8_v306" vertex3="lock__receptor_8_v457"/>
+ <triangular vertex1="lock__receptor_8_v454" vertex2="lock__receptor_8_v306" vertex3="lock__receptor_8_v455"/>
+ <triangular vertex1="lock__receptor_8_v306" vertex2="lock__receptor_8_v308" vertex3="lock__receptor_8_v457"/>
+ <triangular vertex1="lock__receptor_8_v457" vertex2="lock__receptor_8_v308" vertex3="lock__receptor_8_v459"/>
+ <triangular vertex1="lock__receptor_8_v308" vertex2="lock__receptor_8_v310" vertex3="lock__receptor_8_v459"/>
+ <triangular vertex1="lock__receptor_8_v459" vertex2="lock__receptor_8_v310" vertex3="lock__receptor_8_v461"/>
+ <triangular vertex1="lock__receptor_8_v310" vertex2="lock__receptor_8_v312" vertex3="lock__receptor_8_v461"/>
+ <triangular vertex1="lock__receptor_8_v461" vertex2="lock__receptor_8_v312" vertex3="lock__receptor_8_v463"/>
+ <triangular vertex1="lock__receptor_8_v312" vertex2="lock__receptor_8_v314" vertex3="lock__receptor_8_v463"/>
+ <triangular vertex1="lock__receptor_8_v314" vertex2="lock__receptor_8_v316" vertex3="lock__receptor_8_v463"/>
+ <triangular vertex1="lock__receptor_8_v465" vertex2="lock__receptor_8_v316" vertex3="lock__receptor_8_v467"/>
+ <triangular vertex1="lock__receptor_8_v463" vertex2="lock__receptor_8_v316" vertex3="lock__receptor_8_v465"/>
+ <triangular vertex1="lock__receptor_8_v316" vertex2="lock__receptor_8_v318" vertex3="lock__receptor_8_v467"/>
+ <triangular vertex1="lock__receptor_8_v467" vertex2="lock__receptor_8_v318" vertex3="lock__receptor_8_v469"/>
+ <triangular vertex1="lock__receptor_8_v318" vertex2="lock__receptor_8_v320" vertex3="lock__receptor_8_v469"/>
+ <triangular vertex1="lock__receptor_8_v469" vertex2="lock__receptor_8_v320" vertex3="lock__receptor_8_v471"/>
+ <triangular vertex1="lock__receptor_8_v320" vertex2="lock__receptor_8_v322" vertex3="lock__receptor_8_v471"/>
+ <triangular vertex1="lock__receptor_8_v322" vertex2="lock__receptor_8_v324" vertex3="lock__receptor_8_v471"/>
+ <triangular vertex1="lock__receptor_8_v471" vertex2="lock__receptor_8_v324" vertex3="lock__receptor_8_v473"/>
+ <triangular vertex1="lock__receptor_8_v473" vertex2="lock__receptor_8_v326" vertex3="lock__receptor_8_v475"/>
+ <triangular vertex1="lock__receptor_8_v324" vertex2="lock__receptor_8_v326" vertex3="lock__receptor_8_v473"/>
+ <triangular vertex1="lock__receptor_8_v477" vertex2="lock__receptor_8_v328" vertex3="lock__receptor_8_v479"/>
+ <triangular vertex1="lock__receptor_8_v475" vertex2="lock__receptor_8_v328" vertex3="lock__receptor_8_v477"/>
+ <triangular vertex1="lock__receptor_8_v326" vertex2="lock__receptor_8_v328" vertex3="lock__receptor_8_v475"/>
+ <triangular vertex1="lock__receptor_8_v328" vertex2="lock__receptor_8_v330" vertex3="lock__receptor_8_v479"/>
+ <triangular vertex1="lock__receptor_8_v481" vertex2="lock__receptor_8_v332" vertex3="lock__receptor_8_v483"/>
+ <triangular vertex1="lock__receptor_8_v479" vertex2="lock__receptor_8_v332" vertex3="lock__receptor_8_v481"/>
+ <triangular vertex1="lock__receptor_8_v330" vertex2="lock__receptor_8_v332" vertex3="lock__receptor_8_v479"/>
+ <triangular vertex1="lock__receptor_8_v483" vertex2="lock__receptor_8_v334" vertex3="lock__receptor_8_v485"/>
+ <triangular vertex1="lock__receptor_8_v332" vertex2="lock__receptor_8_v334" vertex3="lock__receptor_8_v483"/>
+ <triangular vertex1="lock__receptor_8_v485" vertex2="lock__receptor_8_v336" vertex3="lock__receptor_8_v487"/>
+ <triangular vertex1="lock__receptor_8_v334" vertex2="lock__receptor_8_v336" vertex3="lock__receptor_8_v485"/>
+ <triangular vertex1="lock__receptor_8_v336" vertex2="lock__receptor_8_v338" vertex3="lock__receptor_8_v487"/>
+ <triangular vertex1="lock__receptor_8_v489" vertex2="lock__receptor_8_v340" vertex3="lock__receptor_8_v491"/>
+ <triangular vertex1="lock__receptor_8_v487" vertex2="lock__receptor_8_v340" vertex3="lock__receptor_8_v489"/>
+ <triangular vertex1="lock__receptor_8_v338" vertex2="lock__receptor_8_v340" vertex3="lock__receptor_8_v487"/>
+ <triangular vertex1="lock__receptor_8_v340" vertex2="lock__receptor_8_v342" vertex3="lock__receptor_8_v491"/>
+ <triangular vertex1="lock__receptor_8_v491" vertex2="lock__receptor_8_v344" vertex3="lock__receptor_8_v493"/>
+ <triangular vertex1="lock__receptor_8_v342" vertex2="lock__receptor_8_v344" vertex3="lock__receptor_8_v491"/>
+ <triangular vertex1="lock__receptor_8_v344" vertex2="lock__receptor_8_v346" vertex3="lock__receptor_8_v493"/>
+ <triangular vertex1="lock__receptor_8_v493" vertex2="lock__receptor_8_v346" vertex3="lock__receptor_8_v495"/>
+ <triangular vertex1="lock__receptor_8_v346" vertex2="lock__receptor_8_v348" vertex3="lock__receptor_8_v495"/>
+ <triangular vertex1="lock__receptor_8_v495" vertex2="lock__receptor_8_v348" vertex3="lock__receptor_8_v497"/>
+ <triangular vertex1="lock__receptor_8_v348" vertex2="lock__receptor_8_v350" vertex3="lock__receptor_8_v497"/>
+ <triangular vertex1="lock__receptor_8_v499" vertex2="lock__receptor_8_v350" vertex3="lock__receptor_8_v501"/>
+ <triangular vertex1="lock__receptor_8_v497" vertex2="lock__receptor_8_v350" vertex3="lock__receptor_8_v499"/>
+ <triangular vertex1="lock__receptor_8_v350" vertex2="lock__receptor_8_v352" vertex3="lock__receptor_8_v501"/>
+ <triangular vertex1="lock__receptor_8_v352" vertex2="lock__receptor_8_v354" vertex3="lock__receptor_8_v501"/>
+ <triangular vertex1="lock__receptor_8_v501" vertex2="lock__receptor_8_v354" vertex3="lock__receptor_8_v503"/>
+ <triangular vertex1="lock__receptor_8_v354" vertex2="lock__receptor_8_v356" vertex3="lock__receptor_8_v503"/>
+ <triangular vertex1="lock__receptor_8_v505" vertex2="lock__receptor_8_v356" vertex3="lock__receptor_8_v507"/>
+ <triangular vertex1="lock__receptor_8_v503" vertex2="lock__receptor_8_v356" vertex3="lock__receptor_8_v505"/>
+ <triangular vertex1="lock__receptor_8_v356" vertex2="lock__receptor_8_v358" vertex3="lock__receptor_8_v507"/>
+ <triangular vertex1="lock__receptor_8_v507" vertex2="lock__receptor_8_v358" vertex3="lock__receptor_8_v509"/>
+ <triangular vertex1="lock__receptor_8_v358" vertex2="lock__receptor_8_v360" vertex3="lock__receptor_8_v509"/>
+ <triangular vertex1="lock__receptor_8_v360" vertex2="lock__receptor_8_v362" vertex3="lock__receptor_8_v509"/>
+ <triangular vertex1="lock__receptor_8_v509" vertex2="lock__receptor_8_v362" vertex3="lock__receptor_8_v511"/>
+ <triangular vertex1="lock__receptor_8_v228" vertex2="lock__receptor_8_v296" vertex3="lock__receptor_8_v450"/>
+ <triangular vertex1="lock__receptor_8_v232" vertex2="lock__receptor_8_v296" vertex3="lock__receptor_8_v228"/>
+ <triangular vertex1="lock__receptor_8_v511" vertex2="lock__receptor_8_v362" vertex3="lock__receptor_8_v195"/>
+ <triangular vertex1="lock__receptor_8_v362" vertex2="lock__receptor_8_v193" vertex3="lock__receptor_8_v195"/>
+ <triangular vertex1="lock__receptor_8_v539" vertex2="lock__receptor_8_v540" vertex3="lock__receptor_8_v517"/>
+ <triangular vertex1="lock__receptor_8_v517" vertex2="lock__receptor_8_v540" vertex3="lock__receptor_8_v519"/>
+ <triangular vertex1="lock__receptor_8_v519" vertex2="lock__receptor_8_v541" vertex3="lock__receptor_8_v520"/>
+ <triangular vertex1="lock__receptor_8_v540" vertex2="lock__receptor_8_v541" vertex3="lock__receptor_8_v519"/>
+ <triangular vertex1="lock__receptor_8_v520" vertex2="lock__receptor_8_v542" vertex3="lock__receptor_8_v522"/>
+ <triangular vertex1="lock__receptor_8_v541" vertex2="lock__receptor_8_v542" vertex3="lock__receptor_8_v520"/>
+ <triangular vertex1="lock__receptor_8_v522" vertex2="lock__receptor_8_v543" vertex3="lock__receptor_8_v524"/>
+ <triangular vertex1="lock__receptor_8_v542" vertex2="lock__receptor_8_v543" vertex3="lock__receptor_8_v522"/>
+ <triangular vertex1="lock__receptor_8_v524" vertex2="lock__receptor_8_v544" vertex3="lock__receptor_8_v526"/>
+ <triangular vertex1="lock__receptor_8_v543" vertex2="lock__receptor_8_v544" vertex3="lock__receptor_8_v524"/>
+ <triangular vertex1="lock__receptor_8_v526" vertex2="lock__receptor_8_v545" vertex3="lock__receptor_8_v528"/>
+ <triangular vertex1="lock__receptor_8_v544" vertex2="lock__receptor_8_v545" vertex3="lock__receptor_8_v526"/>
+ <triangular vertex1="lock__receptor_8_v532" vertex2="lock__receptor_8_v546" vertex3="lock__receptor_8_v534"/>
+ <triangular vertex1="lock__receptor_8_v528" vertex2="lock__receptor_8_v546" vertex3="lock__receptor_8_v532"/>
+ <triangular vertex1="lock__receptor_8_v545" vertex2="lock__receptor_8_v546" vertex3="lock__receptor_8_v528"/>
+ <triangular vertex1="lock__receptor_8_v546" vertex2="lock__receptor_8_v547" vertex3="lock__receptor_8_v534"/>
+ <triangular vertex1="lock__receptor_8_v534" vertex2="lock__receptor_8_v1" vertex3="lock__receptor_8_v0"/>
+ <triangular vertex1="lock__receptor_8_v547" vertex2="lock__receptor_8_v1" vertex3="lock__receptor_8_v534"/>
+ <triangular vertex1="lock__receptor_8_v208" vertex2="lock__receptor_8_v539" vertex3="lock__receptor_8_v517"/>
+ <triangular vertex1="lock__receptor_8_v212" vertex2="lock__receptor_8_v539" vertex3="lock__receptor_8_v208"/>
+ <triangular vertex1="lock__receptor_8_v61" vertex2="lock__receptor_8_v550" vertex3="lock__receptor_8_v538"/>
+ <triangular vertex1="lock__receptor_8_v60" vertex2="lock__receptor_8_v550" vertex3="lock__receptor_8_v61"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="lock__receptor_8">
+ <materialref ref="
+Vacuum_ref
+"/>
+ <solidref ref="lock__receptor_8_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="lock__receptor_8"/>
+ </setup>
+</gdml>

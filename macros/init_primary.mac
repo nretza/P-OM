@@ -1,0 +1,41 @@
+###############################################################################
+####### P-OM primary generator macro ##########################################
+###############################################################################
+
+##  HOWTO:
+##
+##  The primary generator shoots a photon from a sphere
+##  of variable radius inwards towards the P-OM.
+##
+##  the momentum vector of the photon is distributed around
+##  the normal vector to the sphere, so the photon can arrive
+##  at an inclination with respect to the P-OM surface
+##
+
+#######
+# Set particle & energy
+#######
+
+/gps/particle   opticalphoton
+/gps/ene/type   Gauss
+/gps/ene/mono   3.0 eV
+/gps/ene/sigma  0.3 eV
+
+#######
+# Set sphere were light originates from
+#######
+
+/gps/pos/type   Surface
+/gps/pos/shape  Sphere
+/gps/pos/centre 0 0 0 m
+/gps/pos/radius 5 m
+
+#######
+# Set angular distribution
+#######
+
+/gps/ang/type      iso
+/gps/ang/minphi    0   degree
+/gps/ang/maxphi    360 degree
+/gps/ang/mintheta  0   degree
+/gps/ang/maxtheta  2.7 degree  # arctan(detector_radius / light_sphere_radius)

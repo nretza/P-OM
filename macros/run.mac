@@ -1,0 +1,66 @@
+###############################################################################
+########### P-OM run macro ####################################################
+###############################################################################
+
+/data_acquisition/output_file ../P-OM/data/out0.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out1.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out2.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out3.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out4.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out5.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out6.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out7.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out8.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out9.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out10.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out11.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out12.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out13.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out14.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out15.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out16.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out17.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out18.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out19.csv
+/run/beamOn 1000000
+
+/data_acquisition/output_file ../P-OM/data/out20.csv
+/run/beamOn 1000000

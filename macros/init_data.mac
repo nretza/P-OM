@@ -1,0 +1,16 @@
+###############################################################################
+########### P-OM data macro ###################################################
+###############################################################################
+
+##  HOWTO:
+##
+##  set the output file with
+##  /data_acquisition/output_file path/to/file
+##  make sure no not accidentally overwrite existing data! (you'll receive a warning though)
+##
+
+#######
+# data settings
+#######
+
+/data_acquisition/output_file ../P-OM/data/out.csv
