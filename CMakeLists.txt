@@ -1,7 +1,7 @@
 #----------------------------------------------------------------------------
 # Setup the project
 
-cmake_minimum_required(VERSION 2.6 FATAL_ERROR)
+cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
 project(optical_module)
 
 #----------------------------------------------------------------------------
@@ -59,7 +59,9 @@ target_link_libraries(optical_module ${Geant4_LIBRARIES})
 
 set(MACROS
   init.mac
-  init_primary.mac
+  init_physics.mac
+  init_primary_photon.mac
+  init_primary_mu.mac
   init_geom.mac
   init_vis.mac
   init_data.mac

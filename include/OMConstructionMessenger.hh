@@ -8,6 +8,8 @@
 #include "G4UImessenger.hh"
 #include "G4UIcmdWithAString.hh"
 #include "G4UIcmdWith3Vector.hh"
+#include "G4UIcmdWithABool.hh"
+#include "G4UIcmdWithADoubleAndUnit.hh"
 
 // project includes
 #include "OMConstruction.hh"
@@ -36,11 +38,16 @@ class OMConstructionMessenger: public G4UImessenger
         G4UIdirectory* OpticalUnitDir;
 
         // commands
+        G4UIcmdWithABool*     submergeCmd;
         G4UIcmdWithAString*   gdmlfileCmd;
+
         G4UIcmdWith3Vector*   OUOrgCmd;
         G4UIcmdWith3Vector*   OURefXCmd;
         G4UIcmdWith3Vector*   OURefYCmd;
         G4UIcommand*          OUPlaceCmd;
+
+        G4UIcmdWithADoubleAndUnit*   GelRingCmd;
+        G4UIcmdWithADoubleAndUnit*   PhotocathodeTubeCmd;
 
 
 };

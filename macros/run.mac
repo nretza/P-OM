@@ -2,65 +2,62 @@
 ########### P-OM run macro ####################################################
 ###############################################################################
 
-/data_acquisition/output_file ../P-OM/data/out0.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_0.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out1.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_1.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out2.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_2.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out3.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_3.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out4.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_4.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out5.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_5.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out6.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_6.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out7.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_7.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out8.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_8.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out9.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_9.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out10.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_10.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out11.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_11.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out12.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_12.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out13.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_13.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out14.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_14.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out15.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_15.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out16.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_16.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out17.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_17.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out18.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_18.csv
+/run/beamOn 5000000
 
-/data_acquisition/output_file ../P-OM/data/out19.csv
-/run/beamOn 1000000
-
-/data_acquisition/output_file ../P-OM/data/out20.csv
-/run/beamOn 1000000
+/data_acquisition/output_file ../P-OM/data/out_photons_closed_frame_19.csv
+/run/beamOn 5000000

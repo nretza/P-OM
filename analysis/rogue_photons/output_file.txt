@@ -1,0 +1,64 @@
+/vis/viewer/flush
+/vis/scene/endOfEventAction accumulate
+/vis/scene/endOfRunAction accumulate
+/vis/scene/add/trajectories
+
+/gps/ene/type Mono
+/gps/ene/mono 2.7825 eV
+/gps/position -38.7958 -232.128 -186.042 mm
+/gps/direction -0.247334 0.929568 0.273368
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.30626 eV
+/gps/position 282.409 -94.4518 -36.3902 mm
+/gps/direction -0.82667 0.376173 -0.418463
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.3774 eV
+/gps/position 157.034 107.398 231.961 mm
+/gps/direction -0.785158 -0.617154 0.0514538
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.27677 eV
+/gps/position 169.157 -221.812 -110.386 mm
+/gps/direction -0.329568 0.93157 -0.153501
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.53072 eV
+/gps/position -147.395 72.2215 251.115 mm
+/gps/direction 0.665963 -0.587369 -0.459882
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.16106 eV
+/gps/position -70.735 141.754 -254.76 mm
+/gps/direction 0.425213 -0.842061 0.331855
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.07481 eV
+/gps/position 272.526 -122.271 27.9196 mm
+/gps/direction -0.903713 0.274365 0.328673
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.18198 eV
+/gps/position 71.7794 223.563 -186.727 mm
+/gps/direction -0.317705 -0.937855 0.139616
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 2.63741 eV
+/gps/position 168.33 -241.513 57.7625 mm
+/gps/direction -0.593283 0.759084 0.267969
+/run/beamOn 5
+
+/gps/ene/type Mono
+/gps/ene/mono 3.17331 eV
+/gps/position -67.4699 -202.578 -210.737 mm
+/gps/direction 0.684574 0.642015 0.345216
+/run/beamOn 5

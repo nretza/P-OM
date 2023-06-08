@@ -6,6 +6,7 @@
 // G4 includes
 #include "G4UImessenger.hh"
 #include "G4UIcmdWithAString.hh"
+#include "G4UIcmdWithABool.hh"
 
 // project includes
 #include "OMDataManager.hh"
@@ -34,6 +35,11 @@ class OMDataManagerMessenger: public G4UImessenger
 
         // commands
         G4UIcmdWithAString*   _outputFileCmd;
+        G4UIcmdWithAString*   _dataFilterOutProcessCmd;
+        G4UIcmdWithAString*   _dataFilterOutVolumeCmd;
+        G4UIcmdWithABool*     _dataFilterGlassCmd;
+        G4UIcmdWithABool*     _dataFilterPhotonsCmd;
+
 };
 
 #endif

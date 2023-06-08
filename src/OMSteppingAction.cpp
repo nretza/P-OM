@@ -19,10 +19,16 @@ OMSteppingAction::~OMSteppingAction()
 
 void OMSteppingAction::UserSteppingAction(const G4Step* step)
 {
-    // get position of first step point, usually where the sphere is first hit
-    if (step->GetTrack()->GetCurrentStepNumber() == 1)
+    // sanity check to avoid segmentation error
+    if (step->GetPostStepPoint()->GetPhysicalVolume() == nullptr) return;
+
+    // if post step point is glass, hand over position and momentum to datamanager
+    // post step point - position on glass
+    // pre  step point - momentum direction before refraction
+    if (step->GetPostStepPoint()->GetPhysicalVolume()->GetName().find("GlasHemisphere") != std::string::npos)
     {
-        OMDataManager::getInstance()->firstStepHandover(step->GetPostStepPoint()->GetPosition());
+        OMDataManager::getInstance()->glassContactHandover(step->GetPostStepPoint()->GetPosition() / mm,
+                                                           step->GetPreStepPoint()->GetMomentumDirection());
     }
 }
 

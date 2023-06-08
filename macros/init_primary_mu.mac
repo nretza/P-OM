@@ -1,0 +1,26 @@
+###############################################################################
+####### P-OM primary generator macro ##########################################
+###############################################################################
+
+##  HOWTO:
+##
+##  The primary generator shoots a muon from a fixed
+##  point perpendicular to the P-OM.
+##
+##  The energy of the muon is fixed.
+##
+
+#######
+# Set particle & energy
+#######
+
+/gps/particle   mu-
+/gps/ene/type   Mono
+/gps/ene/mono   1 TeV
+
+#######
+# Set vertex position and direction
+#######
+
+/gps/position     5 -45 5 m
+/gps/direction    0 1 0

@@ -24,6 +24,12 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->gdmlfileCmd->AvailableForStates(G4State_PreInit);
     this->gdmlfileCmd->SetToBeBroadcasted(false);
 
+    this->submergeCmd = new G4UIcmdWithABool("/geometry/gdml/submerge",this);
+    this->submergeCmd->SetGuidance("places water around the imported detector geometry. Air inside the detector will remain.");
+    this->submergeCmd->SetParameterName("yes/no",false);
+    this->submergeCmd->AvailableForStates(G4State_PreInit);
+    this->submergeCmd->SetToBeBroadcasted(false);
+
     this->OUOrgCmd = new G4UIcmdWith3Vector("/geometry/optical_unit/setOrigin", this);
     this->OUOrgCmd->SetGuidance("Sets the optical unit coord origin to selected value");
     this->OUOrgCmd->AvailableForStates(G4State_PreInit);
@@ -53,17 +59,32 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->OUPlaceCmd->SetParameter(radius_parameter);
     this->OUPlaceCmd->SetParameter(theta_parameter);
     this->OUPlaceCmd->SetParameter(phi_parameter);
+
+    this->GelRingCmd = new G4UIcmdWithADoubleAndUnit("/geometry/optical_unit/gelRingOffset", this);
+    this->GelRingCmd->SetGuidance("sets the offset of an interface gel ring around the gelpad as it occurs during the curing in the hemisphere");
+    this->GelRingCmd->AvailableForStates(G4State_PreInit);
+    this->GelRingCmd->SetDefaultValue(0);
+    this->GelRingCmd->SetToBeBroadcasted(false);
+
+    this->PhotocathodeTubeCmd = new G4UIcmdWithADoubleAndUnit("/geometry/optical_unit/photocathodeTubeSize", this);
+    this->PhotocathodeTubeCmd->SetGuidance("sets how much of the tube part of the inner vacuum of the PMT should be covered with the photocathode");
+    this->PhotocathodeTubeCmd->AvailableForStates(G4State_PreInit);
+    this->PhotocathodeTubeCmd->SetDefaultValue(0);
+    this->PhotocathodeTubeCmd->SetToBeBroadcasted(false);
 }
 
 OMConstructionMessenger::~OMConstructionMessenger()
 {
     delete this->GDMLDir;
     delete this->OpticalUnitDir;
+    delete this->submergeCmd;
     delete this->gdmlfileCmd;
     delete this->OUOrgCmd;
     delete this->OURefXCmd;
     delete this->OURefYCmd;
     delete this->OUPlaceCmd;
+    delete this->GelRingCmd;
+    delete this->PhotocathodeTubeCmd;
 }
 
 void OMConstructionMessenger::SetNewValue(G4UIcommand* command,G4String newValue)
@@ -72,6 +93,12 @@ void OMConstructionMessenger::SetNewValue(G4UIcommand* command,G4String newValue
     if( command == this->gdmlfileCmd )
     {
         this->_Construction->setGDMLFilename(newValue);
+    }
+
+    // set submerge
+    if ( command == this->submergeCmd )
+    {
+        this->_Construction->setSubmerge(this->submergeCmd->GetNewBoolValue(newValue));
     }
 
     // Set OU origin
@@ -101,4 +128,17 @@ void OMConstructionMessenger::SetNewValue(G4UIcommand* command,G4String newValue
         G4double phi = StoD(next()) * degree;
         this->_Construction->addOpticalUnit(radius, theta, phi);
     }
+
+    // Set Gelpad Ring
+    if( command == this->GelRingCmd )
+    {
+        this->_Construction->setGelpadRingOffset(this->GelRingCmd->GetNewDoubleValue(newValue));
+    }
+
+    // Set Photocathode Tube
+    if( command == this->PhotocathodeTubeCmd )
+    {
+        this->_Construction->setPhotocathodeTubeLength(this->PhotocathodeTubeCmd->GetNewDoubleValue(newValue));
+    }
+
 }

@@ -1,0 +1,27 @@
+###############################################################################
+##################### P-OM physics macro ######################################
+###############################################################################
+
+
+#######
+# Activate/Deactivate Processes
+#######
+
+/process/optical/processActivation Cerenkov        true
+/process/optical/processActivation OpAbsorption    true
+/process/optical/processActivation OpBoundary      true
+
+/process/optical/processActivation OpRayleigh      false
+/process/optical/processActivation OpMieHG         false
+/process/optical/processActivation OpWLS           false
+/process/optical/processActivation Scintillation   false
+/process/optical/processActivation OpWLS2          false
+
+#######
+# Cherenkov radiation
+#######
+
+/process/optical/cerenkov/setTrackSecondariesFirst    true
+/process/optical/cerenkov/setStackPhotons             true
+/process/optical/cerenkov/setMaxPhotons               500  # steps at O(1cm) at 1 TeV muon energy
+/process/optical/cerenkov/setMaxBetaChange            10

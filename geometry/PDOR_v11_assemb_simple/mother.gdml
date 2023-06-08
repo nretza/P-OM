@@ -14,7 +14,7 @@
 </material>
 </materials>
 <solids>
-<box name="WorldBox" x="50.0" y="50.0" z="50.0" lunit="m"/>
+<box name="WorldBox" x="100.0" y="100.0" z="100.0" lunit="m"/>
 </solids>
 <structure>
 <volume name="World">
@@ -46,27 +46,7 @@
 <rotationref ref="identity"/>
 </physvol>
 <physvol>
-<file name="/home/nretza/ECP_libraries/Geant4-Simulations/P-OM/geometry/PDOR_v11_assemb_simple/Volumes/lock__receptor_8.gdml"/>
-<positionref ref="center"/>
-<rotationref ref="identity"/>
-</physvol>
-<physvol>
 <file name="/home/nretza/ECP_libraries/Geant4-Simulations/P-OM/geometry/PDOR_v11_assemb_simple/Volumes/lock001_9.gdml"/>
-<positionref ref="center"/>
-<rotationref ref="identity"/>
-</physvol>
-<physvol>
-<file name="/home/nretza/ECP_libraries/Geant4-Simulations/P-OM/geometry/PDOR_v11_assemb_simple/Volumes/lock__receptor001_10.gdml"/>
-<positionref ref="center"/>
-<rotationref ref="identity"/>
-</physvol>
-<physvol>
-<file name="/home/nretza/ECP_libraries/Geant4-Simulations/P-OM/geometry/PDOR_v11_assemb_simple/Volumes/lock__receptor002_11.gdml"/>
-<positionref ref="center"/>
-<rotationref ref="identity"/>
-</physvol>
-<physvol>
-<file name="/home/nretza/ECP_libraries/Geant4-Simulations/P-OM/geometry/PDOR_v11_assemb_simple/Volumes/lock__receptor003_12.gdml"/>
 <positionref ref="center"/>
 <rotationref ref="identity"/>
 </physvol>

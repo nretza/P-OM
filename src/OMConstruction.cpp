@@ -12,6 +12,7 @@
 #include "G4EllipticalTube.hh"
 #include "G4IntersectionSolid.hh"
 #include "G4SubtractionSolid.hh"
+#include "G4UnionSolid.hh"
 #include "G4LogicalVolume.hh"
 #include "G4PVPlacement.hh"
 #include "G4SystemOfUnits.hh"
@@ -26,16 +27,18 @@
 
 OMConstruction::OMConstruction()
 : G4VUserDetectorConstruction(),
+ _submerge(false),
  _world_phsical(nullptr),
  _world_logical(nullptr),
- _gdml_subtraction_solid(nullptr),
  _gelpad_solid(nullptr),
  _pmt_logical(nullptr),
  _nr_of_OUs(0),
  _gdml_filename(""),
  _ou_coord_center(0,0,0),
  _ou_coord_refX(1,0,0),
- _ou_coord_refY(0,1,0)
+ _ou_coord_refY(0,1,0),
+ _gelpad_ring_offset(0),
+ _photocathode_tube_length(0)
 {
     this->_MaterialManager       = OMMaterialManager::getInstance();
     this->_ConstructionMessenger = new OMConstructionMessenger(this);
@@ -47,7 +50,6 @@ OMConstruction::~OMConstruction()
     delete this->_ConstructionMessenger;
     delete this->_world_logical;
     delete this->_world_phsical;
-    delete this->_gdml_subtraction_solid;
     delete this->_gelpad_solid;
     delete this->_pmt_logical;
 }
@@ -61,7 +63,7 @@ G4VPhysicalVolume* OMConstruction::Construct()
     if(this->_gdml_filename == "")
     {
         G4Material* air      = this->_MaterialManager->BuildAir();
-        this->_world_logical = new G4LogicalVolume(new G4Box("World", 50*m,50*m,50*m), air, "World");
+        this->_world_logical = new G4LogicalVolume(new G4Box("World", 100*m,100*m,100*m), air, "World");
         this->_world_phsical = new G4PVPlacement(nullptr, G4ThreeVector(), "World", this->_world_logical, nullptr, false, 0);
     }
     else
@@ -73,6 +75,12 @@ G4VPhysicalVolume* OMConstruction::Construct()
         this->_world_logical = this->_world_phsical->GetLogicalVolume();
         this->configureGDMLObjects();
     }
+
+    //------------
+    // submerge P-OM if needed
+    //------------
+
+    if (this->_submerge) this->submerge();
 
     //------------
     // place optical units (gelpad and pmt)
@@ -111,12 +119,6 @@ void OMConstruction::configureGDMLObjects()
     //-----------
 
     this->_world_logical->SetMaterial(air);
-
-    //-----------
-    // define gdml subtraction solid, from which gelpads will be subtracted at placement
-    //-----------
-    
-    this->_gdml_subtraction_solid = new G4MultiUnion("GelpadSubtractionSolid");
      
     //-----------
     // loop through objects and set properties
@@ -130,14 +132,13 @@ void OMConstruction::configureGDMLObjects()
         G4VSolid*          obj_solid    = obj_logical->GetSolid();
         G4String           obj_name     = obj_phsical->GetName();
         G4Material*        obj_material = nullptr;
-        G4VisAttributes* obj_vis = new G4VisAttributes();
+        G4VisAttributes*   obj_vis = new G4VisAttributes();
 
         // PMT
         if(obj_name.find("Hamamatsu_R14374") != std::string::npos)
         {
             obj_material = glass;
             obj_vis->SetColor(1.0, 0.6, 0.5, 0.7); //slightly transparent red
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         // glass sphere
@@ -145,7 +146,6 @@ void OMConstruction::configureGDMLObjects()
         {
             obj_material = glass;
             obj_vis->SetColor(1.0, 1.0, 1.0, 0.3); // transparent white
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         // titanium ring
@@ -156,7 +156,6 @@ void OMConstruction::configureGDMLObjects()
 
             obj_material = titanium;
             obj_vis->SetColor(0.9, 0.9, 0.9, 1.0); // light grey
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         // HV base
@@ -167,7 +166,6 @@ void OMConstruction::configureGDMLObjects()
 
             obj_material = plastic;
             obj_vis->SetColor(0.2, 0.4, 0.2, 1.0); // dark green
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         // spring
@@ -178,7 +176,6 @@ void OMConstruction::configureGDMLObjects()
 
             obj_material = titanium;
             obj_vis->SetColor(0.9, 0.9, 0.9, 1.0); // light grey
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         // gel
@@ -186,7 +183,26 @@ void OMConstruction::configureGDMLObjects()
         {
             obj_material = gel;
             obj_vis->SetColor(1.0, 1.0, 1.0, 0.4); // transparent white
-            this->_gdml_subtraction_solid->AddNode(obj_solid, G4Transform3D());
+        }
+
+        // cable breakout
+        else if (obj_name.find("cable_breakout") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.7, 0.7, 0.7, 1.0); // grey
+        }
+
+        // frame
+        else if (obj_name.find("frame") != std::string::npos)
+        {
+            // wrap in plastic surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, plasticSurface);
+
+            obj_material = plastic;
+            obj_vis->SetColor(0.2, 0.2, 0.2, 1.0); // almost black
         }
 
         // water
@@ -211,14 +227,139 @@ void OMConstruction::configureGDMLObjects()
 
             obj_material = plastic;
             obj_vis->SetColor(0.2, 0.2, 0.2, 1.0); // almost black
-            // this->_gelpad_subtraction_solid->AddNode(obj_solid, G4Transform3D());
         }
 
         obj_logical->SetMaterial(obj_material);
         obj_logical->SetVisAttributes(obj_vis);
     }
+}
 
-    this->_gdml_subtraction_solid->Voxelize();
+void OMConstruction::submerge()
+{
+    // i did not find a suitable solution to automate this given different geometries
+
+    // as of now, just place some custom code depending on geometry here.
+
+    if (_gdml_filename == "")
+    {
+        this->_world_logical->SetMaterial(this->_MaterialManager->BuildWater());
+    }
+
+    else if ( _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple/mother.gdml")
+    {
+        // transformations
+        G4Point3D from1(this->_ou_coord_refX);
+        G4Point3D from2(this->_ou_coord_refY);
+        G4Point3D from3(this->_ou_coord_refX.cross(this->_ou_coord_refY));
+
+        G4Point3D to1(1,0,0);
+        G4Point3D to2(0,1,0);
+        G4Point3D to3(0,0,1);
+
+        G4Transform3D ou2global(from1, from2, from3, to1, to2, to3);
+
+        // solids
+        G4double air_indside_radius = 207 * mm;
+        G4Ellipsoid* air_inside = new G4Ellipsoid("air_inside",
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                0,
+                                                air_indside_radius);
+
+        // subtract from air inside
+        G4SubtractionSolid* water = new G4SubtractionSolid("water", this->_world_logical->GetSolid(), air_inside);
+
+        // subtract overlaps with P-OM
+        const int nr_of_objects = this->_world_logical->GetNoDaughters();
+        for(int i=0; i<nr_of_objects; i++)
+        {
+            G4VPhysicalVolume* obj_phsical  = this->_world_logical->GetDaughter(i);
+            G4LogicalVolume*   obj_logical  = obj_phsical->GetLogicalVolume();
+            G4VSolid*          obj_solid    = obj_logical->GetSolid();
+            G4String           obj_name     = obj_phsical->GetName();
+
+            // from relevant parts
+            if (obj_name.find("GlasHemisphere") != std::string::npos)
+            {
+                water = new G4SubtractionSolid("water",
+                                                water,
+                                                obj_solid,
+                                                ou2global.inverse());
+            }
+        }
+
+        // logical and placement
+        G4LogicalVolume* waterLog = new G4LogicalVolume(water, this->_MaterialManager->BuildWater(), "water"); 
+        waterLog->SetVisAttributes(new G4VisAttributes(false));
+        new G4PVPlacement(ou2global, "water", waterLog, this->_world_phsical, false, 0);
+    }
+
+    else if ( _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother.gdml"  ||
+              _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother_closed_frame.gdml")
+    {   
+        G4double air_indside_radius = 207 * mm;
+        G4double air_middle_offset  = 45 * mm;
+
+        // create air volumes
+        G4Tubs*  air_inbetween = new G4Tubs("air_inbetween",
+                                            0,
+                                            air_indside_radius,
+                                            air_middle_offset/2,
+                                            0,
+                                            360 * degree);
+    
+        G4Ellipsoid*  air_inside_left = new G4Ellipsoid("air_inside_left",
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                0,
+                                                air_indside_radius);
+        
+        G4Ellipsoid* air_inside_right = new G4Ellipsoid("air_inside_right",
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                - air_indside_radius,
+                                                0);
+
+        // subtract from air inside
+        G4VSolid* water = this->_world_logical->GetSolid();
+        water = new G4SubtractionSolid("water", water, air_inbetween, new G4RotationMatrix(), G4ThreeVector(0,0,0));
+        water = new G4SubtractionSolid("water", water, air_inside_left, new G4RotationMatrix(), G4ThreeVector(0,0,air_middle_offset));
+        water = new G4SubtractionSolid("water", water, air_inside_right, new G4RotationMatrix(), G4ThreeVector(0,0,- air_middle_offset));
+
+        // subtract overlaps with P-OM
+        const int nr_of_objects = this->_world_logical->GetNoDaughters();
+        for(int i=0; i<nr_of_objects; i++)
+        {
+            G4VPhysicalVolume* obj_phsical  = this->_world_logical->GetDaughter(i);
+            G4LogicalVolume*   obj_logical  = obj_phsical->GetLogicalVolume();
+            G4VSolid*          obj_solid    = obj_logical->GetSolid();
+            G4String           obj_name     = obj_phsical->GetName();
+
+            // from relevant parts
+            if (obj_name.find("GlasHemisphere") != std::string::npos)
+            {
+                water = new G4SubtractionSolid("water",
+                                                water,
+                                                obj_solid);
+            }
+        }
+
+        // logical and placement
+        G4LogicalVolume* waterLog = new G4LogicalVolume(water, this->_MaterialManager->BuildWater(), "water");
+        waterLog->SetVisAttributes(new G4VisAttributes(false));
+        new G4PVPlacement(G4Transform3D(), "water", waterLog, this->_world_phsical, false, 0);
+    }
+
+    else
+    {
+        G4Exception("void OMConstruction::submerge()",
+                    "no suitable implementation for drowning exist!",
+                    JustWarning,
+                    "No suitable implementation exists for submerging the existing geometry in water. Will continue run with air world.\nPlease implement a method in OMConstruction::submerge() to make this warning disappear.");
+    }
 }
 
 void OMConstruction::placeOpticalUnits()
@@ -236,11 +377,11 @@ void OMConstruction::placeOpticalUnits()
     // materials and surfaces
     //-----------
 
-    G4Material* gel = this->_MaterialManager->BuildGel();
-    G4OpticalSurface* reflector    = this->_MaterialManager->BuildReflectorSurface();
+    G4Material*       gel       = this->_MaterialManager->BuildGel();
+    G4OpticalSurface* reflector = this->_MaterialManager->BuildReflectorSurface();
 
     //-----------
-    // offset of component solids to placement point
+    // offset of component solids to placement point (should be at tip pf PMT)
     //-----------
 
     G4Transform3D gelpad_offset(G4RotationMatrix(), G4ThreeVector(0, 0, -5.11 * mm));
@@ -279,16 +420,30 @@ void OMConstruction::placeOpticalUnits()
         G4Transform3D transform3D(G4RotationMatrix(cross, delta), ou_pos);
 
         //-----------
-        // subtract subtraction solid consisting of PMT and all other parts from gelpad
+        // subtract relevant solids from gelpad
         //-----------
 
         G4VSolid* gelpad_solid_to_place = this->_gelpad_solid;
+        
+        // from gdml objects
+        const int nr_of_objects = this->_world_logical->GetNoDaughters();
+        for(int i=0; i<nr_of_objects; i++)
+        {
+            G4VPhysicalVolume* obj_phsical  = this->_world_logical->GetDaughter(i);
+            G4LogicalVolume*   obj_logical  = obj_phsical->GetLogicalVolume();
+            G4VSolid*          obj_solid    = obj_logical->GetSolid();
+            G4String           obj_name     = obj_phsical->GetName();
 
-        // from everything else
-        if (this->_gdml_subtraction_solid != nullptr) gelpad_solid_to_place = new G4SubtractionSolid("gelpad",
-                                                                            this->_gelpad_solid,
-                                                                            this->_gdml_subtraction_solid,
-                                                                            gelpad_offset.inverse() * transform3D.inverse());
+            // from glass sphere
+            if (obj_name.find("GlasHemisphere") != std::string::npos)
+            {
+                gelpad_solid_to_place = new G4SubtractionSolid("gelpad",
+                                                                gelpad_solid_to_place,
+                                                                obj_solid,
+                                                                gelpad_offset.inverse() * transform3D.inverse());
+            }
+        }
+
         // from PMT
         gelpad_solid_to_place = new G4SubtractionSolid("gelpad",
                                                         gelpad_solid_to_place,
@@ -349,6 +504,11 @@ void OMConstruction::constructGelpad()
     const G4double gelpad_thickness     = 24 * mm;
     const G4double gelpad_large_radius  = gelpad_small_radius + tan ( gelpad_opening_angle ) * gelpad_thickness;
 
+    const G4double gelpad_overflow_max_radius = 25 * cm;
+    const G4double gelpad_overflow_height     =  5 * cm;
+    const G4double gelpad_overflow_offset     =  5.11 * mm - this->_gelpad_ring_offset + gelpad_overflow_height / 2;
+
+
     G4VSolid* gelpad_cone = new G4Cons("gelpad_cone",
                                         0  * mm,               //inside radius at -pDz
                                         gelpad_small_radius,   //outside radius at -pDz
@@ -358,6 +518,20 @@ void OMConstruction::constructGelpad()
                                         0,                     //starting angle of the segment in radians
                                         2*pi);                 //the angle of the segment in radians
 
+    // Tube to model overflow of interface gel between gelpad and glass
+    G4Tubs* gelpad_overflow_tubs = new G4Tubs("gelpad_overflow_tub",
+                                             0,
+                                             gelpad_overflow_max_radius,
+                                             gelpad_overflow_height / 2,
+                                             0,
+                                             360 * degree);
+
+    // gelpad cone and tubs
+    G4VSolid* gelpad_cone_and_tubs = new G4UnionSolid("gelpad_cone_and_tubs",
+                                                      gelpad_cone,
+                                                      gelpad_overflow_tubs,
+                                                      nullptr,
+                                                      G4ThreeVector(0,0,gelpad_overflow_offset));
 
     // gelpad sphere models inside of glass dome (to cut edges of cone)
     // slightly larger than real counterpart
@@ -370,12 +544,11 @@ void OMConstruction::constructGelpad()
                                                0,               //start theta
                                                pi);             //end theta
 
-
     // Intersection between gelpad cone and sphere
     // creates spherical top surface on gelpad
     G4double z_translation = - sphere_radius + (gelpad_thickness / 2);
     G4VSolid* gelpad_solid = new G4IntersectionSolid("gelpad",
-                                                gelpad_cone,                         //solid 1
+                                                gelpad_cone_and_tubs,                //solid 1
                                                 gelpad_sphere_cut,                   //solid 2
                                                 new G4RotationMatrix(0,0,0),         //rotation (identity)
                                                 G4ThreeVector(0, 0, z_translation)); //translation
@@ -401,16 +574,16 @@ void OMConstruction::constructPMT()
     //-----------
 
     G4double VacSphereRadius   = 50   * mm;
-    G4double VacZylinderHeight = 10   * mm;
-    G4double VacZylinderRadius = 38   * mm;
-    G4double VacSphereCutoff   = sqrt( pow(VacSphereRadius,2) - pow(VacZylinderRadius,2));
+    G4double VacCylinderHeight = 10   * mm;
+    G4double VacCylinderRadius = 38   * mm;
+    G4double VacSphereCutoff   = sqrt( pow(VacSphereRadius,2) - pow(VacCylinderRadius,2));
 
     /*
                 ..------..
              -°°          °°-    <---- SphereRadius
            /                  \ 
           |<------------------>|   -
-          |   ZylinderRadius   |   | ZylinderHeight
+          |   CylinderRadius   |   | CylinderHeight
           |                    |   -
            \                  /
              -..          ..-
@@ -431,27 +604,37 @@ void OMConstruction::constructPMT()
                                                     -VacSphereRadius,  // bottom cutoff
                                                     -VacSphereCutoff); // top cutoff
 
-    G4EllipticalTube* VacZylinder = new G4EllipticalTube("VacZylinder",
-                                                        VacZylinderRadius,        // x semiaxis
-                                                        VacZylinderRadius,        // y semiaxis
-                                                        VacZylinderHeight / 2);   // height
+    G4EllipticalTube* VacCylinder = new G4EllipticalTube("VacCylinder",
+                                                        VacCylinderRadius,        // x semiaxis
+                                                        VacCylinderRadius,        // y semiaxis
+                                                        VacCylinderHeight / 2);   // height
 
     G4LogicalVolume* upperVacSphereLog = new G4LogicalVolume(upperVacSphere, vacuum, "upperVacSphere");
     G4LogicalVolume* lowerVacSphereLog = new G4LogicalVolume(lowerVacSphere, vacuum, "lowerVacSphere");
-    G4LogicalVolume* VacZylinderLog    = new G4LogicalVolume(VacZylinder, vacuum, "VacZylinder");
+    G4LogicalVolume* VacCylinderLog    = new G4LogicalVolume(VacCylinder, vacuum, "VacCylinder");
 
     G4VisAttributes* vacuum_vis = new G4VisAttributes();
     vacuum_vis->SetColor(0.5, 0.5, 0.5, 0.4);    //transparent grey
     upperVacSphereLog->SetVisAttributes(vacuum_vis);
     lowerVacSphereLog->SetVisAttributes(vacuum_vis);
-    VacZylinderLog->SetVisAttributes(vacuum_vis);
+    VacCylinderLog->SetVisAttributes(vacuum_vis);
 
     //-----------
     // create photocathode solid and logical volume (absorbs the photon to detect it)
     //-----------
 
+     /*
+                ..------..
+             -°°          °°-    <---- photocathode
+           /                  \ 
+          |--------------------|   -
+          |                    |   | photocathode tube (length adjustable by macro)
+          |                    |   -
+     */
+
     G4double photocathode_thickness = 1 * mm;
     G4double photocathode_padding   = 0 * mm;
+    G4double photocathode_tube_length = std::max(0.001 * mm, this->_photocathode_tube_length);
 
     G4Sphere* photocathode_subsolid = new G4Sphere("photocathode_subsolid",
                                                     VacSphereRadius - photocathode_thickness - photocathode_padding,
@@ -460,14 +643,30 @@ void OMConstruction::constructPMT()
 
 
     G4IntersectionSolid* photocathode_solid = new G4IntersectionSolid("photocathode",
-                                                                    upperVacSphere,
-                                                                    photocathode_subsolid);
+                                                                      upperVacSphere,
+                                                                      photocathode_subsolid);
 
     G4LogicalVolume* photocathodeLog = new G4LogicalVolume(photocathode_solid, photocathode, "photocathode");
+
+    G4Tubs* photocathode_cylinder_subsolid = new G4Tubs("photocathode_cylinder",
+                                                    VacCylinderRadius - photocathode_thickness - photocathode_padding,
+                                                    VacCylinderRadius - photocathode_padding,
+                                                    photocathode_tube_length/2,
+                                                    0,360*degree);
+
+    G4IntersectionSolid* photocathode_cylinder_solid = new G4IntersectionSolid("photocathode",
+                                                                                photocathode_cylinder_subsolid,
+                                                                                VacCylinder,
+                                                                                nullptr,
+                                                                                G4ThreeVector(0,0, (photocathode_tube_length - VacCylinderHeight) / 2));
+
+    G4LogicalVolume* photocathodeTubeLog = new G4LogicalVolume(photocathode_cylinder_solid, photocathode, "photocathode_tube");
 
     G4VisAttributes* photocathode_vis = new G4VisAttributes();
     photocathode_vis->SetColor(0.9, 0.9, 0.1, 0.4); //golden-ish yellow
     photocathodeLog->SetVisAttributes(photocathode_vis);
+    photocathodeTubeLog->SetVisAttributes(photocathode_vis);
+
 
     //-----------
     // create absorber solid and logical volume (simulate PMT-cascade structures, used to absorb photons)
@@ -510,9 +709,11 @@ void OMConstruction::constructPMT()
 
     G4double vacOffsetInPMT = 29 * mm;
 
-    G4double VacZylinderOffset    = vacOffsetInPMT;
-    G4double upperVacSphereOffset = VacZylinderOffset + VacZylinderHeight / 2 - VacSphereCutoff;
-    G4double lowerVacSphereOffset = VacZylinderOffset - VacZylinderHeight / 2 + VacSphereCutoff;
+    G4double VacCylinderOffset    = vacOffsetInPMT;
+    G4double upperVacSphereOffset = VacCylinderOffset + VacCylinderHeight / 2 - VacSphereCutoff;
+    G4double lowerVacSphereOffset = VacCylinderOffset - VacCylinderHeight / 2 + VacSphereCutoff;
+
+    G4double photocathodeTubeOffset = (VacCylinderHeight - photocathode_tube_length) / 2;
 
 
     new G4PVPlacement(new G4RotationMatrix(),
@@ -520,6 +721,14 @@ void OMConstruction::constructPMT()
                       photocathodeLog,
                       "photocathode",
                       upperVacSphereLog,
+                      false,
+                      0);
+
+    new G4PVPlacement(new G4RotationMatrix(),
+                      G4ThreeVector(0,0,photocathodeTubeOffset),
+                      photocathodeTubeLog,
+                      "photocathodeTube",
+                      VacCylinderLog,
                       false,
                       0);
 
@@ -540,9 +749,9 @@ void OMConstruction::constructPMT()
                       0);
 
     new G4PVPlacement(new G4RotationMatrix(G4ThreeVector(1,0,0), 90 * degree),
-                      G4ThreeVector(0,VacZylinderOffset,0),
-                      VacZylinderLog,
-                      "VacZylinder",
+                      G4ThreeVector(0,VacCylinderOffset,0),
+                      VacCylinderLog,
+                      "VacCylinder",
                       this->_pmt_logical,
                       false,
                       0);
@@ -578,7 +787,7 @@ void OMConstruction::addOpticalUnit(G4double radius, G4double theta, G4double ph
 
     // store values
     this->_ou_centers.push_back(this->_ou_coord_center);
-    this->_ou_positions.push_back(ou_pos_in_ou_coord);
+    this->_ou_positions.push_back(ou_pos_in_global_coord);
     this->_nr_of_OUs++;
     
 }

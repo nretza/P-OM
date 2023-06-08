@@ -8,9 +8,25 @@
 ##  /data_acquisition/output_file path/to/file
 ##  make sure no not accidentally overwrite existing data! (you'll receive a warning though)
 ##
+##  filters currently available:
+##
+##   - outProcess_filter:  filters out all tracks where the outProcess is in the string handed over in the command
+##   - outVolume_filter:   filters out all tracks where the outVolume is in the string handed over in the command
+##   - glass_filter:       filters out all tracks not touching the glass before writing to file
+##   - photons_filter:     filters out all tracks not coming from photons
+##
 
 #######
 # data settings
 #######
 
 /data_acquisition/output_file ../P-OM/data/out.csv
+
+#######
+# data filters
+#######
+
+/data_acquisition/outProcess_filter   nan
+/data_acquisition/outVolume_filter    nan
+/data_acquisition/glass_filter        true
+/data_acquisition/photons_filter      false

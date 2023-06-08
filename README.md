@@ -12,13 +12,19 @@ The P-OM Geant4 implementation offers a full implementation of the P-OMs geometr
 
 ![the P-OM with simulated photons](screenshots/P-OM_with_photons.png "the P-OM with simulated photons")
 
+## Requirements
+
+* Geant4 >= 11.0.2 build with GDML flag enabled
+* xerces >= 2.4.2 build with curl. Needed by Geant4 to properly load GDML files
+
+ 
 ## How To Use
 
 This repository uses CMAKE and can be build accordingly.
 
 To start the simulation in interactive mode, simply run `optical_module --interacive`. The macro file [init.mac](macros/init.mac) will be read in which triggers all other macro files, geometries etc. to be read in by the simulation. Geant4s visualisation executive will start automatically.
 
-To start the simulation in batch mode, run `optical_module --batch`. The macro file [init.mac](macros/init.mac) will be read as well, however with the adidonal [run.mac](macros/run.mac) being executed. Here, the user can specify runtime behaviour of the simulation.
+To start the simulation in batch mode, run `optical_module --batch`. The macro file [init.mac](macros/init.mac) will be read as well, however with the adidonal [run.mac](macros/run.mac) being executed. Here, the user can specify runtime behavior of the simulation.
 
 ## Geometry
 
@@ -38,20 +44,29 @@ Optical Properties of different materials are defined in [optical_properties.cfg
 
 ## Primary Photons
 
-Photons are created using the `G4GeneralParticleSource` which has the advantage of it being completely controllable by macro commands. The GPS commands can be found in [init_primary.mac](macros/init_primary.mac).
+Photons are created using the `G4GeneralParticleSource` which has the advantage of it being completely controllable by macro commands. The GPS commands can be found in [init_primary_photon.mac](macros/init_primary_photon.mac).
 
 Per default, Photons are created on a sphere of radius 5 meters with a momentum pointing inwards. the momentum is uniformly distributed around the inwards pointing normal of the sphere with a maximum deviation of 3 degrees from the normal. this assures that the P-OM is hit from all possible angles on all possible points.
+
+## Primary Muons
+
+As an alternative to Photons, primary muons can be generated using the `G4GeneralParticleSource`, wich then produce Cerenkov photons registered in the P-OM. The GPS commands can be found in [init_primary_mu.mac](macros/init_primary_mu.mac). Cuts for the production of Cherenkov photons are set in [init_physics.mac](macros/init_physics.mac).
+
+Per default, a muon with 1 Tev energy is generated on a trajectory perpendicular to the P-OM, passing it at about 5 m distance at its closest point.
 
 ## Data Aquisition
 
 The Simulation outputs data in text formats. The output file can be set via `/data_acquisition/output_file`. The user should take care not to accidentally overwrite already existing data.
 
 An output file contains information for a single run, where each line represents one photon track (with one track per event, as no secondary particles exist). The different columns represent:
-* __PID__: The Particle ID. -22 for photons, mostly used as sanity check
-* __in_E__: The energy (in EV) of the photon
+* __PID__: The Particle ID. -22 for photons, 13 for muons.
+* __in_E__: The initial energy (in EV) of the photon
 * __in_xyz__: The initial position of the photon.
 * __in_pxyz__: The initial momentum direction of the photon
-* __1_xyz__: The position of the first `PostStepPoint`. This is either the first hitpoint of the photon with the P-OM geometry or a point at the edge of the world if the P-OM is missed.
+* __g_xyz__: The position of the first contact point between the particle and the P-OM glass. Will be filled by zeros if the particle does not touch the glass.
+* __g_pxyz__: The momentum direction at the first contact point between the particle and the P-OM glass. The direction is taken before refraction! Will be filled by zeros if the particle does not touch the glass.
+* __out_E__: The final energy (in EV) of the photon
 * __out_xzy__: the location where the photon track is terminated
-* __out_VolumeName__: The name of the volume in which the photon track is terminated. 
+* __out_VolumeName__: The name of the volume in which the photon track is terminated.
+* __out_Volume_CopyNo__; The copy nr. of the volume. Used to uniquely identify PMTs. 
 * __out_ProcessName__: The name of the process that terminates the photon track.

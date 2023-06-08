@@ -6,13 +6,15 @@
 ##
 ##  Overview:
 ##
-##  init.mac           - this file, will be executed by the simulation. executes all other files.
-##  init_primary.mac   - controls for the primary particle generator
-##  init_geom          - sets detector geometry
-##  init_vis.mac       - visualisation initialisation (only if ineractive mode)
-##  run.mac            - run macro (only if batch mode)
+##  init.mac                  - this file, will be executed by the simulation. executes all other files.
+##  init_physics.mac          - sets parameters for physics simulation
+##  init_primary_photon.mac   - controls for the primary particle generator for a homogenous illumination of the P-OM
+##  init_primary_mu.mac       - controls for the primary particle generator for muon tracks
+##  init_geom                 - sets detector geometry
+##  init_vis.mac              - visualisation initialisation (only if ineractive mode)
+##  run.mac                   - run macro (only if batch mode)
 ##
-##  optical_properties - configuration file for optical properties of materials. Read in during detector construction
+##  optical_properties        - configuration file for optical properties of materials. Read in during detector construction
 ##
 ####################################################
 ####################################################
@@ -21,7 +23,9 @@
 # pre init
 #######
 
-/control/execute macros/init_primary.mac
+/control/execute macros/init_physics.mac
+/control/execute macros/init_primary_photon.mac
+# /control/execute macros/init_primary_mu.mac
 /control/execute macros/init_geom.mac
 
 #######
