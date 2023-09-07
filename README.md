@@ -1,3 +1,7 @@
+# Disclaimer
+
+This is a copy of the P-OM subfolder in the [P-ONE Geant4 repository](https://github.com/pone-software/Geant4-Simulations/) up to commit 0bd089020c009e65b843f763440599c849501763.
+
 # P-ONE Optical Module Geant4 Simulations
 
 ## Overview
