@@ -24,8 +24,8 @@
 #######
 
 /control/execute macros/init_physics.mac
-/control/execute macros/init_primary_photon.mac
-# /control/execute macros/init_primary_mu.mac
+# /control/execute macros/init_primary_photon.mac
+/control/execute macros/init_primary_mu.mac
 /control/execute macros/init_geom.mac
 
 #######

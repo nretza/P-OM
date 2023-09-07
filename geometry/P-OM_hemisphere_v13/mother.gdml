@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd" >
+<define>
+<position name="center" x="0" y="0" z="0"/>
+<rotation name="identity" x="0" y="0" z="0"/>
+</define>
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+<solids>
+<box name="WorldBox" x="1.0" y="1.0" z="1.0" lunit="m"/>
+</solids>
+<structure>
+<volume name="World">
+<materialref ref="Vacuum_ref"/>
+<solidref ref="WorldBox"/>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/frame_13_0.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_1.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring1_3.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator_4.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider_5.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v13_6.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock_7.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar001_9.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring002_11.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator001_12.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider001_13.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring_14.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v014_15.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock001_16.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v015_18.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v016_19.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v017_20.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock002_21.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock003_22.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock004_23.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar002_27.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring003_29.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator002_30.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider002_31.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar003_32.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring004_34.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator003_35.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider003_36.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar004_37.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring005_39.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator004_40.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider004_41.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v018_42.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v019_43.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock__receptor_v020_44.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock005_45.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock006_46.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/lock007_47.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar005_51.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring006_53.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator005_54.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider005_55.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar006_56.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring007_58.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator006_59.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider006_60.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar007_61.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/spring008_63.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/collar_compensator007_64.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_divider007_65.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring001_66.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring002_67.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring003_68.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring004_69.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring005_70.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring006_71.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/alignment_ring007_72.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/light_guide_01_73.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/HV_panel_mount_2_74.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/M4_nut_75.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/M4_socket_head_01_76.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/M4_washer_77.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/fla-ti_revCsp_up30012023_78.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+<physvol>
+<file name="geometry/P-OM_hemisphere_v13/Volumes/GlasHemisphere_17_inches_79.gdml"/>
+<positionref ref="center"/>
+<rotationref ref="identity"/>
+</physvol>
+</volume>
+</structure>
+<setup name="Default" version="1.0">
+<world ref="World"/>
+</setup>
+</gdml>

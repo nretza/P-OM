@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="light_guide_01_73_v0" unit="mm" x="123.79042724076697" y="99.91336020720037" z="63.79239327669382"/>
+ <position name="light_guide_01_73_v1" unit="mm" x="123.83163366181911" y="99.88592454584727" z="63.739701136628895"/>
+ <position name="light_guide_01_73_v2" unit="mm" x="132.71442132471532" y="104.53472542499495" z="68.26570751332962"/>
+ <position name="light_guide_01_73_v3" unit="mm" x="132.67321490366314" y="104.56216108634804" z="68.31839965339454"/>
+ <position name="light_guide_01_73_v4" unit="mm" x="132.63151239177384" y="104.59252871616803" z="68.36905391121824"/>
+ <position name="light_guide_01_73_v5" unit="mm" x="123.74872472887768" y="99.94372783702036" z="63.84304753451754"/>
+ <position name="light_guide_01_73_v6" unit="mm" x="123.70662980516654" y="99.97695193659473" z="63.89153797563388"/>
+ <position name="light_guide_01_73_v7" unit="mm" x="132.58941746806275" y="104.6257528157424" z="68.4175443523346"/>
+ <position name="light_guide_01_73_v8" unit="mm" x="132.54703478714268" y="104.66175078472475" z="68.4637504218667"/>
+ <position name="light_guide_01_73_v9" unit="mm" x="123.66424712424647" y="100.01294990557707" z="63.93774404516597"/>
+ <position name="light_guide_01_73_v10" unit="mm" x="123.62168205614016" y="100.05163224734459" z="63.981550867544655"/>
+ <position name="light_guide_01_73_v11" unit="mm" x="132.5044697190363" y="104.70043312649226" z="68.50755724424535"/>
+ <position name="light_guide_01_73_v12" unit="mm" x="123.57904042431352" y="100.09290279150076" z="64.02284953210717"/>
+ <position name="light_guide_01_73_v13" unit="mm" x="132.4618280872097" y="104.74170367064843" z="68.5488559088079"/>
+ <position name="light_guide_01_73_v14" unit="mm" x="123.53642824258203" y="100.13665893297014" z="64.06153736386634"/>
+ <position name="light_guide_01_73_v15" unit="mm" x="132.41921590547824" y="104.78545981211782" z="68.58754374056706"/>
+ <position name="light_guide_01_73_v16" unit="mm" x="132.3767391144397" y="104.8315927662384" z="68.62352455547735"/>
+ <position name="light_guide_01_73_v17" unit="mm" x="123.49395145154351" y="100.18279188709073" z="64.09751817877664"/>
+ <position name="light_guide_01_73_v18" unit="mm" x="123.45171565519325" y="100.23118696006978" z="64.13070252286302"/>
+ <position name="light_guide_01_73_v19" unit="mm" x="132.3345033180894" y="104.87998783921745" z="68.65670889956371"/>
+ <position name="light_guide_01_73_v20" unit="mm" x="132.29261352127185" y="104.93052471327827" z="68.68701427131815"/>
+ <position name="light_guide_01_73_v21" unit="mm" x="123.40982585837567" y="100.2817238341306" z="64.16100789461743"/>
+ <position name="light_guide_01_73_v22" unit="mm" x="132.25117386862215" y="104.9830777457893" z="68.71436532681146"/>
+ <position name="light_guide_01_73_v23" unit="mm" x="123.36838620572597" y="100.33427686664163" z="64.18835895011077"/>
+ <position name="light_guide_01_73_v24" unit="mm" x="132.2102873856461" y="105.03751628163131" z="68.73869406701029"/>
+ <position name="light_guide_01_73_v25" unit="mm" x="123.32749972274993" y="100.38871540248364" z="64.21268769030955"/>
+ <position name="light_guide_01_73_v26" unit="mm" x="123.28726805968645" y="100.44490409887909" z="64.23393363013238"/>
+ <position name="light_guide_01_73_v27" unit="mm" x="132.1700557225826" y="105.09370497802678" z="68.75994000683308"/>
+ <position name="light_guide_01_73_v28" unit="mm" x="123.24779123878879" y="100.50270326187552" z="64.2520439488253"/>
+ <position name="light_guide_01_73_v29" unit="mm" x="132.13057890168494" y="105.1515041410232" z="68.778050325526"/>
+ <position name="light_guide_01_73_v30" unit="mm" x="123.2091674056538" y="100.56196919364676" z="64.2669736212825"/>
+ <position name="light_guide_01_73_v31" unit="mm" x="132.09195506854996" y="105.21077007279443" z="68.79297999798321"/>
+ <position name="light_guide_01_73_v32" unit="mm" x="123.17149258521634" y="100.62255454974837" z="64.27868552998594"/>
+ <position name="light_guide_01_73_v33" unit="mm" x="132.05428024811252" y="105.27135542889606" z="68.80469190668667"/>
+ <position name="light_guide_01_73_v34" unit="mm" x="132.0176481059123" y="105.33310958458678" z="68.81315693398594"/>
+ <position name="light_guide_01_73_v35" unit="mm" x="123.13486044301611" y="100.68430870543911" z="64.28715055728523"/>
+ <position name="light_guide_01_73_v36" unit="mm" x="131.98214971522668" y="105.3958790093055" z="68.81835403448943"/>
+ <position name="light_guide_01_73_v37" unit="mm" x="123.09936205233048" y="100.74707813015782" z="64.29234765778871"/>
+ <position name="light_guide_01_73_v38" unit="mm" x="131.94787333064804" y="105.45950764837224" z="68.82027028738638"/>
+ <position name="light_guide_01_73_v39" unit="mm" x="123.06508566775187" y="100.81070676922455" z="64.29426391068567"/>
+ <position name="light_guide_01_73_v40" unit="mm" x="123.03211650577303" y="100.87503643181716" z="64.2928945518695"/>
+ <position name="light_guide_01_73_v41" unit="mm" x="131.91490416866918" y="105.52383731096484" z="68.8189009285702"/>
+ <position name="light_guide_01_73_v42" unit="mm" x="123.00053653292531" y="100.93990718425846" z="64.28824298578195"/>
+ <position name="light_guide_01_73_v43" unit="mm" x="131.88332419582147" y="105.58870806340614" z="68.81424936248267"/>
+ <position name="light_guide_01_73_v44" unit="mm" x="122.97042426199704" y="101.00515774763676" z="64.28032077694924"/>
+ <position name="light_guide_01_73_v45" unit="mm" x="131.8532119248932" y="105.65395862678443" z="68.80632715364995"/>
+ <position name="light_guide_01_73_v46" unit="mm" x="122.94185455683828" y="101.07062589877046" z="64.26914762123076"/>
+ <position name="light_guide_01_73_v47" unit="mm" x="131.82464221973444" y="105.71942677791814" z="68.79515399793145"/>
+ <position name="light_guide_01_73_v48" unit="mm" x="122.91489844623757" y="101.13614887352053" z="64.2547512968521"/>
+ <position name="light_guide_01_73_v49" unit="mm" x="131.79768610913374" y="105.7849497526682" z="68.78075767355281"/>
+ <position name="light_guide_01_73_v50" unit="mm" x="122.88962294733314" y="101.20156377144781" z="64.23716759534398"/>
+ <position name="light_guide_01_73_v51" unit="mm" x="131.77241061022931" y="105.85036465059548" z="68.76317397204468"/>
+ <position name="light_guide_01_73_v52" unit="mm" x="122.8660908989977" y="101.26670796080914" z="64.21644023255887"/>
+ <position name="light_guide_01_73_v53" unit="mm" x="131.74887856189386" y="105.91550883995681" z="68.74244660925957"/>
+ <position name="light_guide_01_73_v54" unit="mm" x="122.84436080561119" y="101.3314194828855" z="64.1926207399865"/>
+ <position name="light_guide_01_73_v55" unit="mm" x="131.72714846850735" y="105.98022036203318" z="68.7186271166872"/>
+ <position name="light_guide_01_73_v56" unit="mm" x="122.8244866916096" y="101.39553745463694" z="64.16576833663845"/>
+ <position name="light_guide_01_73_v57" unit="mm" x="131.70727435450578" y="106.04433833378461" z="68.69177471333916"/>
+ <position name="light_guide_01_73_v58" unit="mm" x="122.80651796717179" y="101.4589024686831" z="64.1359497818204"/>
+ <position name="light_guide_01_73_v59" unit="mm" x="131.68930563006796" y="106.10770334783078" z="68.66195615852112"/>
+ <position name="light_guide_01_73_v60" unit="mm" x="122.79049930537779" y="101.52135698961516" z="64.10323920915786"/>
+ <position name="light_guide_01_73_v61" unit="mm" x="131.67328696827397" y="106.17015786876281" z="68.62924558585857"/>
+ <position name="light_guide_01_73_v62" unit="mm" x="122.7764705311449" y="101.58274574565357" z="64.06771794228845"/>
+ <position name="light_guide_01_73_v63" unit="mm" x="131.65925819404106" y="106.23154662480124" z="68.59372431898917"/>
+ <position name="light_guide_01_73_v64" unit="mm" x="122.76446652221615" y="101.64291611467829" z="64.0294742926784"/>
+ <position name="light_guide_01_73_v65" unit="mm" x="131.64725418511233" y="106.29171699382597" z="68.55548066937911"/>
+ <position name="light_guide_01_73_v66" unit="mm" x="122.75451712244917" y="101.7017185036714" z="63.98860334006638"/>
+ <position name="light_guide_01_73_v67" unit="mm" x="131.63730478534535" y="106.35051938281907" z="68.5146097167671"/>
+ <position name="light_guide_01_73_v68" unit="mm" x="122.74664706761946" y="101.75900672062879" z="63.94520669608033"/>
+ <position name="light_guide_01_73_v69" unit="mm" x="131.62943473051564" y="106.40780759977645" z="68.47121307278104"/>
+ <position name="light_guide_01_73_v70" unit="mm" x="122.74087592392324" y="101.81463833801664" z="63.89939225161483"/>
+ <position name="light_guide_01_73_v71" unit="mm" x="131.62366358681942" y="106.4634392171643" z="68.42539862831555"/>
+ <position name="light_guide_01_73_v72" unit="mm" x="122.73721803933317" y="101.86847504686867" z="63.851273908597484"/>
+ <position name="light_guide_01_73_v73" unit="mm" x="131.62000570222938" y="106.51727592601635" z="68.37728028529821"/>
+ <position name="light_guide_01_73_v74" unit="mm" x="131.61847017082283" y="106.56918387979181" z="68.32697767351134"/>
+ <position name="light_guide_01_73_v75" unit="mm" x="122.73568250792663" y="101.92038300064412" z="63.80097129681064"/>
+ <position name="light_guide_01_73_v76" unit="mm" x="122.73627314727663" y="101.97023314799112" z="63.74860947647298"/>
+ <position name="light_guide_01_73_v77" unit="mm" x="131.6190608101728" y="106.61903402713878" z="68.27461585317369"/>
+ <position name="light_guide_01_73_v78" unit="mm" x="122.73898848896071" y="102.01790155358887" z="63.69431862732012"/>
+ <position name="light_guide_01_73_v79" unit="mm" x="131.62177615185692" y="106.66670243273657" z="68.22032500402085"/>
+ <position name="light_guide_01_73_v80" unit="mm" x="122.74382178221161" y="102.06326970627033" z="63.63823372495723"/>
+ <position name="light_guide_01_73_v81" unit="mm" x="131.6266094451078" y="106.71207058541799" z="68.16424010165795"/>
+ <position name="light_guide_01_73_v82" unit="mm" x="131.63354867359692" y="106.75502569280731" z="68.10650058198917"/>
+ <position name="light_guide_01_73_v83" unit="mm" x="122.75076101070073" y="102.10622481365961" z="63.58049420528844"/>
+ <position name="light_guide_01_73_v84" unit="mm" x="122.75978892241274" y="102.14666008259167" z="63.52124361785726"/>
+ <position name="light_guide_01_73_v85" unit="mm" x="131.64257658530894" y="106.79546096173937" z="68.04724999455796"/>
+ <position name="light_guide_01_73_v86" unit="mm" x="131.65367073543283" y="106.83327586376454" z="67.98663564566033"/>
+ <position name="light_guide_01_73_v87" unit="mm" x="122.77088307253662" y="102.18447498461686" z="63.460629268959615"/>
+ <position name="light_guide_01_73_v88" unit="mm" x="122.78401587926714" y="102.21957550593058" z="63.398801855417425"/>
+ <position name="light_guide_01_73_v89" unit="mm" x="131.66680354216328" y="106.86837638507825" z="67.92480823211811"/>
+ <position name="light_guide_01_73_v90" unit="mm" x="122.7991546923776" y="102.25187438110629" z="63.33591508992243"/>
+ <position name="light_guide_01_73_v91" unit="mm" x="131.68194235527375" y="106.90067526025395" z="67.86192146662313"/>
+ <position name="light_guide_01_73_v92" unit="mm" x="131.69904953728937" y="106.93009218919887" z="67.7981316955829"/>
+ <position name="light_guide_01_73_v93" unit="mm" x="122.81626187439322" y="102.28129131005123" z="63.272125318882196"/>
+ <position name="light_guide_01_73_v94" unit="mm" x="122.8352948941641" y="102.30775315764501" z="63.2075911337184"/>
+ <position name="light_guide_01_73_v95" unit="mm" x="131.71808255706026" y="106.9565540367927" z="67.73359751041913"/>
+ <position name="light_guide_01_73_v96" unit="mm" x="131.73899409550037" y="106.97999501471288" z="67.66847935328423"/>
+ <position name="light_guide_01_73_v97" unit="mm" x="122.85620643260421" y="102.33119413556521" z="63.1424729765835"/>
+ <position name="light_guide_01_73_v98" unit="mm" x="122.87894450033411" y="102.35155596584727" z="63.07693274147632"/>
+ <position name="light_guide_01_73_v99" unit="mm" x="131.76173216323028" y="107.00035684499494" z="67.60293911817703"/>
+ <position name="light_guide_01_73_v100" unit="mm" x="122.90345256693479" y="102.36878802577286" z="63.01113337174797"/>
+ <position name="light_guide_01_73_v101" unit="mm" x="131.78624022983095" y="107.01758890492053" z="67.53713974844867"/>
+ <position name="light_guide_01_73_v102" unit="mm" x="122.92966970149111" y="102.38284747372585" z="62.94523845499907"/>
+ <position name="light_guide_01_73_v103" unit="mm" x="131.8124573643873" y="107.03164835287353" z="67.47124483169978"/>
+ <position name="light_guide_01_73_v104" unit="mm" x="122.95753072407575" y="102.39369935570343" z="62.87941181637521"/>
+ <position name="light_guide_01_73_v105" unit="mm" x="131.84031838697192" y="107.0425002348511" z="67.40541819307593"/>
+ <position name="light_guide_01_73_v106" unit="mm" x="131.86975403069292" y="107.05011757136484" z="67.33982348797255"/>
+ <position name="light_guide_01_73_v107" unit="mm" x="122.9869663677967" y="102.40131669221714" z="62.81381711127182"/>
+ <position name="light_guide_01_73_v108" unit="mm" x="131.90069111390196" y="107.05448142451593" z="67.27462379516173"/>
+ <position name="light_guide_01_73_v109" unit="mm" x="123.01790345100576" y="102.40568054536824" z="62.74861741846102"/>
+ <position name="light_guide_01_73_v110" unit="mm" x="131.93305272213573" y="107.05558094507784" z="67.20998121135285"/>
+ <position name="light_guide_01_73_v111" unit="mm" x="123.05026505923955" y="102.40678006593018" z="62.68397483465213"/>
+ <position name="light_guide_01_73_v112" unit="mm" x="123.08397073644102" y="102.40461252032159" z="62.62005007149374"/>
+ <position name="light_guide_01_73_v113" unit="mm" x="131.9667583993372" y="107.05341339946928" z="67.14605644819447"/>
+ <position name="light_guide_01_73_v114" unit="mm" x="123.11893668498591" y="102.3991832974024" z="62.557002056019186"/>
+ <position name="light_guide_01_73_v115" unit="mm" x="132.0017243478821" y="107.04798417655006" z="67.0830084327199"/>
+ <position name="light_guide_01_73_v116" unit="mm" x="123.15507597401682" y="102.39050589507625" z="62.49498753552888"/>
+ <position name="light_guide_01_73_v117" unit="mm" x="132.037863636913" y="107.0393067742239" z="67.0209939122296"/>
+ <position name="light_guide_01_73_v118" unit="mm" x="123.19229875556707" y="102.3786018867325" z="62.43416068789194"/>
+ <position name="light_guide_01_73_v119" unit="mm" x="132.07508641846323" y="107.02740276588017" z="66.96016706459267"/>
+ <position name="light_guide_01_73_v120" unit="mm" x="123.23051248793679" y="102.36350086761152" z="62.37467273823562"/>
+ <position name="light_guide_01_73_v121" unit="mm" x="132.113300150833" y="107.0123017467592" z="66.90067911493634"/>
+ <position name="light_guide_01_73_v122" unit="mm" x="123.26962216576626" y="102.34524038122623" z="62.31667158297575"/>
+ <position name="light_guide_01_73_v123" unit="mm" x="132.15240982866248" y="106.99404126037393" z="66.8426779596765"/>
+ <position name="light_guide_01_73_v124" unit="mm" x="123.30953055623426" y="102.32386582602294" z="62.26030142212317"/>
+ <position name="light_guide_01_73_v125" unit="mm" x="132.19231821913047" y="106.97266670517061" z="66.78630779882388"/>
+ <position name="light_guide_01_73_v126" unit="mm" x="123.35013844079397" y="102.29943034251369" z="62.205702400779494"/>
+ <position name="light_guide_01_73_v127" unit="mm" x="132.23292610369018" y="106.94823122166136" z="66.73170877748022"/>
+ <position name="light_guide_01_73_v128" unit="mm" x="122.66100631965959" y="99.99201011524191" z="65.92822289291892"/>
+ <position name="light_guide_01_73_v129" unit="mm" x="121.888953637671" y="103.86194182368979" z="63.46853526474661"/>
+ <position name="light_guide_01_73_v130" unit="mm" x="119.66825672194696" y="102.69974160390286" z="62.33703367057143"/>
+ <position name="light_guide_01_73_v131" unit="mm" x="120.44030940393554" y="98.82980989545499" z="64.79672129874375"/>
+ <position name="light_guide_01_73_v132" unit="mm" x="124.52076578295349" y="102.19334477311905" z="60.01718064448949"/>
+ <position name="light_guide_01_73_v133" unit="mm" x="122.30006886722944" y="101.03114455333214" z="58.8856790503143"/>
+ <position name="light_guide_01_73_v134" unit="mm" x="125.29281846494209" y="98.32341306467117" z="62.47686827266179"/>
+ <position name="light_guide_01_73_v135" unit="mm" x="123.07212154921804" y="97.16121284488426" z="61.34536667848662"/>
+ <position name="light_guide_01_73_v136" unit="mm" x="123.97260469695927" y="101.62338569471422" z="61.67842991612589"/>
+ <position name="light_guide_01_73_v137" unit="mm" x="124.01027951739674" y="101.56280033861262" z="61.66671800742245"/>
+ <position name="light_guide_01_73_v138" unit="mm" x="124.04691165959696" y="101.50104618292187" z="61.65825298012317"/>
+ <position name="light_guide_01_73_v139" unit="mm" x="123.9339808638243" y="101.68265162648545" z="61.6933595885831"/>
+ <position name="light_guide_01_73_v140" unit="mm" x="124.0824100502826" y="101.43827675820314" z="61.653055879619686"/>
+ <position name="light_guide_01_73_v141" unit="mm" x="123.89450404292666" y="101.74045078948188" z="61.71146990727601"/>
+ <position name="light_guide_01_73_v142" unit="mm" x="124.11668643486122" y="101.37464811913642" z="61.65113962672273"/>
+ <position name="light_guide_01_73_v143" unit="mm" x="123.85427237986313" y="101.79663948587734" z="61.73271584709884"/>
+ <position name="light_guide_01_73_v144" unit="mm" x="124.14965559684005" y="101.31031845654381" z="61.65250898553891"/>
+ <position name="light_guide_01_73_v145" unit="mm" x="123.8133858968871" y="101.85107802171935" z="61.757044587297635"/>
+ <position name="light_guide_01_73_v146" unit="mm" x="124.18123556968776" y="101.2454477041025" z="61.65716055162645"/>
+ <position name="light_guide_01_73_v147" unit="mm" x="123.77194624423741" y="101.90363105423036" z="61.78439564279097"/>
+ <position name="light_guide_01_73_v148" unit="mm" x="124.21134784061604" y="101.18019714072422" z="61.66508276045915"/>
+ <position name="light_guide_01_73_v149" unit="mm" x="123.73005644741986" y="101.9541679282912" z="61.81470101454539"/>
+ <position name="light_guide_01_73_v150" unit="mm" x="124.23991754577482" y="101.11472898959052" z="61.676255916177645"/>
+ <position name="light_guide_01_73_v151" unit="mm" x="123.68782065106956" y="102.00256300127025" z="61.84788535863177"/>
+ <position name="light_guide_01_73_v152" unit="mm" x="124.26687365637552" y="101.04920601484045" z="61.690652240556304"/>
+ <position name="light_guide_01_73_v153" unit="mm" x="123.64534386003105" y="102.04869595539083" z="61.88386617354207"/>
+ <position name="light_guide_01_73_v154" unit="mm" x="124.29214915527994" y="100.98379111691317" z="61.70823594206442"/>
+ <position name="light_guide_01_73_v155" unit="mm" x="123.60273167829955" y="102.0924520968602" z="61.92255400530122"/>
+ <position name="light_guide_01_73_v156" unit="mm" x="124.31568120361538" y="100.91864692755185" z="61.72896330484952"/>
+ <position name="light_guide_01_73_v157" unit="mm" x="123.56009004647295" y="102.13372264101639" z="61.963852669863755"/>
+ <position name="light_guide_01_73_v158" unit="mm" x="124.33741129700189" y="100.85393540547548" z="61.75278279742189"/>
+ <position name="light_guide_01_73_v159" unit="mm" x="123.5175249783666" y="102.17240498278389" z="62.007659492242425"/>
+ <position name="light_guide_01_73_v160" unit="mm" x="124.35728541100346" y="100.78981743372404" z="61.77963520076992"/>
+ <position name="light_guide_01_73_v161" unit="mm" x="123.47514229744654" y="102.20840295176623" z="62.05386556177452"/>
+ <position name="light_guide_01_73_v162" unit="mm" x="124.37525413544132" y="100.72645241967788" z="61.80945375558799"/>
+ <position name="light_guide_01_73_v163" unit="mm" x="123.4330473737354" y="102.24162705134059" z="62.10235600289087"/>
+ <position name="light_guide_01_73_v164" unit="mm" x="124.3912727972353" y="100.66399789874585" z="61.84216432825053"/>
+ <position name="light_guide_01_73_v165" unit="mm" x="123.39134486184611" y="102.27199468116059" z="62.15301026071459"/>
+ <position name="light_guide_01_73_v166" unit="mm" x="124.4053015714682" y="100.60260914270741" z="61.87768559511994"/>
+ <position name="light_guide_01_73_v167" unit="mm" x="124.41730558039694" y="100.54243877368266" z="61.91592924473"/>
+ <position name="light_guide_01_73_v168" unit="mm" x="124.34647720844899" y="99.87760173071594" z="62.73781240368999"/>
+ <position name="light_guide_01_73_v169" unit="mm" x="124.36551022821988" y="99.90406357830976" z="62.6732782185262"/>
+ <position name="light_guide_01_73_v170" unit="mm" x="124.3826174102355" y="99.9334805072547" z="62.609488447485965"/>
+ <position name="light_guide_01_73_v171" unit="mm" x="124.39775622334594" y="99.9657793824304" z="62.546601681990964"/>
+ <position name="light_guide_01_73_v172" unit="mm" x="124.41088903007646" y="100.00087990374409" z="62.48477426844879"/>
+ <position name="light_guide_01_73_v173" unit="mm" x="124.42198318020034" y="100.03869480576928" z="62.42415991955114"/>
+ <position name="light_guide_01_73_v174" unit="mm" x="124.43101109191235" y="100.07913007470137" z="62.36490933211994"/>
+ <position name="light_guide_01_73_v175" unit="mm" x="124.43795032040147" y="100.12208518209064" z="62.30716981245115"/>
+ <position name="light_guide_01_73_v176" unit="mm" x="124.44278361365235" y="100.16745333477212" z="62.25108491008826"/>
+ <position name="light_guide_01_73_v177" unit="mm" x="124.44549895533645" y="100.21512174036985" z="62.1967940609354"/>
+ <position name="light_guide_01_73_v178" unit="mm" x="124.44608959468648" y="100.26497188771685" z="62.14443224059776"/>
+ <position name="light_guide_01_73_v179" unit="mm" x="124.4445540632799" y="100.31687984149227" z="62.09412962881089"/>
+ <position name="light_guide_01_73_v180" unit="mm" x="124.44089617868985" y="100.37071655034435" z="62.04601128579356"/>
+ <position name="light_guide_01_73_v181" unit="mm" x="124.43512503499365" y="100.4263481677322" z="62.00019684132807"/>
+ <position name="light_guide_01_73_v182" unit="mm" x="124.42725498016391" y="100.48363638468956" z="61.95680019734201"/>
+ <position name="light_guide_01_73_v183" unit="mm" x="124.32556567000888" y="99.85416075279575" z="62.80293056082487"/>
+ <position name="light_guide_01_73_v184" unit="mm" x="124.30282760227897" y="99.8337989225137" z="62.868470795932076"/>
+ <position name="light_guide_01_73_v185" unit="mm" x="124.27831953567832" y="99.81656686258813" z="62.934270165660436"/>
+ <position name="light_guide_01_73_v186" unit="mm" x="124.25210240112197" y="99.80250741463512" z="63.000165082409325"/>
+ <position name="light_guide_01_73_v187" unit="mm" x="124.22424137853733" y="99.79165553265754" z="63.06599172103318"/>
+ <position name="light_guide_01_73_v188" unit="mm" x="124.19480573481637" y="99.78403819614381" z="63.131586426136565"/>
+ <position name="light_guide_01_73_v189" unit="mm" x="124.16386865160732" y="99.77967434299273" z="63.19678611894736"/>
+ <position name="light_guide_01_73_v190" unit="mm" x="124.13150704337353" y="99.7785748224308" z="63.26142870275625"/>
+ <position name="light_guide_01_73_v191" unit="mm" x="124.09780136617208" y="99.78074236803937" z="63.325353465914645"/>
+ <position name="light_guide_01_73_v192" unit="mm" x="124.0628354176272" y="99.78617159095857" z="63.38840148138923"/>
+ <position name="light_guide_01_73_v193" unit="mm" x="124.02669612859627" y="99.79484899328475" z="63.45041600187952"/>
+ <position name="light_guide_01_73_v194" unit="mm" x="123.98947334704602" y="99.8067530016285" z="63.51124284951644"/>
+ <position name="light_guide_01_73_v195" unit="mm" x="123.95125961467629" y="99.82185402074944" z="63.57073079917278"/>
+ <position name="light_guide_01_73_v196" unit="mm" x="123.9121499368468" y="99.84011450713473" z="63.628731954432624"/>
+ <position name="light_guide_01_73_v197" unit="mm" x="123.87224154637882" y="99.86148906233802" z="63.68510211528523"/>
+ <position name="light_guide_01_73_v198" unit="mm" x="132.2741325247423" y="106.92079556030828" z="66.6790166374153"/>
+ <position name="light_guide_01_73_v199" unit="mm" x="132.31583503663157" y="106.89042793048827" z="66.62836237959158"/>
+ <position name="light_guide_01_73_v200" unit="mm" x="132.35792996034272" y="106.85720383091392" z="66.57987193847525"/>
+ <position name="light_guide_01_73_v201" unit="mm" x="132.40031264126276" y="106.82120586193156" z="66.53366586894313"/>
+ <position name="light_guide_01_73_v202" unit="mm" x="132.4428777093691" y="106.78252352016405" z="66.48985904656445"/>
+ <position name="light_guide_01_73_v203" unit="mm" x="132.48551934119575" y="106.74125297600789" z="66.44856038200194"/>
+ <position name="light_guide_01_73_v204" unit="mm" x="132.52813152292725" y="106.69749683453851" z="66.4098725502428"/>
+ <position name="light_guide_01_73_v205" unit="mm" x="132.57060831396575" y="106.65136388041792" z="66.37389173533248"/>
+ <position name="light_guide_01_73_v206" unit="mm" x="132.61284411031602" y="106.60296880743887" z="66.3407073912461"/>
+ <position name="light_guide_01_73_v207" unit="mm" x="132.6547339071336" y="106.55243193337805" z="66.31040201949168"/>
+ <position name="light_guide_01_73_v208" unit="mm" x="132.69617355978326" y="106.49987890086702" z="66.28305096399835"/>
+ <position name="light_guide_01_73_v209" unit="mm" x="132.73706004275934" y="106.44544036502501" z="66.25872222379957"/>
+ <position name="light_guide_01_73_v210" unit="mm" x="132.77729170582282" y="106.38925166862957" z="66.23747628397672"/>
+ <position name="light_guide_01_73_v211" unit="mm" x="132.81676852672047" y="106.33145250563312" z="66.21936596528381"/>
+ <position name="light_guide_01_73_v212" unit="mm" x="132.85539235985544" y="106.27218657386189" z="66.20443629282659"/>
+ <position name="light_guide_01_73_v213" unit="mm" x="132.89306718029292" y="106.21160121776028" z="66.19272438412317"/>
+ <position name="light_guide_01_73_v214" unit="mm" x="132.92969932249312" y="106.14984706206954" z="66.18425935682389"/>
+ <position name="light_guide_01_73_v215" unit="mm" x="132.96519771317878" y="106.08707763735084" z="66.1790622563204"/>
+ <position name="light_guide_01_73_v216" unit="mm" x="132.99947409775737" y="106.02344899828408" z="66.17714600342343"/>
+ <position name="light_guide_01_73_v217" unit="mm" x="133.03244325973623" y="105.95911933569148" z="66.17851536223961"/>
+ <position name="light_guide_01_73_v218" unit="mm" x="133.06402323258393" y="105.89424858325017" z="66.18316692832715"/>
+ <position name="light_guide_01_73_v219" unit="mm" x="133.0941355035122" y="105.82899801987188" z="66.19108913715986"/>
+ <position name="light_guide_01_73_v220" unit="mm" x="133.12270520867096" y="105.7635298687382" z="66.20226229287833"/>
+ <position name="light_guide_01_73_v221" unit="mm" x="133.14966131927167" y="105.69800689398812" z="66.216658617257"/>
+ <position name="light_guide_01_73_v222" unit="mm" x="133.17493681817612" y="105.63259199606084" z="66.23424231876513"/>
+ <position name="light_guide_01_73_v223" unit="mm" x="133.19846886651155" y="105.56744780669952" z="66.25496968155024"/>
+ <position name="light_guide_01_73_v224" unit="mm" x="133.22019895989806" y="105.50273628462315" z="66.27878917412261"/>
+ <position name="light_guide_01_73_v225" unit="mm" x="133.24007307389965" y="105.43861831287171" z="66.30564157747064"/>
+ <position name="light_guide_01_73_v226" unit="mm" x="133.2580417983375" y="105.37525329882554" z="66.33546013228869"/>
+ <position name="light_guide_01_73_v227" unit="mm" x="133.27406046013144" y="105.3127987778935" z="66.36817070495124"/>
+ <position name="light_guide_01_73_v228" unit="mm" x="133.28808923436438" y="105.25141002185507" z="66.40369197182065"/>
+ <position name="light_guide_01_73_v229" unit="mm" x="133.3000932432931" y="105.19123965283033" z="66.4419356214307"/>
+ <position name="light_guide_01_73_v230" unit="mm" x="133.3100426430601" y="105.13243726383723" z="66.48280657404271"/>
+ <position name="light_guide_01_73_v231" unit="mm" x="133.31791269788982" y="105.07514904687987" z="66.52620321802877"/>
+ <position name="light_guide_01_73_v232" unit="mm" x="133.323683841586" y="105.01951742949203" z="66.57201766249428"/>
+ <position name="light_guide_01_73_v233" unit="mm" x="133.32734172617612" y="104.96568072063997" z="66.62013600551163"/>
+ <position name="light_guide_01_73_v234" unit="mm" x="133.32887725758263" y="104.91377276686451" z="66.67043861729847"/>
+ <position name="light_guide_01_73_v235" unit="mm" x="133.32828661823262" y="104.86392261951754" z="66.72280043763614"/>
+ <position name="light_guide_01_73_v236" unit="mm" x="133.32557127654852" y="104.81625421391979" z="66.77709128678896"/>
+ <position name="light_guide_01_73_v237" unit="mm" x="133.32073798329765" y="104.77088606123831" z="66.83317618915184"/>
+ <position name="light_guide_01_73_v238" unit="mm" x="133.3137987548085" y="104.72793095384903" z="66.89091570882064"/>
+ <position name="light_guide_01_73_v239" unit="mm" x="133.30477084309655" y="104.68749568491697" z="66.95016629625187"/>
+ <position name="light_guide_01_73_v240" unit="mm" x="133.29367669297264" y="104.64968078289176" z="67.0107806451495"/>
+ <position name="light_guide_01_73_v241" unit="mm" x="133.2805438862421" y="104.61458026157807" z="67.07260805869167"/>
+ <position name="light_guide_01_73_v242" unit="mm" x="133.26540507313166" y="104.58228138640239" z="67.1354948241867"/>
+ <position name="light_guide_01_73_v243" unit="mm" x="133.24829789111604" y="104.55286445745745" z="67.1992845952269"/>
+ <position name="light_guide_01_73_v244" unit="mm" x="133.22926487134512" y="104.52640260986361" z="67.2638187803907"/>
+ <position name="light_guide_01_73_v245" unit="mm" x="133.20835333290506" y="104.50296163194344" z="67.3289369375256"/>
+ <position name="light_guide_01_73_v246" unit="mm" x="133.18561526517513" y="104.48259980166138" z="67.39447717263278"/>
+ <position name="light_guide_01_73_v247" unit="mm" x="133.16110719857446" y="104.4653677417358" z="67.46027654236114"/>
+ <position name="light_guide_01_73_v248" unit="mm" x="133.13489006401815" y="104.45130829378277" z="67.52617145911003"/>
+ <position name="light_guide_01_73_v249" unit="mm" x="133.1070290414335" y="104.44045641180521" z="67.59199809773388"/>
+ <position name="light_guide_01_73_v250" unit="mm" x="133.07759339771258" y="104.43283907529148" z="67.65759280283727"/>
+ <position name="light_guide_01_73_v251" unit="mm" x="133.0466563145035" y="104.4284752221404" z="67.7227924956481"/>
+ <position name="light_guide_01_73_v252" unit="mm" x="133.01429470626974" y="104.42737570157847" z="67.78743507945698"/>
+ <position name="light_guide_01_73_v253" unit="mm" x="132.98058902906823" y="104.42954324718706" z="67.85135984261537"/>
+ <position name="light_guide_01_73_v254" unit="mm" x="132.94562308052335" y="104.43497247010623" z="67.91440785808993"/>
+ <position name="light_guide_01_73_v255" unit="mm" x="132.90948379149242" y="104.4436498724324" z="67.97642237858021"/>
+ <position name="light_guide_01_73_v256" unit="mm" x="132.87226100994218" y="104.45555388077616" z="68.03724922621714"/>
+ <position name="light_guide_01_73_v257" unit="mm" x="132.8340472775725" y="104.47065489989711" z="68.0967371758735"/>
+ <position name="light_guide_01_73_v258" unit="mm" x="132.794937599743" y="104.4889153862824" z="68.15473833113334"/>
+ <position name="light_guide_01_73_v259" unit="mm" x="132.755029209275" y="104.5102899414857" z="68.21110849198594"/>
+ </define>
+
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="light_guide_01_73_solid">
+ <triangular vertex1="light_guide_01_73_v0" vertex2="light_guide_01_73_v1" vertex3="light_guide_01_73_v2"/>
+ <triangular vertex1="light_guide_01_73_v0" vertex2="light_guide_01_73_v3" vertex3="light_guide_01_73_v4"/>
+ <triangular vertex1="light_guide_01_73_v0" vertex2="light_guide_01_73_v2" vertex3="light_guide_01_73_v3"/>
+ <triangular vertex1="light_guide_01_73_v5" vertex2="light_guide_01_73_v0" vertex3="light_guide_01_73_v4"/>
+ <triangular vertex1="light_guide_01_73_v6" vertex2="light_guide_01_73_v5" vertex3="light_guide_01_73_v4"/>
+ <triangular vertex1="light_guide_01_73_v6" vertex2="light_guide_01_73_v7" vertex3="light_guide_01_73_v8"/>
+ <triangular vertex1="light_guide_01_73_v6" vertex2="light_guide_01_73_v4" vertex3="light_guide_01_73_v7"/>
+ <triangular vertex1="light_guide_01_73_v9" vertex2="light_guide_01_73_v6" vertex3="light_guide_01_73_v8"/>
+ <triangular vertex1="light_guide_01_73_v10" vertex2="light_guide_01_73_v9" vertex3="light_guide_01_73_v8"/>
+ <triangular vertex1="light_guide_01_73_v10" vertex2="light_guide_01_73_v8" vertex3="light_guide_01_73_v11"/>
+ <triangular vertex1="light_guide_01_73_v12" vertex2="light_guide_01_73_v11" vertex3="light_guide_01_73_v13"/>
+ <triangular vertex1="light_guide_01_73_v12" vertex2="light_guide_01_73_v10" vertex3="light_guide_01_73_v11"/>
+ <triangular vertex1="light_guide_01_73_v14" vertex2="light_guide_01_73_v15" vertex3="light_guide_01_73_v16"/>
+ <triangular vertex1="light_guide_01_73_v14" vertex2="light_guide_01_73_v13" vertex3="light_guide_01_73_v15"/>
+ <triangular vertex1="light_guide_01_73_v14" vertex2="light_guide_01_73_v12" vertex3="light_guide_01_73_v13"/>
+ <triangular vertex1="light_guide_01_73_v17" vertex2="light_guide_01_73_v14" vertex3="light_guide_01_73_v16"/>
+ <triangular vertex1="light_guide_01_73_v18" vertex2="light_guide_01_73_v19" vertex3="light_guide_01_73_v20"/>
+ <triangular vertex1="light_guide_01_73_v18" vertex2="light_guide_01_73_v16" vertex3="light_guide_01_73_v19"/>
+ <triangular vertex1="light_guide_01_73_v18" vertex2="light_guide_01_73_v17" vertex3="light_guide_01_73_v16"/>
+ <triangular vertex1="light_guide_01_73_v21" vertex2="light_guide_01_73_v20" vertex3="light_guide_01_73_v22"/>
+ <triangular vertex1="light_guide_01_73_v21" vertex2="light_guide_01_73_v18" vertex3="light_guide_01_73_v20"/>
+ <triangular vertex1="light_guide_01_73_v23" vertex2="light_guide_01_73_v22" vertex3="light_guide_01_73_v24"/>
+ <triangular vertex1="light_guide_01_73_v23" vertex2="light_guide_01_73_v21" vertex3="light_guide_01_73_v22"/>
+ <triangular vertex1="light_guide_01_73_v25" vertex2="light_guide_01_73_v23" vertex3="light_guide_01_73_v24"/>
+ <triangular vertex1="light_guide_01_73_v26" vertex2="light_guide_01_73_v24" vertex3="light_guide_01_73_v27"/>
+ <triangular vertex1="light_guide_01_73_v26" vertex2="light_guide_01_73_v25" vertex3="light_guide_01_73_v24"/>
+ <triangular vertex1="light_guide_01_73_v28" vertex2="light_guide_01_73_v27" vertex3="light_guide_01_73_v29"/>
+ <triangular vertex1="light_guide_01_73_v28" vertex2="light_guide_01_73_v26" vertex3="light_guide_01_73_v27"/>
+ <triangular vertex1="light_guide_01_73_v30" vertex2="light_guide_01_73_v29" vertex3="light_guide_01_73_v31"/>
+ <triangular vertex1="light_guide_01_73_v30" vertex2="light_guide_01_73_v28" vertex3="light_guide_01_73_v29"/>
+ <triangular vertex1="light_guide_01_73_v32" vertex2="light_guide_01_73_v33" vertex3="light_guide_01_73_v34"/>
+ <triangular vertex1="light_guide_01_73_v32" vertex2="light_guide_01_73_v31" vertex3="light_guide_01_73_v33"/>
+ <triangular vertex1="light_guide_01_73_v32" vertex2="light_guide_01_73_v30" vertex3="light_guide_01_73_v31"/>
+ <triangular vertex1="light_guide_01_73_v35" vertex2="light_guide_01_73_v32" vertex3="light_guide_01_73_v34"/>
+ <triangular vertex1="light_guide_01_73_v35" vertex2="light_guide_01_73_v34" vertex3="light_guide_01_73_v36"/>
+ <triangular vertex1="light_guide_01_73_v37" vertex2="light_guide_01_73_v35" vertex3="light_guide_01_73_v36"/>
+ <triangular vertex1="light_guide_01_73_v37" vertex2="light_guide_01_73_v36" vertex3="light_guide_01_73_v38"/>
+ <triangular vertex1="light_guide_01_73_v39" vertex2="light_guide_01_73_v37" vertex3="light_guide_01_73_v38"/>
+ <triangular vertex1="light_guide_01_73_v40" vertex2="light_guide_01_73_v39" vertex3="light_guide_01_73_v38"/>
+ <triangular vertex1="light_guide_01_73_v40" vertex2="light_guide_01_73_v38" vertex3="light_guide_01_73_v41"/>
+ <triangular vertex1="light_guide_01_73_v42" vertex2="light_guide_01_73_v40" vertex3="light_guide_01_73_v41"/>
+ <triangular vertex1="light_guide_01_73_v42" vertex2="light_guide_01_73_v41" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v44" vertex2="light_guide_01_73_v42" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v44" vertex2="light_guide_01_73_v43" vertex3="light_guide_01_73_v45"/>
+ <triangular vertex1="light_guide_01_73_v46" vertex2="light_guide_01_73_v44" vertex3="light_guide_01_73_v45"/>
+ <triangular vertex1="light_guide_01_73_v46" vertex2="light_guide_01_73_v45" vertex3="light_guide_01_73_v47"/>
+ <triangular vertex1="light_guide_01_73_v48" vertex2="light_guide_01_73_v46" vertex3="light_guide_01_73_v47"/>
+ <triangular vertex1="light_guide_01_73_v48" vertex2="light_guide_01_73_v47" vertex3="light_guide_01_73_v49"/>
+ <triangular vertex1="light_guide_01_73_v50" vertex2="light_guide_01_73_v48" vertex3="light_guide_01_73_v49"/>
+ <triangular vertex1="light_guide_01_73_v50" vertex2="light_guide_01_73_v49" vertex3="light_guide_01_73_v51"/>
+ <triangular vertex1="light_guide_01_73_v52" vertex2="light_guide_01_73_v51" vertex3="light_guide_01_73_v53"/>
+ <triangular vertex1="light_guide_01_73_v52" vertex2="light_guide_01_73_v50" vertex3="light_guide_01_73_v51"/>
+ <triangular vertex1="light_guide_01_73_v54" vertex2="light_guide_01_73_v53" vertex3="light_guide_01_73_v55"/>
+ <triangular vertex1="light_guide_01_73_v54" vertex2="light_guide_01_73_v52" vertex3="light_guide_01_73_v53"/>
+ <triangular vertex1="light_guide_01_73_v56" vertex2="light_guide_01_73_v55" vertex3="light_guide_01_73_v57"/>
+ <triangular vertex1="light_guide_01_73_v56" vertex2="light_guide_01_73_v54" vertex3="light_guide_01_73_v55"/>
+ <triangular vertex1="light_guide_01_73_v58" vertex2="light_guide_01_73_v57" vertex3="light_guide_01_73_v59"/>
+ <triangular vertex1="light_guide_01_73_v58" vertex2="light_guide_01_73_v56" vertex3="light_guide_01_73_v57"/>
+ <triangular vertex1="light_guide_01_73_v60" vertex2="light_guide_01_73_v59" vertex3="light_guide_01_73_v61"/>
+ <triangular vertex1="light_guide_01_73_v60" vertex2="light_guide_01_73_v58" vertex3="light_guide_01_73_v59"/>
+ <triangular vertex1="light_guide_01_73_v62" vertex2="light_guide_01_73_v61" vertex3="light_guide_01_73_v63"/>
+ <triangular vertex1="light_guide_01_73_v62" vertex2="light_guide_01_73_v60" vertex3="light_guide_01_73_v61"/>
+ <triangular vertex1="light_guide_01_73_v64" vertex2="light_guide_01_73_v63" vertex3="light_guide_01_73_v65"/>
+ <triangular vertex1="light_guide_01_73_v64" vertex2="light_guide_01_73_v62" vertex3="light_guide_01_73_v63"/>
+ <triangular vertex1="light_guide_01_73_v66" vertex2="light_guide_01_73_v65" vertex3="light_guide_01_73_v67"/>
+ <triangular vertex1="light_guide_01_73_v66" vertex2="light_guide_01_73_v64" vertex3="light_guide_01_73_v65"/>
+ <triangular vertex1="light_guide_01_73_v68" vertex2="light_guide_01_73_v67" vertex3="light_guide_01_73_v69"/>
+ <triangular vertex1="light_guide_01_73_v68" vertex2="light_guide_01_73_v66" vertex3="light_guide_01_73_v67"/>
+ <triangular vertex1="light_guide_01_73_v70" vertex2="light_guide_01_73_v69" vertex3="light_guide_01_73_v71"/>
+ <triangular vertex1="light_guide_01_73_v70" vertex2="light_guide_01_73_v68" vertex3="light_guide_01_73_v69"/>
+ <triangular vertex1="light_guide_01_73_v72" vertex2="light_guide_01_73_v73" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v72" vertex2="light_guide_01_73_v71" vertex3="light_guide_01_73_v73"/>
+ <triangular vertex1="light_guide_01_73_v72" vertex2="light_guide_01_73_v70" vertex3="light_guide_01_73_v71"/>
+ <triangular vertex1="light_guide_01_73_v75" vertex2="light_guide_01_73_v72" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v76" vertex2="light_guide_01_73_v74" vertex3="light_guide_01_73_v77"/>
+ <triangular vertex1="light_guide_01_73_v76" vertex2="light_guide_01_73_v75" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v78" vertex2="light_guide_01_73_v77" vertex3="light_guide_01_73_v79"/>
+ <triangular vertex1="light_guide_01_73_v78" vertex2="light_guide_01_73_v76" vertex3="light_guide_01_73_v77"/>
+ <triangular vertex1="light_guide_01_73_v80" vertex2="light_guide_01_73_v81" vertex3="light_guide_01_73_v82"/>
+ <triangular vertex1="light_guide_01_73_v80" vertex2="light_guide_01_73_v79" vertex3="light_guide_01_73_v81"/>
+ <triangular vertex1="light_guide_01_73_v80" vertex2="light_guide_01_73_v78" vertex3="light_guide_01_73_v79"/>
+ <triangular vertex1="light_guide_01_73_v83" vertex2="light_guide_01_73_v80" vertex3="light_guide_01_73_v82"/>
+ <triangular vertex1="light_guide_01_73_v84" vertex2="light_guide_01_73_v83" vertex3="light_guide_01_73_v82"/>
+ <triangular vertex1="light_guide_01_73_v84" vertex2="light_guide_01_73_v85" vertex3="light_guide_01_73_v86"/>
+ <triangular vertex1="light_guide_01_73_v84" vertex2="light_guide_01_73_v82" vertex3="light_guide_01_73_v85"/>
+ <triangular vertex1="light_guide_01_73_v87" vertex2="light_guide_01_73_v84" vertex3="light_guide_01_73_v86"/>
+ <triangular vertex1="light_guide_01_73_v88" vertex2="light_guide_01_73_v87" vertex3="light_guide_01_73_v86"/>
+ <triangular vertex1="light_guide_01_73_v88" vertex2="light_guide_01_73_v86" vertex3="light_guide_01_73_v89"/>
+ <triangular vertex1="light_guide_01_73_v90" vertex2="light_guide_01_73_v88" vertex3="light_guide_01_73_v89"/>
+ <triangular vertex1="light_guide_01_73_v90" vertex2="light_guide_01_73_v91" vertex3="light_guide_01_73_v92"/>
+ <triangular vertex1="light_guide_01_73_v90" vertex2="light_guide_01_73_v89" vertex3="light_guide_01_73_v91"/>
+ <triangular vertex1="light_guide_01_73_v93" vertex2="light_guide_01_73_v90" vertex3="light_guide_01_73_v92"/>
+ <triangular vertex1="light_guide_01_73_v94" vertex2="light_guide_01_73_v93" vertex3="light_guide_01_73_v92"/>
+ <triangular vertex1="light_guide_01_73_v94" vertex2="light_guide_01_73_v95" vertex3="light_guide_01_73_v96"/>
+ <triangular vertex1="light_guide_01_73_v94" vertex2="light_guide_01_73_v92" vertex3="light_guide_01_73_v95"/>
+ <triangular vertex1="light_guide_01_73_v97" vertex2="light_guide_01_73_v94" vertex3="light_guide_01_73_v96"/>
+ <triangular vertex1="light_guide_01_73_v98" vertex2="light_guide_01_73_v96" vertex3="light_guide_01_73_v99"/>
+ <triangular vertex1="light_guide_01_73_v98" vertex2="light_guide_01_73_v97" vertex3="light_guide_01_73_v96"/>
+ <triangular vertex1="light_guide_01_73_v100" vertex2="light_guide_01_73_v99" vertex3="light_guide_01_73_v101"/>
+ <triangular vertex1="light_guide_01_73_v100" vertex2="light_guide_01_73_v98" vertex3="light_guide_01_73_v99"/>
+ <triangular vertex1="light_guide_01_73_v102" vertex2="light_guide_01_73_v101" vertex3="light_guide_01_73_v103"/>
+ <triangular vertex1="light_guide_01_73_v102" vertex2="light_guide_01_73_v100" vertex3="light_guide_01_73_v101"/>
+ <triangular vertex1="light_guide_01_73_v104" vertex2="light_guide_01_73_v105" vertex3="light_guide_01_73_v106"/>
+ <triangular vertex1="light_guide_01_73_v104" vertex2="light_guide_01_73_v103" vertex3="light_guide_01_73_v105"/>
+ <triangular vertex1="light_guide_01_73_v104" vertex2="light_guide_01_73_v102" vertex3="light_guide_01_73_v103"/>
+ <triangular vertex1="light_guide_01_73_v107" vertex2="light_guide_01_73_v106" vertex3="light_guide_01_73_v108"/>
+ <triangular vertex1="light_guide_01_73_v107" vertex2="light_guide_01_73_v104" vertex3="light_guide_01_73_v106"/>
+ <triangular vertex1="light_guide_01_73_v109" vertex2="light_guide_01_73_v108" vertex3="light_guide_01_73_v110"/>
+ <triangular vertex1="light_guide_01_73_v109" vertex2="light_guide_01_73_v107" vertex3="light_guide_01_73_v108"/>
+ <triangular vertex1="light_guide_01_73_v111" vertex2="light_guide_01_73_v109" vertex3="light_guide_01_73_v110"/>
+ <triangular vertex1="light_guide_01_73_v112" vertex2="light_guide_01_73_v110" vertex3="light_guide_01_73_v113"/>
+ <triangular vertex1="light_guide_01_73_v112" vertex2="light_guide_01_73_v111" vertex3="light_guide_01_73_v110"/>
+ <triangular vertex1="light_guide_01_73_v114" vertex2="light_guide_01_73_v113" vertex3="light_guide_01_73_v115"/>
+ <triangular vertex1="light_guide_01_73_v114" vertex2="light_guide_01_73_v112" vertex3="light_guide_01_73_v113"/>
+ <triangular vertex1="light_guide_01_73_v116" vertex2="light_guide_01_73_v115" vertex3="light_guide_01_73_v117"/>
+ <triangular vertex1="light_guide_01_73_v116" vertex2="light_guide_01_73_v114" vertex3="light_guide_01_73_v115"/>
+ <triangular vertex1="light_guide_01_73_v118" vertex2="light_guide_01_73_v117" vertex3="light_guide_01_73_v119"/>
+ <triangular vertex1="light_guide_01_73_v118" vertex2="light_guide_01_73_v116" vertex3="light_guide_01_73_v117"/>
+ <triangular vertex1="light_guide_01_73_v120" vertex2="light_guide_01_73_v119" vertex3="light_guide_01_73_v121"/>
+ <triangular vertex1="light_guide_01_73_v120" vertex2="light_guide_01_73_v118" vertex3="light_guide_01_73_v119"/>
+ <triangular vertex1="light_guide_01_73_v122" vertex2="light_guide_01_73_v121" vertex3="light_guide_01_73_v123"/>
+ <triangular vertex1="light_guide_01_73_v122" vertex2="light_guide_01_73_v120" vertex3="light_guide_01_73_v121"/>
+ <triangular vertex1="light_guide_01_73_v124" vertex2="light_guide_01_73_v123" vertex3="light_guide_01_73_v125"/>
+ <triangular vertex1="light_guide_01_73_v124" vertex2="light_guide_01_73_v122" vertex3="light_guide_01_73_v123"/>
+ <triangular vertex1="light_guide_01_73_v126" vertex2="light_guide_01_73_v125" vertex3="light_guide_01_73_v127"/>
+ <triangular vertex1="light_guide_01_73_v126" vertex2="light_guide_01_73_v124" vertex3="light_guide_01_73_v125"/>
+ <triangular vertex1="light_guide_01_73_v128" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v130"/>
+ <triangular vertex1="light_guide_01_73_v128" vertex2="light_guide_01_73_v130" vertex3="light_guide_01_73_v131"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v132" vertex3="light_guide_01_73_v133"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v133" vertex3="light_guide_01_73_v130"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v135"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v135" vertex3="light_guide_01_73_v133"/>
+ <triangular vertex1="light_guide_01_73_v134" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v131"/>
+ <triangular vertex1="light_guide_01_73_v134" vertex2="light_guide_01_73_v131" vertex3="light_guide_01_73_v135"/>
+ <triangular vertex1="light_guide_01_73_v131" vertex2="light_guide_01_73_v130" vertex3="light_guide_01_73_v133"/>
+ <triangular vertex1="light_guide_01_73_v131" vertex2="light_guide_01_73_v133" vertex3="light_guide_01_73_v135"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v136" vertex3="light_guide_01_73_v137"/>
+ <triangular vertex1="light_guide_01_73_v137" vertex2="light_guide_01_73_v138" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v139" vertex3="light_guide_01_73_v136"/>
+ <triangular vertex1="light_guide_01_73_v138" vertex2="light_guide_01_73_v140" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v141" vertex3="light_guide_01_73_v139"/>
+ <triangular vertex1="light_guide_01_73_v140" vertex2="light_guide_01_73_v142" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v143" vertex3="light_guide_01_73_v141"/>
+ <triangular vertex1="light_guide_01_73_v142" vertex2="light_guide_01_73_v144" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v145" vertex3="light_guide_01_73_v143"/>
+ <triangular vertex1="light_guide_01_73_v144" vertex2="light_guide_01_73_v146" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v147" vertex3="light_guide_01_73_v145"/>
+ <triangular vertex1="light_guide_01_73_v146" vertex2="light_guide_01_73_v148" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v149" vertex3="light_guide_01_73_v147"/>
+ <triangular vertex1="light_guide_01_73_v148" vertex2="light_guide_01_73_v150" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v151" vertex3="light_guide_01_73_v149"/>
+ <triangular vertex1="light_guide_01_73_v150" vertex2="light_guide_01_73_v152" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v153" vertex3="light_guide_01_73_v151"/>
+ <triangular vertex1="light_guide_01_73_v152" vertex2="light_guide_01_73_v154" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v155" vertex3="light_guide_01_73_v153"/>
+ <triangular vertex1="light_guide_01_73_v154" vertex2="light_guide_01_73_v156" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v157" vertex3="light_guide_01_73_v155"/>
+ <triangular vertex1="light_guide_01_73_v156" vertex2="light_guide_01_73_v158" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v159" vertex3="light_guide_01_73_v157"/>
+ <triangular vertex1="light_guide_01_73_v158" vertex2="light_guide_01_73_v160" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v161" vertex3="light_guide_01_73_v159"/>
+ <triangular vertex1="light_guide_01_73_v160" vertex2="light_guide_01_73_v162" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v163" vertex3="light_guide_01_73_v161"/>
+ <triangular vertex1="light_guide_01_73_v162" vertex2="light_guide_01_73_v164" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v165" vertex3="light_guide_01_73_v163"/>
+ <triangular vertex1="light_guide_01_73_v164" vertex2="light_guide_01_73_v166" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v126" vertex3="light_guide_01_73_v165"/>
+ <triangular vertex1="light_guide_01_73_v166" vertex2="light_guide_01_73_v167" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v126" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v124"/>
+ <triangular vertex1="light_guide_01_73_v124" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v122"/>
+ <triangular vertex1="light_guide_01_73_v122" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v120"/>
+ <triangular vertex1="light_guide_01_73_v120" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v118"/>
+ <triangular vertex1="light_guide_01_73_v118" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v116"/>
+ <triangular vertex1="light_guide_01_73_v116" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v114"/>
+ <triangular vertex1="light_guide_01_73_v114" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v112"/>
+ <triangular vertex1="light_guide_01_73_v112" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v111"/>
+ <triangular vertex1="light_guide_01_73_v111" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v109"/>
+ <triangular vertex1="light_guide_01_73_v109" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v107"/>
+ <triangular vertex1="light_guide_01_73_v107" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v104"/>
+ <triangular vertex1="light_guide_01_73_v104" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v102"/>
+ <triangular vertex1="light_guide_01_73_v102" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v100"/>
+ <triangular vertex1="light_guide_01_73_v100" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v98"/>
+ <triangular vertex1="light_guide_01_73_v98" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v97"/>
+ <triangular vertex1="light_guide_01_73_v132" vertex2="light_guide_01_73_v129" vertex3="light_guide_01_73_v126"/>
+ <triangular vertex1="light_guide_01_73_v167" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v132"/>
+ <triangular vertex1="light_guide_01_73_v168" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v169"/>
+ <triangular vertex1="light_guide_01_73_v169" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v170"/>
+ <triangular vertex1="light_guide_01_73_v170" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v171"/>
+ <triangular vertex1="light_guide_01_73_v171" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v172"/>
+ <triangular vertex1="light_guide_01_73_v172" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v173"/>
+ <triangular vertex1="light_guide_01_73_v173" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v174"/>
+ <triangular vertex1="light_guide_01_73_v174" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v175"/>
+ <triangular vertex1="light_guide_01_73_v175" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v176"/>
+ <triangular vertex1="light_guide_01_73_v176" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v177"/>
+ <triangular vertex1="light_guide_01_73_v177" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v178"/>
+ <triangular vertex1="light_guide_01_73_v178" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v179"/>
+ <triangular vertex1="light_guide_01_73_v179" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v180"/>
+ <triangular vertex1="light_guide_01_73_v180" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v181"/>
+ <triangular vertex1="light_guide_01_73_v181" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v182"/>
+ <triangular vertex1="light_guide_01_73_v182" vertex2="light_guide_01_73_v134" vertex3="light_guide_01_73_v167"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v94" vertex3="light_guide_01_73_v97"/>
+ <triangular vertex1="light_guide_01_73_v168" vertex2="light_guide_01_73_v183" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v93" vertex3="light_guide_01_73_v94"/>
+ <triangular vertex1="light_guide_01_73_v183" vertex2="light_guide_01_73_v184" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v90" vertex3="light_guide_01_73_v93"/>
+ <triangular vertex1="light_guide_01_73_v184" vertex2="light_guide_01_73_v185" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v88" vertex3="light_guide_01_73_v90"/>
+ <triangular vertex1="light_guide_01_73_v185" vertex2="light_guide_01_73_v186" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v87" vertex3="light_guide_01_73_v88"/>
+ <triangular vertex1="light_guide_01_73_v186" vertex2="light_guide_01_73_v187" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v84" vertex3="light_guide_01_73_v87"/>
+ <triangular vertex1="light_guide_01_73_v187" vertex2="light_guide_01_73_v188" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v83" vertex3="light_guide_01_73_v84"/>
+ <triangular vertex1="light_guide_01_73_v188" vertex2="light_guide_01_73_v189" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v80" vertex3="light_guide_01_73_v83"/>
+ <triangular vertex1="light_guide_01_73_v189" vertex2="light_guide_01_73_v190" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v78" vertex3="light_guide_01_73_v80"/>
+ <triangular vertex1="light_guide_01_73_v190" vertex2="light_guide_01_73_v191" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v76" vertex3="light_guide_01_73_v78"/>
+ <triangular vertex1="light_guide_01_73_v191" vertex2="light_guide_01_73_v192" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v75" vertex3="light_guide_01_73_v76"/>
+ <triangular vertex1="light_guide_01_73_v192" vertex2="light_guide_01_73_v193" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v72" vertex3="light_guide_01_73_v75"/>
+ <triangular vertex1="light_guide_01_73_v193" vertex2="light_guide_01_73_v194" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v70" vertex3="light_guide_01_73_v72"/>
+ <triangular vertex1="light_guide_01_73_v194" vertex2="light_guide_01_73_v195" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v68" vertex3="light_guide_01_73_v70"/>
+ <triangular vertex1="light_guide_01_73_v195" vertex2="light_guide_01_73_v196" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v66" vertex3="light_guide_01_73_v68"/>
+ <triangular vertex1="light_guide_01_73_v196" vertex2="light_guide_01_73_v197" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v197" vertex2="light_guide_01_73_v1" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v1" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v134"/>
+ <triangular vertex1="light_guide_01_73_v60" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v58"/>
+ <triangular vertex1="light_guide_01_73_v58" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v56"/>
+ <triangular vertex1="light_guide_01_73_v56" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v54"/>
+ <triangular vertex1="light_guide_01_73_v54" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v52"/>
+ <triangular vertex1="light_guide_01_73_v52" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v50"/>
+ <triangular vertex1="light_guide_01_73_v50" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v48"/>
+ <triangular vertex1="light_guide_01_73_v48" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v46"/>
+ <triangular vertex1="light_guide_01_73_v46" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v44"/>
+ <triangular vertex1="light_guide_01_73_v44" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v42"/>
+ <triangular vertex1="light_guide_01_73_v42" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v40"/>
+ <triangular vertex1="light_guide_01_73_v40" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v39"/>
+ <triangular vertex1="light_guide_01_73_v39" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v37"/>
+ <triangular vertex1="light_guide_01_73_v37" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v35"/>
+ <triangular vertex1="light_guide_01_73_v35" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v32"/>
+ <triangular vertex1="light_guide_01_73_v32" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v30"/>
+ <triangular vertex1="light_guide_01_73_v30" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v28"/>
+ <triangular vertex1="light_guide_01_73_v28" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v26"/>
+ <triangular vertex1="light_guide_01_73_v26" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v25"/>
+ <triangular vertex1="light_guide_01_73_v25" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v23"/>
+ <triangular vertex1="light_guide_01_73_v23" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v21"/>
+ <triangular vertex1="light_guide_01_73_v21" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v18"/>
+ <triangular vertex1="light_guide_01_73_v18" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v17"/>
+ <triangular vertex1="light_guide_01_73_v17" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v14"/>
+ <triangular vertex1="light_guide_01_73_v14" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v12"/>
+ <triangular vertex1="light_guide_01_73_v12" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v10"/>
+ <triangular vertex1="light_guide_01_73_v10" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v9"/>
+ <triangular vertex1="light_guide_01_73_v9" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v6"/>
+ <triangular vertex1="light_guide_01_73_v6" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v5"/>
+ <triangular vertex1="light_guide_01_73_v5" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v0"/>
+ <triangular vertex1="light_guide_01_73_v0" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v1"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v64"/>
+ <triangular vertex1="light_guide_01_73_v129" vertex2="light_guide_01_73_v64" vertex3="light_guide_01_73_v66"/>
+ <triangular vertex1="light_guide_01_73_v64" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v62"/>
+ <triangular vertex1="light_guide_01_73_v62" vertex2="light_guide_01_73_v128" vertex3="light_guide_01_73_v60"/>
+ <triangular vertex1="light_guide_01_73_v126" vertex2="light_guide_01_73_v127" vertex3="light_guide_01_73_v198"/>
+ <triangular vertex1="light_guide_01_73_v165" vertex2="light_guide_01_73_v126" vertex3="light_guide_01_73_v198"/>
+ <triangular vertex1="light_guide_01_73_v163" vertex2="light_guide_01_73_v165" vertex3="light_guide_01_73_v198"/>
+ <triangular vertex1="light_guide_01_73_v163" vertex2="light_guide_01_73_v198" vertex3="light_guide_01_73_v199"/>
+ <triangular vertex1="light_guide_01_73_v161" vertex2="light_guide_01_73_v163" vertex3="light_guide_01_73_v199"/>
+ <triangular vertex1="light_guide_01_73_v161" vertex2="light_guide_01_73_v199" vertex3="light_guide_01_73_v200"/>
+ <triangular vertex1="light_guide_01_73_v159" vertex2="light_guide_01_73_v161" vertex3="light_guide_01_73_v200"/>
+ <triangular vertex1="light_guide_01_73_v159" vertex2="light_guide_01_73_v201" vertex3="light_guide_01_73_v202"/>
+ <triangular vertex1="light_guide_01_73_v159" vertex2="light_guide_01_73_v200" vertex3="light_guide_01_73_v201"/>
+ <triangular vertex1="light_guide_01_73_v157" vertex2="light_guide_01_73_v159" vertex3="light_guide_01_73_v202"/>
+ <triangular vertex1="light_guide_01_73_v155" vertex2="light_guide_01_73_v157" vertex3="light_guide_01_73_v202"/>
+ <triangular vertex1="light_guide_01_73_v155" vertex2="light_guide_01_73_v202" vertex3="light_guide_01_73_v203"/>
+ <triangular vertex1="light_guide_01_73_v153" vertex2="light_guide_01_73_v204" vertex3="light_guide_01_73_v205"/>
+ <triangular vertex1="light_guide_01_73_v153" vertex2="light_guide_01_73_v203" vertex3="light_guide_01_73_v204"/>
+ <triangular vertex1="light_guide_01_73_v153" vertex2="light_guide_01_73_v155" vertex3="light_guide_01_73_v203"/>
+ <triangular vertex1="light_guide_01_73_v151" vertex2="light_guide_01_73_v153" vertex3="light_guide_01_73_v205"/>
+ <triangular vertex1="light_guide_01_73_v149" vertex2="light_guide_01_73_v205" vertex3="light_guide_01_73_v206"/>
+ <triangular vertex1="light_guide_01_73_v149" vertex2="light_guide_01_73_v151" vertex3="light_guide_01_73_v205"/>
+ <triangular vertex1="light_guide_01_73_v147" vertex2="light_guide_01_73_v207" vertex3="light_guide_01_73_v208"/>
+ <triangular vertex1="light_guide_01_73_v147" vertex2="light_guide_01_73_v206" vertex3="light_guide_01_73_v207"/>
+ <triangular vertex1="light_guide_01_73_v147" vertex2="light_guide_01_73_v149" vertex3="light_guide_01_73_v206"/>
+ <triangular vertex1="light_guide_01_73_v145" vertex2="light_guide_01_73_v208" vertex3="light_guide_01_73_v209"/>
+ <triangular vertex1="light_guide_01_73_v145" vertex2="light_guide_01_73_v147" vertex3="light_guide_01_73_v208"/>
+ <triangular vertex1="light_guide_01_73_v143" vertex2="light_guide_01_73_v145" vertex3="light_guide_01_73_v209"/>
+ <triangular vertex1="light_guide_01_73_v141" vertex2="light_guide_01_73_v209" vertex3="light_guide_01_73_v210"/>
+ <triangular vertex1="light_guide_01_73_v141" vertex2="light_guide_01_73_v143" vertex3="light_guide_01_73_v209"/>
+ <triangular vertex1="light_guide_01_73_v139" vertex2="light_guide_01_73_v211" vertex3="light_guide_01_73_v212"/>
+ <triangular vertex1="light_guide_01_73_v139" vertex2="light_guide_01_73_v210" vertex3="light_guide_01_73_v211"/>
+ <triangular vertex1="light_guide_01_73_v139" vertex2="light_guide_01_73_v141" vertex3="light_guide_01_73_v210"/>
+ <triangular vertex1="light_guide_01_73_v136" vertex2="light_guide_01_73_v139" vertex3="light_guide_01_73_v212"/>
+ <triangular vertex1="light_guide_01_73_v137" vertex2="light_guide_01_73_v212" vertex3="light_guide_01_73_v213"/>
+ <triangular vertex1="light_guide_01_73_v137" vertex2="light_guide_01_73_v136" vertex3="light_guide_01_73_v212"/>
+ <triangular vertex1="light_guide_01_73_v138" vertex2="light_guide_01_73_v213" vertex3="light_guide_01_73_v214"/>
+ <triangular vertex1="light_guide_01_73_v138" vertex2="light_guide_01_73_v137" vertex3="light_guide_01_73_v213"/>
+ <triangular vertex1="light_guide_01_73_v140" vertex2="light_guide_01_73_v138" vertex3="light_guide_01_73_v214"/>
+ <triangular vertex1="light_guide_01_73_v140" vertex2="light_guide_01_73_v214" vertex3="light_guide_01_73_v215"/>
+ <triangular vertex1="light_guide_01_73_v142" vertex2="light_guide_01_73_v140" vertex3="light_guide_01_73_v215"/>
+ <triangular vertex1="light_guide_01_73_v142" vertex2="light_guide_01_73_v216" vertex3="light_guide_01_73_v217"/>
+ <triangular vertex1="light_guide_01_73_v142" vertex2="light_guide_01_73_v215" vertex3="light_guide_01_73_v216"/>
+ <triangular vertex1="light_guide_01_73_v144" vertex2="light_guide_01_73_v142" vertex3="light_guide_01_73_v217"/>
+ <triangular vertex1="light_guide_01_73_v146" vertex2="light_guide_01_73_v144" vertex3="light_guide_01_73_v217"/>
+ <triangular vertex1="light_guide_01_73_v146" vertex2="light_guide_01_73_v217" vertex3="light_guide_01_73_v218"/>
+ <triangular vertex1="light_guide_01_73_v148" vertex2="light_guide_01_73_v146" vertex3="light_guide_01_73_v218"/>
+ <triangular vertex1="light_guide_01_73_v148" vertex2="light_guide_01_73_v218" vertex3="light_guide_01_73_v219"/>
+ <triangular vertex1="light_guide_01_73_v150" vertex2="light_guide_01_73_v148" vertex3="light_guide_01_73_v219"/>
+ <triangular vertex1="light_guide_01_73_v150" vertex2="light_guide_01_73_v219" vertex3="light_guide_01_73_v220"/>
+ <triangular vertex1="light_guide_01_73_v152" vertex2="light_guide_01_73_v150" vertex3="light_guide_01_73_v220"/>
+ <triangular vertex1="light_guide_01_73_v152" vertex2="light_guide_01_73_v220" vertex3="light_guide_01_73_v221"/>
+ <triangular vertex1="light_guide_01_73_v154" vertex2="light_guide_01_73_v152" vertex3="light_guide_01_73_v221"/>
+ <triangular vertex1="light_guide_01_73_v154" vertex2="light_guide_01_73_v221" vertex3="light_guide_01_73_v222"/>
+ <triangular vertex1="light_guide_01_73_v156" vertex2="light_guide_01_73_v154" vertex3="light_guide_01_73_v222"/>
+ <triangular vertex1="light_guide_01_73_v156" vertex2="light_guide_01_73_v222" vertex3="light_guide_01_73_v223"/>
+ <triangular vertex1="light_guide_01_73_v158" vertex2="light_guide_01_73_v224" vertex3="light_guide_01_73_v225"/>
+ <triangular vertex1="light_guide_01_73_v158" vertex2="light_guide_01_73_v223" vertex3="light_guide_01_73_v224"/>
+ <triangular vertex1="light_guide_01_73_v158" vertex2="light_guide_01_73_v156" vertex3="light_guide_01_73_v223"/>
+ <triangular vertex1="light_guide_01_73_v160" vertex2="light_guide_01_73_v158" vertex3="light_guide_01_73_v225"/>
+ <triangular vertex1="light_guide_01_73_v160" vertex2="light_guide_01_73_v225" vertex3="light_guide_01_73_v226"/>
+ <triangular vertex1="light_guide_01_73_v162" vertex2="light_guide_01_73_v160" vertex3="light_guide_01_73_v226"/>
+ <triangular vertex1="light_guide_01_73_v164" vertex2="light_guide_01_73_v226" vertex3="light_guide_01_73_v227"/>
+ <triangular vertex1="light_guide_01_73_v164" vertex2="light_guide_01_73_v162" vertex3="light_guide_01_73_v226"/>
+ <triangular vertex1="light_guide_01_73_v166" vertex2="light_guide_01_73_v227" vertex3="light_guide_01_73_v228"/>
+ <triangular vertex1="light_guide_01_73_v166" vertex2="light_guide_01_73_v164" vertex3="light_guide_01_73_v227"/>
+ <triangular vertex1="light_guide_01_73_v167" vertex2="light_guide_01_73_v228" vertex3="light_guide_01_73_v229"/>
+ <triangular vertex1="light_guide_01_73_v167" vertex2="light_guide_01_73_v166" vertex3="light_guide_01_73_v228"/>
+ <triangular vertex1="light_guide_01_73_v182" vertex2="light_guide_01_73_v229" vertex3="light_guide_01_73_v230"/>
+ <triangular vertex1="light_guide_01_73_v182" vertex2="light_guide_01_73_v167" vertex3="light_guide_01_73_v229"/>
+ <triangular vertex1="light_guide_01_73_v181" vertex2="light_guide_01_73_v230" vertex3="light_guide_01_73_v231"/>
+ <triangular vertex1="light_guide_01_73_v181" vertex2="light_guide_01_73_v182" vertex3="light_guide_01_73_v230"/>
+ <triangular vertex1="light_guide_01_73_v180" vertex2="light_guide_01_73_v231" vertex3="light_guide_01_73_v232"/>
+ <triangular vertex1="light_guide_01_73_v180" vertex2="light_guide_01_73_v181" vertex3="light_guide_01_73_v231"/>
+ <triangular vertex1="light_guide_01_73_v179" vertex2="light_guide_01_73_v232" vertex3="light_guide_01_73_v233"/>
+ <triangular vertex1="light_guide_01_73_v179" vertex2="light_guide_01_73_v180" vertex3="light_guide_01_73_v232"/>
+ <triangular vertex1="light_guide_01_73_v178" vertex2="light_guide_01_73_v233" vertex3="light_guide_01_73_v234"/>
+ <triangular vertex1="light_guide_01_73_v178" vertex2="light_guide_01_73_v179" vertex3="light_guide_01_73_v233"/>
+ <triangular vertex1="light_guide_01_73_v177" vertex2="light_guide_01_73_v234" vertex3="light_guide_01_73_v235"/>
+ <triangular vertex1="light_guide_01_73_v177" vertex2="light_guide_01_73_v178" vertex3="light_guide_01_73_v234"/>
+ <triangular vertex1="light_guide_01_73_v176" vertex2="light_guide_01_73_v235" vertex3="light_guide_01_73_v236"/>
+ <triangular vertex1="light_guide_01_73_v176" vertex2="light_guide_01_73_v177" vertex3="light_guide_01_73_v235"/>
+ <triangular vertex1="light_guide_01_73_v175" vertex2="light_guide_01_73_v236" vertex3="light_guide_01_73_v237"/>
+ <triangular vertex1="light_guide_01_73_v175" vertex2="light_guide_01_73_v176" vertex3="light_guide_01_73_v236"/>
+ <triangular vertex1="light_guide_01_73_v174" vertex2="light_guide_01_73_v237" vertex3="light_guide_01_73_v238"/>
+ <triangular vertex1="light_guide_01_73_v174" vertex2="light_guide_01_73_v175" vertex3="light_guide_01_73_v237"/>
+ <triangular vertex1="light_guide_01_73_v173" vertex2="light_guide_01_73_v238" vertex3="light_guide_01_73_v239"/>
+ <triangular vertex1="light_guide_01_73_v173" vertex2="light_guide_01_73_v174" vertex3="light_guide_01_73_v238"/>
+ <triangular vertex1="light_guide_01_73_v172" vertex2="light_guide_01_73_v173" vertex3="light_guide_01_73_v239"/>
+ <triangular vertex1="light_guide_01_73_v172" vertex2="light_guide_01_73_v240" vertex3="light_guide_01_73_v241"/>
+ <triangular vertex1="light_guide_01_73_v172" vertex2="light_guide_01_73_v239" vertex3="light_guide_01_73_v240"/>
+ <triangular vertex1="light_guide_01_73_v171" vertex2="light_guide_01_73_v172" vertex3="light_guide_01_73_v241"/>
+ <triangular vertex1="light_guide_01_73_v170" vertex2="light_guide_01_73_v171" vertex3="light_guide_01_73_v241"/>
+ <triangular vertex1="light_guide_01_73_v170" vertex2="light_guide_01_73_v241" vertex3="light_guide_01_73_v242"/>
+ <triangular vertex1="light_guide_01_73_v169" vertex2="light_guide_01_73_v170" vertex3="light_guide_01_73_v242"/>
+ <triangular vertex1="light_guide_01_73_v169" vertex2="light_guide_01_73_v242" vertex3="light_guide_01_73_v243"/>
+ <triangular vertex1="light_guide_01_73_v168" vertex2="light_guide_01_73_v169" vertex3="light_guide_01_73_v243"/>
+ <triangular vertex1="light_guide_01_73_v168" vertex2="light_guide_01_73_v243" vertex3="light_guide_01_73_v244"/>
+ <triangular vertex1="light_guide_01_73_v183" vertex2="light_guide_01_73_v168" vertex3="light_guide_01_73_v244"/>
+ <triangular vertex1="light_guide_01_73_v183" vertex2="light_guide_01_73_v244" vertex3="light_guide_01_73_v245"/>
+ <triangular vertex1="light_guide_01_73_v184" vertex2="light_guide_01_73_v245" vertex3="light_guide_01_73_v246"/>
+ <triangular vertex1="light_guide_01_73_v184" vertex2="light_guide_01_73_v183" vertex3="light_guide_01_73_v245"/>
+ <triangular vertex1="light_guide_01_73_v185" vertex2="light_guide_01_73_v184" vertex3="light_guide_01_73_v246"/>
+ <triangular vertex1="light_guide_01_73_v185" vertex2="light_guide_01_73_v246" vertex3="light_guide_01_73_v247"/>
+ <triangular vertex1="light_guide_01_73_v186" vertex2="light_guide_01_73_v248" vertex3="light_guide_01_73_v249"/>
+ <triangular vertex1="light_guide_01_73_v186" vertex2="light_guide_01_73_v247" vertex3="light_guide_01_73_v248"/>
+ <triangular vertex1="light_guide_01_73_v186" vertex2="light_guide_01_73_v185" vertex3="light_guide_01_73_v247"/>
+ <triangular vertex1="light_guide_01_73_v187" vertex2="light_guide_01_73_v186" vertex3="light_guide_01_73_v249"/>
+ <triangular vertex1="light_guide_01_73_v188" vertex2="light_guide_01_73_v250" vertex3="light_guide_01_73_v251"/>
+ <triangular vertex1="light_guide_01_73_v188" vertex2="light_guide_01_73_v249" vertex3="light_guide_01_73_v250"/>
+ <triangular vertex1="light_guide_01_73_v188" vertex2="light_guide_01_73_v187" vertex3="light_guide_01_73_v249"/>
+ <triangular vertex1="light_guide_01_73_v189" vertex2="light_guide_01_73_v188" vertex3="light_guide_01_73_v251"/>
+ <triangular vertex1="light_guide_01_73_v190" vertex2="light_guide_01_73_v251" vertex3="light_guide_01_73_v252"/>
+ <triangular vertex1="light_guide_01_73_v190" vertex2="light_guide_01_73_v189" vertex3="light_guide_01_73_v251"/>
+ <triangular vertex1="light_guide_01_73_v191" vertex2="light_guide_01_73_v252" vertex3="light_guide_01_73_v253"/>
+ <triangular vertex1="light_guide_01_73_v191" vertex2="light_guide_01_73_v190" vertex3="light_guide_01_73_v252"/>
+ <triangular vertex1="light_guide_01_73_v192" vertex2="light_guide_01_73_v254" vertex3="light_guide_01_73_v255"/>
+ <triangular vertex1="light_guide_01_73_v192" vertex2="light_guide_01_73_v253" vertex3="light_guide_01_73_v254"/>
+ <triangular vertex1="light_guide_01_73_v192" vertex2="light_guide_01_73_v191" vertex3="light_guide_01_73_v253"/>
+ <triangular vertex1="light_guide_01_73_v193" vertex2="light_guide_01_73_v192" vertex3="light_guide_01_73_v255"/>
+ <triangular vertex1="light_guide_01_73_v194" vertex2="light_guide_01_73_v255" vertex3="light_guide_01_73_v256"/>
+ <triangular vertex1="light_guide_01_73_v194" vertex2="light_guide_01_73_v193" vertex3="light_guide_01_73_v255"/>
+ <triangular vertex1="light_guide_01_73_v195" vertex2="light_guide_01_73_v256" vertex3="light_guide_01_73_v257"/>
+ <triangular vertex1="light_guide_01_73_v195" vertex2="light_guide_01_73_v194" vertex3="light_guide_01_73_v256"/>
+ <triangular vertex1="light_guide_01_73_v196" vertex2="light_guide_01_73_v257" vertex3="light_guide_01_73_v258"/>
+ <triangular vertex1="light_guide_01_73_v196" vertex2="light_guide_01_73_v195" vertex3="light_guide_01_73_v257"/>
+ <triangular vertex1="light_guide_01_73_v197" vertex2="light_guide_01_73_v258" vertex3="light_guide_01_73_v259"/>
+ <triangular vertex1="light_guide_01_73_v197" vertex2="light_guide_01_73_v196" vertex3="light_guide_01_73_v258"/>
+ <triangular vertex1="light_guide_01_73_v1" vertex2="light_guide_01_73_v259" vertex3="light_guide_01_73_v2"/>
+ <triangular vertex1="light_guide_01_73_v1" vertex2="light_guide_01_73_v197" vertex3="light_guide_01_73_v259"/>
+ <triangular vertex1="light_guide_01_73_v246" vertex2="light_guide_01_73_v245" vertex3="light_guide_01_73_v244"/>
+ <triangular vertex1="light_guide_01_73_v241" vertex2="light_guide_01_73_v244" vertex3="light_guide_01_73_v243"/>
+ <triangular vertex1="light_guide_01_73_v241" vertex2="light_guide_01_73_v243" vertex3="light_guide_01_73_v242"/>
+ <triangular vertex1="light_guide_01_73_v239" vertex2="light_guide_01_73_v241" vertex3="light_guide_01_73_v240"/>
+ <triangular vertex1="light_guide_01_73_v254" vertex2="light_guide_01_73_v253" vertex3="light_guide_01_73_v252"/>
+ <triangular vertex1="light_guide_01_73_v234" vertex2="light_guide_01_73_v236" vertex3="light_guide_01_73_v235"/>
+ <triangular vertex1="light_guide_01_73_v233" vertex2="light_guide_01_73_v237" vertex3="light_guide_01_73_v236"/>
+ <triangular vertex1="light_guide_01_73_v233" vertex2="light_guide_01_73_v236" vertex3="light_guide_01_73_v234"/>
+ <triangular vertex1="light_guide_01_73_v256" vertex2="light_guide_01_73_v255" vertex3="light_guide_01_73_v254"/>
+ <triangular vertex1="light_guide_01_73_v256" vertex2="light_guide_01_73_v254" vertex3="light_guide_01_73_v252"/>
+ <triangular vertex1="light_guide_01_73_v230" vertex2="light_guide_01_73_v233" vertex3="light_guide_01_73_v232"/>
+ <triangular vertex1="light_guide_01_73_v230" vertex2="light_guide_01_73_v232" vertex3="light_guide_01_73_v231"/>
+ <triangular vertex1="light_guide_01_73_v228" vertex2="light_guide_01_73_v230" vertex3="light_guide_01_73_v229"/>
+ <triangular vertex1="light_guide_01_73_v4" vertex2="light_guide_01_73_v3" vertex3="light_guide_01_73_v2"/>
+ <triangular vertex1="light_guide_01_73_v226" vertex2="light_guide_01_73_v228" vertex3="light_guide_01_73_v227"/>
+ <triangular vertex1="light_guide_01_73_v11" vertex2="light_guide_01_73_v8" vertex3="light_guide_01_73_v7"/>
+ <triangular vertex1="light_guide_01_73_v223" vertex2="light_guide_01_73_v226" vertex3="light_guide_01_73_v225"/>
+ <triangular vertex1="light_guide_01_73_v223" vertex2="light_guide_01_73_v225" vertex3="light_guide_01_73_v224"/>
+ <triangular vertex1="light_guide_01_73_v223" vertex2="light_guide_01_73_v228" vertex3="light_guide_01_73_v226"/>
+ <triangular vertex1="light_guide_01_73_v13" vertex2="light_guide_01_73_v11" vertex3="light_guide_01_73_v7"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v2" vertex3="light_guide_01_73_v259"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v259" vertex3="light_guide_01_73_v258"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v258" vertex3="light_guide_01_73_v257"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v257" vertex3="light_guide_01_73_v256"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v252" vertex3="light_guide_01_73_v251"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v251" vertex3="light_guide_01_73_v250"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v250" vertex3="light_guide_01_73_v249"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v249" vertex3="light_guide_01_73_v248"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v248" vertex3="light_guide_01_73_v247"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v247" vertex3="light_guide_01_73_v246"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v7" vertex3="light_guide_01_73_v4"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v13" vertex3="light_guide_01_73_v7"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v4" vertex3="light_guide_01_73_v2"/>
+ <triangular vertex1="light_guide_01_73_v15" vertex2="light_guide_01_73_v256" vertex3="light_guide_01_73_v252"/>
+ <triangular vertex1="light_guide_01_73_v221" vertex2="light_guide_01_73_v228" vertex3="light_guide_01_73_v223"/>
+ <triangular vertex1="light_guide_01_73_v221" vertex2="light_guide_01_73_v223" vertex3="light_guide_01_73_v222"/>
+ <triangular vertex1="light_guide_01_73_v221" vertex2="light_guide_01_73_v230" vertex3="light_guide_01_73_v228"/>
+ <triangular vertex1="light_guide_01_73_v219" vertex2="light_guide_01_73_v221" vertex3="light_guide_01_73_v220"/>
+ <triangular vertex1="light_guide_01_73_v22" vertex2="light_guide_01_73_v20" vertex3="light_guide_01_73_v19"/>
+ <triangular vertex1="light_guide_01_73_v22" vertex2="light_guide_01_73_v19" vertex3="light_guide_01_73_v16"/>
+ <triangular vertex1="light_guide_01_73_v22" vertex2="light_guide_01_73_v16" vertex3="light_guide_01_73_v15"/>
+ <triangular vertex1="light_guide_01_73_v216" vertex2="light_guide_01_73_v221" vertex3="light_guide_01_73_v219"/>
+ <triangular vertex1="light_guide_01_73_v216" vertex2="light_guide_01_73_v219" vertex3="light_guide_01_73_v218"/>
+ <triangular vertex1="light_guide_01_73_v216" vertex2="light_guide_01_73_v218" vertex3="light_guide_01_73_v217"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v230" vertex3="light_guide_01_73_v221"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v239" vertex3="light_guide_01_73_v238"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v238" vertex3="light_guide_01_73_v237"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v221" vertex3="light_guide_01_73_v216"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v237" vertex3="light_guide_01_73_v233"/>
+ <triangular vertex1="light_guide_01_73_v215" vertex2="light_guide_01_73_v233" vertex3="light_guide_01_73_v230"/>
+ <triangular vertex1="light_guide_01_73_v31" vertex2="light_guide_01_73_v29" vertex3="light_guide_01_73_v27"/>
+ <triangular vertex1="light_guide_01_73_v31" vertex2="light_guide_01_73_v27" vertex3="light_guide_01_73_v24"/>
+ <triangular vertex1="light_guide_01_73_v213" vertex2="light_guide_01_73_v215" vertex3="light_guide_01_73_v214"/>
+ <triangular vertex1="light_guide_01_73_v33" vertex2="light_guide_01_73_v24" vertex3="light_guide_01_73_v22"/>
+ <triangular vertex1="light_guide_01_73_v33" vertex2="light_guide_01_73_v31" vertex3="light_guide_01_73_v24"/>
+ <triangular vertex1="light_guide_01_73_v34" vertex2="light_guide_01_73_v33" vertex3="light_guide_01_73_v22"/>
+ <triangular vertex1="light_guide_01_73_v211" vertex2="light_guide_01_73_v213" vertex3="light_guide_01_73_v212"/>
+ <triangular vertex1="light_guide_01_73_v211" vertex2="light_guide_01_73_v215" vertex3="light_guide_01_73_v213"/>
+ <triangular vertex1="light_guide_01_73_v208" vertex2="light_guide_01_73_v211" vertex3="light_guide_01_73_v210"/>
+ <triangular vertex1="light_guide_01_73_v208" vertex2="light_guide_01_73_v210" vertex3="light_guide_01_73_v209"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v41" vertex3="light_guide_01_73_v38"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v38" vertex3="light_guide_01_73_v36"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v36" vertex3="light_guide_01_73_v34"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v15" vertex3="light_guide_01_73_v246"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v22" vertex3="light_guide_01_73_v15"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v246" vertex3="light_guide_01_73_v244"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v34" vertex3="light_guide_01_73_v22"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v244" vertex3="light_guide_01_73_v241"/>
+ <triangular vertex1="light_guide_01_73_v43" vertex2="light_guide_01_73_v241" vertex3="light_guide_01_73_v239"/>
+ <triangular vertex1="light_guide_01_73_v207" vertex2="light_guide_01_73_v215" vertex3="light_guide_01_73_v211"/>
+ <triangular vertex1="light_guide_01_73_v207" vertex2="light_guide_01_73_v211" vertex3="light_guide_01_73_v208"/>
+ <triangular vertex1="light_guide_01_73_v47" vertex2="light_guide_01_73_v45" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v204" vertex2="light_guide_01_73_v206" vertex3="light_guide_01_73_v205"/>
+ <triangular vertex1="light_guide_01_73_v51" vertex2="light_guide_01_73_v49" vertex3="light_guide_01_73_v47"/>
+ <triangular vertex1="light_guide_01_73_v53" vertex2="light_guide_01_73_v47" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v53" vertex2="light_guide_01_73_v51" vertex3="light_guide_01_73_v47"/>
+ <triangular vertex1="light_guide_01_73_v55" vertex2="light_guide_01_73_v53" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v201" vertex2="light_guide_01_73_v207" vertex3="light_guide_01_73_v206"/>
+ <triangular vertex1="light_guide_01_73_v201" vertex2="light_guide_01_73_v204" vertex3="light_guide_01_73_v203"/>
+ <triangular vertex1="light_guide_01_73_v201" vertex2="light_guide_01_73_v203" vertex3="light_guide_01_73_v202"/>
+ <triangular vertex1="light_guide_01_73_v201" vertex2="light_guide_01_73_v206" vertex3="light_guide_01_73_v204"/>
+ <triangular vertex1="light_guide_01_73_v57" vertex2="light_guide_01_73_v55" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v65" vertex2="light_guide_01_73_v63" vertex3="light_guide_01_73_v61"/>
+ <triangular vertex1="light_guide_01_73_v65" vertex2="light_guide_01_73_v61" vertex3="light_guide_01_73_v59"/>
+ <triangular vertex1="light_guide_01_73_v125" vertex2="light_guide_01_73_v199" vertex3="light_guide_01_73_v198"/>
+ <triangular vertex1="light_guide_01_73_v125" vertex2="light_guide_01_73_v198" vertex3="light_guide_01_73_v127"/>
+ <triangular vertex1="light_guide_01_73_v123" vertex2="light_guide_01_73_v201" vertex3="light_guide_01_73_v200"/>
+ <triangular vertex1="light_guide_01_73_v123" vertex2="light_guide_01_73_v200" vertex3="light_guide_01_73_v199"/>
+ <triangular vertex1="light_guide_01_73_v123" vertex2="light_guide_01_73_v199" vertex3="light_guide_01_73_v125"/>
+ <triangular vertex1="light_guide_01_73_v117" vertex2="light_guide_01_73_v121" vertex3="light_guide_01_73_v119"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v65" vertex3="light_guide_01_73_v59"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v73" vertex3="light_guide_01_73_v71"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v71" vertex3="light_guide_01_73_v69"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v69" vertex3="light_guide_01_73_v67"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v67" vertex3="light_guide_01_73_v65"/>
+ <triangular vertex1="light_guide_01_73_v74" vertex2="light_guide_01_73_v59" vertex3="light_guide_01_73_v57"/>
+ <triangular vertex1="light_guide_01_73_v115" vertex2="light_guide_01_73_v201" vertex3="light_guide_01_73_v123"/>
+ <triangular vertex1="light_guide_01_73_v115" vertex2="light_guide_01_73_v121" vertex3="light_guide_01_73_v117"/>
+ <triangular vertex1="light_guide_01_73_v115" vertex2="light_guide_01_73_v123" vertex3="light_guide_01_73_v121"/>
+ <triangular vertex1="light_guide_01_73_v79" vertex2="light_guide_01_73_v77" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v106" vertex2="light_guide_01_73_v110" vertex3="light_guide_01_73_v108"/>
+ <triangular vertex1="light_guide_01_73_v85" vertex2="light_guide_01_73_v82" vertex3="light_guide_01_73_v81"/>
+ <triangular vertex1="light_guide_01_73_v105" vertex2="light_guide_01_73_v110" vertex3="light_guide_01_73_v106"/>
+ <triangular vertex1="light_guide_01_73_v105" vertex2="light_guide_01_73_v115" vertex3="light_guide_01_73_v113"/>
+ <triangular vertex1="light_guide_01_73_v105" vertex2="light_guide_01_73_v113" vertex3="light_guide_01_73_v110"/>
+ <triangular vertex1="light_guide_01_73_v86" vertex2="light_guide_01_73_v79" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v86" vertex2="light_guide_01_73_v85" vertex3="light_guide_01_73_v81"/>
+ <triangular vertex1="light_guide_01_73_v86" vertex2="light_guide_01_73_v81" vertex3="light_guide_01_73_v79"/>
+ <triangular vertex1="light_guide_01_73_v103" vertex2="light_guide_01_73_v115" vertex3="light_guide_01_73_v105"/>
+ <triangular vertex1="light_guide_01_73_v101" vertex2="light_guide_01_73_v115" vertex3="light_guide_01_73_v103"/>
+ <triangular vertex1="light_guide_01_73_v91" vertex2="light_guide_01_73_v86" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v91" vertex2="light_guide_01_73_v89" vertex3="light_guide_01_73_v86"/>
+ <triangular vertex1="light_guide_01_73_v96" vertex2="light_guide_01_73_v101" vertex3="light_guide_01_73_v99"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v201" vertex3="light_guide_01_73_v115"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v74" vertex3="light_guide_01_73_v57"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v239" vertex3="light_guide_01_73_v215"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v43" vertex3="light_guide_01_73_v239"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v101" vertex3="light_guide_01_73_v96"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v115" vertex3="light_guide_01_73_v101"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v215" vertex3="light_guide_01_73_v207"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v91" vertex3="light_guide_01_73_v74"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v57" vertex3="light_guide_01_73_v43"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v92" vertex3="light_guide_01_73_v91"/>
+ <triangular vertex1="light_guide_01_73_v95" vertex2="light_guide_01_73_v207" vertex3="light_guide_01_73_v201"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="light_guide_01_73">
+ <materialref ref="Vacuum_ref"/>
+ <solidref ref="light_guide_01_73_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="light_guide_01_73"/>
+ </setup>
+</gdml>

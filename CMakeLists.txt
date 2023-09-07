@@ -79,12 +79,12 @@ endforeach()
 
 set(GEOM
   Hamamatsu_R14374_tube_with_tail.gdml
-  )
+  P-OM_module_v11
+  P-OM_module_v13
+  P-OM_hemisphere_v11
+  P-OM_hemisphere_v13)
 
-foreach(_script ${GEOM})
-  configure_file(
-    ${PROJECT_SOURCE_DIR}/geometry/${_script}
-    ${PROJECT_BINARY_DIR}/geometry/${_script}
-    COPYONLY
-    )
+foreach(_geom ${GEOM})
+  file( COPY        ${PROJECT_SOURCE_DIR}/geometry/${_geom}
+        DESTINATION ${PROJECT_BINARY_DIR}/geometry/)
 endforeach()

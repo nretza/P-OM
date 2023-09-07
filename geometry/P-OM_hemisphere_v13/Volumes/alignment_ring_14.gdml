@@ -1,0 +1,1541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="alignment_ring_14_v0" unit="mm" x="110.88677978367292" y="73.84459762545333" z="16.536921778236092"/>
+ <position name="alignment_ring_14_v1" unit="mm" x="109.64264894949953" y="74.14644322620501" z="15.516299314843273"/>
+ <position name="alignment_ring_14_v2" unit="mm" x="110.54895673653621" y="74.5690614879457" z="15.51629931484327"/>
+ <position name="alignment_ring_14_v3" unit="mm" x="109.98047199663627" y="73.42197936371264" z="16.536921778236085"/>
+ <position name="alignment_ring_14_v4" unit="mm" x="109.32674605288612" y="74.82389917420147" z="14.457100886571943"/>
+ <position name="alignment_ring_14_v5" unit="mm" x="110.2330538399228" y="75.24651743594218" z="14.457100886571947"/>
+ <position name="alignment_ring_14_v6" unit="mm" x="109.03354869117146" y="75.4526629454737" z="13.361959827604629"/>
+ <position name="alignment_ring_14_v7" unit="mm" x="109.93985647820814" y="75.87528120721441" z="13.361959827604634"/>
+ <position name="alignment_ring_14_v8" unit="mm" x="108.76378579919361" y="76.03117133421695" z="12.233598831166702"/>
+ <position name="alignment_ring_14_v9" unit="mm" x="109.67009358623022" y="76.45378959595764" z="12.233598831166702"/>
+ <position name="alignment_ring_14_v10" unit="mm" x="108.51812805000638" y="76.55798607742577" z="11.07482318048229"/>
+ <position name="alignment_ring_14_v11" unit="mm" x="109.42443583704302" y="76.98060433916646" z="11.07482318048229"/>
+ <position name="alignment_ring_14_v12" unit="mm" x="108.29718618748063" y="77.03179743064243" z="9.888513774398199"/>
+ <position name="alignment_ring_14_v13" unit="mm" x="109.2034939745173" y="77.45441569238315" z="9.888513774398193"/>
+ <position name="alignment_ring_14_v14" unit="mm" x="108.10150950789874" y="77.45142742418818" z="8.677619965015397"/>
+ <position name="alignment_ring_14_v15" unit="mm" x="109.00781729493539" y="77.87404568592888" z="8.677619965015397"/>
+ <position name="alignment_ring_14_v16" unit="mm" x="107.93158449431733" y="77.81583279178119" z="7.445152225135069"/>
+ <position name="alignment_ring_14_v17" unit="mm" x="108.83789228135396" y="78.23845105352189" z="7.4451522251350655"/>
+ <position name="alignment_ring_14_v18" unit="mm" x="107.78783360709393" y="78.12410756426118" z="6.194174663748823"/>
+ <position name="alignment_ring_14_v19" unit="mm" x="108.69414139413058" y="78.54672582600188" z="6.194174663748823"/>
+ <position name="alignment_ring_14_v20" unit="mm" x="107.67061423358388" y="78.37548532197128" z="4.927797408180991"/>
+ <position name="alignment_ring_14_v21" unit="mm" x="108.5769220206205" y="78.79810358371196" z="4.927797408180991"/>
+ <position name="alignment_ring_14_v22" unit="mm" x="107.58021779961905" y="78.56934110019823" z="3.6491688718220416"/>
+ <position name="alignment_ring_14_v23" unit="mm" x="108.4865255866557" y="78.99195936193894" z="3.649168871822045"/>
+ <position name="alignment_ring_14_v24" unit="mm" x="107.51686904497734" y="78.70519294293302" z="2.3614679266768324"/>
+ <position name="alignment_ring_14_v25" unit="mm" x="108.42317683201401" y="79.12781120467372" z="2.361467926676827"/>
+ <position name="alignment_ring_14_v26" unit="mm" x="107.48072546464418" y="78.7827031010895" z="1.0678960001879185"/>
+ <position name="alignment_ring_14_v27" unit="mm" x="108.3870332516808" y="79.20532136283018" z="1.067896000187915"/>
+ <position name="alignment_ring_14_v28" unit="mm" x="107.47187691725512" y="78.80167887220182" z="-0.22833088401744717"/>
+ <position name="alignment_ring_14_v29" unit="mm" x="108.37818470429173" y="79.2242971339425" z="-0.22833088401745427"/>
+ <position name="alignment_ring_14_v30" unit="mm" x="107.49034540169313" y="78.76207307951313" z="-1.5239901016688504"/>
+ <position name="alignment_ring_14_v31" unit="mm" x="108.39665318872979" y="79.18469134125382" z="-1.5239901016688504"/>
+ <position name="alignment_ring_14_v32" unit="mm" x="107.53608500239604" y="78.66398418926444" z="-2.815860439804341"/>
+ <position name="alignment_ring_14_v33" unit="mm" x="108.44239278943269" y="79.08660245100512" z="-2.815860439804341"/>
+ <position name="alignment_ring_14_v34" unit="mm" x="107.60898200350958" y="78.50765606589198" z="-4.100730105213426"/>
+ <position name="alignment_ring_14_v35" unit="mm" x="108.51528979054625" y="78.9302743276327" z="-4.100730105213426"/>
+ <position name="alignment_ring_14_v36" unit="mm" x="107.70885517160328" y="78.2934773657419" z="-5.375404709461085"/>
+ <position name="alignment_ring_14_v37" unit="mm" x="108.61516295863993" y="78.71609562748259" z="-5.375404709461085"/>
+ <position name="alignment_ring_14_v38" unit="mm" x="108.74176399328155" y="78.44459883254989" z="-6.636715210640666"/>
+ <position name="alignment_ring_14_v39" unit="mm" x="107.83545620624494" y="78.02198057080919" z="-6.636715210640672"/>
+ <position name="alignment_ring_14_v40" unit="mm" x="108.89477814435158" y="78.11645892664438" z="-7.881525792111445"/>
+ <position name="alignment_ring_14_v41" unit="mm" x="107.98847035731494" y="77.69384066490369" z="-7.881525792111445"/>
+ <position name="alignment_ring_14_v42" unit="mm" x="108.16751720752444" y="77.30987345553388" z="-9.10674165863285"/>
+ <position name="alignment_ring_14_v43" unit="mm" x="109.0738249945611" y="77.73249171727458" z="-9.106741658632851"/>
+ <position name="alignment_ring_14_v44" unit="mm" x="108.37215161819292" y="76.871033545681" z="-10.30931673051304"/>
+ <position name="alignment_ring_14_v45" unit="mm" x="109.27845940522954" y="77.2936518074217" z="-10.309316730513036"/>
+ <position name="alignment_ring_14_v46" unit="mm" x="108.60186483593273" y="76.37841196050547" z="-11.486261216643026"/>
+ <position name="alignment_ring_14_v47" unit="mm" x="109.50817262296934" y="76.80103022224617" z="-11.48626121664302"/>
+ <position name="alignment_ring_14_v48" unit="mm" x="108.85608575749043" y="75.83323343488658" z="-12.634649047588344"/>
+ <position name="alignment_ring_14_v49" unit="mm" x="109.76239354452711" y="76.25585169662729" z="-12.634649047588345"/>
+ <position name="alignment_ring_14_v50" unit="mm" x="109.13418234959956" y="75.23685336853853" z="-13.751625150258839"/>
+ <position name="alignment_ring_14_v51" unit="mm" x="110.04049013663621" y="75.65947163027924" z="-13.751625150258842"/>
+ <position name="alignment_ring_14_v52" unit="mm" x="109.43546322031449" y="74.59075445627315" z="-14.834412546070084"/>
+ <position name="alignment_ring_14_v53" unit="mm" x="110.34177100735114" y="75.01337271801384" z="-14.83441254607008"/>
+ <position name="alignment_ring_14_v54" unit="mm" x="109.75917933792029" y="73.89654300178708" z="-15.880319254949798"/>
+ <position name="alignment_ring_14_v55" unit="mm" x="110.66548712495694" y="74.3191612635278" z="-15.880319254949793"/>
+ <position name="alignment_ring_14_v56" unit="mm" x="110.10452589314309" y="73.15594492413766" z="-16.88674498802436"/>
+ <position name="alignment_ring_14_v57" unit="mm" x="111.0108336801797" y="73.57856318587837" z="-16.88674498802437"/>
+ <position name="alignment_ring_14_v58" unit="mm" x="110.47064430003309" y="72.37080146683614" z="-17.851187612346767"/>
+ <position name="alignment_ring_14_v59" unit="mm" x="111.37695208706971" y="72.79341972857682" z="-17.85118761234677"/>
+ <position name="alignment_ring_14_v60" unit="mm" x="110.85662433054435" y="71.54306462022625" z="-18.77124937159329"/>
+ <position name="alignment_ring_14_v61" unit="mm" x="111.76293211758097" y="71.96568288196693" z="-18.77124937159328"/>
+ <position name="alignment_ring_14_v62" unit="mm" x="111.26150637750519" y="70.67479226852865" z="-19.644642847263516"/>
+ <position name="alignment_ring_14_v63" unit="mm" x="112.16781416454181" y="71.09741053026934" z="-19.64464284726351"/>
+ <position name="alignment_ring_14_v64" unit="mm" x="111.68428384035273" y="69.76814307361656" z="-20.46919664556318"/>
+ <position name="alignment_ring_14_v65" unit="mm" x="112.5905916273894" y="70.19076133535728" z="-20.469196645563176"/>
+ <position name="alignment_ring_14_v66" unit="mm" x="112.12390562770067" y="68.82537110824212" z="-21.24286079583123"/>
+ <position name="alignment_ring_14_v67" unit="mm" x="113.03021341473732" y="69.24798936998282" z="-21.242860795831238"/>
+ <position name="alignment_ring_14_v68" unit="mm" x="112.57927877051787" y="67.84882025205644" z="-21.96371184708992"/>
+ <position name="alignment_ring_14_v69" unit="mm" x="113.48558655755456" y="68.27143851379715" z="-21.96371184708992"/>
+ <position name="alignment_ring_14_v70" unit="mm" x="113.04927113942176" y="66.84091836435546" z="-22.629957650046965"/>
+ <position name="alignment_ring_14_v71" unit="mm" x="113.95557892645839" y="67.26353662609614" z="-22.62995765004696"/>
+ <position name="alignment_ring_14_v72" unit="mm" x="113.53271425933013" y="65.80417124803914" z="-23.239941812661087"/>
+ <position name="alignment_ring_14_v73" unit="mm" x="114.4390220463668" y="66.22678950977986" z="-23.239941812661087"/>
+ <position name="alignment_ring_14_v74" unit="mm" x="114.9347140015113" y="65.16377468153154" z="-23.79214781819362"/>
+ <position name="alignment_ring_14_v75" unit="mm" x="114.02840621447464" y="64.74115641979083" z="-23.79214781819362"/>
+ <position name="alignment_ring_14_v76" unit="mm" x="114.53511463655252" y="63.65451670196444" z="-24.28520279550804"/>
+ <position name="alignment_ring_14_v77" unit="mm" x="115.44142242358916" y="64.07713496370515" z="-24.285202795508035"/>
+ <position name="alignment_ring_14_v78" unit="mm" x="115.05157976858833" y="62.54695365211177" z="-24.71788093224391"/>
+ <position name="alignment_ring_14_v79" unit="mm" x="115.95788755562498" y="62.96957191385246" z="-24.71788093224391"/>
+ <position name="alignment_ring_14_v80" unit="mm" x="115.57651759688848" y="61.42122084648476" z="-25.08910652237965"/>
+ <position name="alignment_ring_14_v81" unit="mm" x="116.48282538392513" y="61.84383910822545" z="-25.08910652237966"/>
+ <position name="alignment_ring_14_v82" unit="mm" x="116.10862304330155" y="60.28011703421111" z="-25.397956640607052"/>
+ <position name="alignment_ring_14_v83" unit="mm" x="117.01493083033823" y="60.702735295951825" z="-25.397956640607052"/>
+ <position name="alignment_ring_14_v84" unit="mm" x="117.55288099688471" y="59.54909744090362" z="-25.64366343686911"/>
+ <position name="alignment_ring_14_v85" unit="mm" x="116.64657320984803" y="59.12647917916291" z="-25.64366343686911"/>
+ <position name="alignment_ring_14_v86" unit="mm" x="117.18903066765334" y="57.963175406817484" z="-25.82561604535625"/>
+ <position name="alignment_ring_14_v87" unit="mm" x="118.09533845469" y="58.38579366855818" z="-25.82561604535625"/>
+ <position name="alignment_ring_14_v88" unit="mm" x="117.73464678200655" y="56.7930978736455" z="-25.943362103214884"/>
+ <position name="alignment_ring_14_v89" unit="mm" x="118.64095456904319" y="57.2157161353862" z="-25.943362103214884"/>
+ <position name="alignment_ring_14_v90" unit="mm" x="118.28206506527894" y="55.61915557675438" z="-25.996608875192894"/>
+ <position name="alignment_ring_14_v91" unit="mm" x="119.1883728523156" y="56.04177383849508" z="-25.996608875192894"/>
+ <position name="alignment_ring_14_v92" unit="mm" x="118.82992454936588" y="54.444267121663074" z="-25.98522398142544"/>
+ <position name="alignment_ring_14_v93" unit="mm" x="119.73623233640257" y="54.86688538340378" z="-25.985223981425438"/>
+ <position name="alignment_ring_14_v94" unit="mm" x="119.3768631692681" y="53.2713534661889" z="-25.909235726552268"/>
+ <position name="alignment_ring_14_v95" unit="mm" x="120.28317095630472" y="53.69397172792959" z="-25.909235726552268"/>
+ <position name="alignment_ring_14_v96" unit="mm" x="119.9215211493996" y="52.103330658486165" z="-25.768833029347874"/>
+ <position name="alignment_ring_14_v97" unit="mm" x="120.82782893643625" y="52.52594892022687" z="-25.768833029347874"/>
+ <position name="alignment_ring_14_v98" unit="mm" x="120.46254438420426" y="50.94310258729101" z="-25.56436495303964"/>
+ <position name="alignment_ring_14_v99" unit="mm" x="121.36885217124092" y="51.3657208490317" z="-25.56436495303965"/>
+ <position name="alignment_ring_14_v100" unit="mm" x="120.99858780467571" y="49.793553762396456" z="-25.29633983748171"/>
+ <position name="alignment_ring_14_v101" unit="mm" x="121.90489559171236" y="50.21617202413716" z="-25.29633983748171"/>
+ <position name="alignment_ring_14_v102" unit="mm" x="121.52831872241035" y="48.657542143306586" z="-24.965424035341982"/>
+ <position name="alignment_ring_14_v103" unit="mm" x="122.434626509447" y="49.08016040504728" z="-24.965424035341982"/>
+ <position name="alignment_ring_14_v104" unit="mm" x="122.05042014288126" y="47.537892033898906" z="-24.572440255444373"/>
+ <position name="alignment_ring_14_v105" unit="mm" x="122.95672792991792" y="47.960510295639615" z="-24.572440255444377"/>
+ <position name="alignment_ring_14_v106" unit="mm" x="122.56359403969365" y="46.43738706075988" z="-24.11836551738508"/>
+ <position name="alignment_ring_14_v107" unit="mm" x="123.46990182673031" y="46.860005322500584" z="-24.118365517385072"/>
+ <position name="alignment_ring_14_v108" unit="mm" x="123.0665645816833" y="45.35876325265067" z="-23.604328722507912"/>
+ <position name="alignment_ring_14_v109" unit="mm" x="123.97287236871992" y="45.781381514391356" z="-23.60432872250791"/>
+ <position name="alignment_ring_14_v110" unit="mm" x="123.55808130483364" y="44.304702238308494" z="-23.031607847277694"/>
+ <position name="alignment_ring_14_v111" unit="mm" x="124.46438909187032" y="44.72732050004922" z="-23.03160784727769"/>
+ <position name="alignment_ring_14_v112" unit="mm" x="124.03692222112656" y="43.27782457949519" z="-22.401626766029356"/>
+ <position name="alignment_ring_14_v113" unit="mm" x="124.94323000816324" y="43.700442841235905" z="-22.40162676602936"/>
+ <position name="alignment_ring_14_v114" unit="mm" x="124.50189685659696" y="42.2806832558676" z="-21.71595171099208"/>
+ <position name="alignment_ring_14_v115" unit="mm" x="125.4082046436336" y="42.7033015176083" z="-21.71595171099208"/>
+ <position name="alignment_ring_14_v116" unit="mm" x="124.95184921103858" y="41.31575731786798" z="-20.97628737838912"/>
+ <position name="alignment_ring_14_v117" unit="mm" x="125.85815699807519" y="41.73837557960868" z="-20.976287378389117"/>
+ <position name="alignment_ring_14_v118" unit="mm" x="125.38566063200284" y="40.38544572341404" z="-20.184472690294438"/>
+ <position name="alignment_ring_14_v119" unit="mm" x="126.29196841903948" y="40.808063985154746" z="-20.184472690294438"/>
+ <position name="alignment_ring_14_v120" unit="mm" x="125.80225259594498" y="39.49206137371146" z="-19.342476222782665"/>
+ <position name="alignment_ring_14_v121" unit="mm" x="126.70856038298163" y="39.91467963545216" z="-19.342476222782665"/>
+ <position name="alignment_ring_14_v122" unit="mm" x="126.2005893896035" y="38.63782536301718" z="-18.452391311738815"/>
+ <position name="alignment_ring_14_v123" unit="mm" x="127.10689717664012" y="39.06044362475786" z="-18.452391311738815"/>
+ <position name="alignment_ring_14_v124" unit="mm" x="126.57968068494652" y="37.824861456649046" z="-17.516430848495432"/>
+ <position name="alignment_ring_14_v125" unit="mm" x="127.4859884719832" y="38.247479718389755" z="-17.51643084849543"/>
+ <position name="alignment_ring_14_v126" unit="mm" x="126.93858400128347" y="37.055190810970636" z="-16.536921778236092"/>
+ <position name="alignment_ring_14_v127" unit="mm" x="127.84489178832014" y="37.477809072711366" z="-16.536921778236092"/>
+ <position name="alignment_ring_14_v128" unit="mm" x="129.58236003058687" y="31.385594819852322" z="-19.57440836641744"/>
+ <position name="alignment_ring_14_v129" unit="mm" x="129.15618326342963" y="32.299533846381316" z="-20.86196285869784"/>
+ <position name="alignment_ring_14_v130" unit="mm" x="130.06249105046632" y="32.722152108122025" z="-20.861962858697833"/>
+ <position name="alignment_ring_14_v131" unit="mm" x="130.48866781762348" y="31.80821308159301" z="-19.57440836641744"/>
+ <position name="alignment_ring_14_v132" unit="mm" x="129.98088368477605" y="30.53095808545678" z="-18.23818881075207"/>
+ <position name="alignment_ring_14_v133" unit="mm" x="130.88719147181274" y="30.953576347197487" z="-18.23818881075207"/>
+ <position name="alignment_ring_14_v134" unit="mm" x="130.3507634334007" y="29.737748404774905" z="-16.85662624405483"/>
+ <position name="alignment_ring_14_v135" unit="mm" x="131.25707122043738" y="30.160366666515618" z="-16.85662624405483"/>
+ <position name="alignment_ring_14_v136" unit="mm" x="130.69107969712664" y="29.00793782205267" z="-15.433155448548511"/>
+ <position name="alignment_ring_14_v137" unit="mm" x="131.59738748416328" y="29.430556083793377" z="-15.433155448548515"/>
+ <position name="alignment_ring_14_v138" unit="mm" x="131.00098639610127" y="28.34334076138928" z="-13.971315396915863"/>
+ <position name="alignment_ring_14_v139" unit="mm" x="131.90729418313796" y="28.765959023129987" z="-13.971315396915863"/>
+ <position name="alignment_ring_14_v140" unit="mm" x="131.2797130534414" y="27.74560951579285" z="-12.474740453855926"/>
+ <position name="alignment_ring_14_v141" unit="mm" x="132.1860208404781" y="28.168227777533556" z="-12.474740453855924"/>
+ <position name="alignment_ring_14_v142" unit="mm" x="131.52656671076016" y="27.21623013931979" z="-10.947151340480696"/>
+ <position name="alignment_ring_14_v143" unit="mm" x="132.43287449779677" y="27.638848401060486" z="-10.947151340480701"/>
+ <position name="alignment_ring_14_v144" unit="mm" x="131.74093365097056" y="26.756518752510146" z="-9.39234588401628"/>
+ <position name="alignment_ring_14_v145" unit="mm" x="132.64724143800717" y="27.179137014250834" z="-9.392345884016283"/>
+ <position name="alignment_ring_14_v146" unit="mm" x="131.9222809240831" y="26.36761827030464" z="-7.814189575805939"/>
+ <position name="alignment_ring_14_v147" unit="mm" x="132.8285887111198" y="26.79023653204535" z="-7.814189575805939"/>
+ <position name="alignment_ring_14_v148" unit="mm" x="132.07015767220352" y="26.05049556057807" z="-6.21660596108959"/>
+ <position name="alignment_ring_14_v149" unit="mm" x="132.97646545924013" y="26.473113822318766" z="-6.216605961089591"/>
+ <position name="alignment_ring_14_v150" unit="mm" x="132.18419625043606" y="25.805939040353316" z="-4.603566884452139"/>
+ <position name="alignment_ring_14_v151" unit="mm" x="133.09050403747267" y="26.228557302094003" z="-4.603566884452144"/>
+ <position name="alignment_ring_14_v152" unit="mm" x="132.26411314090709" y="25.634556715672517" z="-2.979082615192029"/>
+ <position name="alignment_ring_14_v153" unit="mm" x="133.17042092794378" y="26.05717497741321" z="-2.979082615192027"/>
+ <position name="alignment_ring_14_v154" unit="mm" x="132.30970965763512" y="25.53677466999821" z="-1.3471918771598668"/>
+ <position name="alignment_ring_14_v155" unit="mm" x="133.21601744467176" y="25.95939293173891" z="-1.3471918771598668"/>
+ <position name="alignment_ring_14_v156" unit="mm" x="132.32087244049512" y="25.51283600490268" z="0.28804819214537525"/>
+ <position name="alignment_ring_14_v157" unit="mm" x="133.2271802275318" y="25.93545426664337" z="0.288048192145377"/>
+ <position name="alignment_ring_14_v158" unit="mm" x="132.29757373705027" y="25.562800235679184" z="1.9225721282594466"/>
+ <position name="alignment_ring_14_v159" unit="mm" x="133.20388152408688" y="25.98541849741987" z="1.922572128259443"/>
+ <position name="alignment_ring_14_v160" unit="mm" x="132.23987147154816" y="25.68654314337755" z="3.552316247138048"/>
+ <position name="alignment_ring_14_v161" unit="mm" x="133.14617925858477" y="26.109161405118236" z="3.55231624713805"/>
+ <position name="alignment_ring_14_v162" unit="mm" x="132.14790910091253" y="25.883757083632016" z="5.173228748115674"/>
+ <position name="alignment_ring_14_v163" unit="mm" x="133.05421688794917" y="26.306375345372718" z="5.173228748115669"/>
+ <position name="alignment_ring_14_v164" unit="mm" x="132.0219152580867" y="26.153951751513688" z="6.781279787320409"/>
+ <position name="alignment_ring_14_v165" unit="mm" x="132.9282230451233" y="26.576570013254383" z="6.781279787320406"/>
+ <position name="alignment_ring_14_v166" unit="mm" x="132.76851097065233" y="26.91907366224644" z="8.372471496500797"/>
+ <position name="alignment_ring_14_v167" unit="mm" x="131.86220318361563" y="26.49645540050573" z="8.372471496500802"/>
+ <position name="alignment_ring_14_v168" unit="mm" x="131.66916994688117" y="26.91041651257116" z="9.94284792235625"/>
+ <position name="alignment_ring_14_v169" unit="mm" x="132.5754777339178" y="27.333034774311855" z="9.942847922356243"/>
+ <position name="alignment_ring_14_v170" unit="mm" x="131.44329545892455" y="27.39480591516076" z="11.488504861660155"/>
+ <position name="alignment_ring_14_v171" unit="mm" x="132.34960324596116" y="27.817424176901454" z="11.488504861660159"/>
+ <position name="alignment_ring_14_v172" unit="mm" x="132.09144906634864" y="28.37103760163896" z="13.005599567724401"/>
+ <position name="alignment_ring_14_v173" unit="mm" x="131.185141279312" y="27.94841933989825" z="13.005599567724397"/>
+ <position name="alignment_ring_14_v174" unit="mm" x="131.80165700704612" y="28.992498678321933" z="14.490360304072968"/>
+ <position name="alignment_ring_14_v175" unit="mm" x="130.8953492200095" y="28.569880416581235" z="14.490360304072967"/>
+ <position name="alignment_ring_14_v176" unit="mm" x="130.57463974973663" y="29.257644095054296" z="15.939095721573223"/>
+ <position name="alignment_ring_14_v177" unit="mm" x="131.48094753677327" y="29.680262356795" z="15.939095721573215"/>
+ <position name="alignment_ring_14_v178" unit="mm" x="130.22381020276828" y="30.010000486447254" z="17.348204035711362"/>
+ <position name="alignment_ring_14_v179" unit="mm" x="131.1301179898049" y="30.432618748187952" z="17.34820403571136"/>
+ <position name="alignment_ring_14_v180" unit="mm" x="129.84373279663555" y="30.8250791142282" z="18.714181981196305"/>
+ <position name="alignment_ring_14_v181" unit="mm" x="130.75004058367216" y="31.247697375968894" z="18.7141819811963"/>
+ <position name="alignment_ring_14_v182" unit="mm" x="129.43535246365593" y="31.700853564502914" z="20.03363352162915"/>
+ <position name="alignment_ring_14_v183" unit="mm" x="130.34166025069257" y="32.123471826243616" z="20.033633521629152"/>
+ <position name="alignment_ring_14_v184" unit="mm" x="129.90599228871923" y="33.05776478573983" z="21.303278292584746"/>
+ <position name="alignment_ring_14_v185" unit="mm" x="128.99968450168254" y="32.635146523999126" z="21.30327829258475"/>
+ <position name="alignment_ring_14_v186" unit="mm" x="128.5378120499136" y="33.625635193210286" z="22.519959757114535"/>
+ <position name="alignment_ring_14_v187" unit="mm" x="129.44411983695028" y="34.048253454950995" z="22.51995975711454"/>
+ <position name="alignment_ring_14_v188" unit="mm" x="128.05088339603788" y="34.669857061241224" z="23.68065305339475"/>
+ <position name="alignment_ring_14_v189" unit="mm" x="128.9571911830745" y="35.09247532298194" z="23.68065305339475"/>
+ <position name="alignment_ring_14_v190" unit="mm" x="128.44641690844705" y="36.1878342897389" z="24.782472515009484"/>
+ <position name="alignment_ring_14_v191" unit="mm" x="127.54010912141035" y="35.76521602799819" z="24.78247251500948"/>
+ <position name="alignment_ring_14_v192" unit="mm" x="127.0067590913565" y="36.908988858502674" z="25.82267884517212"/>
+ <position name="alignment_ring_14_v193" unit="mm" x="127.91306687839317" y="37.33160712024338" z="25.82267884517212"/>
+ <position name="alignment_ring_14_v194" unit="mm" x="126.45215929808681" y="38.09833195328275" z="26.798685927048727"/>
+ <position name="alignment_ring_14_v195" unit="mm" x="127.35846708512346" y="38.52095021502345" z="26.798685927048727"/>
+ <position name="alignment_ring_14_v196" unit="mm" x="125.87768856407126" y="39.330288418009296" z="27.708067253251993"/>
+ <position name="alignment_ring_14_v197" unit="mm" x="126.78399635110792" y="39.75290667975" z="27.708067253251993"/>
+ <position name="alignment_ring_14_v198" unit="mm" x="125.28477511406945" y="40.601795414801316" z="28.548561958520867"/>
+ <position name="alignment_ring_14_v199" unit="mm" x="126.19108290110613" y="41.024413676542025" z="28.54856195852086"/>
+ <position name="alignment_ring_14_v200" unit="mm" x="124.67489302433886" y="41.90969177692339" z="29.318080440587906"/>
+ <position name="alignment_ring_14_v201" unit="mm" x="125.58120081137552" y="42.33231003866411" z="29.31808044058791"/>
+ <position name="alignment_ring_14_v202" unit="mm" x="124.04955855784885" y="43.25072586794435" z="30.014709555259707"/>
+ <position name="alignment_ring_14_v203" unit="mm" x="124.95586634488551" y="43.67334412968505" z="30.014709555259707"/>
+ <position name="alignment_ring_14_v204" unit="mm" x="123.4103263946122" y="44.62156366581764" z="30.636717372794802"/>
+ <position name="alignment_ring_14_v205" unit="mm" x="124.31663418164885" y="45.04418192755834" z="30.636717372794802"/>
+ <position name="alignment_ring_14_v206" unit="mm" x="122.75878576650551" y="46.01879705178565" z="31.182557483753904"/>
+ <position name="alignment_ring_14_v207" unit="mm" x="123.66509355354216" y="46.44141531352634" z="31.182557483753907"/>
+ <position name="alignment_ring_14_v208" unit="mm" x="122.09655650618836" y="47.438952283499695" z="31.650872843617428"/>
+ <position name="alignment_ring_14_v209" unit="mm" x="123.00286429322497" y="47.86157054524039" z="31.65087284361743"/>
+ <position name="alignment_ring_14_v210" unit="mm" x="121.42528501994416" y="48.878498631291045" z="32.040499146611985"/>
+ <position name="alignment_ring_14_v211" unit="mm" x="122.33159280698084" y="49.30111689303176" z="32.040499146611985"/>
+ <position name="alignment_ring_14_v212" unit="mm" x="120.74664019445474" y="50.333857156121084" z="32.350467720357976"/>
+ <position name="alignment_ring_14_v213" unit="mm" x="121.6529479814914" y="50.756475417861786" z="32.350467720357976"/>
+ <position name="alignment_ring_14_v214" unit="mm" x="120.06230924768504" y="51.80140960738765" z="32.580007934141726"/>
+ <position name="alignment_ring_14_v215" unit="mm" x="120.96861703472169" y="52.22402786912835" z="32.580007934141726"/>
+ <position name="alignment_ring_14_v216" unit="mm" x="119.3739935341933" y="53.27750741846614" z="32.72854911482493"/>
+ <position name="alignment_ring_14_v217" unit="mm" x="120.28030132122996" y="53.700125680206824" z="32.72854911482492"/>
+ <position name="alignment_ring_14_v218" unit="mm" x="118.68340431529579" y="54.758480777621074" z="32.79572196562795"/>
+ <position name="alignment_ring_14_v219" unit="mm" x="119.58971210233244" y="55.18109903936177" z="32.79572196562795"/>
+ <position name="alignment_ring_14_v220" unit="mm" x="117.9922585046015" y="56.240647751736255" z="32.781359484259774"/>
+ <position name="alignment_ring_14_v221" unit="mm" x="118.89856629163812" y="56.66326601347694" z="32.78135948425977"/>
+ <position name="alignment_ring_14_v222" unit="mm" x="117.3022743994941" y="57.72032344018058" z="32.685497378112075"/>
+ <position name="alignment_ring_14_v223" unit="mm" x="118.20858218653078" y="58.14294170192129" z="32.685497378112075"/>
+ <position name="alignment_ring_14_v224" unit="mm" x="116.6151674091744" y="59.193829136051725" z="32.50837397548498"/>
+ <position name="alignment_ring_14_v225" unit="mm" x="117.52147519621103" y="59.61644739779241" z="32.50837397548498"/>
+ <position name="alignment_ring_14_v226" unit="mm" x="115.93264578988232" y="60.657501472020996" z="32.250429633065366"/>
+ <position name="alignment_ring_14_v227" unit="mm" x="116.83895357691895" y="61.08011973376169" z="32.250429633065366"/>
+ <position name="alignment_ring_14_v228" unit="mm" x="115.25640639790296" y="62.107701528041794" z="31.912305641130743"/>
+ <position name="alignment_ring_14_v229" unit="mm" x="116.16271418493962" y="62.53031978978249" z="31.912305641130743"/>
+ <position name="alignment_ring_14_v230" unit="mm" x="114.58813047091463" y="63.54082387827823" z="31.494842629200612"/>
+ <position name="alignment_ring_14_v231" unit="mm" x="115.49443825795127" y="63.963442140018934" z="31.494842629200612"/>
+ <position name="alignment_ring_14_v232" unit="mm" x="113.92947944816677" y="64.95330555476178" z="30.99907847609901"/>
+ <position name="alignment_ring_14_v233" unit="mm" x="114.83578723520338" y="65.37592381650246" z="30.99907847609901"/>
+ <position name="alignment_ring_14_v234" unit="mm" x="113.28209083988037" y="66.341634905491" z="30.426245729624213"/>
+ <position name="alignment_ring_14_v235" unit="mm" x="114.18839862691699" y="66.76425316723169" z="30.42624572962422"/>
+ <position name="alignment_ring_14_v236" unit="mm" x="112.64757415613957" y="67.70236032495184" z="29.777768542240707"/>
+ <position name="alignment_ring_14_v237" unit="mm" x="113.55388194317625" y="68.12497858669256" z="29.77776854224071"/>
+ <position name="alignment_ring_14_v238" unit="mm" x="112.02750690539602" y="69.03209883535271" z="29.055259130411812"/>
+ <position name="alignment_ring_14_v239" unit="mm" x="112.9338146924327" y="69.45471709709342" z="29.05525913041181"/>
+ <position name="alignment_ring_14_v240" unit="mm" x="111.42343067253418" y="70.32754449724027" z="28.260513766375453"/>
+ <position name="alignment_ring_14_v241" unit="mm" x="112.32973845957086" y="70.75016275898098" z="28.26051376637546"/>
+ <position name="alignment_ring_14_v242" unit="mm" x="111.74315507328515" y="72.00809489032655" z="27.39550831232843"/>
+ <position name="alignment_ring_14_v243" unit="mm" x="110.8368472862485" y="71.58547662858584" z="27.39550831232843"/>
+ <position name="alignment_ring_14_v244" unit="mm" x="110.26921508526061" y="72.80276781190844" z="26.462393308121634"/>
+ <position name="alignment_ring_14_v245" unit="mm" x="111.17552287229726" y="73.22538607364913" z="26.462393308121634"/>
+ <position name="alignment_ring_14_v246" unit="mm" x="109.72194529265954" y="73.97639166952726" z="25.463488624679112"/>
+ <position name="alignment_ring_14_v247" unit="mm" x="110.6282530796962" y="74.39900993126795" z="25.463488624679112"/>
+ <position name="alignment_ring_14_v248" unit="mm" x="109.19639850737869" y="75.10343038761359" z="24.401277696433493"/>
+ <position name="alignment_ring_14_v249" unit="mm" x="110.10270629441534" y="75.52604864935428" z="24.401277696433485"/>
+ <position name="alignment_ring_14_v250" unit="mm" x="108.69388132153257" y="76.18108197033558" z="23.278401347116628"/>
+ <position name="alignment_ring_14_v251" unit="mm" x="109.60018910856924" y="76.6037002320763" z="23.278401347116635"/>
+ <position name="alignment_ring_14_v252" unit="mm" x="108.21564307202286" y="77.20666720606152" z="22.09765122425576"/>
+ <position name="alignment_ring_14_v253" unit="mm" x="109.12195085905954" y="77.62928546780223" z="22.097651224255763"/>
+ <position name="alignment_ring_14_v254" unit="mm" x="107.7628727344901" y="78.17763632830196" z="20.861962858697826"/>
+ <position name="alignment_ring_14_v255" unit="mm" x="108.66918052152676" y="78.60025459004267" z="20.86196285869783"/>
+ <position name="alignment_ring_14_v256" unit="mm" x="121.89271799507407" y="50.24228696440308" z="-32.25042963306538"/>
+ <position name="alignment_ring_14_v257" unit="mm" x="121.21019637578198" y="51.70595930037235" z="-32.508373975485"/>
+ <position name="alignment_ring_14_v258" unit="mm" x="120.52308938546227" y="53.1794649962435" z="-32.68549737811209"/>
+ <position name="alignment_ring_14_v259" unit="mm" x="119.83310528035491" y="54.65914068468785" z="-32.78135948425979"/>
+ <position name="alignment_ring_14_v260" unit="mm" x="119.14195946966058" y="56.14130765880302" z="-32.79572196562795"/>
+ <position name="alignment_ring_14_v261" unit="mm" x="122.56895738705342" y="48.79208690838227" z="-31.91230564113077"/>
+ <position name="alignment_ring_14_v262" unit="mm" x="118.45137025076309" y="57.62228101795798" z="-32.72854911482492"/>
+ <position name="alignment_ring_14_v263" unit="mm" x="117.76305453727133" y="59.09837882903646" z="-32.58000793414172"/>
+ <position name="alignment_ring_14_v264" unit="mm" x="123.23723331404173" y="47.35896455814581" z="-31.49484262920064"/>
+ <position name="alignment_ring_14_v265" unit="mm" x="123.89588433678965" y="45.946482881662284" z="-30.99907847609904"/>
+ <position name="alignment_ring_14_v266" unit="mm" x="117.07872359050161" y="60.56593128030303" z="-32.35046772035796"/>
+ <position name="alignment_ring_14_v267" unit="mm" x="124.54327294507605" y="44.55815353093305" z="-30.42624572962425"/>
+ <position name="alignment_ring_14_v268" unit="mm" x="116.4000787650122" y="62.02128980513308" z="-32.040499146611964"/>
+ <position name="alignment_ring_14_v269" unit="mm" x="125.1777896288168" y="43.19742811147218" z="-29.777768542240743"/>
+ <position name="alignment_ring_14_v270" unit="mm" x="115.72880727876803" y="63.460836152924436" z="-31.6508728436174"/>
+ <position name="alignment_ring_14_v271" unit="mm" x="115.06657801845084" y="64.88099138463849" z="-31.18255748375386"/>
+ <position name="alignment_ring_14_v272" unit="mm" x="125.79785687956036" y="41.867689601071305" z="-29.055259130411837"/>
+ <position name="alignment_ring_14_v273" unit="mm" x="126.4019331124222" y="40.57224393918375" z="-28.26051376637548"/>
+ <position name="alignment_ring_14_v274" unit="mm" x="114.41503739034412" y="66.27822477060647" z="-30.63671737279474"/>
+ <position name="alignment_ring_14_v275" unit="mm" x="126.98851649870788" y="39.314311807838166" z="-27.395508312328456"/>
+ <position name="alignment_ring_14_v276" unit="mm" x="113.7758052271075" y="67.64906256847979" z="-30.01470955525964"/>
+ <position name="alignment_ring_14_v277" unit="mm" x="113.1504707606175" y="68.99009665950075" z="-29.318080440587824"/>
+ <position name="alignment_ring_14_v278" unit="mm" x="127.55614869969577" y="38.097020624515565" z="-26.462393308121655"/>
+ <position name="alignment_ring_14_v279" unit="mm" x="128.10341849229684" y="36.92339676689673" z="-25.463488624679133"/>
+ <position name="alignment_ring_14_v280" unit="mm" x="112.54058867088689" y="70.29799302162284" z="-28.54856195852079"/>
+ <position name="alignment_ring_14_v281" unit="mm" x="111.94767522088509" y="71.56950001841484" z="-27.708067253251897"/>
+ <position name="alignment_ring_14_v282" unit="mm" x="128.62896527757772" y="35.79635804881042" z="-24.401277696433507"/>
+ <position name="alignment_ring_14_v283" unit="mm" x="129.60972071293352" y="33.69312123036245" z="-22.097651224255767"/>
+ <position name="alignment_ring_14_v284" unit="mm" x="129.13148246342385" y="34.718706466088406" z="-23.278401347116652"/>
+ <position name="alignment_ring_14_v285" unit="mm" x="111.37320448686953" y="72.80145648314141" z="-26.798685927048624"/>
+ <position name="alignment_ring_14_v286" unit="mm" x="110.81860469359982" y="73.99079957792145" z="-25.822678845172003"/>
+ <position name="alignment_ring_14_v287" unit="mm" x="110.28525466354597" y="75.13457240842594" z="-24.782472515009356"/>
+ <position name="alignment_ring_14_v288" unit="mm" x="128.18271483545695" y="36.75334521021885" z="-15.516299314843096"/>
+ <position name="alignment_ring_14_v289" unit="mm" x="109.77448038891848" y="76.22993137518291" z="-23.6806530533946"/>
+ <position name="alignment_ring_14_v290" unit="mm" x="128.49861773207036" y="36.075889262222404" z="-14.457100886571766"/>
+ <position name="alignment_ring_14_v291" unit="mm" x="109.28755173504271" y="77.27415324321386" z="-22.51995975711438"/>
+ <position name="alignment_ring_14_v292" unit="mm" x="128.79181509378498" y="35.44712549095017" z="-13.361959827604439"/>
+ <position name="alignment_ring_14_v293" unit="mm" x="108.82567928327377" y="78.264641912425" z="-21.303278292584576"/>
+ <position name="alignment_ring_14_v294" unit="mm" x="108.39001132130042" y="79.19893487192122" z="-20.033633521628964"/>
+ <position name="alignment_ring_14_v295" unit="mm" x="129.06157798576285" y="34.86861710220694" z="-12.233598831166507"/>
+ <position name="alignment_ring_14_v296" unit="mm" x="129.30723573495007" y="34.34180235899815" z="-11.074823180482099"/>
+ <position name="alignment_ring_14_v297" unit="mm" x="107.98163098832083" y="80.07470932219594" z="-18.714181981196102"/>
+ <position name="alignment_ring_14_v298" unit="mm" x="129.52817759747583" y="33.86799100578148" z="-9.88851377439799"/>
+ <position name="alignment_ring_14_v299" unit="mm" x="107.60155358218812" y="80.88978794997686" z="-17.348204035711152"/>
+ <position name="alignment_ring_14_v300" unit="mm" x="129.72385427705774" y="33.44836101223575" z="-8.677619965015193"/>
+ <position name="alignment_ring_14_v301" unit="mm" x="107.25072403521972" y="81.64214434136981" z="-15.939095721572986"/>
+ <position name="alignment_ring_14_v302" unit="mm" x="129.89377929063912" y="33.08395564464273" z="-7.445152225134863"/>
+ <position name="alignment_ring_14_v303" unit="mm" x="106.93001456494686" y="82.32990801984286" z="-14.490360304072729"/>
+ <position name="alignment_ring_14_v304" unit="mm" x="106.64022250564436" y="82.95136909652585" z="-13.005599567724143"/>
+ <position name="alignment_ring_14_v305" unit="mm" x="130.03753017786255" y="32.775680872162766" z="-6.194174663748612"/>
+ <position name="alignment_ring_14_v306" unit="mm" x="130.15474955137256" y="32.524303114452664" z="-4.927797408180776"/>
+ <position name="alignment_ring_14_v307" unit="mm" x="106.38206832603186" y="83.50498252126333" z="-11.488504861659894"/>
+ <position name="alignment_ring_14_v308" unit="mm" x="106.15619383807521" y="83.98937192385291" z="-9.94284792235598"/>
+ <position name="alignment_ring_14_v309" unit="mm" x="130.24514598533742" y="32.33044733622573" z="-3.6491688718218214"/>
+ <position name="alignment_ring_14_v310" unit="mm" x="130.30849473997907" y="32.19459549349096" z="-2.3614679266766103"/>
+ <position name="alignment_ring_14_v311" unit="mm" x="105.96316060134072" y="84.40333303591831" z="-8.372471496500534"/>
+ <position name="alignment_ring_14_v312" unit="mm" x="105.80344852686973" y="84.74583668491036" z="-6.781279787320136"/>
+ <position name="alignment_ring_14_v313" unit="mm" x="130.34463832031224" y="32.11708533533448" z="-1.067896000187696"/>
+ <position name="alignment_ring_14_v314" unit="mm" x="130.3534868677013" y="32.098109564222185" z="0.22833088401767854"/>
+ <position name="alignment_ring_14_v315" unit="mm" x="105.67745468404387" y="85.01603135279201" z="-5.1732287481154025"/>
+ <position name="alignment_ring_14_v316" unit="mm" x="130.3350183832633" y="32.13771535691088" z="1.5239901016690711"/>
+ <position name="alignment_ring_14_v317" unit="mm" x="105.58549231340825" y="85.21324529304647" z="-3.552316247137778"/>
+ <position name="alignment_ring_14_v318" unit="mm" x="130.28927878256042" y="32.235804247159585" z="2.815860439804549"/>
+ <position name="alignment_ring_14_v319" unit="mm" x="105.52779004790615" y="85.33698820074481" z="-1.9225721282591637"/>
+ <position name="alignment_ring_14_v320" unit="mm" x="130.21638178144684" y="32.392132370532025" z="4.100730105213641"/>
+ <position name="alignment_ring_14_v321" unit="mm" x="105.50449134446127" y="85.38695243152131" z="-0.2880481921450959"/>
+ <position name="alignment_ring_14_v322" unit="mm" x="130.11650861335312" y="32.606311070682125" z="5.3754047094613"/>
+ <position name="alignment_ring_14_v323" unit="mm" x="105.51565412732134" y="85.36301376642578" z="1.3471918771601443"/>
+ <position name="alignment_ring_14_v324" unit="mm" x="129.9899075787115" y="32.87780786561486" z="6.636715210640878"/>
+ <position name="alignment_ring_14_v325" unit="mm" x="129.83689342764148" y="33.20594777152038" z="7.881525792111656"/>
+ <position name="alignment_ring_14_v326" unit="mm" x="105.56125064404931" y="85.26523172075144" z="2.9790826151923095"/>
+ <position name="alignment_ring_14_v327" unit="mm" x="105.6411675345204" y="85.09384939607064" z="4.603566884452421"/>
+ <position name="alignment_ring_14_v328" unit="mm" x="129.65784657743194" y="33.58991498089018" z="9.106741658633059"/>
+ <position name="alignment_ring_14_v329" unit="mm" x="129.45321216676345" y="34.028754890743066" z="10.309316730513245"/>
+ <position name="alignment_ring_14_v330" unit="mm" x="105.75520611275293" y="84.84929287584586" z="6.216605961089865"/>
+ <position name="alignment_ring_14_v331" unit="mm" x="105.9030828608733" y="84.53217016611927" z="7.814189575806209"/>
+ <position name="alignment_ring_14_v332" unit="mm" x="129.22349894902368" y="34.52137647591861" z="11.486261216643213"/>
+ <position name="alignment_ring_14_v333" unit="mm" x="106.08443013398593" y="84.14326968391376" z="9.392345884016551"/>
+ <position name="alignment_ring_14_v334" unit="mm" x="128.96927802746595" y="35.066555001537495" z="12.63464904758853"/>
+ <position name="alignment_ring_14_v335" unit="mm" x="128.6911814353568" y="35.662935067885556" z="13.75162515025901"/>
+ <position name="alignment_ring_14_v336" unit="mm" x="106.29879707419633" y="83.68355829710413" z="10.947151340480962"/>
+ <position name="alignment_ring_14_v337" unit="mm" x="106.54565073151501" y="83.15417892063104" z="12.474740453856189"/>
+ <position name="alignment_ring_14_v338" unit="mm" x="128.3899005646419" y="36.30903398015094" z="14.834412546070244"/>
+ <position name="alignment_ring_14_v339" unit="mm" x="128.06618444703608" y="37.00324543463701" z="15.880319254949935"/>
+ <position name="alignment_ring_14_v340" unit="mm" x="106.82437738885515" y="82.55644767503459" z="13.971315396916122"/>
+ <position name="alignment_ring_14_v341" unit="mm" x="107.13428408782984" y="81.8918506143712" z="15.433155448548758"/>
+ <position name="alignment_ring_14_v342" unit="mm" x="127.72083789181329" y="37.74384351228643" z="16.886744988024493"/>
+ <position name="alignment_ring_14_v343" unit="mm" x="127.35471948492331" y="38.52898696958798" z="17.851187612346894"/>
+ <position name="alignment_ring_14_v344" unit="mm" x="107.47460035155578" y="81.16204003164896" z="16.856626244055064"/>
+ <position name="alignment_ring_14_v345" unit="mm" x="107.84448010018043" y="80.36883035096706" z="18.238188810752302"/>
+ <position name="alignment_ring_14_v346" unit="mm" x="126.96873945441205" y="39.35672381619788" z="18.771249371593402"/>
+ <position name="alignment_ring_14_v347" unit="mm" x="108.24300375436962" y="79.5141936165715" z="19.574408366417657"/>
+ <position name="alignment_ring_14_v348" unit="mm" x="126.56385740745121" y="40.22499616789546" z="19.644642847263622"/>
+ <position name="alignment_ring_14_v349" unit="mm" x="126.1410799446036" y="41.13164536280754" z="20.46919664556328"/>
+ <position name="alignment_ring_14_v350" unit="mm" x="111.24568310000988" y="73.07492697977496" z="17.516430848495418"/>
+ <position name="alignment_ring_14_v351" unit="mm" x="125.70145815725567" y="42.07441732818198" z="21.242860795831316"/>
+ <position name="alignment_ring_14_v352" unit="mm" x="111.62477439535294" y="72.26196307340683" z="18.452391311738793"/>
+ <position name="alignment_ring_14_v353" unit="mm" x="112.02311118901147" y="71.40772706271255" z="19.34247622278265"/>
+ <position name="alignment_ring_14_v354" unit="mm" x="125.24608501443845" y="43.05096818436766" z="21.96371184709"/>
+ <position name="alignment_ring_14_v355" unit="mm" x="124.77609264553463" y="44.05887007206867" z="22.629957650047036"/>
+ <position name="alignment_ring_14_v356" unit="mm" x="112.43970315295357" y="70.51434271300997" z="20.184472690294424"/>
+ <position name="alignment_ring_14_v357" unit="mm" x="124.29264952562623" y="45.09561718838496" z="23.23994181266115"/>
+ <position name="alignment_ring_14_v358" unit="mm" x="112.87351457391784" y="69.58403111855601" z="20.976287378389095"/>
+ <position name="alignment_ring_14_v359" unit="mm" x="123.79695757048172" y="46.15863201663328" z="23.79214781819367"/>
+ <position name="alignment_ring_14_v360" unit="mm" x="113.32346692835948" y="68.61910518055642" z="21.715951710992048"/>
+ <position name="alignment_ring_14_v361" unit="mm" x="123.29024914840386" y="47.245271734459656" z="24.285202795508077"/>
+ <position name="alignment_ring_14_v362" unit="mm" x="122.77378401636804" y="48.352834784312336" z="24.71788093224395"/>
+ <position name="alignment_ring_14_v363" unit="mm" x="113.78844156382985" y="67.62196385692883" z="22.40162676602933"/>
+ <position name="alignment_ring_14_v364" unit="mm" x="114.26728248012276" y="66.59508619811551" z="23.031607847277655"/>
+ <position name="alignment_ring_14_v365" unit="mm" x="114.75879920327311" y="65.54102518377336" z="23.60432872250789"/>
+ <position name="alignment_ring_14_v366" unit="mm" x="122.24884618806789" y="49.478567589939345" z="25.08910652237968"/>
+ <position name="alignment_ring_14_v367" unit="mm" x="121.71674074165479" y="50.61967140221297" z="25.397956640607067"/>
+ <position name="alignment_ring_14_v368" unit="mm" x="115.26176974526275" y="64.46240137566414" z="24.118365517385055"/>
+ <position name="alignment_ring_14_v369" unit="mm" x="121.17879057510834" y="51.773309257261175" z="25.64366343686913"/>
+ <position name="alignment_ring_14_v370" unit="mm" x="120.63633311730307" y="52.93661302960662" z="25.82561604535625"/>
+ <position name="alignment_ring_14_v371" unit="mm" x="115.77494364207513" y="63.36189640252512" z="24.57244025544435"/>
+ <position name="alignment_ring_14_v372" unit="mm" x="116.82677598028071" y="61.10623467402759" z="25.29633983748169"/>
+ <position name="alignment_ring_14_v373" unit="mm" x="116.29704506254602" y="62.24224629311745" z="24.965424035341957"/>
+ <position name="alignment_ring_14_v374" unit="mm" x="120.09071700294983" y="54.10669056277858" z="25.94336210321488"/>
+ <position name="alignment_ring_14_v375" unit="mm" x="119.54329871967747" y="55.2806328596697" z="25.996608875192884"/>
+ <position name="alignment_ring_14_v376" unit="mm" x="117.36281940075209" y="59.95668584913304" z="25.56436495303962"/>
+ <position name="alignment_ring_14_v377" unit="mm" x="118.9954392355905" y="56.455521314761" z="25.98522398142543"/>
+ <position name="alignment_ring_14_v378" unit="mm" x="117.90384263555683" y="58.796457777937896" z="25.768833029347853"/>
+ <position name="alignment_ring_14_v379" unit="mm" x="118.44850061568832" y="57.62843497023516" z="25.909235726552257"/>
+ <position name="alignment_ring_14_v380" unit="mm" x="120.30388858874537" y="51.283341038631654" z="-32.50837397548501"/>
+ <position name="alignment_ring_14_v381" unit="mm" x="119.61678159842563" y="52.7568467345028" z="-32.68549737811209"/>
+ <position name="alignment_ring_14_v382" unit="mm" x="118.92679749331826" y="54.23652242294715" z="-32.78135948425979"/>
+ <position name="alignment_ring_14_v383" unit="mm" x="120.98641020803746" y="49.81966870266238" z="-32.25042963306539"/>
+ <position name="alignment_ring_14_v384" unit="mm" x="118.2356516826239" y="55.71868939706232" z="-32.795721965627955"/>
+ <position name="alignment_ring_14_v385" unit="mm" x="121.66264960001674" y="48.36946864664155" z="-31.91230564113077"/>
+ <position name="alignment_ring_14_v386" unit="mm" x="117.54506246372644" y="57.19966275621728" z="-32.72854911482492"/>
+ <position name="alignment_ring_14_v387" unit="mm" x="122.33092552700508" y="46.93634629640511" z="-31.49484262920064"/>
+ <position name="alignment_ring_14_v388" unit="mm" x="116.8567467502347" y="58.675760567295775" z="-32.58000793414171"/>
+ <position name="alignment_ring_14_v389" unit="mm" x="123.6369651580394" y="44.135535269192346" z="-30.42624572962425"/>
+ <position name="alignment_ring_14_v390" unit="mm" x="122.989576549753" y="45.52386461992158" z="-30.99907847609904"/>
+ <position name="alignment_ring_14_v391" unit="mm" x="116.17241580346496" y="60.14331301856234" z="-32.35046772035796"/>
+ <position name="alignment_ring_14_v392" unit="mm" x="115.49377097797554" y="61.59867154339237" z="-32.04049914661197"/>
+ <position name="alignment_ring_14_v393" unit="mm" x="124.27148184178014" y="42.77480984973148" z="-29.777768542240743"/>
+ <position name="alignment_ring_14_v394" unit="mm" x="114.82249949173138" y="63.038217891183734" z="-31.6508728436174"/>
+ <position name="alignment_ring_14_v395" unit="mm" x="114.16027023141419" y="64.45837312289778" z="-31.182557483753854"/>
+ <position name="alignment_ring_14_v396" unit="mm" x="124.89154909252372" y="41.44507133933062" z="-29.055259130411837"/>
+ <position name="alignment_ring_14_v397" unit="mm" x="113.5087296033075" y="65.85560650886579" z="-30.63671737279474"/>
+ <position name="alignment_ring_14_v398" unit="mm" x="126.08220871167123" y="38.891693546097464" z="-27.395508312328456"/>
+ <position name="alignment_ring_14_v399" unit="mm" x="125.49562532538557" y="40.149625677443055" z="-28.26051376637548"/>
+ <position name="alignment_ring_14_v400" unit="mm" x="112.86949744007082" y="67.22644430673908" z="-30.014709555259632"/>
+ <position name="alignment_ring_14_v401" unit="mm" x="126.64984091265912" y="37.67440236277487" z="-26.46239330812166"/>
+ <position name="alignment_ring_14_v402" unit="mm" x="112.24416297358081" y="68.56747839776003" z="-29.318080440587828"/>
+ <position name="alignment_ring_14_v403" unit="mm" x="127.1971107052602" y="36.500778505156035" z="-25.46348862467913"/>
+ <position name="alignment_ring_14_v404" unit="mm" x="111.63428088385022" y="69.87537475988212" z="-28.54856195852078"/>
+ <position name="alignment_ring_14_v405" unit="mm" x="111.04136743384846" y="71.14688175667416" z="-27.70806725325189"/>
+ <position name="alignment_ring_14_v406" unit="mm" x="127.72265749054104" y="35.37373978706971" z="-24.401277696433514"/>
+ <position name="alignment_ring_14_v407" unit="mm" x="128.7034129258969" y="33.27050296862176" z="-22.097651224255767"/>
+ <position name="alignment_ring_14_v408" unit="mm" x="128.2251746763872" y="34.296088204347704" z="-23.27840134711665"/>
+ <position name="alignment_ring_14_v409" unit="mm" x="110.46689669983292" y="72.37883822140071" z="-26.798685927048627"/>
+ <position name="alignment_ring_14_v410" unit="mm" x="109.91229690656317" y="73.56818131618076" z="-25.822678845172007"/>
+ <position name="alignment_ring_14_v411" unit="mm" x="109.37894687650933" y="74.71195414668526" z="-24.782472515009353"/>
+ <position name="alignment_ring_14_v412" unit="mm" x="108.8681726018818" y="75.80731311344219" z="-23.680653053394604"/>
+ <position name="alignment_ring_14_v413" unit="mm" x="127.27640704842028" y="36.33072694847814" z="-15.516299314843097"/>
+ <position name="alignment_ring_14_v414" unit="mm" x="127.59230994503368" y="35.653271000481695" z="-14.457100886571766"/>
+ <position name="alignment_ring_14_v415" unit="mm" x="108.38124394800607" y="76.85153498147315" z="-22.519959757114385"/>
+ <position name="alignment_ring_14_v416" unit="mm" x="127.88550730674837" y="35.024507229209476" z="-13.361959827604451"/>
+ <position name="alignment_ring_14_v417" unit="mm" x="107.91937149623712" y="77.8420236506843" z="-21.303278292584572"/>
+ <position name="alignment_ring_14_v418" unit="mm" x="128.15527019872624" y="34.445998840466245" z="-12.233598831166503"/>
+ <position name="alignment_ring_14_v419" unit="mm" x="107.48370353426377" y="78.77631661018052" z="-20.03363352162896"/>
+ <position name="alignment_ring_14_v420" unit="mm" x="128.40092794791343" y="33.91918409725744" z="-11.074823180482088"/>
+ <position name="alignment_ring_14_v421" unit="mm" x="107.07532320128416" y="79.65209106045522" z="-18.714181981196102"/>
+ <position name="alignment_ring_14_v422" unit="mm" x="128.62186981043914" y="33.44537274404077" z="-9.888513774397987"/>
+ <position name="alignment_ring_14_v423" unit="mm" x="106.69524579515146" y="80.46716968823617" z="-17.348204035711134"/>
+ <position name="alignment_ring_14_v424" unit="mm" x="128.81754649002104" y="33.02574275049504" z="-8.677619965015193"/>
+ <position name="alignment_ring_14_v425" unit="mm" x="106.34441624818308" y="81.2195260796291" z="-15.939095721572986"/>
+ <position name="alignment_ring_14_v426" unit="mm" x="128.9874715036025" y="32.66133738290203" z="-7.445152225134857"/>
+ <position name="alignment_ring_14_v427" unit="mm" x="106.02370677791023" y="81.90728975810217" z="-14.490360304072729"/>
+ <position name="alignment_ring_14_v428" unit="mm" x="129.13122239082585" y="32.35306261042207" z="-6.194174663748612"/>
+ <position name="alignment_ring_14_v429" unit="mm" x="105.73391471860772" y="82.52875083478514" z="-13.005599567724142"/>
+ <position name="alignment_ring_14_v430" unit="mm" x="129.24844176433595" y="32.101684852711976" z="-4.927797408180776"/>
+ <position name="alignment_ring_14_v431" unit="mm" x="105.4757605389952" y="83.08236425952262" z="-11.488504861659898"/>
+ <position name="alignment_ring_14_v432" unit="mm" x="129.33883819830072" y="31.907829074485033" z="-3.649168871821825"/>
+ <position name="alignment_ring_14_v433" unit="mm" x="105.24988605103856" y="83.56675366211222" z="-9.942847922355984"/>
+ <position name="alignment_ring_14_v434" unit="mm" x="105.0568528143041" y="83.98071477417763" z="-8.372471496500538"/>
+ <position name="alignment_ring_14_v435" unit="mm" x="129.40218695294243" y="31.77197723175025" z="-2.3614679266766068"/>
+ <position name="alignment_ring_14_v436" unit="mm" x="129.43833053327563" y="31.694467073593792" z="-1.0678960001876925"/>
+ <position name="alignment_ring_14_v437" unit="mm" x="104.89714073983308" y="84.32321842316966" z="-6.7812797873201305"/>
+ <position name="alignment_ring_14_v438" unit="mm" x="129.44717908066468" y="31.67549130248149" z="0.22833088401767498"/>
+ <position name="alignment_ring_14_v439" unit="mm" x="104.77114689700718" y="84.5934130910513" z="-5.1732287481154025"/>
+ <position name="alignment_ring_14_v440" unit="mm" x="129.4287105962266" y="31.715097095170172" z="1.5239901016690711"/>
+ <position name="alignment_ring_14_v441" unit="mm" x="104.67918452637164" y="84.79062703130577" z="-3.552316247137771"/>
+ <position name="alignment_ring_14_v442" unit="mm" x="129.38297099552372" y="31.813185985418873" z="2.815860439804549"/>
+ <position name="alignment_ring_14_v443" unit="mm" x="104.6214822608695" y="84.91436993900412" z="-1.9225721282591655"/>
+ <position name="alignment_ring_14_v444" unit="mm" x="129.31007399441015" y="31.969514108791323" z="4.100730105213641"/>
+ <position name="alignment_ring_14_v445" unit="mm" x="104.59818355742462" y="84.96433416978063" z="-0.2880481921450959"/>
+ <position name="alignment_ring_14_v446" unit="mm" x="129.21020082631648" y="32.183692808941416" z="5.3754047094613036"/>
+ <position name="alignment_ring_14_v447" unit="mm" x="129.0835997916748" y="32.45518960387415" z="6.636715210640876"/>
+ <position name="alignment_ring_14_v448" unit="mm" x="104.60934634028469" y="84.94039550468509" z="1.347191877160146"/>
+ <position name="alignment_ring_14_v449" unit="mm" x="104.65494285701268" y="84.84261345901076" z="2.979082615192304"/>
+ <position name="alignment_ring_14_v450" unit="mm" x="128.93058564060482" y="32.783329509779676" z="7.881525792111656"/>
+ <position name="alignment_ring_14_v451" unit="mm" x="128.75153879039527" y="33.16729671914948" z="9.106741658633053"/>
+ <position name="alignment_ring_14_v452" unit="mm" x="104.73485974748374" y="84.67123113432993" z="4.603566884452425"/>
+ <position name="alignment_ring_14_v453" unit="mm" x="104.8488983257163" y="84.42667461410517" z="6.216605961089863"/>
+ <position name="alignment_ring_14_v454" unit="mm" x="128.54690437972684" y="33.606136629002364" z="10.309316730513244"/>
+ <position name="alignment_ring_14_v455" unit="mm" x="104.99677507383667" y="84.10955190437858" z="7.814189575806214"/>
+ <position name="alignment_ring_14_v456" unit="mm" x="128.31719116198704" y="34.09875821417789" z="11.486261216643213"/>
+ <position name="alignment_ring_14_v457" unit="mm" x="105.17812234694928" y="83.72065142217308" z="9.39234588401655"/>
+ <position name="alignment_ring_14_v458" unit="mm" x="128.06297024042925" y="34.64393673979679" z="12.634649047588535"/>
+ <position name="alignment_ring_14_v459" unit="mm" x="105.39248928715968" y="83.26094003536342" z="10.947151340480964"/>
+ <position name="alignment_ring_14_v460" unit="mm" x="127.7848736483202" y="35.24031680614486" z="13.751625150259006"/>
+ <position name="alignment_ring_14_v461" unit="mm" x="105.63934294447836" y="82.73156065889033" z="12.474740453856182"/>
+ <position name="alignment_ring_14_v462" unit="mm" x="127.4835927776052" y="35.88641571841025" z="14.834412546070244"/>
+ <position name="alignment_ring_14_v463" unit="mm" x="105.91806960181854" y="82.13382941329391" z="13.971315396916115"/>
+ <position name="alignment_ring_14_v464" unit="mm" x="127.15987665999944" y="36.5806271728963" z="15.880319254949937"/>
+ <position name="alignment_ring_14_v465" unit="mm" x="106.22797630079316" y="81.46923235263048" z="15.433155448548758"/>
+ <position name="alignment_ring_14_v466" unit="mm" x="126.81453010477662" y="37.32122525054574" z="16.886744988024507"/>
+ <position name="alignment_ring_14_v467" unit="mm" x="126.44841169788666" y="38.10636870784728" z="17.851187612346894"/>
+ <position name="alignment_ring_14_v468" unit="mm" x="106.56829256451911" y="80.73942176990823" z="16.856626244055064"/>
+ <position name="alignment_ring_14_v469" unit="mm" x="106.93817231314378" y="79.94621208922636" z="18.2381888107523"/>
+ <position name="alignment_ring_14_v470" unit="mm" x="126.06243166737539" y="38.93410555445718" z="18.7712493715934"/>
+ <position name="alignment_ring_14_v471" unit="mm" x="107.33669596733301" y="79.09157535483081" z="19.574408366417657"/>
+ <position name="alignment_ring_14_v472" unit="mm" x="125.65754962041456" y="39.80237790615476" z="19.644642847263626"/>
+ <position name="alignment_ring_14_v473" unit="mm" x="125.23477215756695" y="40.70902710106684" z="20.46919664556328"/>
+ <position name="alignment_ring_14_v474" unit="mm" x="110.33937531297325" y="72.65230871803425" z="17.516430848495418"/>
+ <position name="alignment_ring_14_v475" unit="mm" x="124.79515037021902" y="41.65179906644127" z="21.242860795831323"/>
+ <position name="alignment_ring_14_v476" unit="mm" x="110.71846660831628" y="71.83934481166611" z="18.4523913117388"/>
+ <position name="alignment_ring_14_v477" unit="mm" x="111.11680340197479" y="70.98510880097184" z="19.342476222782643"/>
+ <position name="alignment_ring_14_v478" unit="mm" x="124.33977722740184" y="42.628349922626974" z="21.963711847089996"/>
+ <position name="alignment_ring_14_v479" unit="mm" x="123.86978485849795" y="43.63625181032796" z="22.629957650047032"/>
+ <position name="alignment_ring_14_v480" unit="mm" x="111.53339536591695" y="70.09172445126929" z="20.18447269029442"/>
+ <position name="alignment_ring_14_v481" unit="mm" x="123.38634173858958" y="44.67299892664426" z="23.23994181266115"/>
+ <position name="alignment_ring_14_v482" unit="mm" x="122.89064978344504" y="45.73601375489256" z="23.79214781819367"/>
+ <position name="alignment_ring_14_v483" unit="mm" x="111.96720678688119" y="69.16141285681532" z="20.976287378389095"/>
+ <position name="alignment_ring_14_v484" unit="mm" x="112.41715914132283" y="68.19648691881572" z="21.71595171099205"/>
+ <position name="alignment_ring_14_v485" unit="mm" x="112.88213377679317" y="67.1993455951881" z="22.401626766029334"/>
+ <position name="alignment_ring_14_v486" unit="mm" x="122.3839413613672" y="46.822653472718955" z="24.285202795508077"/>
+ <position name="alignment_ring_14_v487" unit="mm" x="121.86747622933139" y="47.93021652257164" z="24.717880932243954"/>
+ <position name="alignment_ring_14_v488" unit="mm" x="113.36097469308609" y="66.1724679363748" z="23.03160784727765"/>
+ <position name="alignment_ring_14_v489" unit="mm" x="121.34253840103123" y="49.05594932819864" z="25.089106522379677"/>
+ <position name="alignment_ring_14_v490" unit="mm" x="113.85249141623646" y="65.11840692203266" z="23.604328722507887"/>
+ <position name="alignment_ring_14_v491" unit="mm" x="114.35546195822612" y="64.03978311392346" z="24.118365517385058"/>
+ <position name="alignment_ring_14_v492" unit="mm" x="120.81043295461818" y="50.19705314047228" z="25.397956640607074"/>
+ <position name="alignment_ring_14_v493" unit="mm" x="114.8686358550385" y="62.93927814078444" z="24.572440255444345"/>
+ <position name="alignment_ring_14_v494" unit="mm" x="120.2724827880717" y="51.35069099552047" z="25.64366343686913"/>
+ <position name="alignment_ring_14_v495" unit="mm" x="119.73002533026641" y="52.51399476786592" z="25.82561604535625"/>
+ <position name="alignment_ring_14_v496" unit="mm" x="115.39073727550937" y="61.819628031376745" z="24.965424035341957"/>
+ <position name="alignment_ring_14_v497" unit="mm" x="119.18440921591318" y="53.68407230103788" z="25.94336210321488"/>
+ <position name="alignment_ring_14_v498" unit="mm" x="115.92046819324406" y="60.683616412286895" z="25.296339837481696"/>
+ <position name="alignment_ring_14_v499" unit="mm" x="118.63699093264081" y="54.85801459792901" z="25.996608875192887"/>
+ <position name="alignment_ring_14_v500" unit="mm" x="116.45651161371543" y="59.53406758739235" z="25.56436495303962"/>
+ <position name="alignment_ring_14_v501" unit="mm" x="118.08913144855384" y="56.032903053020306" z="25.98522398142543"/>
+ <position name="alignment_ring_14_v502" unit="mm" x="117.54219282865166" y="57.20581670849447" z="25.909235726552257"/>
+ <position name="alignment_ring_14_v503" unit="mm" x="116.99753484852017" y="58.373839516197194" z="25.768833029347853"/>
+ </define>
+
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="alignment_ring_14_solid">
+ <triangular vertex1="alignment_ring_14_v0" vertex2="alignment_ring_14_v1" vertex3="alignment_ring_14_v2"/>
+ <triangular vertex1="alignment_ring_14_v3" vertex2="alignment_ring_14_v1" vertex3="alignment_ring_14_v0"/>
+ <triangular vertex1="alignment_ring_14_v2" vertex2="alignment_ring_14_v4" vertex3="alignment_ring_14_v5"/>
+ <triangular vertex1="alignment_ring_14_v1" vertex2="alignment_ring_14_v4" vertex3="alignment_ring_14_v2"/>
+ <triangular vertex1="alignment_ring_14_v5" vertex2="alignment_ring_14_v6" vertex3="alignment_ring_14_v7"/>
+ <triangular vertex1="alignment_ring_14_v4" vertex2="alignment_ring_14_v6" vertex3="alignment_ring_14_v5"/>
+ <triangular vertex1="alignment_ring_14_v7" vertex2="alignment_ring_14_v8" vertex3="alignment_ring_14_v9"/>
+ <triangular vertex1="alignment_ring_14_v6" vertex2="alignment_ring_14_v8" vertex3="alignment_ring_14_v7"/>
+ <triangular vertex1="alignment_ring_14_v9" vertex2="alignment_ring_14_v10" vertex3="alignment_ring_14_v11"/>
+ <triangular vertex1="alignment_ring_14_v8" vertex2="alignment_ring_14_v10" vertex3="alignment_ring_14_v9"/>
+ <triangular vertex1="alignment_ring_14_v11" vertex2="alignment_ring_14_v12" vertex3="alignment_ring_14_v13"/>
+ <triangular vertex1="alignment_ring_14_v10" vertex2="alignment_ring_14_v12" vertex3="alignment_ring_14_v11"/>
+ <triangular vertex1="alignment_ring_14_v13" vertex2="alignment_ring_14_v14" vertex3="alignment_ring_14_v15"/>
+ <triangular vertex1="alignment_ring_14_v12" vertex2="alignment_ring_14_v14" vertex3="alignment_ring_14_v13"/>
+ <triangular vertex1="alignment_ring_14_v15" vertex2="alignment_ring_14_v16" vertex3="alignment_ring_14_v17"/>
+ <triangular vertex1="alignment_ring_14_v14" vertex2="alignment_ring_14_v16" vertex3="alignment_ring_14_v15"/>
+ <triangular vertex1="alignment_ring_14_v17" vertex2="alignment_ring_14_v18" vertex3="alignment_ring_14_v19"/>
+ <triangular vertex1="alignment_ring_14_v16" vertex2="alignment_ring_14_v18" vertex3="alignment_ring_14_v17"/>
+ <triangular vertex1="alignment_ring_14_v19" vertex2="alignment_ring_14_v20" vertex3="alignment_ring_14_v21"/>
+ <triangular vertex1="alignment_ring_14_v18" vertex2="alignment_ring_14_v20" vertex3="alignment_ring_14_v19"/>
+ <triangular vertex1="alignment_ring_14_v21" vertex2="alignment_ring_14_v22" vertex3="alignment_ring_14_v23"/>
+ <triangular vertex1="alignment_ring_14_v20" vertex2="alignment_ring_14_v22" vertex3="alignment_ring_14_v21"/>
+ <triangular vertex1="alignment_ring_14_v23" vertex2="alignment_ring_14_v24" vertex3="alignment_ring_14_v25"/>
+ <triangular vertex1="alignment_ring_14_v22" vertex2="alignment_ring_14_v24" vertex3="alignment_ring_14_v23"/>
+ <triangular vertex1="alignment_ring_14_v25" vertex2="alignment_ring_14_v26" vertex3="alignment_ring_14_v27"/>
+ <triangular vertex1="alignment_ring_14_v24" vertex2="alignment_ring_14_v26" vertex3="alignment_ring_14_v25"/>
+ <triangular vertex1="alignment_ring_14_v27" vertex2="alignment_ring_14_v28" vertex3="alignment_ring_14_v29"/>
+ <triangular vertex1="alignment_ring_14_v26" vertex2="alignment_ring_14_v28" vertex3="alignment_ring_14_v27"/>
+ <triangular vertex1="alignment_ring_14_v29" vertex2="alignment_ring_14_v30" vertex3="alignment_ring_14_v31"/>
+ <triangular vertex1="alignment_ring_14_v28" vertex2="alignment_ring_14_v30" vertex3="alignment_ring_14_v29"/>
+ <triangular vertex1="alignment_ring_14_v31" vertex2="alignment_ring_14_v32" vertex3="alignment_ring_14_v33"/>
+ <triangular vertex1="alignment_ring_14_v30" vertex2="alignment_ring_14_v32" vertex3="alignment_ring_14_v31"/>
+ <triangular vertex1="alignment_ring_14_v33" vertex2="alignment_ring_14_v34" vertex3="alignment_ring_14_v35"/>
+ <triangular vertex1="alignment_ring_14_v32" vertex2="alignment_ring_14_v34" vertex3="alignment_ring_14_v33"/>
+ <triangular vertex1="alignment_ring_14_v34" vertex2="alignment_ring_14_v36" vertex3="alignment_ring_14_v35"/>
+ <triangular vertex1="alignment_ring_14_v35" vertex2="alignment_ring_14_v36" vertex3="alignment_ring_14_v37"/>
+ <triangular vertex1="alignment_ring_14_v38" vertex2="alignment_ring_14_v39" vertex3="alignment_ring_14_v40"/>
+ <triangular vertex1="alignment_ring_14_v37" vertex2="alignment_ring_14_v39" vertex3="alignment_ring_14_v38"/>
+ <triangular vertex1="alignment_ring_14_v36" vertex2="alignment_ring_14_v39" vertex3="alignment_ring_14_v37"/>
+ <triangular vertex1="alignment_ring_14_v39" vertex2="alignment_ring_14_v41" vertex3="alignment_ring_14_v40"/>
+ <triangular vertex1="alignment_ring_14_v40" vertex2="alignment_ring_14_v42" vertex3="alignment_ring_14_v43"/>
+ <triangular vertex1="alignment_ring_14_v41" vertex2="alignment_ring_14_v42" vertex3="alignment_ring_14_v40"/>
+ <triangular vertex1="alignment_ring_14_v43" vertex2="alignment_ring_14_v44" vertex3="alignment_ring_14_v45"/>
+ <triangular vertex1="alignment_ring_14_v42" vertex2="alignment_ring_14_v44" vertex3="alignment_ring_14_v43"/>
+ <triangular vertex1="alignment_ring_14_v45" vertex2="alignment_ring_14_v46" vertex3="alignment_ring_14_v47"/>
+ <triangular vertex1="alignment_ring_14_v44" vertex2="alignment_ring_14_v46" vertex3="alignment_ring_14_v45"/>
+ <triangular vertex1="alignment_ring_14_v47" vertex2="alignment_ring_14_v48" vertex3="alignment_ring_14_v49"/>
+ <triangular vertex1="alignment_ring_14_v46" vertex2="alignment_ring_14_v48" vertex3="alignment_ring_14_v47"/>
+ <triangular vertex1="alignment_ring_14_v49" vertex2="alignment_ring_14_v50" vertex3="alignment_ring_14_v51"/>
+ <triangular vertex1="alignment_ring_14_v48" vertex2="alignment_ring_14_v50" vertex3="alignment_ring_14_v49"/>
+ <triangular vertex1="alignment_ring_14_v51" vertex2="alignment_ring_14_v52" vertex3="alignment_ring_14_v53"/>
+ <triangular vertex1="alignment_ring_14_v50" vertex2="alignment_ring_14_v52" vertex3="alignment_ring_14_v51"/>
+ <triangular vertex1="alignment_ring_14_v53" vertex2="alignment_ring_14_v54" vertex3="alignment_ring_14_v55"/>
+ <triangular vertex1="alignment_ring_14_v52" vertex2="alignment_ring_14_v54" vertex3="alignment_ring_14_v53"/>
+ <triangular vertex1="alignment_ring_14_v55" vertex2="alignment_ring_14_v56" vertex3="alignment_ring_14_v57"/>
+ <triangular vertex1="alignment_ring_14_v54" vertex2="alignment_ring_14_v56" vertex3="alignment_ring_14_v55"/>
+ <triangular vertex1="alignment_ring_14_v56" vertex2="alignment_ring_14_v58" vertex3="alignment_ring_14_v57"/>
+ <triangular vertex1="alignment_ring_14_v57" vertex2="alignment_ring_14_v58" vertex3="alignment_ring_14_v59"/>
+ <triangular vertex1="alignment_ring_14_v58" vertex2="alignment_ring_14_v60" vertex3="alignment_ring_14_v59"/>
+ <triangular vertex1="alignment_ring_14_v59" vertex2="alignment_ring_14_v60" vertex3="alignment_ring_14_v61"/>
+ <triangular vertex1="alignment_ring_14_v60" vertex2="alignment_ring_14_v62" vertex3="alignment_ring_14_v61"/>
+ <triangular vertex1="alignment_ring_14_v61" vertex2="alignment_ring_14_v62" vertex3="alignment_ring_14_v63"/>
+ <triangular vertex1="alignment_ring_14_v62" vertex2="alignment_ring_14_v64" vertex3="alignment_ring_14_v63"/>
+ <triangular vertex1="alignment_ring_14_v63" vertex2="alignment_ring_14_v64" vertex3="alignment_ring_14_v65"/>
+ <triangular vertex1="alignment_ring_14_v64" vertex2="alignment_ring_14_v66" vertex3="alignment_ring_14_v65"/>
+ <triangular vertex1="alignment_ring_14_v65" vertex2="alignment_ring_14_v66" vertex3="alignment_ring_14_v67"/>
+ <triangular vertex1="alignment_ring_14_v66" vertex2="alignment_ring_14_v68" vertex3="alignment_ring_14_v67"/>
+ <triangular vertex1="alignment_ring_14_v67" vertex2="alignment_ring_14_v68" vertex3="alignment_ring_14_v69"/>
+ <triangular vertex1="alignment_ring_14_v68" vertex2="alignment_ring_14_v70" vertex3="alignment_ring_14_v69"/>
+ <triangular vertex1="alignment_ring_14_v69" vertex2="alignment_ring_14_v70" vertex3="alignment_ring_14_v71"/>
+ <triangular vertex1="alignment_ring_14_v70" vertex2="alignment_ring_14_v72" vertex3="alignment_ring_14_v71"/>
+ <triangular vertex1="alignment_ring_14_v73" vertex2="alignment_ring_14_v72" vertex3="alignment_ring_14_v74"/>
+ <triangular vertex1="alignment_ring_14_v71" vertex2="alignment_ring_14_v72" vertex3="alignment_ring_14_v73"/>
+ <triangular vertex1="alignment_ring_14_v72" vertex2="alignment_ring_14_v75" vertex3="alignment_ring_14_v74"/>
+ <triangular vertex1="alignment_ring_14_v75" vertex2="alignment_ring_14_v76" vertex3="alignment_ring_14_v74"/>
+ <triangular vertex1="alignment_ring_14_v74" vertex2="alignment_ring_14_v76" vertex3="alignment_ring_14_v77"/>
+ <triangular vertex1="alignment_ring_14_v77" vertex2="alignment_ring_14_v78" vertex3="alignment_ring_14_v79"/>
+ <triangular vertex1="alignment_ring_14_v76" vertex2="alignment_ring_14_v78" vertex3="alignment_ring_14_v77"/>
+ <triangular vertex1="alignment_ring_14_v79" vertex2="alignment_ring_14_v80" vertex3="alignment_ring_14_v81"/>
+ <triangular vertex1="alignment_ring_14_v78" vertex2="alignment_ring_14_v80" vertex3="alignment_ring_14_v79"/>
+ <triangular vertex1="alignment_ring_14_v80" vertex2="alignment_ring_14_v82" vertex3="alignment_ring_14_v81"/>
+ <triangular vertex1="alignment_ring_14_v83" vertex2="alignment_ring_14_v82" vertex3="alignment_ring_14_v84"/>
+ <triangular vertex1="alignment_ring_14_v81" vertex2="alignment_ring_14_v82" vertex3="alignment_ring_14_v83"/>
+ <triangular vertex1="alignment_ring_14_v82" vertex2="alignment_ring_14_v85" vertex3="alignment_ring_14_v84"/>
+ <triangular vertex1="alignment_ring_14_v85" vertex2="alignment_ring_14_v86" vertex3="alignment_ring_14_v84"/>
+ <triangular vertex1="alignment_ring_14_v84" vertex2="alignment_ring_14_v86" vertex3="alignment_ring_14_v87"/>
+ <triangular vertex1="alignment_ring_14_v86" vertex2="alignment_ring_14_v88" vertex3="alignment_ring_14_v87"/>
+ <triangular vertex1="alignment_ring_14_v87" vertex2="alignment_ring_14_v88" vertex3="alignment_ring_14_v89"/>
+ <triangular vertex1="alignment_ring_14_v88" vertex2="alignment_ring_14_v90" vertex3="alignment_ring_14_v89"/>
+ <triangular vertex1="alignment_ring_14_v89" vertex2="alignment_ring_14_v90" vertex3="alignment_ring_14_v91"/>
+ <triangular vertex1="alignment_ring_14_v90" vertex2="alignment_ring_14_v92" vertex3="alignment_ring_14_v91"/>
+ <triangular vertex1="alignment_ring_14_v91" vertex2="alignment_ring_14_v92" vertex3="alignment_ring_14_v93"/>
+ <triangular vertex1="alignment_ring_14_v92" vertex2="alignment_ring_14_v94" vertex3="alignment_ring_14_v93"/>
+ <triangular vertex1="alignment_ring_14_v93" vertex2="alignment_ring_14_v94" vertex3="alignment_ring_14_v95"/>
+ <triangular vertex1="alignment_ring_14_v94" vertex2="alignment_ring_14_v96" vertex3="alignment_ring_14_v95"/>
+ <triangular vertex1="alignment_ring_14_v95" vertex2="alignment_ring_14_v96" vertex3="alignment_ring_14_v97"/>
+ <triangular vertex1="alignment_ring_14_v96" vertex2="alignment_ring_14_v98" vertex3="alignment_ring_14_v97"/>
+ <triangular vertex1="alignment_ring_14_v97" vertex2="alignment_ring_14_v98" vertex3="alignment_ring_14_v99"/>
+ <triangular vertex1="alignment_ring_14_v98" vertex2="alignment_ring_14_v100" vertex3="alignment_ring_14_v99"/>
+ <triangular vertex1="alignment_ring_14_v99" vertex2="alignment_ring_14_v100" vertex3="alignment_ring_14_v101"/>
+ <triangular vertex1="alignment_ring_14_v100" vertex2="alignment_ring_14_v102" vertex3="alignment_ring_14_v101"/>
+ <triangular vertex1="alignment_ring_14_v101" vertex2="alignment_ring_14_v102" vertex3="alignment_ring_14_v103"/>
+ <triangular vertex1="alignment_ring_14_v102" vertex2="alignment_ring_14_v104" vertex3="alignment_ring_14_v103"/>
+ <triangular vertex1="alignment_ring_14_v103" vertex2="alignment_ring_14_v104" vertex3="alignment_ring_14_v105"/>
+ <triangular vertex1="alignment_ring_14_v104" vertex2="alignment_ring_14_v106" vertex3="alignment_ring_14_v105"/>
+ <triangular vertex1="alignment_ring_14_v105" vertex2="alignment_ring_14_v106" vertex3="alignment_ring_14_v107"/>
+ <triangular vertex1="alignment_ring_14_v106" vertex2="alignment_ring_14_v108" vertex3="alignment_ring_14_v107"/>
+ <triangular vertex1="alignment_ring_14_v107" vertex2="alignment_ring_14_v108" vertex3="alignment_ring_14_v109"/>
+ <triangular vertex1="alignment_ring_14_v108" vertex2="alignment_ring_14_v110" vertex3="alignment_ring_14_v109"/>
+ <triangular vertex1="alignment_ring_14_v109" vertex2="alignment_ring_14_v110" vertex3="alignment_ring_14_v111"/>
+ <triangular vertex1="alignment_ring_14_v110" vertex2="alignment_ring_14_v112" vertex3="alignment_ring_14_v111"/>
+ <triangular vertex1="alignment_ring_14_v111" vertex2="alignment_ring_14_v112" vertex3="alignment_ring_14_v113"/>
+ <triangular vertex1="alignment_ring_14_v112" vertex2="alignment_ring_14_v114" vertex3="alignment_ring_14_v113"/>
+ <triangular vertex1="alignment_ring_14_v113" vertex2="alignment_ring_14_v114" vertex3="alignment_ring_14_v115"/>
+ <triangular vertex1="alignment_ring_14_v114" vertex2="alignment_ring_14_v116" vertex3="alignment_ring_14_v115"/>
+ <triangular vertex1="alignment_ring_14_v115" vertex2="alignment_ring_14_v116" vertex3="alignment_ring_14_v117"/>
+ <triangular vertex1="alignment_ring_14_v116" vertex2="alignment_ring_14_v118" vertex3="alignment_ring_14_v117"/>
+ <triangular vertex1="alignment_ring_14_v117" vertex2="alignment_ring_14_v118" vertex3="alignment_ring_14_v119"/>
+ <triangular vertex1="alignment_ring_14_v119" vertex2="alignment_ring_14_v120" vertex3="alignment_ring_14_v121"/>
+ <triangular vertex1="alignment_ring_14_v118" vertex2="alignment_ring_14_v120" vertex3="alignment_ring_14_v119"/>
+ <triangular vertex1="alignment_ring_14_v121" vertex2="alignment_ring_14_v122" vertex3="alignment_ring_14_v123"/>
+ <triangular vertex1="alignment_ring_14_v120" vertex2="alignment_ring_14_v122" vertex3="alignment_ring_14_v121"/>
+ <triangular vertex1="alignment_ring_14_v123" vertex2="alignment_ring_14_v124" vertex3="alignment_ring_14_v125"/>
+ <triangular vertex1="alignment_ring_14_v122" vertex2="alignment_ring_14_v124" vertex3="alignment_ring_14_v123"/>
+ <triangular vertex1="alignment_ring_14_v125" vertex2="alignment_ring_14_v126" vertex3="alignment_ring_14_v127"/>
+ <triangular vertex1="alignment_ring_14_v124" vertex2="alignment_ring_14_v126" vertex3="alignment_ring_14_v125"/>
+ <triangular vertex1="alignment_ring_14_v128" vertex2="alignment_ring_14_v129" vertex3="alignment_ring_14_v130"/>
+ <triangular vertex1="alignment_ring_14_v128" vertex2="alignment_ring_14_v130" vertex3="alignment_ring_14_v131"/>
+ <triangular vertex1="alignment_ring_14_v132" vertex2="alignment_ring_14_v128" vertex3="alignment_ring_14_v131"/>
+ <triangular vertex1="alignment_ring_14_v132" vertex2="alignment_ring_14_v131" vertex3="alignment_ring_14_v133"/>
+ <triangular vertex1="alignment_ring_14_v134" vertex2="alignment_ring_14_v132" vertex3="alignment_ring_14_v133"/>
+ <triangular vertex1="alignment_ring_14_v134" vertex2="alignment_ring_14_v133" vertex3="alignment_ring_14_v135"/>
+ <triangular vertex1="alignment_ring_14_v136" vertex2="alignment_ring_14_v134" vertex3="alignment_ring_14_v135"/>
+ <triangular vertex1="alignment_ring_14_v136" vertex2="alignment_ring_14_v135" vertex3="alignment_ring_14_v137"/>
+ <triangular vertex1="alignment_ring_14_v138" vertex2="alignment_ring_14_v136" vertex3="alignment_ring_14_v137"/>
+ <triangular vertex1="alignment_ring_14_v138" vertex2="alignment_ring_14_v137" vertex3="alignment_ring_14_v139"/>
+ <triangular vertex1="alignment_ring_14_v140" vertex2="alignment_ring_14_v139" vertex3="alignment_ring_14_v141"/>
+ <triangular vertex1="alignment_ring_14_v140" vertex2="alignment_ring_14_v138" vertex3="alignment_ring_14_v139"/>
+ <triangular vertex1="alignment_ring_14_v142" vertex2="alignment_ring_14_v141" vertex3="alignment_ring_14_v143"/>
+ <triangular vertex1="alignment_ring_14_v142" vertex2="alignment_ring_14_v140" vertex3="alignment_ring_14_v141"/>
+ <triangular vertex1="alignment_ring_14_v144" vertex2="alignment_ring_14_v143" vertex3="alignment_ring_14_v145"/>
+ <triangular vertex1="alignment_ring_14_v144" vertex2="alignment_ring_14_v142" vertex3="alignment_ring_14_v143"/>
+ <triangular vertex1="alignment_ring_14_v146" vertex2="alignment_ring_14_v145" vertex3="alignment_ring_14_v147"/>
+ <triangular vertex1="alignment_ring_14_v146" vertex2="alignment_ring_14_v144" vertex3="alignment_ring_14_v145"/>
+ <triangular vertex1="alignment_ring_14_v148" vertex2="alignment_ring_14_v147" vertex3="alignment_ring_14_v149"/>
+ <triangular vertex1="alignment_ring_14_v148" vertex2="alignment_ring_14_v146" vertex3="alignment_ring_14_v147"/>
+ <triangular vertex1="alignment_ring_14_v150" vertex2="alignment_ring_14_v149" vertex3="alignment_ring_14_v151"/>
+ <triangular vertex1="alignment_ring_14_v150" vertex2="alignment_ring_14_v148" vertex3="alignment_ring_14_v149"/>
+ <triangular vertex1="alignment_ring_14_v152" vertex2="alignment_ring_14_v151" vertex3="alignment_ring_14_v153"/>
+ <triangular vertex1="alignment_ring_14_v152" vertex2="alignment_ring_14_v150" vertex3="alignment_ring_14_v151"/>
+ <triangular vertex1="alignment_ring_14_v154" vertex2="alignment_ring_14_v153" vertex3="alignment_ring_14_v155"/>
+ <triangular vertex1="alignment_ring_14_v154" vertex2="alignment_ring_14_v152" vertex3="alignment_ring_14_v153"/>
+ <triangular vertex1="alignment_ring_14_v156" vertex2="alignment_ring_14_v155" vertex3="alignment_ring_14_v157"/>
+ <triangular vertex1="alignment_ring_14_v156" vertex2="alignment_ring_14_v154" vertex3="alignment_ring_14_v155"/>
+ <triangular vertex1="alignment_ring_14_v158" vertex2="alignment_ring_14_v157" vertex3="alignment_ring_14_v159"/>
+ <triangular vertex1="alignment_ring_14_v158" vertex2="alignment_ring_14_v156" vertex3="alignment_ring_14_v157"/>
+ <triangular vertex1="alignment_ring_14_v160" vertex2="alignment_ring_14_v159" vertex3="alignment_ring_14_v161"/>
+ <triangular vertex1="alignment_ring_14_v160" vertex2="alignment_ring_14_v158" vertex3="alignment_ring_14_v159"/>
+ <triangular vertex1="alignment_ring_14_v162" vertex2="alignment_ring_14_v161" vertex3="alignment_ring_14_v163"/>
+ <triangular vertex1="alignment_ring_14_v162" vertex2="alignment_ring_14_v160" vertex3="alignment_ring_14_v161"/>
+ <triangular vertex1="alignment_ring_14_v164" vertex2="alignment_ring_14_v162" vertex3="alignment_ring_14_v163"/>
+ <triangular vertex1="alignment_ring_14_v164" vertex2="alignment_ring_14_v165" vertex3="alignment_ring_14_v166"/>
+ <triangular vertex1="alignment_ring_14_v164" vertex2="alignment_ring_14_v163" vertex3="alignment_ring_14_v165"/>
+ <triangular vertex1="alignment_ring_14_v167" vertex2="alignment_ring_14_v164" vertex3="alignment_ring_14_v166"/>
+ <triangular vertex1="alignment_ring_14_v168" vertex2="alignment_ring_14_v167" vertex3="alignment_ring_14_v166"/>
+ <triangular vertex1="alignment_ring_14_v168" vertex2="alignment_ring_14_v166" vertex3="alignment_ring_14_v169"/>
+ <triangular vertex1="alignment_ring_14_v170" vertex2="alignment_ring_14_v168" vertex3="alignment_ring_14_v169"/>
+ <triangular vertex1="alignment_ring_14_v170" vertex2="alignment_ring_14_v171" vertex3="alignment_ring_14_v172"/>
+ <triangular vertex1="alignment_ring_14_v170" vertex2="alignment_ring_14_v169" vertex3="alignment_ring_14_v171"/>
+ <triangular vertex1="alignment_ring_14_v173" vertex2="alignment_ring_14_v170" vertex3="alignment_ring_14_v172"/>
+ <triangular vertex1="alignment_ring_14_v173" vertex2="alignment_ring_14_v172" vertex3="alignment_ring_14_v174"/>
+ <triangular vertex1="alignment_ring_14_v175" vertex2="alignment_ring_14_v173" vertex3="alignment_ring_14_v174"/>
+ <triangular vertex1="alignment_ring_14_v176" vertex2="alignment_ring_14_v175" vertex3="alignment_ring_14_v174"/>
+ <triangular vertex1="alignment_ring_14_v176" vertex2="alignment_ring_14_v174" vertex3="alignment_ring_14_v177"/>
+ <triangular vertex1="alignment_ring_14_v178" vertex2="alignment_ring_14_v176" vertex3="alignment_ring_14_v177"/>
+ <triangular vertex1="alignment_ring_14_v178" vertex2="alignment_ring_14_v177" vertex3="alignment_ring_14_v179"/>
+ <triangular vertex1="alignment_ring_14_v180" vertex2="alignment_ring_14_v179" vertex3="alignment_ring_14_v181"/>
+ <triangular vertex1="alignment_ring_14_v180" vertex2="alignment_ring_14_v178" vertex3="alignment_ring_14_v179"/>
+ <triangular vertex1="alignment_ring_14_v182" vertex2="alignment_ring_14_v183" vertex3="alignment_ring_14_v184"/>
+ <triangular vertex1="alignment_ring_14_v182" vertex2="alignment_ring_14_v181" vertex3="alignment_ring_14_v183"/>
+ <triangular vertex1="alignment_ring_14_v182" vertex2="alignment_ring_14_v180" vertex3="alignment_ring_14_v181"/>
+ <triangular vertex1="alignment_ring_14_v185" vertex2="alignment_ring_14_v182" vertex3="alignment_ring_14_v184"/>
+ <triangular vertex1="alignment_ring_14_v186" vertex2="alignment_ring_14_v184" vertex3="alignment_ring_14_v187"/>
+ <triangular vertex1="alignment_ring_14_v186" vertex2="alignment_ring_14_v185" vertex3="alignment_ring_14_v184"/>
+ <triangular vertex1="alignment_ring_14_v188" vertex2="alignment_ring_14_v189" vertex3="alignment_ring_14_v190"/>
+ <triangular vertex1="alignment_ring_14_v188" vertex2="alignment_ring_14_v187" vertex3="alignment_ring_14_v189"/>
+ <triangular vertex1="alignment_ring_14_v188" vertex2="alignment_ring_14_v186" vertex3="alignment_ring_14_v187"/>
+ <triangular vertex1="alignment_ring_14_v191" vertex2="alignment_ring_14_v188" vertex3="alignment_ring_14_v190"/>
+ <triangular vertex1="alignment_ring_14_v192" vertex2="alignment_ring_14_v190" vertex3="alignment_ring_14_v193"/>
+ <triangular vertex1="alignment_ring_14_v192" vertex2="alignment_ring_14_v191" vertex3="alignment_ring_14_v190"/>
+ <triangular vertex1="alignment_ring_14_v194" vertex2="alignment_ring_14_v193" vertex3="alignment_ring_14_v195"/>
+ <triangular vertex1="alignment_ring_14_v194" vertex2="alignment_ring_14_v192" vertex3="alignment_ring_14_v193"/>
+ <triangular vertex1="alignment_ring_14_v196" vertex2="alignment_ring_14_v195" vertex3="alignment_ring_14_v197"/>
+ <triangular vertex1="alignment_ring_14_v196" vertex2="alignment_ring_14_v194" vertex3="alignment_ring_14_v195"/>
+ <triangular vertex1="alignment_ring_14_v198" vertex2="alignment_ring_14_v197" vertex3="alignment_ring_14_v199"/>
+ <triangular vertex1="alignment_ring_14_v198" vertex2="alignment_ring_14_v196" vertex3="alignment_ring_14_v197"/>
+ <triangular vertex1="alignment_ring_14_v200" vertex2="alignment_ring_14_v199" vertex3="alignment_ring_14_v201"/>
+ <triangular vertex1="alignment_ring_14_v200" vertex2="alignment_ring_14_v198" vertex3="alignment_ring_14_v199"/>
+ <triangular vertex1="alignment_ring_14_v202" vertex2="alignment_ring_14_v201" vertex3="alignment_ring_14_v203"/>
+ <triangular vertex1="alignment_ring_14_v202" vertex2="alignment_ring_14_v200" vertex3="alignment_ring_14_v201"/>
+ <triangular vertex1="alignment_ring_14_v204" vertex2="alignment_ring_14_v203" vertex3="alignment_ring_14_v205"/>
+ <triangular vertex1="alignment_ring_14_v204" vertex2="alignment_ring_14_v202" vertex3="alignment_ring_14_v203"/>
+ <triangular vertex1="alignment_ring_14_v206" vertex2="alignment_ring_14_v205" vertex3="alignment_ring_14_v207"/>
+ <triangular vertex1="alignment_ring_14_v206" vertex2="alignment_ring_14_v204" vertex3="alignment_ring_14_v205"/>
+ <triangular vertex1="alignment_ring_14_v208" vertex2="alignment_ring_14_v207" vertex3="alignment_ring_14_v209"/>
+ <triangular vertex1="alignment_ring_14_v208" vertex2="alignment_ring_14_v206" vertex3="alignment_ring_14_v207"/>
+ <triangular vertex1="alignment_ring_14_v210" vertex2="alignment_ring_14_v209" vertex3="alignment_ring_14_v211"/>
+ <triangular vertex1="alignment_ring_14_v210" vertex2="alignment_ring_14_v208" vertex3="alignment_ring_14_v209"/>
+ <triangular vertex1="alignment_ring_14_v212" vertex2="alignment_ring_14_v211" vertex3="alignment_ring_14_v213"/>
+ <triangular vertex1="alignment_ring_14_v212" vertex2="alignment_ring_14_v210" vertex3="alignment_ring_14_v211"/>
+ <triangular vertex1="alignment_ring_14_v214" vertex2="alignment_ring_14_v212" vertex3="alignment_ring_14_v213"/>
+ <triangular vertex1="alignment_ring_14_v214" vertex2="alignment_ring_14_v213" vertex3="alignment_ring_14_v215"/>
+ <triangular vertex1="alignment_ring_14_v216" vertex2="alignment_ring_14_v214" vertex3="alignment_ring_14_v215"/>
+ <triangular vertex1="alignment_ring_14_v216" vertex2="alignment_ring_14_v215" vertex3="alignment_ring_14_v217"/>
+ <triangular vertex1="alignment_ring_14_v218" vertex2="alignment_ring_14_v216" vertex3="alignment_ring_14_v217"/>
+ <triangular vertex1="alignment_ring_14_v218" vertex2="alignment_ring_14_v217" vertex3="alignment_ring_14_v219"/>
+ <triangular vertex1="alignment_ring_14_v220" vertex2="alignment_ring_14_v218" vertex3="alignment_ring_14_v219"/>
+ <triangular vertex1="alignment_ring_14_v220" vertex2="alignment_ring_14_v219" vertex3="alignment_ring_14_v221"/>
+ <triangular vertex1="alignment_ring_14_v222" vertex2="alignment_ring_14_v220" vertex3="alignment_ring_14_v221"/>
+ <triangular vertex1="alignment_ring_14_v222" vertex2="alignment_ring_14_v221" vertex3="alignment_ring_14_v223"/>
+ <triangular vertex1="alignment_ring_14_v224" vertex2="alignment_ring_14_v223" vertex3="alignment_ring_14_v225"/>
+ <triangular vertex1="alignment_ring_14_v224" vertex2="alignment_ring_14_v222" vertex3="alignment_ring_14_v223"/>
+ <triangular vertex1="alignment_ring_14_v226" vertex2="alignment_ring_14_v225" vertex3="alignment_ring_14_v227"/>
+ <triangular vertex1="alignment_ring_14_v226" vertex2="alignment_ring_14_v224" vertex3="alignment_ring_14_v225"/>
+ <triangular vertex1="alignment_ring_14_v228" vertex2="alignment_ring_14_v227" vertex3="alignment_ring_14_v229"/>
+ <triangular vertex1="alignment_ring_14_v228" vertex2="alignment_ring_14_v226" vertex3="alignment_ring_14_v227"/>
+ <triangular vertex1="alignment_ring_14_v230" vertex2="alignment_ring_14_v229" vertex3="alignment_ring_14_v231"/>
+ <triangular vertex1="alignment_ring_14_v230" vertex2="alignment_ring_14_v228" vertex3="alignment_ring_14_v229"/>
+ <triangular vertex1="alignment_ring_14_v232" vertex2="alignment_ring_14_v231" vertex3="alignment_ring_14_v233"/>
+ <triangular vertex1="alignment_ring_14_v232" vertex2="alignment_ring_14_v230" vertex3="alignment_ring_14_v231"/>
+ <triangular vertex1="alignment_ring_14_v234" vertex2="alignment_ring_14_v233" vertex3="alignment_ring_14_v235"/>
+ <triangular vertex1="alignment_ring_14_v234" vertex2="alignment_ring_14_v232" vertex3="alignment_ring_14_v233"/>
+ <triangular vertex1="alignment_ring_14_v236" vertex2="alignment_ring_14_v235" vertex3="alignment_ring_14_v237"/>
+ <triangular vertex1="alignment_ring_14_v236" vertex2="alignment_ring_14_v234" vertex3="alignment_ring_14_v235"/>
+ <triangular vertex1="alignment_ring_14_v238" vertex2="alignment_ring_14_v237" vertex3="alignment_ring_14_v239"/>
+ <triangular vertex1="alignment_ring_14_v238" vertex2="alignment_ring_14_v236" vertex3="alignment_ring_14_v237"/>
+ <triangular vertex1="alignment_ring_14_v240" vertex2="alignment_ring_14_v241" vertex3="alignment_ring_14_v242"/>
+ <triangular vertex1="alignment_ring_14_v240" vertex2="alignment_ring_14_v239" vertex3="alignment_ring_14_v241"/>
+ <triangular vertex1="alignment_ring_14_v240" vertex2="alignment_ring_14_v238" vertex3="alignment_ring_14_v239"/>
+ <triangular vertex1="alignment_ring_14_v243" vertex2="alignment_ring_14_v240" vertex3="alignment_ring_14_v242"/>
+ <triangular vertex1="alignment_ring_14_v244" vertex2="alignment_ring_14_v242" vertex3="alignment_ring_14_v245"/>
+ <triangular vertex1="alignment_ring_14_v244" vertex2="alignment_ring_14_v243" vertex3="alignment_ring_14_v242"/>
+ <triangular vertex1="alignment_ring_14_v246" vertex2="alignment_ring_14_v245" vertex3="alignment_ring_14_v247"/>
+ <triangular vertex1="alignment_ring_14_v246" vertex2="alignment_ring_14_v244" vertex3="alignment_ring_14_v245"/>
+ <triangular vertex1="alignment_ring_14_v248" vertex2="alignment_ring_14_v247" vertex3="alignment_ring_14_v249"/>
+ <triangular vertex1="alignment_ring_14_v248" vertex2="alignment_ring_14_v246" vertex3="alignment_ring_14_v247"/>
+ <triangular vertex1="alignment_ring_14_v250" vertex2="alignment_ring_14_v249" vertex3="alignment_ring_14_v251"/>
+ <triangular vertex1="alignment_ring_14_v250" vertex2="alignment_ring_14_v248" vertex3="alignment_ring_14_v249"/>
+ <triangular vertex1="alignment_ring_14_v252" vertex2="alignment_ring_14_v251" vertex3="alignment_ring_14_v253"/>
+ <triangular vertex1="alignment_ring_14_v252" vertex2="alignment_ring_14_v250" vertex3="alignment_ring_14_v251"/>
+ <triangular vertex1="alignment_ring_14_v254" vertex2="alignment_ring_14_v253" vertex3="alignment_ring_14_v255"/>
+ <triangular vertex1="alignment_ring_14_v254" vertex2="alignment_ring_14_v252" vertex3="alignment_ring_14_v253"/>
+ <triangular vertex1="alignment_ring_14_v97" vertex2="alignment_ring_14_v256" vertex3="alignment_ring_14_v257"/>
+ <triangular vertex1="alignment_ring_14_v97" vertex2="alignment_ring_14_v257" vertex3="alignment_ring_14_v258"/>
+ <triangular vertex1="alignment_ring_14_v97" vertex2="alignment_ring_14_v258" vertex3="alignment_ring_14_v95"/>
+ <triangular vertex1="alignment_ring_14_v93" vertex2="alignment_ring_14_v258" vertex3="alignment_ring_14_v259"/>
+ <triangular vertex1="alignment_ring_14_v93" vertex2="alignment_ring_14_v95" vertex3="alignment_ring_14_v258"/>
+ <triangular vertex1="alignment_ring_14_v99" vertex2="alignment_ring_14_v256" vertex3="alignment_ring_14_v97"/>
+ <triangular vertex1="alignment_ring_14_v91" vertex2="alignment_ring_14_v93" vertex3="alignment_ring_14_v259"/>
+ <triangular vertex1="alignment_ring_14_v91" vertex2="alignment_ring_14_v259" vertex3="alignment_ring_14_v260"/>
+ <triangular vertex1="alignment_ring_14_v101" vertex2="alignment_ring_14_v256" vertex3="alignment_ring_14_v99"/>
+ <triangular vertex1="alignment_ring_14_v101" vertex2="alignment_ring_14_v261" vertex3="alignment_ring_14_v256"/>
+ <triangular vertex1="alignment_ring_14_v89" vertex2="alignment_ring_14_v91" vertex3="alignment_ring_14_v260"/>
+ <triangular vertex1="alignment_ring_14_v89" vertex2="alignment_ring_14_v260" vertex3="alignment_ring_14_v262"/>
+ <triangular vertex1="alignment_ring_14_v89" vertex2="alignment_ring_14_v262" vertex3="alignment_ring_14_v263"/>
+ <triangular vertex1="alignment_ring_14_v103" vertex2="alignment_ring_14_v264" vertex3="alignment_ring_14_v261"/>
+ <triangular vertex1="alignment_ring_14_v103" vertex2="alignment_ring_14_v261" vertex3="alignment_ring_14_v101"/>
+ <triangular vertex1="alignment_ring_14_v87" vertex2="alignment_ring_14_v89" vertex3="alignment_ring_14_v263"/>
+ <triangular vertex1="alignment_ring_14_v105" vertex2="alignment_ring_14_v264" vertex3="alignment_ring_14_v103"/>
+ <triangular vertex1="alignment_ring_14_v105" vertex2="alignment_ring_14_v265" vertex3="alignment_ring_14_v264"/>
+ <triangular vertex1="alignment_ring_14_v84" vertex2="alignment_ring_14_v263" vertex3="alignment_ring_14_v266"/>
+ <triangular vertex1="alignment_ring_14_v84" vertex2="alignment_ring_14_v87" vertex3="alignment_ring_14_v263"/>
+ <triangular vertex1="alignment_ring_14_v107" vertex2="alignment_ring_14_v265" vertex3="alignment_ring_14_v105"/>
+ <triangular vertex1="alignment_ring_14_v107" vertex2="alignment_ring_14_v267" vertex3="alignment_ring_14_v265"/>
+ <triangular vertex1="alignment_ring_14_v83" vertex2="alignment_ring_14_v266" vertex3="alignment_ring_14_v268"/>
+ <triangular vertex1="alignment_ring_14_v83" vertex2="alignment_ring_14_v84" vertex3="alignment_ring_14_v266"/>
+ <triangular vertex1="alignment_ring_14_v109" vertex2="alignment_ring_14_v269" vertex3="alignment_ring_14_v267"/>
+ <triangular vertex1="alignment_ring_14_v109" vertex2="alignment_ring_14_v267" vertex3="alignment_ring_14_v107"/>
+ <triangular vertex1="alignment_ring_14_v81" vertex2="alignment_ring_14_v268" vertex3="alignment_ring_14_v270"/>
+ <triangular vertex1="alignment_ring_14_v81" vertex2="alignment_ring_14_v270" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v81" vertex2="alignment_ring_14_v83" vertex3="alignment_ring_14_v268"/>
+ <triangular vertex1="alignment_ring_14_v111" vertex2="alignment_ring_14_v272" vertex3="alignment_ring_14_v269"/>
+ <triangular vertex1="alignment_ring_14_v111" vertex2="alignment_ring_14_v269" vertex3="alignment_ring_14_v109"/>
+ <triangular vertex1="alignment_ring_14_v79" vertex2="alignment_ring_14_v81" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v113" vertex2="alignment_ring_14_v273" vertex3="alignment_ring_14_v272"/>
+ <triangular vertex1="alignment_ring_14_v113" vertex2="alignment_ring_14_v272" vertex3="alignment_ring_14_v111"/>
+ <triangular vertex1="alignment_ring_14_v77" vertex2="alignment_ring_14_v271" vertex3="alignment_ring_14_v274"/>
+ <triangular vertex1="alignment_ring_14_v77" vertex2="alignment_ring_14_v79" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v115" vertex2="alignment_ring_14_v275" vertex3="alignment_ring_14_v273"/>
+ <triangular vertex1="alignment_ring_14_v115" vertex2="alignment_ring_14_v273" vertex3="alignment_ring_14_v113"/>
+ <triangular vertex1="alignment_ring_14_v74" vertex2="alignment_ring_14_v274" vertex3="alignment_ring_14_v276"/>
+ <triangular vertex1="alignment_ring_14_v74" vertex2="alignment_ring_14_v276" vertex3="alignment_ring_14_v277"/>
+ <triangular vertex1="alignment_ring_14_v74" vertex2="alignment_ring_14_v77" vertex3="alignment_ring_14_v274"/>
+ <triangular vertex1="alignment_ring_14_v117" vertex2="alignment_ring_14_v278" vertex3="alignment_ring_14_v275"/>
+ <triangular vertex1="alignment_ring_14_v117" vertex2="alignment_ring_14_v275" vertex3="alignment_ring_14_v115"/>
+ <triangular vertex1="alignment_ring_14_v73" vertex2="alignment_ring_14_v74" vertex3="alignment_ring_14_v277"/>
+ <triangular vertex1="alignment_ring_14_v119" vertex2="alignment_ring_14_v279" vertex3="alignment_ring_14_v278"/>
+ <triangular vertex1="alignment_ring_14_v119" vertex2="alignment_ring_14_v278" vertex3="alignment_ring_14_v117"/>
+ <triangular vertex1="alignment_ring_14_v71" vertex2="alignment_ring_14_v277" vertex3="alignment_ring_14_v280"/>
+ <triangular vertex1="alignment_ring_14_v71" vertex2="alignment_ring_14_v280" vertex3="alignment_ring_14_v281"/>
+ <triangular vertex1="alignment_ring_14_v71" vertex2="alignment_ring_14_v73" vertex3="alignment_ring_14_v277"/>
+ <triangular vertex1="alignment_ring_14_v121" vertex2="alignment_ring_14_v282" vertex3="alignment_ring_14_v279"/>
+ <triangular vertex1="alignment_ring_14_v121" vertex2="alignment_ring_14_v279" vertex3="alignment_ring_14_v119"/>
+ <triangular vertex1="alignment_ring_14_v69" vertex2="alignment_ring_14_v71" vertex3="alignment_ring_14_v281"/>
+ <triangular vertex1="alignment_ring_14_v123" vertex2="alignment_ring_14_v283" vertex3="alignment_ring_14_v284"/>
+ <triangular vertex1="alignment_ring_14_v123" vertex2="alignment_ring_14_v284" vertex3="alignment_ring_14_v282"/>
+ <triangular vertex1="alignment_ring_14_v123" vertex2="alignment_ring_14_v282" vertex3="alignment_ring_14_v121"/>
+ <triangular vertex1="alignment_ring_14_v67" vertex2="alignment_ring_14_v281" vertex3="alignment_ring_14_v285"/>
+ <triangular vertex1="alignment_ring_14_v67" vertex2="alignment_ring_14_v69" vertex3="alignment_ring_14_v281"/>
+ <triangular vertex1="alignment_ring_14_v125" vertex2="alignment_ring_14_v283" vertex3="alignment_ring_14_v123"/>
+ <triangular vertex1="alignment_ring_14_v65" vertex2="alignment_ring_14_v285" vertex3="alignment_ring_14_v286"/>
+ <triangular vertex1="alignment_ring_14_v65" vertex2="alignment_ring_14_v67" vertex3="alignment_ring_14_v285"/>
+ <triangular vertex1="alignment_ring_14_v127" vertex2="alignment_ring_14_v130" vertex3="alignment_ring_14_v283"/>
+ <triangular vertex1="alignment_ring_14_v127" vertex2="alignment_ring_14_v283" vertex3="alignment_ring_14_v125"/>
+ <triangular vertex1="alignment_ring_14_v63" vertex2="alignment_ring_14_v286" vertex3="alignment_ring_14_v287"/>
+ <triangular vertex1="alignment_ring_14_v63" vertex2="alignment_ring_14_v65" vertex3="alignment_ring_14_v286"/>
+ <triangular vertex1="alignment_ring_14_v288" vertex2="alignment_ring_14_v131" vertex3="alignment_ring_14_v130"/>
+ <triangular vertex1="alignment_ring_14_v288" vertex2="alignment_ring_14_v130" vertex3="alignment_ring_14_v127"/>
+ <triangular vertex1="alignment_ring_14_v61" vertex2="alignment_ring_14_v287" vertex3="alignment_ring_14_v289"/>
+ <triangular vertex1="alignment_ring_14_v61" vertex2="alignment_ring_14_v63" vertex3="alignment_ring_14_v287"/>
+ <triangular vertex1="alignment_ring_14_v290" vertex2="alignment_ring_14_v135" vertex3="alignment_ring_14_v133"/>
+ <triangular vertex1="alignment_ring_14_v290" vertex2="alignment_ring_14_v133" vertex3="alignment_ring_14_v131"/>
+ <triangular vertex1="alignment_ring_14_v290" vertex2="alignment_ring_14_v131" vertex3="alignment_ring_14_v288"/>
+ <triangular vertex1="alignment_ring_14_v59" vertex2="alignment_ring_14_v289" vertex3="alignment_ring_14_v291"/>
+ <triangular vertex1="alignment_ring_14_v59" vertex2="alignment_ring_14_v61" vertex3="alignment_ring_14_v289"/>
+ <triangular vertex1="alignment_ring_14_v292" vertex2="alignment_ring_14_v135" vertex3="alignment_ring_14_v290"/>
+ <triangular vertex1="alignment_ring_14_v57" vertex2="alignment_ring_14_v291" vertex3="alignment_ring_14_v293"/>
+ <triangular vertex1="alignment_ring_14_v57" vertex2="alignment_ring_14_v293" vertex3="alignment_ring_14_v294"/>
+ <triangular vertex1="alignment_ring_14_v57" vertex2="alignment_ring_14_v59" vertex3="alignment_ring_14_v291"/>
+ <triangular vertex1="alignment_ring_14_v295" vertex2="alignment_ring_14_v135" vertex3="alignment_ring_14_v292"/>
+ <triangular vertex1="alignment_ring_14_v295" vertex2="alignment_ring_14_v137" vertex3="alignment_ring_14_v135"/>
+ <triangular vertex1="alignment_ring_14_v55" vertex2="alignment_ring_14_v57" vertex3="alignment_ring_14_v294"/>
+ <triangular vertex1="alignment_ring_14_v296" vertex2="alignment_ring_14_v139" vertex3="alignment_ring_14_v137"/>
+ <triangular vertex1="alignment_ring_14_v296" vertex2="alignment_ring_14_v137" vertex3="alignment_ring_14_v295"/>
+ <triangular vertex1="alignment_ring_14_v53" vertex2="alignment_ring_14_v55" vertex3="alignment_ring_14_v294"/>
+ <triangular vertex1="alignment_ring_14_v53" vertex2="alignment_ring_14_v294" vertex3="alignment_ring_14_v297"/>
+ <triangular vertex1="alignment_ring_14_v298" vertex2="alignment_ring_14_v143" vertex3="alignment_ring_14_v141"/>
+ <triangular vertex1="alignment_ring_14_v298" vertex2="alignment_ring_14_v141" vertex3="alignment_ring_14_v139"/>
+ <triangular vertex1="alignment_ring_14_v298" vertex2="alignment_ring_14_v139" vertex3="alignment_ring_14_v296"/>
+ <triangular vertex1="alignment_ring_14_v51" vertex2="alignment_ring_14_v53" vertex3="alignment_ring_14_v297"/>
+ <triangular vertex1="alignment_ring_14_v51" vertex2="alignment_ring_14_v297" vertex3="alignment_ring_14_v299"/>
+ <triangular vertex1="alignment_ring_14_v300" vertex2="alignment_ring_14_v143" vertex3="alignment_ring_14_v298"/>
+ <triangular vertex1="alignment_ring_14_v49" vertex2="alignment_ring_14_v51" vertex3="alignment_ring_14_v299"/>
+ <triangular vertex1="alignment_ring_14_v49" vertex2="alignment_ring_14_v299" vertex3="alignment_ring_14_v301"/>
+ <triangular vertex1="alignment_ring_14_v302" vertex2="alignment_ring_14_v145" vertex3="alignment_ring_14_v143"/>
+ <triangular vertex1="alignment_ring_14_v302" vertex2="alignment_ring_14_v143" vertex3="alignment_ring_14_v300"/>
+ <triangular vertex1="alignment_ring_14_v47" vertex2="alignment_ring_14_v49" vertex3="alignment_ring_14_v301"/>
+ <triangular vertex1="alignment_ring_14_v47" vertex2="alignment_ring_14_v301" vertex3="alignment_ring_14_v303"/>
+ <triangular vertex1="alignment_ring_14_v47" vertex2="alignment_ring_14_v303" vertex3="alignment_ring_14_v304"/>
+ <triangular vertex1="alignment_ring_14_v305" vertex2="alignment_ring_14_v147" vertex3="alignment_ring_14_v145"/>
+ <triangular vertex1="alignment_ring_14_v305" vertex2="alignment_ring_14_v145" vertex3="alignment_ring_14_v302"/>
+ <triangular vertex1="alignment_ring_14_v45" vertex2="alignment_ring_14_v47" vertex3="alignment_ring_14_v304"/>
+ <triangular vertex1="alignment_ring_14_v306" vertex2="alignment_ring_14_v149" vertex3="alignment_ring_14_v147"/>
+ <triangular vertex1="alignment_ring_14_v306" vertex2="alignment_ring_14_v147" vertex3="alignment_ring_14_v305"/>
+ <triangular vertex1="alignment_ring_14_v43" vertex2="alignment_ring_14_v304" vertex3="alignment_ring_14_v307"/>
+ <triangular vertex1="alignment_ring_14_v43" vertex2="alignment_ring_14_v307" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v43" vertex2="alignment_ring_14_v45" vertex3="alignment_ring_14_v304"/>
+ <triangular vertex1="alignment_ring_14_v309" vertex2="alignment_ring_14_v151" vertex3="alignment_ring_14_v149"/>
+ <triangular vertex1="alignment_ring_14_v309" vertex2="alignment_ring_14_v149" vertex3="alignment_ring_14_v306"/>
+ <triangular vertex1="alignment_ring_14_v40" vertex2="alignment_ring_14_v43" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v310" vertex2="alignment_ring_14_v153" vertex3="alignment_ring_14_v151"/>
+ <triangular vertex1="alignment_ring_14_v310" vertex2="alignment_ring_14_v151" vertex3="alignment_ring_14_v309"/>
+ <triangular vertex1="alignment_ring_14_v38" vertex2="alignment_ring_14_v308" vertex3="alignment_ring_14_v311"/>
+ <triangular vertex1="alignment_ring_14_v38" vertex2="alignment_ring_14_v40" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v312" vertex2="alignment_ring_14_v38" vertex3="alignment_ring_14_v311"/>
+ <triangular vertex1="alignment_ring_14_v313" vertex2="alignment_ring_14_v155" vertex3="alignment_ring_14_v153"/>
+ <triangular vertex1="alignment_ring_14_v313" vertex2="alignment_ring_14_v153" vertex3="alignment_ring_14_v310"/>
+ <triangular vertex1="alignment_ring_14_v37" vertex2="alignment_ring_14_v38" vertex3="alignment_ring_14_v312"/>
+ <triangular vertex1="alignment_ring_14_v314" vertex2="alignment_ring_14_v157" vertex3="alignment_ring_14_v155"/>
+ <triangular vertex1="alignment_ring_14_v314" vertex2="alignment_ring_14_v155" vertex3="alignment_ring_14_v313"/>
+ <triangular vertex1="alignment_ring_14_v35" vertex2="alignment_ring_14_v312" vertex3="alignment_ring_14_v315"/>
+ <triangular vertex1="alignment_ring_14_v35" vertex2="alignment_ring_14_v37" vertex3="alignment_ring_14_v312"/>
+ <triangular vertex1="alignment_ring_14_v159" vertex2="alignment_ring_14_v157" vertex3="alignment_ring_14_v314"/>
+ <triangular vertex1="alignment_ring_14_v316" vertex2="alignment_ring_14_v159" vertex3="alignment_ring_14_v314"/>
+ <triangular vertex1="alignment_ring_14_v33" vertex2="alignment_ring_14_v315" vertex3="alignment_ring_14_v317"/>
+ <triangular vertex1="alignment_ring_14_v33" vertex2="alignment_ring_14_v35" vertex3="alignment_ring_14_v315"/>
+ <triangular vertex1="alignment_ring_14_v318" vertex2="alignment_ring_14_v159" vertex3="alignment_ring_14_v316"/>
+ <triangular vertex1="alignment_ring_14_v161" vertex2="alignment_ring_14_v159" vertex3="alignment_ring_14_v318"/>
+ <triangular vertex1="alignment_ring_14_v319" vertex2="alignment_ring_14_v33" vertex3="alignment_ring_14_v317"/>
+ <triangular vertex1="alignment_ring_14_v319" vertex2="alignment_ring_14_v31" vertex3="alignment_ring_14_v33"/>
+ <triangular vertex1="alignment_ring_14_v163" vertex2="alignment_ring_14_v161" vertex3="alignment_ring_14_v318"/>
+ <triangular vertex1="alignment_ring_14_v163" vertex2="alignment_ring_14_v318" vertex3="alignment_ring_14_v320"/>
+ <triangular vertex1="alignment_ring_14_v29" vertex2="alignment_ring_14_v31" vertex3="alignment_ring_14_v319"/>
+ <triangular vertex1="alignment_ring_14_v321" vertex2="alignment_ring_14_v29" vertex3="alignment_ring_14_v319"/>
+ <triangular vertex1="alignment_ring_14_v322" vertex2="alignment_ring_14_v163" vertex3="alignment_ring_14_v320"/>
+ <triangular vertex1="alignment_ring_14_v27" vertex2="alignment_ring_14_v29" vertex3="alignment_ring_14_v321"/>
+ <triangular vertex1="alignment_ring_14_v165" vertex2="alignment_ring_14_v163" vertex3="alignment_ring_14_v322"/>
+ <triangular vertex1="alignment_ring_14_v323" vertex2="alignment_ring_14_v27" vertex3="alignment_ring_14_v321"/>
+ <triangular vertex1="alignment_ring_14_v25" vertex2="alignment_ring_14_v27" vertex3="alignment_ring_14_v323"/>
+ <triangular vertex1="alignment_ring_14_v166" vertex2="alignment_ring_14_v165" vertex3="alignment_ring_14_v322"/>
+ <triangular vertex1="alignment_ring_14_v166" vertex2="alignment_ring_14_v322" vertex3="alignment_ring_14_v324"/>
+ <triangular vertex1="alignment_ring_14_v325" vertex2="alignment_ring_14_v166" vertex3="alignment_ring_14_v324"/>
+ <triangular vertex1="alignment_ring_14_v326" vertex2="alignment_ring_14_v25" vertex3="alignment_ring_14_v323"/>
+ <triangular vertex1="alignment_ring_14_v169" vertex2="alignment_ring_14_v166" vertex3="alignment_ring_14_v325"/>
+ <triangular vertex1="alignment_ring_14_v327" vertex2="alignment_ring_14_v25" vertex3="alignment_ring_14_v326"/>
+ <triangular vertex1="alignment_ring_14_v327" vertex2="alignment_ring_14_v23" vertex3="alignment_ring_14_v25"/>
+ <triangular vertex1="alignment_ring_14_v327" vertex2="alignment_ring_14_v21" vertex3="alignment_ring_14_v23"/>
+ <triangular vertex1="alignment_ring_14_v171" vertex2="alignment_ring_14_v328" vertex3="alignment_ring_14_v329"/>
+ <triangular vertex1="alignment_ring_14_v171" vertex2="alignment_ring_14_v325" vertex3="alignment_ring_14_v328"/>
+ <triangular vertex1="alignment_ring_14_v171" vertex2="alignment_ring_14_v169" vertex3="alignment_ring_14_v325"/>
+ <triangular vertex1="alignment_ring_14_v330" vertex2="alignment_ring_14_v21" vertex3="alignment_ring_14_v327"/>
+ <triangular vertex1="alignment_ring_14_v172" vertex2="alignment_ring_14_v171" vertex3="alignment_ring_14_v329"/>
+ <triangular vertex1="alignment_ring_14_v331" vertex2="alignment_ring_14_v21" vertex3="alignment_ring_14_v330"/>
+ <triangular vertex1="alignment_ring_14_v331" vertex2="alignment_ring_14_v19" vertex3="alignment_ring_14_v21"/>
+ <triangular vertex1="alignment_ring_14_v331" vertex2="alignment_ring_14_v17" vertex3="alignment_ring_14_v19"/>
+ <triangular vertex1="alignment_ring_14_v174" vertex2="alignment_ring_14_v329" vertex3="alignment_ring_14_v332"/>
+ <triangular vertex1="alignment_ring_14_v174" vertex2="alignment_ring_14_v172" vertex3="alignment_ring_14_v329"/>
+ <triangular vertex1="alignment_ring_14_v333" vertex2="alignment_ring_14_v17" vertex3="alignment_ring_14_v331"/>
+ <triangular vertex1="alignment_ring_14_v177" vertex2="alignment_ring_14_v334" vertex3="alignment_ring_14_v335"/>
+ <triangular vertex1="alignment_ring_14_v177" vertex2="alignment_ring_14_v332" vertex3="alignment_ring_14_v334"/>
+ <triangular vertex1="alignment_ring_14_v177" vertex2="alignment_ring_14_v174" vertex3="alignment_ring_14_v332"/>
+ <triangular vertex1="alignment_ring_14_v336" vertex2="alignment_ring_14_v17" vertex3="alignment_ring_14_v333"/>
+ <triangular vertex1="alignment_ring_14_v336" vertex2="alignment_ring_14_v15" vertex3="alignment_ring_14_v17"/>
+ <triangular vertex1="alignment_ring_14_v179" vertex2="alignment_ring_14_v177" vertex3="alignment_ring_14_v335"/>
+ <triangular vertex1="alignment_ring_14_v337" vertex2="alignment_ring_14_v15" vertex3="alignment_ring_14_v336"/>
+ <triangular vertex1="alignment_ring_14_v337" vertex2="alignment_ring_14_v13" vertex3="alignment_ring_14_v15"/>
+ <triangular vertex1="alignment_ring_14_v181" vertex2="alignment_ring_14_v338" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v181" vertex2="alignment_ring_14_v335" vertex3="alignment_ring_14_v338"/>
+ <triangular vertex1="alignment_ring_14_v181" vertex2="alignment_ring_14_v179" vertex3="alignment_ring_14_v335"/>
+ <triangular vertex1="alignment_ring_14_v340" vertex2="alignment_ring_14_v11" vertex3="alignment_ring_14_v13"/>
+ <triangular vertex1="alignment_ring_14_v340" vertex2="alignment_ring_14_v9" vertex3="alignment_ring_14_v11"/>
+ <triangular vertex1="alignment_ring_14_v340" vertex2="alignment_ring_14_v13" vertex3="alignment_ring_14_v337"/>
+ <triangular vertex1="alignment_ring_14_v183" vertex2="alignment_ring_14_v181" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v341" vertex2="alignment_ring_14_v7" vertex3="alignment_ring_14_v9"/>
+ <triangular vertex1="alignment_ring_14_v341" vertex2="alignment_ring_14_v9" vertex3="alignment_ring_14_v340"/>
+ <triangular vertex1="alignment_ring_14_v184" vertex2="alignment_ring_14_v183" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v184" vertex2="alignment_ring_14_v342" vertex3="alignment_ring_14_v343"/>
+ <triangular vertex1="alignment_ring_14_v184" vertex2="alignment_ring_14_v339" vertex3="alignment_ring_14_v342"/>
+ <triangular vertex1="alignment_ring_14_v344" vertex2="alignment_ring_14_v7" vertex3="alignment_ring_14_v341"/>
+ <triangular vertex1="alignment_ring_14_v187" vertex2="alignment_ring_14_v184" vertex3="alignment_ring_14_v343"/>
+ <triangular vertex1="alignment_ring_14_v345" vertex2="alignment_ring_14_v5" vertex3="alignment_ring_14_v7"/>
+ <triangular vertex1="alignment_ring_14_v345" vertex2="alignment_ring_14_v7" vertex3="alignment_ring_14_v344"/>
+ <triangular vertex1="alignment_ring_14_v189" vertex2="alignment_ring_14_v187" vertex3="alignment_ring_14_v343"/>
+ <triangular vertex1="alignment_ring_14_v189" vertex2="alignment_ring_14_v343" vertex3="alignment_ring_14_v346"/>
+ <triangular vertex1="alignment_ring_14_v347" vertex2="alignment_ring_14_v5" vertex3="alignment_ring_14_v345"/>
+ <triangular vertex1="alignment_ring_14_v347" vertex2="alignment_ring_14_v2" vertex3="alignment_ring_14_v5"/>
+ <triangular vertex1="alignment_ring_14_v347" vertex2="alignment_ring_14_v0" vertex3="alignment_ring_14_v2"/>
+ <triangular vertex1="alignment_ring_14_v190" vertex2="alignment_ring_14_v348" vertex3="alignment_ring_14_v349"/>
+ <triangular vertex1="alignment_ring_14_v190" vertex2="alignment_ring_14_v346" vertex3="alignment_ring_14_v348"/>
+ <triangular vertex1="alignment_ring_14_v190" vertex2="alignment_ring_14_v189" vertex3="alignment_ring_14_v346"/>
+ <triangular vertex1="alignment_ring_14_v255" vertex2="alignment_ring_14_v0" vertex3="alignment_ring_14_v347"/>
+ <triangular vertex1="alignment_ring_14_v193" vertex2="alignment_ring_14_v190" vertex3="alignment_ring_14_v349"/>
+ <triangular vertex1="alignment_ring_14_v253" vertex2="alignment_ring_14_v0" vertex3="alignment_ring_14_v255"/>
+ <triangular vertex1="alignment_ring_14_v253" vertex2="alignment_ring_14_v350" vertex3="alignment_ring_14_v0"/>
+ <triangular vertex1="alignment_ring_14_v195" vertex2="alignment_ring_14_v349" vertex3="alignment_ring_14_v351"/>
+ <triangular vertex1="alignment_ring_14_v195" vertex2="alignment_ring_14_v193" vertex3="alignment_ring_14_v349"/>
+ <triangular vertex1="alignment_ring_14_v251" vertex2="alignment_ring_14_v350" vertex3="alignment_ring_14_v253"/>
+ <triangular vertex1="alignment_ring_14_v251" vertex2="alignment_ring_14_v352" vertex3="alignment_ring_14_v350"/>
+ <triangular vertex1="alignment_ring_14_v251" vertex2="alignment_ring_14_v353" vertex3="alignment_ring_14_v352"/>
+ <triangular vertex1="alignment_ring_14_v197" vertex2="alignment_ring_14_v354" vertex3="alignment_ring_14_v355"/>
+ <triangular vertex1="alignment_ring_14_v197" vertex2="alignment_ring_14_v351" vertex3="alignment_ring_14_v354"/>
+ <triangular vertex1="alignment_ring_14_v197" vertex2="alignment_ring_14_v195" vertex3="alignment_ring_14_v351"/>
+ <triangular vertex1="alignment_ring_14_v249" vertex2="alignment_ring_14_v353" vertex3="alignment_ring_14_v251"/>
+ <triangular vertex1="alignment_ring_14_v199" vertex2="alignment_ring_14_v197" vertex3="alignment_ring_14_v355"/>
+ <triangular vertex1="alignment_ring_14_v247" vertex2="alignment_ring_14_v353" vertex3="alignment_ring_14_v249"/>
+ <triangular vertex1="alignment_ring_14_v247" vertex2="alignment_ring_14_v356" vertex3="alignment_ring_14_v353"/>
+ <triangular vertex1="alignment_ring_14_v201" vertex2="alignment_ring_14_v199" vertex3="alignment_ring_14_v355"/>
+ <triangular vertex1="alignment_ring_14_v201" vertex2="alignment_ring_14_v355" vertex3="alignment_ring_14_v357"/>
+ <triangular vertex1="alignment_ring_14_v245" vertex2="alignment_ring_14_v356" vertex3="alignment_ring_14_v247"/>
+ <triangular vertex1="alignment_ring_14_v245" vertex2="alignment_ring_14_v358" vertex3="alignment_ring_14_v356"/>
+ <triangular vertex1="alignment_ring_14_v203" vertex2="alignment_ring_14_v201" vertex3="alignment_ring_14_v357"/>
+ <triangular vertex1="alignment_ring_14_v203" vertex2="alignment_ring_14_v357" vertex3="alignment_ring_14_v359"/>
+ <triangular vertex1="alignment_ring_14_v242" vertex2="alignment_ring_14_v358" vertex3="alignment_ring_14_v245"/>
+ <triangular vertex1="alignment_ring_14_v242" vertex2="alignment_ring_14_v360" vertex3="alignment_ring_14_v358"/>
+ <triangular vertex1="alignment_ring_14_v205" vertex2="alignment_ring_14_v203" vertex3="alignment_ring_14_v359"/>
+ <triangular vertex1="alignment_ring_14_v205" vertex2="alignment_ring_14_v361" vertex3="alignment_ring_14_v362"/>
+ <triangular vertex1="alignment_ring_14_v205" vertex2="alignment_ring_14_v359" vertex3="alignment_ring_14_v361"/>
+ <triangular vertex1="alignment_ring_14_v241" vertex2="alignment_ring_14_v363" vertex3="alignment_ring_14_v360"/>
+ <triangular vertex1="alignment_ring_14_v241" vertex2="alignment_ring_14_v360" vertex3="alignment_ring_14_v242"/>
+ <triangular vertex1="alignment_ring_14_v207" vertex2="alignment_ring_14_v205" vertex3="alignment_ring_14_v362"/>
+ <triangular vertex1="alignment_ring_14_v239" vertex2="alignment_ring_14_v363" vertex3="alignment_ring_14_v241"/>
+ <triangular vertex1="alignment_ring_14_v239" vertex2="alignment_ring_14_v364" vertex3="alignment_ring_14_v363"/>
+ <triangular vertex1="alignment_ring_14_v239" vertex2="alignment_ring_14_v365" vertex3="alignment_ring_14_v364"/>
+ <triangular vertex1="alignment_ring_14_v209" vertex2="alignment_ring_14_v362" vertex3="alignment_ring_14_v366"/>
+ <triangular vertex1="alignment_ring_14_v209" vertex2="alignment_ring_14_v207" vertex3="alignment_ring_14_v362"/>
+ <triangular vertex1="alignment_ring_14_v237" vertex2="alignment_ring_14_v365" vertex3="alignment_ring_14_v239"/>
+ <triangular vertex1="alignment_ring_14_v211" vertex2="alignment_ring_14_v366" vertex3="alignment_ring_14_v367"/>
+ <triangular vertex1="alignment_ring_14_v211" vertex2="alignment_ring_14_v209" vertex3="alignment_ring_14_v366"/>
+ <triangular vertex1="alignment_ring_14_v235" vertex2="alignment_ring_14_v365" vertex3="alignment_ring_14_v237"/>
+ <triangular vertex1="alignment_ring_14_v235" vertex2="alignment_ring_14_v368" vertex3="alignment_ring_14_v365"/>
+ <triangular vertex1="alignment_ring_14_v213" vertex2="alignment_ring_14_v369" vertex3="alignment_ring_14_v370"/>
+ <triangular vertex1="alignment_ring_14_v213" vertex2="alignment_ring_14_v367" vertex3="alignment_ring_14_v369"/>
+ <triangular vertex1="alignment_ring_14_v213" vertex2="alignment_ring_14_v211" vertex3="alignment_ring_14_v367"/>
+ <triangular vertex1="alignment_ring_14_v233" vertex2="alignment_ring_14_v368" vertex3="alignment_ring_14_v235"/>
+ <triangular vertex1="alignment_ring_14_v233" vertex2="alignment_ring_14_v371" vertex3="alignment_ring_14_v368"/>
+ <triangular vertex1="alignment_ring_14_v215" vertex2="alignment_ring_14_v213" vertex3="alignment_ring_14_v370"/>
+ <triangular vertex1="alignment_ring_14_v231" vertex2="alignment_ring_14_v372" vertex3="alignment_ring_14_v373"/>
+ <triangular vertex1="alignment_ring_14_v231" vertex2="alignment_ring_14_v371" vertex3="alignment_ring_14_v233"/>
+ <triangular vertex1="alignment_ring_14_v231" vertex2="alignment_ring_14_v373" vertex3="alignment_ring_14_v371"/>
+ <triangular vertex1="alignment_ring_14_v217" vertex2="alignment_ring_14_v370" vertex3="alignment_ring_14_v374"/>
+ <triangular vertex1="alignment_ring_14_v217" vertex2="alignment_ring_14_v215" vertex3="alignment_ring_14_v370"/>
+ <triangular vertex1="alignment_ring_14_v229" vertex2="alignment_ring_14_v372" vertex3="alignment_ring_14_v231"/>
+ <triangular vertex1="alignment_ring_14_v219" vertex2="alignment_ring_14_v374" vertex3="alignment_ring_14_v375"/>
+ <triangular vertex1="alignment_ring_14_v219" vertex2="alignment_ring_14_v217" vertex3="alignment_ring_14_v374"/>
+ <triangular vertex1="alignment_ring_14_v227" vertex2="alignment_ring_14_v376" vertex3="alignment_ring_14_v372"/>
+ <triangular vertex1="alignment_ring_14_v227" vertex2="alignment_ring_14_v372" vertex3="alignment_ring_14_v229"/>
+ <triangular vertex1="alignment_ring_14_v221" vertex2="alignment_ring_14_v219" vertex3="alignment_ring_14_v375"/>
+ <triangular vertex1="alignment_ring_14_v221" vertex2="alignment_ring_14_v375" vertex3="alignment_ring_14_v377"/>
+ <triangular vertex1="alignment_ring_14_v225" vertex2="alignment_ring_14_v378" vertex3="alignment_ring_14_v376"/>
+ <triangular vertex1="alignment_ring_14_v225" vertex2="alignment_ring_14_v379" vertex3="alignment_ring_14_v378"/>
+ <triangular vertex1="alignment_ring_14_v225" vertex2="alignment_ring_14_v376" vertex3="alignment_ring_14_v227"/>
+ <triangular vertex1="alignment_ring_14_v223" vertex2="alignment_ring_14_v377" vertex3="alignment_ring_14_v379"/>
+ <triangular vertex1="alignment_ring_14_v223" vertex2="alignment_ring_14_v221" vertex3="alignment_ring_14_v377"/>
+ <triangular vertex1="alignment_ring_14_v223" vertex2="alignment_ring_14_v379" vertex3="alignment_ring_14_v225"/>
+ <triangular vertex1="alignment_ring_14_v380" vertex2="alignment_ring_14_v94" vertex3="alignment_ring_14_v381"/>
+ <triangular vertex1="alignment_ring_14_v380" vertex2="alignment_ring_14_v96" vertex3="alignment_ring_14_v94"/>
+ <triangular vertex1="alignment_ring_14_v381" vertex2="alignment_ring_14_v92" vertex3="alignment_ring_14_v382"/>
+ <triangular vertex1="alignment_ring_14_v94" vertex2="alignment_ring_14_v92" vertex3="alignment_ring_14_v381"/>
+ <triangular vertex1="alignment_ring_14_v380" vertex2="alignment_ring_14_v98" vertex3="alignment_ring_14_v96"/>
+ <triangular vertex1="alignment_ring_14_v383" vertex2="alignment_ring_14_v98" vertex3="alignment_ring_14_v380"/>
+ <triangular vertex1="alignment_ring_14_v92" vertex2="alignment_ring_14_v90" vertex3="alignment_ring_14_v382"/>
+ <triangular vertex1="alignment_ring_14_v382" vertex2="alignment_ring_14_v90" vertex3="alignment_ring_14_v384"/>
+ <triangular vertex1="alignment_ring_14_v383" vertex2="alignment_ring_14_v100" vertex3="alignment_ring_14_v98"/>
+ <triangular vertex1="alignment_ring_14_v385" vertex2="alignment_ring_14_v100" vertex3="alignment_ring_14_v383"/>
+ <triangular vertex1="alignment_ring_14_v90" vertex2="alignment_ring_14_v88" vertex3="alignment_ring_14_v384"/>
+ <triangular vertex1="alignment_ring_14_v384" vertex2="alignment_ring_14_v88" vertex3="alignment_ring_14_v386"/>
+ <triangular vertex1="alignment_ring_14_v385" vertex2="alignment_ring_14_v102" vertex3="alignment_ring_14_v100"/>
+ <triangular vertex1="alignment_ring_14_v387" vertex2="alignment_ring_14_v102" vertex3="alignment_ring_14_v385"/>
+ <triangular vertex1="alignment_ring_14_v88" vertex2="alignment_ring_14_v86" vertex3="alignment_ring_14_v386"/>
+ <triangular vertex1="alignment_ring_14_v386" vertex2="alignment_ring_14_v86" vertex3="alignment_ring_14_v388"/>
+ <triangular vertex1="alignment_ring_14_v387" vertex2="alignment_ring_14_v104" vertex3="alignment_ring_14_v102"/>
+ <triangular vertex1="alignment_ring_14_v389" vertex2="alignment_ring_14_v104" vertex3="alignment_ring_14_v390"/>
+ <triangular vertex1="alignment_ring_14_v390" vertex2="alignment_ring_14_v104" vertex3="alignment_ring_14_v387"/>
+ <triangular vertex1="alignment_ring_14_v86" vertex2="alignment_ring_14_v85" vertex3="alignment_ring_14_v388"/>
+ <triangular vertex1="alignment_ring_14_v388" vertex2="alignment_ring_14_v85" vertex3="alignment_ring_14_v391"/>
+ <triangular vertex1="alignment_ring_14_v389" vertex2="alignment_ring_14_v106" vertex3="alignment_ring_14_v104"/>
+ <triangular vertex1="alignment_ring_14_v85" vertex2="alignment_ring_14_v82" vertex3="alignment_ring_14_v391"/>
+ <triangular vertex1="alignment_ring_14_v391" vertex2="alignment_ring_14_v82" vertex3="alignment_ring_14_v392"/>
+ <triangular vertex1="alignment_ring_14_v389" vertex2="alignment_ring_14_v108" vertex3="alignment_ring_14_v106"/>
+ <triangular vertex1="alignment_ring_14_v393" vertex2="alignment_ring_14_v108" vertex3="alignment_ring_14_v389"/>
+ <triangular vertex1="alignment_ring_14_v82" vertex2="alignment_ring_14_v80" vertex3="alignment_ring_14_v392"/>
+ <triangular vertex1="alignment_ring_14_v392" vertex2="alignment_ring_14_v80" vertex3="alignment_ring_14_v394"/>
+ <triangular vertex1="alignment_ring_14_v394" vertex2="alignment_ring_14_v80" vertex3="alignment_ring_14_v395"/>
+ <triangular vertex1="alignment_ring_14_v393" vertex2="alignment_ring_14_v110" vertex3="alignment_ring_14_v108"/>
+ <triangular vertex1="alignment_ring_14_v396" vertex2="alignment_ring_14_v110" vertex3="alignment_ring_14_v393"/>
+ <triangular vertex1="alignment_ring_14_v80" vertex2="alignment_ring_14_v78" vertex3="alignment_ring_14_v395"/>
+ <triangular vertex1="alignment_ring_14_v395" vertex2="alignment_ring_14_v78" vertex3="alignment_ring_14_v397"/>
+ <triangular vertex1="alignment_ring_14_v396" vertex2="alignment_ring_14_v112" vertex3="alignment_ring_14_v110"/>
+ <triangular vertex1="alignment_ring_14_v398" vertex2="alignment_ring_14_v112" vertex3="alignment_ring_14_v399"/>
+ <triangular vertex1="alignment_ring_14_v399" vertex2="alignment_ring_14_v112" vertex3="alignment_ring_14_v396"/>
+ <triangular vertex1="alignment_ring_14_v78" vertex2="alignment_ring_14_v76" vertex3="alignment_ring_14_v397"/>
+ <triangular vertex1="alignment_ring_14_v398" vertex2="alignment_ring_14_v114" vertex3="alignment_ring_14_v112"/>
+ <triangular vertex1="alignment_ring_14_v76" vertex2="alignment_ring_14_v75" vertex3="alignment_ring_14_v397"/>
+ <triangular vertex1="alignment_ring_14_v397" vertex2="alignment_ring_14_v75" vertex3="alignment_ring_14_v400"/>
+ <triangular vertex1="alignment_ring_14_v398" vertex2="alignment_ring_14_v116" vertex3="alignment_ring_14_v114"/>
+ <triangular vertex1="alignment_ring_14_v401" vertex2="alignment_ring_14_v116" vertex3="alignment_ring_14_v398"/>
+ <triangular vertex1="alignment_ring_14_v75" vertex2="alignment_ring_14_v72" vertex3="alignment_ring_14_v400"/>
+ <triangular vertex1="alignment_ring_14_v400" vertex2="alignment_ring_14_v72" vertex3="alignment_ring_14_v402"/>
+ <triangular vertex1="alignment_ring_14_v401" vertex2="alignment_ring_14_v118" vertex3="alignment_ring_14_v116"/>
+ <triangular vertex1="alignment_ring_14_v403" vertex2="alignment_ring_14_v118" vertex3="alignment_ring_14_v401"/>
+ <triangular vertex1="alignment_ring_14_v72" vertex2="alignment_ring_14_v70" vertex3="alignment_ring_14_v402"/>
+ <triangular vertex1="alignment_ring_14_v402" vertex2="alignment_ring_14_v70" vertex3="alignment_ring_14_v404"/>
+ <triangular vertex1="alignment_ring_14_v404" vertex2="alignment_ring_14_v70" vertex3="alignment_ring_14_v405"/>
+ <triangular vertex1="alignment_ring_14_v406" vertex2="alignment_ring_14_v120" vertex3="alignment_ring_14_v403"/>
+ <triangular vertex1="alignment_ring_14_v403" vertex2="alignment_ring_14_v120" vertex3="alignment_ring_14_v118"/>
+ <triangular vertex1="alignment_ring_14_v70" vertex2="alignment_ring_14_v68" vertex3="alignment_ring_14_v405"/>
+ <triangular vertex1="alignment_ring_14_v407" vertex2="alignment_ring_14_v122" vertex3="alignment_ring_14_v408"/>
+ <triangular vertex1="alignment_ring_14_v408" vertex2="alignment_ring_14_v122" vertex3="alignment_ring_14_v406"/>
+ <triangular vertex1="alignment_ring_14_v406" vertex2="alignment_ring_14_v122" vertex3="alignment_ring_14_v120"/>
+ <triangular vertex1="alignment_ring_14_v68" vertex2="alignment_ring_14_v66" vertex3="alignment_ring_14_v405"/>
+ <triangular vertex1="alignment_ring_14_v405" vertex2="alignment_ring_14_v66" vertex3="alignment_ring_14_v409"/>
+ <triangular vertex1="alignment_ring_14_v407" vertex2="alignment_ring_14_v124" vertex3="alignment_ring_14_v122"/>
+ <triangular vertex1="alignment_ring_14_v66" vertex2="alignment_ring_14_v64" vertex3="alignment_ring_14_v409"/>
+ <triangular vertex1="alignment_ring_14_v409" vertex2="alignment_ring_14_v64" vertex3="alignment_ring_14_v410"/>
+ <triangular vertex1="alignment_ring_14_v129" vertex2="alignment_ring_14_v126" vertex3="alignment_ring_14_v407"/>
+ <triangular vertex1="alignment_ring_14_v407" vertex2="alignment_ring_14_v126" vertex3="alignment_ring_14_v124"/>
+ <triangular vertex1="alignment_ring_14_v64" vertex2="alignment_ring_14_v62" vertex3="alignment_ring_14_v410"/>
+ <triangular vertex1="alignment_ring_14_v410" vertex2="alignment_ring_14_v62" vertex3="alignment_ring_14_v411"/>
+ <triangular vertex1="alignment_ring_14_v411" vertex2="alignment_ring_14_v62" vertex3="alignment_ring_14_v412"/>
+ <triangular vertex1="alignment_ring_14_v129" vertex2="alignment_ring_14_v413" vertex3="alignment_ring_14_v126"/>
+ <triangular vertex1="alignment_ring_14_v128" vertex2="alignment_ring_14_v413" vertex3="alignment_ring_14_v129"/>
+ <triangular vertex1="alignment_ring_14_v62" vertex2="alignment_ring_14_v60" vertex3="alignment_ring_14_v412"/>
+ <triangular vertex1="alignment_ring_14_v132" vertex2="alignment_ring_14_v414" vertex3="alignment_ring_14_v128"/>
+ <triangular vertex1="alignment_ring_14_v128" vertex2="alignment_ring_14_v414" vertex3="alignment_ring_14_v413"/>
+ <triangular vertex1="alignment_ring_14_v412" vertex2="alignment_ring_14_v58" vertex3="alignment_ring_14_v415"/>
+ <triangular vertex1="alignment_ring_14_v60" vertex2="alignment_ring_14_v58" vertex3="alignment_ring_14_v412"/>
+ <triangular vertex1="alignment_ring_14_v134" vertex2="alignment_ring_14_v416" vertex3="alignment_ring_14_v132"/>
+ <triangular vertex1="alignment_ring_14_v132" vertex2="alignment_ring_14_v416" vertex3="alignment_ring_14_v414"/>
+ <triangular vertex1="alignment_ring_14_v58" vertex2="alignment_ring_14_v56" vertex3="alignment_ring_14_v415"/>
+ <triangular vertex1="alignment_ring_14_v415" vertex2="alignment_ring_14_v56" vertex3="alignment_ring_14_v417"/>
+ <triangular vertex1="alignment_ring_14_v134" vertex2="alignment_ring_14_v418" vertex3="alignment_ring_14_v416"/>
+ <triangular vertex1="alignment_ring_14_v136" vertex2="alignment_ring_14_v418" vertex3="alignment_ring_14_v134"/>
+ <triangular vertex1="alignment_ring_14_v56" vertex2="alignment_ring_14_v54" vertex3="alignment_ring_14_v417"/>
+ <triangular vertex1="alignment_ring_14_v417" vertex2="alignment_ring_14_v54" vertex3="alignment_ring_14_v419"/>
+ <triangular vertex1="alignment_ring_14_v136" vertex2="alignment_ring_14_v420" vertex3="alignment_ring_14_v418"/>
+ <triangular vertex1="alignment_ring_14_v138" vertex2="alignment_ring_14_v420" vertex3="alignment_ring_14_v136"/>
+ <triangular vertex1="alignment_ring_14_v54" vertex2="alignment_ring_14_v52" vertex3="alignment_ring_14_v419"/>
+ <triangular vertex1="alignment_ring_14_v419" vertex2="alignment_ring_14_v52" vertex3="alignment_ring_14_v421"/>
+ <triangular vertex1="alignment_ring_14_v138" vertex2="alignment_ring_14_v422" vertex3="alignment_ring_14_v420"/>
+ <triangular vertex1="alignment_ring_14_v142" vertex2="alignment_ring_14_v422" vertex3="alignment_ring_14_v140"/>
+ <triangular vertex1="alignment_ring_14_v140" vertex2="alignment_ring_14_v422" vertex3="alignment_ring_14_v138"/>
+ <triangular vertex1="alignment_ring_14_v421" vertex2="alignment_ring_14_v50" vertex3="alignment_ring_14_v423"/>
+ <triangular vertex1="alignment_ring_14_v52" vertex2="alignment_ring_14_v50" vertex3="alignment_ring_14_v421"/>
+ <triangular vertex1="alignment_ring_14_v142" vertex2="alignment_ring_14_v424" vertex3="alignment_ring_14_v422"/>
+ <triangular vertex1="alignment_ring_14_v423" vertex2="alignment_ring_14_v48" vertex3="alignment_ring_14_v425"/>
+ <triangular vertex1="alignment_ring_14_v50" vertex2="alignment_ring_14_v48" vertex3="alignment_ring_14_v423"/>
+ <triangular vertex1="alignment_ring_14_v142" vertex2="alignment_ring_14_v426" vertex3="alignment_ring_14_v424"/>
+ <triangular vertex1="alignment_ring_14_v144" vertex2="alignment_ring_14_v426" vertex3="alignment_ring_14_v142"/>
+ <triangular vertex1="alignment_ring_14_v425" vertex2="alignment_ring_14_v46" vertex3="alignment_ring_14_v427"/>
+ <triangular vertex1="alignment_ring_14_v48" vertex2="alignment_ring_14_v46" vertex3="alignment_ring_14_v425"/>
+ <triangular vertex1="alignment_ring_14_v144" vertex2="alignment_ring_14_v428" vertex3="alignment_ring_14_v426"/>
+ <triangular vertex1="alignment_ring_14_v146" vertex2="alignment_ring_14_v428" vertex3="alignment_ring_14_v144"/>
+ <triangular vertex1="alignment_ring_14_v427" vertex2="alignment_ring_14_v44" vertex3="alignment_ring_14_v429"/>
+ <triangular vertex1="alignment_ring_14_v46" vertex2="alignment_ring_14_v44" vertex3="alignment_ring_14_v427"/>
+ <triangular vertex1="alignment_ring_14_v148" vertex2="alignment_ring_14_v430" vertex3="alignment_ring_14_v146"/>
+ <triangular vertex1="alignment_ring_14_v146" vertex2="alignment_ring_14_v430" vertex3="alignment_ring_14_v428"/>
+ <triangular vertex1="alignment_ring_14_v429" vertex2="alignment_ring_14_v42" vertex3="alignment_ring_14_v431"/>
+ <triangular vertex1="alignment_ring_14_v44" vertex2="alignment_ring_14_v42" vertex3="alignment_ring_14_v429"/>
+ <triangular vertex1="alignment_ring_14_v148" vertex2="alignment_ring_14_v432" vertex3="alignment_ring_14_v430"/>
+ <triangular vertex1="alignment_ring_14_v150" vertex2="alignment_ring_14_v432" vertex3="alignment_ring_14_v148"/>
+ <triangular vertex1="alignment_ring_14_v431" vertex2="alignment_ring_14_v41" vertex3="alignment_ring_14_v433"/>
+ <triangular vertex1="alignment_ring_14_v42" vertex2="alignment_ring_14_v41" vertex3="alignment_ring_14_v431"/>
+ <triangular vertex1="alignment_ring_14_v41" vertex2="alignment_ring_14_v434" vertex3="alignment_ring_14_v433"/>
+ <triangular vertex1="alignment_ring_14_v152" vertex2="alignment_ring_14_v435" vertex3="alignment_ring_14_v150"/>
+ <triangular vertex1="alignment_ring_14_v150" vertex2="alignment_ring_14_v435" vertex3="alignment_ring_14_v432"/>
+ <triangular vertex1="alignment_ring_14_v41" vertex2="alignment_ring_14_v39" vertex3="alignment_ring_14_v434"/>
+ <triangular vertex1="alignment_ring_14_v154" vertex2="alignment_ring_14_v436" vertex3="alignment_ring_14_v152"/>
+ <triangular vertex1="alignment_ring_14_v152" vertex2="alignment_ring_14_v436" vertex3="alignment_ring_14_v435"/>
+ <triangular vertex1="alignment_ring_14_v434" vertex2="alignment_ring_14_v36" vertex3="alignment_ring_14_v437"/>
+ <triangular vertex1="alignment_ring_14_v39" vertex2="alignment_ring_14_v36" vertex3="alignment_ring_14_v434"/>
+ <triangular vertex1="alignment_ring_14_v156" vertex2="alignment_ring_14_v438" vertex3="alignment_ring_14_v154"/>
+ <triangular vertex1="alignment_ring_14_v154" vertex2="alignment_ring_14_v438" vertex3="alignment_ring_14_v436"/>
+ <triangular vertex1="alignment_ring_14_v437" vertex2="alignment_ring_14_v34" vertex3="alignment_ring_14_v439"/>
+ <triangular vertex1="alignment_ring_14_v36" vertex2="alignment_ring_14_v34" vertex3="alignment_ring_14_v437"/>
+ <triangular vertex1="alignment_ring_14_v156" vertex2="alignment_ring_14_v158" vertex3="alignment_ring_14_v438"/>
+ <triangular vertex1="alignment_ring_14_v158" vertex2="alignment_ring_14_v440" vertex3="alignment_ring_14_v438"/>
+ <triangular vertex1="alignment_ring_14_v439" vertex2="alignment_ring_14_v32" vertex3="alignment_ring_14_v441"/>
+ <triangular vertex1="alignment_ring_14_v34" vertex2="alignment_ring_14_v32" vertex3="alignment_ring_14_v439"/>
+ <triangular vertex1="alignment_ring_14_v158" vertex2="alignment_ring_14_v160" vertex3="alignment_ring_14_v440"/>
+ <triangular vertex1="alignment_ring_14_v440" vertex2="alignment_ring_14_v160" vertex3="alignment_ring_14_v442"/>
+ <triangular vertex1="alignment_ring_14_v32" vertex2="alignment_ring_14_v443" vertex3="alignment_ring_14_v441"/>
+ <triangular vertex1="alignment_ring_14_v30" vertex2="alignment_ring_14_v443" vertex3="alignment_ring_14_v32"/>
+ <triangular vertex1="alignment_ring_14_v160" vertex2="alignment_ring_14_v162" vertex3="alignment_ring_14_v442"/>
+ <triangular vertex1="alignment_ring_14_v442" vertex2="alignment_ring_14_v162" vertex3="alignment_ring_14_v444"/>
+ <triangular vertex1="alignment_ring_14_v30" vertex2="alignment_ring_14_v445" vertex3="alignment_ring_14_v443"/>
+ <triangular vertex1="alignment_ring_14_v28" vertex2="alignment_ring_14_v445" vertex3="alignment_ring_14_v30"/>
+ <triangular vertex1="alignment_ring_14_v162" vertex2="alignment_ring_14_v164" vertex3="alignment_ring_14_v444"/>
+ <triangular vertex1="alignment_ring_14_v444" vertex2="alignment_ring_14_v164" vertex3="alignment_ring_14_v446"/>
+ <triangular vertex1="alignment_ring_14_v164" vertex2="alignment_ring_14_v447" vertex3="alignment_ring_14_v446"/>
+ <triangular vertex1="alignment_ring_14_v28" vertex2="alignment_ring_14_v448" vertex3="alignment_ring_14_v445"/>
+ <triangular vertex1="alignment_ring_14_v26" vertex2="alignment_ring_14_v448" vertex3="alignment_ring_14_v28"/>
+ <triangular vertex1="alignment_ring_14_v26" vertex2="alignment_ring_14_v24" vertex3="alignment_ring_14_v448"/>
+ <triangular vertex1="alignment_ring_14_v164" vertex2="alignment_ring_14_v167" vertex3="alignment_ring_14_v447"/>
+ <triangular vertex1="alignment_ring_14_v24" vertex2="alignment_ring_14_v449" vertex3="alignment_ring_14_v448"/>
+ <triangular vertex1="alignment_ring_14_v167" vertex2="alignment_ring_14_v168" vertex3="alignment_ring_14_v447"/>
+ <triangular vertex1="alignment_ring_14_v450" vertex2="alignment_ring_14_v168" vertex3="alignment_ring_14_v451"/>
+ <triangular vertex1="alignment_ring_14_v447" vertex2="alignment_ring_14_v168" vertex3="alignment_ring_14_v450"/>
+ <triangular vertex1="alignment_ring_14_v24" vertex2="alignment_ring_14_v452" vertex3="alignment_ring_14_v449"/>
+ <triangular vertex1="alignment_ring_14_v22" vertex2="alignment_ring_14_v452" vertex3="alignment_ring_14_v24"/>
+ <triangular vertex1="alignment_ring_14_v168" vertex2="alignment_ring_14_v170" vertex3="alignment_ring_14_v451"/>
+ <triangular vertex1="alignment_ring_14_v22" vertex2="alignment_ring_14_v453" vertex3="alignment_ring_14_v452"/>
+ <triangular vertex1="alignment_ring_14_v20" vertex2="alignment_ring_14_v453" vertex3="alignment_ring_14_v22"/>
+ <triangular vertex1="alignment_ring_14_v170" vertex2="alignment_ring_14_v173" vertex3="alignment_ring_14_v451"/>
+ <triangular vertex1="alignment_ring_14_v451" vertex2="alignment_ring_14_v173" vertex3="alignment_ring_14_v454"/>
+ <triangular vertex1="alignment_ring_14_v20" vertex2="alignment_ring_14_v455" vertex3="alignment_ring_14_v453"/>
+ <triangular vertex1="alignment_ring_14_v18" vertex2="alignment_ring_14_v455" vertex3="alignment_ring_14_v20"/>
+ <triangular vertex1="alignment_ring_14_v173" vertex2="alignment_ring_14_v175" vertex3="alignment_ring_14_v454"/>
+ <triangular vertex1="alignment_ring_14_v454" vertex2="alignment_ring_14_v175" vertex3="alignment_ring_14_v456"/>
+ <triangular vertex1="alignment_ring_14_v18" vertex2="alignment_ring_14_v457" vertex3="alignment_ring_14_v455"/>
+ <triangular vertex1="alignment_ring_14_v16" vertex2="alignment_ring_14_v457" vertex3="alignment_ring_14_v18"/>
+ <triangular vertex1="alignment_ring_14_v14" vertex2="alignment_ring_14_v457" vertex3="alignment_ring_14_v16"/>
+ <triangular vertex1="alignment_ring_14_v456" vertex2="alignment_ring_14_v176" vertex3="alignment_ring_14_v458"/>
+ <triangular vertex1="alignment_ring_14_v175" vertex2="alignment_ring_14_v176" vertex3="alignment_ring_14_v456"/>
+ <triangular vertex1="alignment_ring_14_v14" vertex2="alignment_ring_14_v459" vertex3="alignment_ring_14_v457"/>
+ <triangular vertex1="alignment_ring_14_v176" vertex2="alignment_ring_14_v178" vertex3="alignment_ring_14_v458"/>
+ <triangular vertex1="alignment_ring_14_v458" vertex2="alignment_ring_14_v178" vertex3="alignment_ring_14_v460"/>
+ <triangular vertex1="alignment_ring_14_v12" vertex2="alignment_ring_14_v461" vertex3="alignment_ring_14_v14"/>
+ <triangular vertex1="alignment_ring_14_v10" vertex2="alignment_ring_14_v461" vertex3="alignment_ring_14_v12"/>
+ <triangular vertex1="alignment_ring_14_v14" vertex2="alignment_ring_14_v461" vertex3="alignment_ring_14_v459"/>
+ <triangular vertex1="alignment_ring_14_v460" vertex2="alignment_ring_14_v180" vertex3="alignment_ring_14_v462"/>
+ <triangular vertex1="alignment_ring_14_v178" vertex2="alignment_ring_14_v180" vertex3="alignment_ring_14_v460"/>
+ <triangular vertex1="alignment_ring_14_v10" vertex2="alignment_ring_14_v463" vertex3="alignment_ring_14_v461"/>
+ <triangular vertex1="alignment_ring_14_v462" vertex2="alignment_ring_14_v182" vertex3="alignment_ring_14_v464"/>
+ <triangular vertex1="alignment_ring_14_v180" vertex2="alignment_ring_14_v182" vertex3="alignment_ring_14_v462"/>
+ <triangular vertex1="alignment_ring_14_v8" vertex2="alignment_ring_14_v465" vertex3="alignment_ring_14_v10"/>
+ <triangular vertex1="alignment_ring_14_v6" vertex2="alignment_ring_14_v465" vertex3="alignment_ring_14_v8"/>
+ <triangular vertex1="alignment_ring_14_v10" vertex2="alignment_ring_14_v465" vertex3="alignment_ring_14_v463"/>
+ <triangular vertex1="alignment_ring_14_v466" vertex2="alignment_ring_14_v185" vertex3="alignment_ring_14_v467"/>
+ <triangular vertex1="alignment_ring_14_v464" vertex2="alignment_ring_14_v185" vertex3="alignment_ring_14_v466"/>
+ <triangular vertex1="alignment_ring_14_v182" vertex2="alignment_ring_14_v185" vertex3="alignment_ring_14_v464"/>
+ <triangular vertex1="alignment_ring_14_v6" vertex2="alignment_ring_14_v468" vertex3="alignment_ring_14_v465"/>
+ <triangular vertex1="alignment_ring_14_v185" vertex2="alignment_ring_14_v186" vertex3="alignment_ring_14_v467"/>
+ <triangular vertex1="alignment_ring_14_v6" vertex2="alignment_ring_14_v469" vertex3="alignment_ring_14_v468"/>
+ <triangular vertex1="alignment_ring_14_v4" vertex2="alignment_ring_14_v469" vertex3="alignment_ring_14_v6"/>
+ <triangular vertex1="alignment_ring_14_v186" vertex2="alignment_ring_14_v188" vertex3="alignment_ring_14_v467"/>
+ <triangular vertex1="alignment_ring_14_v467" vertex2="alignment_ring_14_v188" vertex3="alignment_ring_14_v470"/>
+ <triangular vertex1="alignment_ring_14_v4" vertex2="alignment_ring_14_v471" vertex3="alignment_ring_14_v469"/>
+ <triangular vertex1="alignment_ring_14_v1" vertex2="alignment_ring_14_v471" vertex3="alignment_ring_14_v4"/>
+ <triangular vertex1="alignment_ring_14_v188" vertex2="alignment_ring_14_v191" vertex3="alignment_ring_14_v470"/>
+ <triangular vertex1="alignment_ring_14_v470" vertex2="alignment_ring_14_v191" vertex3="alignment_ring_14_v472"/>
+ <triangular vertex1="alignment_ring_14_v1" vertex2="alignment_ring_14_v254" vertex3="alignment_ring_14_v471"/>
+ <triangular vertex1="alignment_ring_14_v3" vertex2="alignment_ring_14_v254" vertex3="alignment_ring_14_v1"/>
+ <triangular vertex1="alignment_ring_14_v191" vertex2="alignment_ring_14_v192" vertex3="alignment_ring_14_v472"/>
+ <triangular vertex1="alignment_ring_14_v472" vertex2="alignment_ring_14_v192" vertex3="alignment_ring_14_v473"/>
+ <triangular vertex1="alignment_ring_14_v3" vertex2="alignment_ring_14_v252" vertex3="alignment_ring_14_v254"/>
+ <triangular vertex1="alignment_ring_14_v474" vertex2="alignment_ring_14_v252" vertex3="alignment_ring_14_v3"/>
+ <triangular vertex1="alignment_ring_14_v473" vertex2="alignment_ring_14_v194" vertex3="alignment_ring_14_v475"/>
+ <triangular vertex1="alignment_ring_14_v192" vertex2="alignment_ring_14_v194" vertex3="alignment_ring_14_v473"/>
+ <triangular vertex1="alignment_ring_14_v476" vertex2="alignment_ring_14_v250" vertex3="alignment_ring_14_v474"/>
+ <triangular vertex1="alignment_ring_14_v477" vertex2="alignment_ring_14_v250" vertex3="alignment_ring_14_v476"/>
+ <triangular vertex1="alignment_ring_14_v474" vertex2="alignment_ring_14_v250" vertex3="alignment_ring_14_v252"/>
+ <triangular vertex1="alignment_ring_14_v478" vertex2="alignment_ring_14_v196" vertex3="alignment_ring_14_v479"/>
+ <triangular vertex1="alignment_ring_14_v475" vertex2="alignment_ring_14_v196" vertex3="alignment_ring_14_v478"/>
+ <triangular vertex1="alignment_ring_14_v194" vertex2="alignment_ring_14_v196" vertex3="alignment_ring_14_v475"/>
+ <triangular vertex1="alignment_ring_14_v477" vertex2="alignment_ring_14_v248" vertex3="alignment_ring_14_v250"/>
+ <triangular vertex1="alignment_ring_14_v196" vertex2="alignment_ring_14_v198" vertex3="alignment_ring_14_v479"/>
+ <triangular vertex1="alignment_ring_14_v480" vertex2="alignment_ring_14_v246" vertex3="alignment_ring_14_v477"/>
+ <triangular vertex1="alignment_ring_14_v477" vertex2="alignment_ring_14_v246" vertex3="alignment_ring_14_v248"/>
+ <triangular vertex1="alignment_ring_14_v481" vertex2="alignment_ring_14_v200" vertex3="alignment_ring_14_v482"/>
+ <triangular vertex1="alignment_ring_14_v479" vertex2="alignment_ring_14_v200" vertex3="alignment_ring_14_v481"/>
+ <triangular vertex1="alignment_ring_14_v198" vertex2="alignment_ring_14_v200" vertex3="alignment_ring_14_v479"/>
+ <triangular vertex1="alignment_ring_14_v480" vertex2="alignment_ring_14_v244" vertex3="alignment_ring_14_v246"/>
+ <triangular vertex1="alignment_ring_14_v483" vertex2="alignment_ring_14_v244" vertex3="alignment_ring_14_v480"/>
+ <triangular vertex1="alignment_ring_14_v200" vertex2="alignment_ring_14_v202" vertex3="alignment_ring_14_v482"/>
+ <triangular vertex1="alignment_ring_14_v483" vertex2="alignment_ring_14_v243" vertex3="alignment_ring_14_v244"/>
+ <triangular vertex1="alignment_ring_14_v484" vertex2="alignment_ring_14_v243" vertex3="alignment_ring_14_v483"/>
+ <triangular vertex1="alignment_ring_14_v485" vertex2="alignment_ring_14_v243" vertex3="alignment_ring_14_v484"/>
+ <triangular vertex1="alignment_ring_14_v202" vertex2="alignment_ring_14_v204" vertex3="alignment_ring_14_v482"/>
+ <triangular vertex1="alignment_ring_14_v482" vertex2="alignment_ring_14_v204" vertex3="alignment_ring_14_v486"/>
+ <triangular vertex1="alignment_ring_14_v485" vertex2="alignment_ring_14_v240" vertex3="alignment_ring_14_v243"/>
+ <triangular vertex1="alignment_ring_14_v204" vertex2="alignment_ring_14_v206" vertex3="alignment_ring_14_v486"/>
+ <triangular vertex1="alignment_ring_14_v486" vertex2="alignment_ring_14_v206" vertex3="alignment_ring_14_v487"/>
+ <triangular vertex1="alignment_ring_14_v485" vertex2="alignment_ring_14_v238" vertex3="alignment_ring_14_v240"/>
+ <triangular vertex1="alignment_ring_14_v488" vertex2="alignment_ring_14_v238" vertex3="alignment_ring_14_v485"/>
+ <triangular vertex1="alignment_ring_14_v206" vertex2="alignment_ring_14_v208" vertex3="alignment_ring_14_v487"/>
+ <triangular vertex1="alignment_ring_14_v487" vertex2="alignment_ring_14_v208" vertex3="alignment_ring_14_v489"/>
+ <triangular vertex1="alignment_ring_14_v488" vertex2="alignment_ring_14_v236" vertex3="alignment_ring_14_v238"/>
+ <triangular vertex1="alignment_ring_14_v490" vertex2="alignment_ring_14_v236" vertex3="alignment_ring_14_v488"/>
+ <triangular vertex1="alignment_ring_14_v491" vertex2="alignment_ring_14_v236" vertex3="alignment_ring_14_v490"/>
+ <triangular vertex1="alignment_ring_14_v208" vertex2="alignment_ring_14_v210" vertex3="alignment_ring_14_v489"/>
+ <triangular vertex1="alignment_ring_14_v489" vertex2="alignment_ring_14_v210" vertex3="alignment_ring_14_v492"/>
+ <triangular vertex1="alignment_ring_14_v493" vertex2="alignment_ring_14_v234" vertex3="alignment_ring_14_v491"/>
+ <triangular vertex1="alignment_ring_14_v491" vertex2="alignment_ring_14_v234" vertex3="alignment_ring_14_v236"/>
+ <triangular vertex1="alignment_ring_14_v210" vertex2="alignment_ring_14_v212" vertex3="alignment_ring_14_v492"/>
+ <triangular vertex1="alignment_ring_14_v494" vertex2="alignment_ring_14_v212" vertex3="alignment_ring_14_v495"/>
+ <triangular vertex1="alignment_ring_14_v492" vertex2="alignment_ring_14_v212" vertex3="alignment_ring_14_v494"/>
+ <triangular vertex1="alignment_ring_14_v493" vertex2="alignment_ring_14_v232" vertex3="alignment_ring_14_v234"/>
+ <triangular vertex1="alignment_ring_14_v212" vertex2="alignment_ring_14_v214" vertex3="alignment_ring_14_v495"/>
+ <triangular vertex1="alignment_ring_14_v496" vertex2="alignment_ring_14_v230" vertex3="alignment_ring_14_v493"/>
+ <triangular vertex1="alignment_ring_14_v493" vertex2="alignment_ring_14_v230" vertex3="alignment_ring_14_v232"/>
+ <triangular vertex1="alignment_ring_14_v214" vertex2="alignment_ring_14_v216" vertex3="alignment_ring_14_v495"/>
+ <triangular vertex1="alignment_ring_14_v495" vertex2="alignment_ring_14_v216" vertex3="alignment_ring_14_v497"/>
+ <triangular vertex1="alignment_ring_14_v496" vertex2="alignment_ring_14_v228" vertex3="alignment_ring_14_v230"/>
+ <triangular vertex1="alignment_ring_14_v498" vertex2="alignment_ring_14_v228" vertex3="alignment_ring_14_v496"/>
+ <triangular vertex1="alignment_ring_14_v216" vertex2="alignment_ring_14_v218" vertex3="alignment_ring_14_v497"/>
+ <triangular vertex1="alignment_ring_14_v497" vertex2="alignment_ring_14_v218" vertex3="alignment_ring_14_v499"/>
+ <triangular vertex1="alignment_ring_14_v498" vertex2="alignment_ring_14_v226" vertex3="alignment_ring_14_v228"/>
+ <triangular vertex1="alignment_ring_14_v500" vertex2="alignment_ring_14_v226" vertex3="alignment_ring_14_v498"/>
+ <triangular vertex1="alignment_ring_14_v501" vertex2="alignment_ring_14_v220" vertex3="alignment_ring_14_v502"/>
+ <triangular vertex1="alignment_ring_14_v499" vertex2="alignment_ring_14_v220" vertex3="alignment_ring_14_v501"/>
+ <triangular vertex1="alignment_ring_14_v218" vertex2="alignment_ring_14_v220" vertex3="alignment_ring_14_v499"/>
+ <triangular vertex1="alignment_ring_14_v503" vertex2="alignment_ring_14_v224" vertex3="alignment_ring_14_v500"/>
+ <triangular vertex1="alignment_ring_14_v500" vertex2="alignment_ring_14_v224" vertex3="alignment_ring_14_v226"/>
+ <triangular vertex1="alignment_ring_14_v502" vertex2="alignment_ring_14_v222" vertex3="alignment_ring_14_v503"/>
+ <triangular vertex1="alignment_ring_14_v503" vertex2="alignment_ring_14_v222" vertex3="alignment_ring_14_v224"/>
+ <triangular vertex1="alignment_ring_14_v220" vertex2="alignment_ring_14_v222" vertex3="alignment_ring_14_v502"/>
+ <triangular vertex1="alignment_ring_14_v471" vertex2="alignment_ring_14_v254" vertex3="alignment_ring_14_v255"/>
+ <triangular vertex1="alignment_ring_14_v471" vertex2="alignment_ring_14_v255" vertex3="alignment_ring_14_v347"/>
+ <triangular vertex1="alignment_ring_14_v469" vertex2="alignment_ring_14_v471" vertex3="alignment_ring_14_v347"/>
+ <triangular vertex1="alignment_ring_14_v469" vertex2="alignment_ring_14_v347" vertex3="alignment_ring_14_v345"/>
+ <triangular vertex1="alignment_ring_14_v468" vertex2="alignment_ring_14_v469" vertex3="alignment_ring_14_v345"/>
+ <triangular vertex1="alignment_ring_14_v468" vertex2="alignment_ring_14_v345" vertex3="alignment_ring_14_v344"/>
+ <triangular vertex1="alignment_ring_14_v465" vertex2="alignment_ring_14_v468" vertex3="alignment_ring_14_v344"/>
+ <triangular vertex1="alignment_ring_14_v465" vertex2="alignment_ring_14_v344" vertex3="alignment_ring_14_v341"/>
+ <triangular vertex1="alignment_ring_14_v463" vertex2="alignment_ring_14_v465" vertex3="alignment_ring_14_v341"/>
+ <triangular vertex1="alignment_ring_14_v463" vertex2="alignment_ring_14_v341" vertex3="alignment_ring_14_v340"/>
+ <triangular vertex1="alignment_ring_14_v461" vertex2="alignment_ring_14_v340" vertex3="alignment_ring_14_v337"/>
+ <triangular vertex1="alignment_ring_14_v461" vertex2="alignment_ring_14_v463" vertex3="alignment_ring_14_v340"/>
+ <triangular vertex1="alignment_ring_14_v459" vertex2="alignment_ring_14_v337" vertex3="alignment_ring_14_v336"/>
+ <triangular vertex1="alignment_ring_14_v459" vertex2="alignment_ring_14_v461" vertex3="alignment_ring_14_v337"/>
+ <triangular vertex1="alignment_ring_14_v457" vertex2="alignment_ring_14_v336" vertex3="alignment_ring_14_v333"/>
+ <triangular vertex1="alignment_ring_14_v457" vertex2="alignment_ring_14_v459" vertex3="alignment_ring_14_v336"/>
+ <triangular vertex1="alignment_ring_14_v455" vertex2="alignment_ring_14_v333" vertex3="alignment_ring_14_v331"/>
+ <triangular vertex1="alignment_ring_14_v455" vertex2="alignment_ring_14_v457" vertex3="alignment_ring_14_v333"/>
+ <triangular vertex1="alignment_ring_14_v453" vertex2="alignment_ring_14_v331" vertex3="alignment_ring_14_v330"/>
+ <triangular vertex1="alignment_ring_14_v453" vertex2="alignment_ring_14_v455" vertex3="alignment_ring_14_v331"/>
+ <triangular vertex1="alignment_ring_14_v452" vertex2="alignment_ring_14_v330" vertex3="alignment_ring_14_v327"/>
+ <triangular vertex1="alignment_ring_14_v452" vertex2="alignment_ring_14_v453" vertex3="alignment_ring_14_v330"/>
+ <triangular vertex1="alignment_ring_14_v449" vertex2="alignment_ring_14_v327" vertex3="alignment_ring_14_v326"/>
+ <triangular vertex1="alignment_ring_14_v449" vertex2="alignment_ring_14_v452" vertex3="alignment_ring_14_v327"/>
+ <triangular vertex1="alignment_ring_14_v448" vertex2="alignment_ring_14_v326" vertex3="alignment_ring_14_v323"/>
+ <triangular vertex1="alignment_ring_14_v448" vertex2="alignment_ring_14_v449" vertex3="alignment_ring_14_v326"/>
+ <triangular vertex1="alignment_ring_14_v445" vertex2="alignment_ring_14_v323" vertex3="alignment_ring_14_v321"/>
+ <triangular vertex1="alignment_ring_14_v445" vertex2="alignment_ring_14_v448" vertex3="alignment_ring_14_v323"/>
+ <triangular vertex1="alignment_ring_14_v443" vertex2="alignment_ring_14_v321" vertex3="alignment_ring_14_v319"/>
+ <triangular vertex1="alignment_ring_14_v443" vertex2="alignment_ring_14_v445" vertex3="alignment_ring_14_v321"/>
+ <triangular vertex1="alignment_ring_14_v441" vertex2="alignment_ring_14_v319" vertex3="alignment_ring_14_v317"/>
+ <triangular vertex1="alignment_ring_14_v441" vertex2="alignment_ring_14_v443" vertex3="alignment_ring_14_v319"/>
+ <triangular vertex1="alignment_ring_14_v439" vertex2="alignment_ring_14_v317" vertex3="alignment_ring_14_v315"/>
+ <triangular vertex1="alignment_ring_14_v439" vertex2="alignment_ring_14_v441" vertex3="alignment_ring_14_v317"/>
+ <triangular vertex1="alignment_ring_14_v437" vertex2="alignment_ring_14_v439" vertex3="alignment_ring_14_v315"/>
+ <triangular vertex1="alignment_ring_14_v437" vertex2="alignment_ring_14_v315" vertex3="alignment_ring_14_v312"/>
+ <triangular vertex1="alignment_ring_14_v434" vertex2="alignment_ring_14_v437" vertex3="alignment_ring_14_v312"/>
+ <triangular vertex1="alignment_ring_14_v434" vertex2="alignment_ring_14_v311" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v434" vertex2="alignment_ring_14_v312" vertex3="alignment_ring_14_v311"/>
+ <triangular vertex1="alignment_ring_14_v433" vertex2="alignment_ring_14_v434" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v431" vertex2="alignment_ring_14_v433" vertex3="alignment_ring_14_v308"/>
+ <triangular vertex1="alignment_ring_14_v431" vertex2="alignment_ring_14_v308" vertex3="alignment_ring_14_v307"/>
+ <triangular vertex1="alignment_ring_14_v429" vertex2="alignment_ring_14_v431" vertex3="alignment_ring_14_v307"/>
+ <triangular vertex1="alignment_ring_14_v429" vertex2="alignment_ring_14_v304" vertex3="alignment_ring_14_v303"/>
+ <triangular vertex1="alignment_ring_14_v429" vertex2="alignment_ring_14_v307" vertex3="alignment_ring_14_v304"/>
+ <triangular vertex1="alignment_ring_14_v427" vertex2="alignment_ring_14_v429" vertex3="alignment_ring_14_v303"/>
+ <triangular vertex1="alignment_ring_14_v425" vertex2="alignment_ring_14_v427" vertex3="alignment_ring_14_v303"/>
+ <triangular vertex1="alignment_ring_14_v425" vertex2="alignment_ring_14_v303" vertex3="alignment_ring_14_v301"/>
+ <triangular vertex1="alignment_ring_14_v423" vertex2="alignment_ring_14_v425" vertex3="alignment_ring_14_v301"/>
+ <triangular vertex1="alignment_ring_14_v423" vertex2="alignment_ring_14_v299" vertex3="alignment_ring_14_v297"/>
+ <triangular vertex1="alignment_ring_14_v423" vertex2="alignment_ring_14_v301" vertex3="alignment_ring_14_v299"/>
+ <triangular vertex1="alignment_ring_14_v421" vertex2="alignment_ring_14_v423" vertex3="alignment_ring_14_v297"/>
+ <triangular vertex1="alignment_ring_14_v419" vertex2="alignment_ring_14_v421" vertex3="alignment_ring_14_v297"/>
+ <triangular vertex1="alignment_ring_14_v419" vertex2="alignment_ring_14_v297" vertex3="alignment_ring_14_v294"/>
+ <triangular vertex1="alignment_ring_14_v417" vertex2="alignment_ring_14_v294" vertex3="alignment_ring_14_v293"/>
+ <triangular vertex1="alignment_ring_14_v417" vertex2="alignment_ring_14_v419" vertex3="alignment_ring_14_v294"/>
+ <triangular vertex1="alignment_ring_14_v415" vertex2="alignment_ring_14_v293" vertex3="alignment_ring_14_v291"/>
+ <triangular vertex1="alignment_ring_14_v415" vertex2="alignment_ring_14_v417" vertex3="alignment_ring_14_v293"/>
+ <triangular vertex1="alignment_ring_14_v412" vertex2="alignment_ring_14_v291" vertex3="alignment_ring_14_v289"/>
+ <triangular vertex1="alignment_ring_14_v412" vertex2="alignment_ring_14_v415" vertex3="alignment_ring_14_v291"/>
+ <triangular vertex1="alignment_ring_14_v411" vertex2="alignment_ring_14_v289" vertex3="alignment_ring_14_v287"/>
+ <triangular vertex1="alignment_ring_14_v411" vertex2="alignment_ring_14_v412" vertex3="alignment_ring_14_v289"/>
+ <triangular vertex1="alignment_ring_14_v410" vertex2="alignment_ring_14_v287" vertex3="alignment_ring_14_v286"/>
+ <triangular vertex1="alignment_ring_14_v410" vertex2="alignment_ring_14_v411" vertex3="alignment_ring_14_v287"/>
+ <triangular vertex1="alignment_ring_14_v409" vertex2="alignment_ring_14_v286" vertex3="alignment_ring_14_v285"/>
+ <triangular vertex1="alignment_ring_14_v409" vertex2="alignment_ring_14_v410" vertex3="alignment_ring_14_v286"/>
+ <triangular vertex1="alignment_ring_14_v405" vertex2="alignment_ring_14_v285" vertex3="alignment_ring_14_v281"/>
+ <triangular vertex1="alignment_ring_14_v405" vertex2="alignment_ring_14_v409" vertex3="alignment_ring_14_v285"/>
+ <triangular vertex1="alignment_ring_14_v404" vertex2="alignment_ring_14_v281" vertex3="alignment_ring_14_v280"/>
+ <triangular vertex1="alignment_ring_14_v404" vertex2="alignment_ring_14_v405" vertex3="alignment_ring_14_v281"/>
+ <triangular vertex1="alignment_ring_14_v402" vertex2="alignment_ring_14_v280" vertex3="alignment_ring_14_v277"/>
+ <triangular vertex1="alignment_ring_14_v402" vertex2="alignment_ring_14_v404" vertex3="alignment_ring_14_v280"/>
+ <triangular vertex1="alignment_ring_14_v400" vertex2="alignment_ring_14_v277" vertex3="alignment_ring_14_v276"/>
+ <triangular vertex1="alignment_ring_14_v400" vertex2="alignment_ring_14_v402" vertex3="alignment_ring_14_v277"/>
+ <triangular vertex1="alignment_ring_14_v397" vertex2="alignment_ring_14_v274" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v397" vertex2="alignment_ring_14_v276" vertex3="alignment_ring_14_v274"/>
+ <triangular vertex1="alignment_ring_14_v397" vertex2="alignment_ring_14_v400" vertex3="alignment_ring_14_v276"/>
+ <triangular vertex1="alignment_ring_14_v395" vertex2="alignment_ring_14_v397" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v394" vertex2="alignment_ring_14_v271" vertex3="alignment_ring_14_v270"/>
+ <triangular vertex1="alignment_ring_14_v394" vertex2="alignment_ring_14_v395" vertex3="alignment_ring_14_v271"/>
+ <triangular vertex1="alignment_ring_14_v392" vertex2="alignment_ring_14_v270" vertex3="alignment_ring_14_v268"/>
+ <triangular vertex1="alignment_ring_14_v392" vertex2="alignment_ring_14_v394" vertex3="alignment_ring_14_v270"/>
+ <triangular vertex1="alignment_ring_14_v391" vertex2="alignment_ring_14_v268" vertex3="alignment_ring_14_v266"/>
+ <triangular vertex1="alignment_ring_14_v391" vertex2="alignment_ring_14_v392" vertex3="alignment_ring_14_v268"/>
+ <triangular vertex1="alignment_ring_14_v388" vertex2="alignment_ring_14_v391" vertex3="alignment_ring_14_v266"/>
+ <triangular vertex1="alignment_ring_14_v388" vertex2="alignment_ring_14_v266" vertex3="alignment_ring_14_v263"/>
+ <triangular vertex1="alignment_ring_14_v386" vertex2="alignment_ring_14_v388" vertex3="alignment_ring_14_v263"/>
+ <triangular vertex1="alignment_ring_14_v386" vertex2="alignment_ring_14_v263" vertex3="alignment_ring_14_v262"/>
+ <triangular vertex1="alignment_ring_14_v384" vertex2="alignment_ring_14_v386" vertex3="alignment_ring_14_v262"/>
+ <triangular vertex1="alignment_ring_14_v384" vertex2="alignment_ring_14_v262" vertex3="alignment_ring_14_v260"/>
+ <triangular vertex1="alignment_ring_14_v382" vertex2="alignment_ring_14_v384" vertex3="alignment_ring_14_v260"/>
+ <triangular vertex1="alignment_ring_14_v382" vertex2="alignment_ring_14_v260" vertex3="alignment_ring_14_v259"/>
+ <triangular vertex1="alignment_ring_14_v381" vertex2="alignment_ring_14_v382" vertex3="alignment_ring_14_v259"/>
+ <triangular vertex1="alignment_ring_14_v381" vertex2="alignment_ring_14_v259" vertex3="alignment_ring_14_v258"/>
+ <triangular vertex1="alignment_ring_14_v380" vertex2="alignment_ring_14_v258" vertex3="alignment_ring_14_v257"/>
+ <triangular vertex1="alignment_ring_14_v380" vertex2="alignment_ring_14_v381" vertex3="alignment_ring_14_v258"/>
+ <triangular vertex1="alignment_ring_14_v383" vertex2="alignment_ring_14_v380" vertex3="alignment_ring_14_v257"/>
+ <triangular vertex1="alignment_ring_14_v383" vertex2="alignment_ring_14_v257" vertex3="alignment_ring_14_v256"/>
+ <triangular vertex1="alignment_ring_14_v385" vertex2="alignment_ring_14_v256" vertex3="alignment_ring_14_v261"/>
+ <triangular vertex1="alignment_ring_14_v385" vertex2="alignment_ring_14_v383" vertex3="alignment_ring_14_v256"/>
+ <triangular vertex1="alignment_ring_14_v387" vertex2="alignment_ring_14_v261" vertex3="alignment_ring_14_v264"/>
+ <triangular vertex1="alignment_ring_14_v387" vertex2="alignment_ring_14_v385" vertex3="alignment_ring_14_v261"/>
+ <triangular vertex1="alignment_ring_14_v390" vertex2="alignment_ring_14_v265" vertex3="alignment_ring_14_v267"/>
+ <triangular vertex1="alignment_ring_14_v390" vertex2="alignment_ring_14_v264" vertex3="alignment_ring_14_v265"/>
+ <triangular vertex1="alignment_ring_14_v390" vertex2="alignment_ring_14_v387" vertex3="alignment_ring_14_v264"/>
+ <triangular vertex1="alignment_ring_14_v389" vertex2="alignment_ring_14_v390" vertex3="alignment_ring_14_v267"/>
+ <triangular vertex1="alignment_ring_14_v393" vertex2="alignment_ring_14_v267" vertex3="alignment_ring_14_v269"/>
+ <triangular vertex1="alignment_ring_14_v393" vertex2="alignment_ring_14_v389" vertex3="alignment_ring_14_v267"/>
+ <triangular vertex1="alignment_ring_14_v396" vertex2="alignment_ring_14_v269" vertex3="alignment_ring_14_v272"/>
+ <triangular vertex1="alignment_ring_14_v396" vertex2="alignment_ring_14_v393" vertex3="alignment_ring_14_v269"/>
+ <triangular vertex1="alignment_ring_14_v399" vertex2="alignment_ring_14_v272" vertex3="alignment_ring_14_v273"/>
+ <triangular vertex1="alignment_ring_14_v399" vertex2="alignment_ring_14_v396" vertex3="alignment_ring_14_v272"/>
+ <triangular vertex1="alignment_ring_14_v398" vertex2="alignment_ring_14_v273" vertex3="alignment_ring_14_v275"/>
+ <triangular vertex1="alignment_ring_14_v398" vertex2="alignment_ring_14_v399" vertex3="alignment_ring_14_v273"/>
+ <triangular vertex1="alignment_ring_14_v401" vertex2="alignment_ring_14_v275" vertex3="alignment_ring_14_v278"/>
+ <triangular vertex1="alignment_ring_14_v401" vertex2="alignment_ring_14_v398" vertex3="alignment_ring_14_v275"/>
+ <triangular vertex1="alignment_ring_14_v403" vertex2="alignment_ring_14_v278" vertex3="alignment_ring_14_v279"/>
+ <triangular vertex1="alignment_ring_14_v403" vertex2="alignment_ring_14_v401" vertex3="alignment_ring_14_v278"/>
+ <triangular vertex1="alignment_ring_14_v406" vertex2="alignment_ring_14_v279" vertex3="alignment_ring_14_v282"/>
+ <triangular vertex1="alignment_ring_14_v406" vertex2="alignment_ring_14_v403" vertex3="alignment_ring_14_v279"/>
+ <triangular vertex1="alignment_ring_14_v408" vertex2="alignment_ring_14_v282" vertex3="alignment_ring_14_v284"/>
+ <triangular vertex1="alignment_ring_14_v408" vertex2="alignment_ring_14_v406" vertex3="alignment_ring_14_v282"/>
+ <triangular vertex1="alignment_ring_14_v407" vertex2="alignment_ring_14_v284" vertex3="alignment_ring_14_v283"/>
+ <triangular vertex1="alignment_ring_14_v407" vertex2="alignment_ring_14_v408" vertex3="alignment_ring_14_v284"/>
+ <triangular vertex1="alignment_ring_14_v129" vertex2="alignment_ring_14_v283" vertex3="alignment_ring_14_v130"/>
+ <triangular vertex1="alignment_ring_14_v129" vertex2="alignment_ring_14_v407" vertex3="alignment_ring_14_v283"/>
+ <triangular vertex1="alignment_ring_14_v127" vertex2="alignment_ring_14_v413" vertex3="alignment_ring_14_v288"/>
+ <triangular vertex1="alignment_ring_14_v126" vertex2="alignment_ring_14_v413" vertex3="alignment_ring_14_v127"/>
+ <triangular vertex1="alignment_ring_14_v288" vertex2="alignment_ring_14_v414" vertex3="alignment_ring_14_v290"/>
+ <triangular vertex1="alignment_ring_14_v413" vertex2="alignment_ring_14_v414" vertex3="alignment_ring_14_v288"/>
+ <triangular vertex1="alignment_ring_14_v290" vertex2="alignment_ring_14_v416" vertex3="alignment_ring_14_v292"/>
+ <triangular vertex1="alignment_ring_14_v414" vertex2="alignment_ring_14_v416" vertex3="alignment_ring_14_v290"/>
+ <triangular vertex1="alignment_ring_14_v292" vertex2="alignment_ring_14_v418" vertex3="alignment_ring_14_v295"/>
+ <triangular vertex1="alignment_ring_14_v416" vertex2="alignment_ring_14_v418" vertex3="alignment_ring_14_v292"/>
+ <triangular vertex1="alignment_ring_14_v295" vertex2="alignment_ring_14_v420" vertex3="alignment_ring_14_v296"/>
+ <triangular vertex1="alignment_ring_14_v418" vertex2="alignment_ring_14_v420" vertex3="alignment_ring_14_v295"/>
+ <triangular vertex1="alignment_ring_14_v296" vertex2="alignment_ring_14_v422" vertex3="alignment_ring_14_v298"/>
+ <triangular vertex1="alignment_ring_14_v420" vertex2="alignment_ring_14_v422" vertex3="alignment_ring_14_v296"/>
+ <triangular vertex1="alignment_ring_14_v298" vertex2="alignment_ring_14_v424" vertex3="alignment_ring_14_v300"/>
+ <triangular vertex1="alignment_ring_14_v422" vertex2="alignment_ring_14_v424" vertex3="alignment_ring_14_v298"/>
+ <triangular vertex1="alignment_ring_14_v302" vertex2="alignment_ring_14_v426" vertex3="alignment_ring_14_v305"/>
+ <triangular vertex1="alignment_ring_14_v300" vertex2="alignment_ring_14_v426" vertex3="alignment_ring_14_v302"/>
+ <triangular vertex1="alignment_ring_14_v424" vertex2="alignment_ring_14_v426" vertex3="alignment_ring_14_v300"/>
+ <triangular vertex1="alignment_ring_14_v426" vertex2="alignment_ring_14_v428" vertex3="alignment_ring_14_v305"/>
+ <triangular vertex1="alignment_ring_14_v305" vertex2="alignment_ring_14_v430" vertex3="alignment_ring_14_v306"/>
+ <triangular vertex1="alignment_ring_14_v428" vertex2="alignment_ring_14_v430" vertex3="alignment_ring_14_v305"/>
+ <triangular vertex1="alignment_ring_14_v306" vertex2="alignment_ring_14_v432" vertex3="alignment_ring_14_v309"/>
+ <triangular vertex1="alignment_ring_14_v430" vertex2="alignment_ring_14_v432" vertex3="alignment_ring_14_v306"/>
+ <triangular vertex1="alignment_ring_14_v309" vertex2="alignment_ring_14_v435" vertex3="alignment_ring_14_v310"/>
+ <triangular vertex1="alignment_ring_14_v432" vertex2="alignment_ring_14_v435" vertex3="alignment_ring_14_v309"/>
+ <triangular vertex1="alignment_ring_14_v310" vertex2="alignment_ring_14_v436" vertex3="alignment_ring_14_v313"/>
+ <triangular vertex1="alignment_ring_14_v435" vertex2="alignment_ring_14_v436" vertex3="alignment_ring_14_v310"/>
+ <triangular vertex1="alignment_ring_14_v313" vertex2="alignment_ring_14_v438" vertex3="alignment_ring_14_v314"/>
+ <triangular vertex1="alignment_ring_14_v436" vertex2="alignment_ring_14_v438" vertex3="alignment_ring_14_v313"/>
+ <triangular vertex1="alignment_ring_14_v314" vertex2="alignment_ring_14_v440" vertex3="alignment_ring_14_v316"/>
+ <triangular vertex1="alignment_ring_14_v438" vertex2="alignment_ring_14_v440" vertex3="alignment_ring_14_v314"/>
+ <triangular vertex1="alignment_ring_14_v316" vertex2="alignment_ring_14_v442" vertex3="alignment_ring_14_v318"/>
+ <triangular vertex1="alignment_ring_14_v440" vertex2="alignment_ring_14_v442" vertex3="alignment_ring_14_v316"/>
+ <triangular vertex1="alignment_ring_14_v320" vertex2="alignment_ring_14_v444" vertex3="alignment_ring_14_v322"/>
+ <triangular vertex1="alignment_ring_14_v318" vertex2="alignment_ring_14_v444" vertex3="alignment_ring_14_v320"/>
+ <triangular vertex1="alignment_ring_14_v442" vertex2="alignment_ring_14_v444" vertex3="alignment_ring_14_v318"/>
+ <triangular vertex1="alignment_ring_14_v444" vertex2="alignment_ring_14_v446" vertex3="alignment_ring_14_v322"/>
+ <triangular vertex1="alignment_ring_14_v322" vertex2="alignment_ring_14_v447" vertex3="alignment_ring_14_v324"/>
+ <triangular vertex1="alignment_ring_14_v446" vertex2="alignment_ring_14_v447" vertex3="alignment_ring_14_v322"/>
+ <triangular vertex1="alignment_ring_14_v325" vertex2="alignment_ring_14_v450" vertex3="alignment_ring_14_v328"/>
+ <triangular vertex1="alignment_ring_14_v324" vertex2="alignment_ring_14_v450" vertex3="alignment_ring_14_v325"/>
+ <triangular vertex1="alignment_ring_14_v447" vertex2="alignment_ring_14_v450" vertex3="alignment_ring_14_v324"/>
+ <triangular vertex1="alignment_ring_14_v450" vertex2="alignment_ring_14_v451" vertex3="alignment_ring_14_v328"/>
+ <triangular vertex1="alignment_ring_14_v328" vertex2="alignment_ring_14_v454" vertex3="alignment_ring_14_v329"/>
+ <triangular vertex1="alignment_ring_14_v451" vertex2="alignment_ring_14_v454" vertex3="alignment_ring_14_v328"/>
+ <triangular vertex1="alignment_ring_14_v329" vertex2="alignment_ring_14_v456" vertex3="alignment_ring_14_v332"/>
+ <triangular vertex1="alignment_ring_14_v454" vertex2="alignment_ring_14_v456" vertex3="alignment_ring_14_v329"/>
+ <triangular vertex1="alignment_ring_14_v332" vertex2="alignment_ring_14_v458" vertex3="alignment_ring_14_v334"/>
+ <triangular vertex1="alignment_ring_14_v456" vertex2="alignment_ring_14_v458" vertex3="alignment_ring_14_v332"/>
+ <triangular vertex1="alignment_ring_14_v335" vertex2="alignment_ring_14_v460" vertex3="alignment_ring_14_v338"/>
+ <triangular vertex1="alignment_ring_14_v334" vertex2="alignment_ring_14_v460" vertex3="alignment_ring_14_v335"/>
+ <triangular vertex1="alignment_ring_14_v458" vertex2="alignment_ring_14_v460" vertex3="alignment_ring_14_v334"/>
+ <triangular vertex1="alignment_ring_14_v338" vertex2="alignment_ring_14_v462" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v460" vertex2="alignment_ring_14_v462" vertex3="alignment_ring_14_v338"/>
+ <triangular vertex1="alignment_ring_14_v462" vertex2="alignment_ring_14_v464" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v464" vertex2="alignment_ring_14_v466" vertex3="alignment_ring_14_v339"/>
+ <triangular vertex1="alignment_ring_14_v339" vertex2="alignment_ring_14_v466" vertex3="alignment_ring_14_v342"/>
+ <triangular vertex1="alignment_ring_14_v466" vertex2="alignment_ring_14_v467" vertex3="alignment_ring_14_v342"/>
+ <triangular vertex1="alignment_ring_14_v342" vertex2="alignment_ring_14_v467" vertex3="alignment_ring_14_v343"/>
+ <triangular vertex1="alignment_ring_14_v467" vertex2="alignment_ring_14_v470" vertex3="alignment_ring_14_v343"/>
+ <triangular vertex1="alignment_ring_14_v343" vertex2="alignment_ring_14_v470" vertex3="alignment_ring_14_v346"/>
+ <triangular vertex1="alignment_ring_14_v470" vertex2="alignment_ring_14_v472" vertex3="alignment_ring_14_v346"/>
+ <triangular vertex1="alignment_ring_14_v346" vertex2="alignment_ring_14_v472" vertex3="alignment_ring_14_v348"/>
+ <triangular vertex1="alignment_ring_14_v472" vertex2="alignment_ring_14_v473" vertex3="alignment_ring_14_v348"/>
+ <triangular vertex1="alignment_ring_14_v348" vertex2="alignment_ring_14_v473" vertex3="alignment_ring_14_v349"/>
+ <triangular vertex1="alignment_ring_14_v473" vertex2="alignment_ring_14_v475" vertex3="alignment_ring_14_v349"/>
+ <triangular vertex1="alignment_ring_14_v351" vertex2="alignment_ring_14_v475" vertex3="alignment_ring_14_v354"/>
+ <triangular vertex1="alignment_ring_14_v349" vertex2="alignment_ring_14_v475" vertex3="alignment_ring_14_v351"/>
+ <triangular vertex1="alignment_ring_14_v475" vertex2="alignment_ring_14_v478" vertex3="alignment_ring_14_v354"/>
+ <triangular vertex1="alignment_ring_14_v478" vertex2="alignment_ring_14_v479" vertex3="alignment_ring_14_v354"/>
+ <triangular vertex1="alignment_ring_14_v354" vertex2="alignment_ring_14_v479" vertex3="alignment_ring_14_v355"/>
+ <triangular vertex1="alignment_ring_14_v479" vertex2="alignment_ring_14_v481" vertex3="alignment_ring_14_v355"/>
+ <triangular vertex1="alignment_ring_14_v355" vertex2="alignment_ring_14_v481" vertex3="alignment_ring_14_v357"/>
+ <triangular vertex1="alignment_ring_14_v481" vertex2="alignment_ring_14_v482" vertex3="alignment_ring_14_v357"/>
+ <triangular vertex1="alignment_ring_14_v357" vertex2="alignment_ring_14_v482" vertex3="alignment_ring_14_v359"/>
+ <triangular vertex1="alignment_ring_14_v482" vertex2="alignment_ring_14_v486" vertex3="alignment_ring_14_v359"/>
+ <triangular vertex1="alignment_ring_14_v359" vertex2="alignment_ring_14_v486" vertex3="alignment_ring_14_v361"/>
+ <triangular vertex1="alignment_ring_14_v361" vertex2="alignment_ring_14_v487" vertex3="alignment_ring_14_v362"/>
+ <triangular vertex1="alignment_ring_14_v486" vertex2="alignment_ring_14_v487" vertex3="alignment_ring_14_v361"/>
+ <triangular vertex1="alignment_ring_14_v362" vertex2="alignment_ring_14_v489" vertex3="alignment_ring_14_v366"/>
+ <triangular vertex1="alignment_ring_14_v487" vertex2="alignment_ring_14_v489" vertex3="alignment_ring_14_v362"/>
+ <triangular vertex1="alignment_ring_14_v366" vertex2="alignment_ring_14_v492" vertex3="alignment_ring_14_v367"/>
+ <triangular vertex1="alignment_ring_14_v489" vertex2="alignment_ring_14_v492" vertex3="alignment_ring_14_v366"/>
+ <triangular vertex1="alignment_ring_14_v367" vertex2="alignment_ring_14_v494" vertex3="alignment_ring_14_v369"/>
+ <triangular vertex1="alignment_ring_14_v492" vertex2="alignment_ring_14_v494" vertex3="alignment_ring_14_v367"/>
+ <triangular vertex1="alignment_ring_14_v494" vertex2="alignment_ring_14_v495" vertex3="alignment_ring_14_v369"/>
+ <triangular vertex1="alignment_ring_14_v369" vertex2="alignment_ring_14_v495" vertex3="alignment_ring_14_v370"/>
+ <triangular vertex1="alignment_ring_14_v495" vertex2="alignment_ring_14_v497" vertex3="alignment_ring_14_v370"/>
+ <triangular vertex1="alignment_ring_14_v370" vertex2="alignment_ring_14_v497" vertex3="alignment_ring_14_v374"/>
+ <triangular vertex1="alignment_ring_14_v497" vertex2="alignment_ring_14_v499" vertex3="alignment_ring_14_v374"/>
+ <triangular vertex1="alignment_ring_14_v374" vertex2="alignment_ring_14_v499" vertex3="alignment_ring_14_v375"/>
+ <triangular vertex1="alignment_ring_14_v499" vertex2="alignment_ring_14_v501" vertex3="alignment_ring_14_v375"/>
+ <triangular vertex1="alignment_ring_14_v375" vertex2="alignment_ring_14_v501" vertex3="alignment_ring_14_v377"/>
+ <triangular vertex1="alignment_ring_14_v501" vertex2="alignment_ring_14_v502" vertex3="alignment_ring_14_v377"/>
+ <triangular vertex1="alignment_ring_14_v377" vertex2="alignment_ring_14_v502" vertex3="alignment_ring_14_v379"/>
+ <triangular vertex1="alignment_ring_14_v502" vertex2="alignment_ring_14_v503" vertex3="alignment_ring_14_v379"/>
+ <triangular vertex1="alignment_ring_14_v379" vertex2="alignment_ring_14_v503" vertex3="alignment_ring_14_v378"/>
+ <triangular vertex1="alignment_ring_14_v503" vertex2="alignment_ring_14_v500" vertex3="alignment_ring_14_v378"/>
+ <triangular vertex1="alignment_ring_14_v378" vertex2="alignment_ring_14_v500" vertex3="alignment_ring_14_v376"/>
+ <triangular vertex1="alignment_ring_14_v500" vertex2="alignment_ring_14_v498" vertex3="alignment_ring_14_v376"/>
+ <triangular vertex1="alignment_ring_14_v376" vertex2="alignment_ring_14_v498" vertex3="alignment_ring_14_v372"/>
+ <triangular vertex1="alignment_ring_14_v498" vertex2="alignment_ring_14_v496" vertex3="alignment_ring_14_v372"/>
+ <triangular vertex1="alignment_ring_14_v372" vertex2="alignment_ring_14_v496" vertex3="alignment_ring_14_v373"/>
+ <triangular vertex1="alignment_ring_14_v496" vertex2="alignment_ring_14_v493" vertex3="alignment_ring_14_v373"/>
+ <triangular vertex1="alignment_ring_14_v371" vertex2="alignment_ring_14_v493" vertex3="alignment_ring_14_v368"/>
+ <triangular vertex1="alignment_ring_14_v373" vertex2="alignment_ring_14_v493" vertex3="alignment_ring_14_v371"/>
+ <triangular vertex1="alignment_ring_14_v493" vertex2="alignment_ring_14_v491" vertex3="alignment_ring_14_v368"/>
+ <triangular vertex1="alignment_ring_14_v491" vertex2="alignment_ring_14_v490" vertex3="alignment_ring_14_v368"/>
+ <triangular vertex1="alignment_ring_14_v368" vertex2="alignment_ring_14_v490" vertex3="alignment_ring_14_v365"/>
+ <triangular vertex1="alignment_ring_14_v490" vertex2="alignment_ring_14_v488" vertex3="alignment_ring_14_v365"/>
+ <triangular vertex1="alignment_ring_14_v365" vertex2="alignment_ring_14_v488" vertex3="alignment_ring_14_v364"/>
+ <triangular vertex1="alignment_ring_14_v488" vertex2="alignment_ring_14_v485" vertex3="alignment_ring_14_v364"/>
+ <triangular vertex1="alignment_ring_14_v364" vertex2="alignment_ring_14_v485" vertex3="alignment_ring_14_v363"/>
+ <triangular vertex1="alignment_ring_14_v485" vertex2="alignment_ring_14_v484" vertex3="alignment_ring_14_v363"/>
+ <triangular vertex1="alignment_ring_14_v363" vertex2="alignment_ring_14_v484" vertex3="alignment_ring_14_v360"/>
+ <triangular vertex1="alignment_ring_14_v484" vertex2="alignment_ring_14_v483" vertex3="alignment_ring_14_v360"/>
+ <triangular vertex1="alignment_ring_14_v360" vertex2="alignment_ring_14_v483" vertex3="alignment_ring_14_v358"/>
+ <triangular vertex1="alignment_ring_14_v358" vertex2="alignment_ring_14_v480" vertex3="alignment_ring_14_v356"/>
+ <triangular vertex1="alignment_ring_14_v483" vertex2="alignment_ring_14_v480" vertex3="alignment_ring_14_v358"/>
+ <triangular vertex1="alignment_ring_14_v356" vertex2="alignment_ring_14_v477" vertex3="alignment_ring_14_v353"/>
+ <triangular vertex1="alignment_ring_14_v480" vertex2="alignment_ring_14_v477" vertex3="alignment_ring_14_v356"/>
+ <triangular vertex1="alignment_ring_14_v353" vertex2="alignment_ring_14_v476" vertex3="alignment_ring_14_v352"/>
+ <triangular vertex1="alignment_ring_14_v477" vertex2="alignment_ring_14_v476" vertex3="alignment_ring_14_v353"/>
+ <triangular vertex1="alignment_ring_14_v352" vertex2="alignment_ring_14_v474" vertex3="alignment_ring_14_v350"/>
+ <triangular vertex1="alignment_ring_14_v476" vertex2="alignment_ring_14_v474" vertex3="alignment_ring_14_v352"/>
+ <triangular vertex1="alignment_ring_14_v350" vertex2="alignment_ring_14_v3" vertex3="alignment_ring_14_v0"/>
+ <triangular vertex1="alignment_ring_14_v474" vertex2="alignment_ring_14_v3" vertex3="alignment_ring_14_v350"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="alignment_ring_14">
+ <materialref ref="Vacuum_ref"/>
+ <solidref ref="alignment_ring_14_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="alignment_ring_14"/>
+ </setup>
+</gdml>

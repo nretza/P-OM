@@ -28,6 +28,7 @@
 OMConstruction::OMConstruction()
 : G4VUserDetectorConstruction(),
  _submerge(false),
+ _solidReflector(false),
  _world_phsical(nullptr),
  _world_logical(nullptr),
  _gelpad_solid(nullptr),
@@ -148,8 +149,8 @@ void OMConstruction::configureGDMLObjects()
             obj_vis->SetColor(1.0, 1.0, 1.0, 0.3); // transparent white
         }
 
-        // titanium ring
-        else if (obj_name.find("Titan_flange") != std::string::npos)
+        // titanium flange
+        else if (obj_name.find("Titan_flange") != std::string::npos || obj_name.find("fla-ti_revCsp_up") != std::string::npos)
         {
             // wrap in titanium surface for reflection properties
             new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
@@ -205,6 +206,73 @@ void OMConstruction::configureGDMLObjects()
             obj_vis->SetColor(0.2, 0.2, 0.2, 1.0); // almost black
         }
 
+        // glass sphere (v13)
+        else if (obj_name.find("HS-BOR-17-09") != std::string::npos)
+        {
+            obj_material = glass;
+            obj_vis->SetColor(1.0, 1.0, 1.0, 0.3); // transparent white
+        }
+
+        // titanium flange (v13)
+        else if (obj_name.find("FLA-TI-17-14") != std::string::npos || obj_name.find("fla-ti_revCsp_up") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.9, 0.9, 0.9, 1.0); // light grey
+        }
+
+        // titanium backplate (v13)
+        else if (obj_name.find("10136520") != std::string::npos || obj_name.find("fla-ti_revCsp_up") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.9, 0.9, 0.9, 1.0); // light grey
+        }
+
+        // titanium ring (v13)
+        else if (obj_name.find("052-10132172") != std::string::npos || obj_name.find("fla-ti_revCsp_up") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.9, 0.9, 0.9, 1.0); // light grey
+        }
+
+        // cable breakout 1 (v13)
+        else if (obj_name.find("014-10132184") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.7, 0.7, 0.7, 1.0); // grey
+        }
+
+        // cable breakout 2 (v13)
+        else if (obj_name.find("051-10132214") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = titanium;
+            obj_vis->SetColor(0.7, 0.7, 0.7, 1.0); // grey
+        }
+
+        // cable breakout 3 (v13)
+        else if (obj_name.find("BR101") != std::string::npos)
+        {
+            // wrap in titanium surface for reflection properties
+            new G4LogicalSkinSurface(obj_name, obj_logical, titaniumSurface);
+
+            obj_material = plastic;
+            obj_vis->SetColor(0.2, 0.2, 0.2, 1.0); // almost black
+        }
+
         // water
         else if (obj_name.find("water") != std::string::npos)
         {
@@ -245,7 +313,8 @@ void OMConstruction::submerge()
         this->_world_logical->SetMaterial(this->_MaterialManager->BuildWater());
     }
 
-    else if ( _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple/mother.gdml")
+    else if ( _gdml_filename == "geometry/PDOR_v11_assemb_simple/mother.gdml" ||
+              _gdml_filename == "geometry/P-OM_internal_v13_asm_step/mother.gdml")
     {
         // transformations
         G4Point3D from1(this->_ou_coord_refX);
@@ -295,8 +364,8 @@ void OMConstruction::submerge()
         new G4PVPlacement(ou2global, "water", waterLog, this->_world_phsical, false, 0);
     }
 
-    else if ( _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother.gdml"  ||
-              _gdml_filename == "../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother_closed_frame.gdml")
+    else if ( _gdml_filename == "geometry/PDOR_v11_assemb_simple_full_module/mother.gdml"  ||
+              _gdml_filename == "geometry/PDOR_v11_assemb_simple_full_module/mother_closed_frame.gdml")
     {   
         G4double air_indside_radius = 207 * mm;
         G4double air_middle_offset  = 45 * mm;
@@ -385,6 +454,7 @@ void OMConstruction::placeOpticalUnits()
     //-----------
 
     G4Transform3D gelpad_offset(G4RotationMatrix(), G4ThreeVector(0, 0, -5.11 * mm));
+    //G4Transform3D gelpad_offset(G4RotationMatrix(), G4ThreeVector(0, 0, -7.11 * mm));
     G4Transform3D PMTOffset(G4RotationMatrix(G4ThreeVector(1,0,0), 90 * degree), G4ThreeVector(0, 0, - 53 * mm));
 
     for(int i=0; i < this->_nr_of_OUs; i++)
@@ -417,7 +487,7 @@ void OMConstruction::placeOpticalUnits()
             cross = id_rot.cross(rotation_vec);
             delta = acos(rotation_vec.dot(id_rot));
         }
-        G4Transform3D transform3D(G4RotationMatrix(cross, delta), ou_pos);
+        G4Transform3D ouPlacementTransform(G4RotationMatrix(cross, delta), ou_pos);
 
         //-----------
         // subtract relevant solids from gelpad
@@ -425,7 +495,8 @@ void OMConstruction::placeOpticalUnits()
 
         G4VSolid* gelpad_solid_to_place = this->_gelpad_solid;
         
-        // from gdml objects
+        // from gdml glass
+        G4bool glass_subtracted = false;
         const int nr_of_objects = this->_world_logical->GetNoDaughters();
         for(int i=0; i<nr_of_objects; i++)
         {
@@ -433,15 +504,27 @@ void OMConstruction::placeOpticalUnits()
             G4LogicalVolume*   obj_logical  = obj_phsical->GetLogicalVolume();
             G4VSolid*          obj_solid    = obj_logical->GetSolid();
             G4String           obj_name     = obj_phsical->GetName();
-
-            // from glass sphere
+            
             if (obj_name.find("GlasHemisphere") != std::string::npos)
             {
                 gelpad_solid_to_place = new G4SubtractionSolid("gelpad",
                                                                 gelpad_solid_to_place,
                                                                 obj_solid,
-                                                                gelpad_offset.inverse() * transform3D.inverse());
+                                                                gelpad_offset.inverse() * ouPlacementTransform.inverse());
+                glass_subtracted = true;
             }
+        }
+
+        // if gelpad is not subracted from gdml glass, subreact from custom glass sphere (to get the curvature right)
+        if (!glass_subtracted)
+        {
+            G4double sphere_radius         = 201.90 * mm;
+            G4double pmt_to_glass_distance =      2 * mm;
+            G4Transform3D sphere_transform(G4RotationMatrix(), G4ThreeVector(0, 0, sphere_radius - pmt_to_glass_distance));
+            gelpad_solid_to_place = new G4IntersectionSolid("gelpad",
+                                                            gelpad_solid_to_place,
+                                                            new G4Orb("gelpad_glass_subtr_solid", sphere_radius),
+                                                            gelpad_offset.inverse() * sphere_transform.inverse());
         }
 
         // from PMT
@@ -449,6 +532,7 @@ void OMConstruction::placeOpticalUnits()
                                                         gelpad_solid_to_place,
                                                         this->_pmt_logical->GetSolid(),
                                                         gelpad_offset.inverse() * PMTOffset);
+
 
         //-----------
         // create and configure logical volume for gelpad
@@ -463,20 +547,30 @@ void OMConstruction::placeOpticalUnits()
         // place gelpad and pmt
         //-----------
 
-        G4VPhysicalVolume* gelpad_placement = new G4PVPlacement(transform3D * gelpad_offset, // 3D transform
+        G4VPhysicalVolume* gelpad_placement = new G4PVPlacement(ouPlacementTransform * gelpad_offset, // 3D transform
                                                                 gelpad_logical,              // logical volume
                                                                 "gelpad",                    // name
                                                                 this->_world_logical,        // mother (logical) volume
                                                                 false,                       // no boolean operations
                                                                 i);                          // its copy number
 
-        G4VPhysicalVolume* pmt_placement = new G4PVPlacement(transform3D * PMTOffset,  // 3D transform
+        G4VPhysicalVolume* pmt_placement = new G4PVPlacement(ouPlacementTransform * PMTOffset,  // 3D transform
                                                              this->_pmt_logical,       // logical volume
                                                              "PMT",                    // name
                                                              this->_world_logical,     // mother (logical) volume
                                                              false,                    // no boolean operations
                                                              i);                       // its copy number
        
+        //-----------
+        // set reflector around gelpad
+        //-----------
+
+        if ( this->getSolidReflector() )
+        {
+            new G4LogicalBorderSurface("gelpadSolidReflectorInside", gelpad_placement, this->_world_phsical, this->_MaterialManager->BuildReflectorSurface());
+            new G4LogicalBorderSurface("gelpadSolidReflectorOutside", this->_world_phsical, gelpad_placement, this->_MaterialManager->BuildReflectorSurface());
+        }
+
         //-----------
         // set reflector surface to pmt
         //-----------
@@ -502,6 +596,7 @@ void OMConstruction::constructGelpad()
     const G4double gelpad_opening_angle = 50 * degree;
     const G4double gelpad_small_radius  = 40 * mm;
     const G4double gelpad_thickness     = 24 * mm;
+    //const G4double gelpad_thickness     = 30 * mm;
     const G4double gelpad_large_radius  = gelpad_small_radius + tan ( gelpad_opening_angle ) * gelpad_thickness;
 
     const G4double gelpad_overflow_max_radius = 25 * cm;
@@ -672,9 +767,9 @@ void OMConstruction::constructPMT()
     // create absorber solid and logical volume (simulate PMT-cascade structures, used to absorb photons)
     //-----------
 
-    G4double tubRadius =  20   * mm;
-    G4double tubHeight =  50   * mm;
-    G4double tubOffset = -16.5 * mm;
+    G4double tubRadius =  20 * mm;
+    G4double tubHeight =  50 * mm;
+    G4double tubOffset = -19 * mm;
 
     G4Tubs* AbsorberTubs =new G4Tubs("Absorber",
                                        0,

@@ -38,4 +38,4 @@
 /gps/ang/minphi    0   degree
 /gps/ang/maxphi    360 degree
 /gps/ang/mintheta  0   degree
-/gps/ang/maxtheta  90  degree  # arctan(detector_radius / light_sphere_radius)
+/gps/ang/maxtheta  0   degree   # arctan(detector_radius / light_sphere_radius)

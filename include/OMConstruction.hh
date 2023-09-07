@@ -56,12 +56,17 @@ class OMConstruction : public G4VUserDetectorConstruction
         G4bool getSubmerge(){return this->_submerge;};
         void   setSubmerge(G4bool val){this->_submerge = val;};
 
+        G4bool getSolidReflector(){return this->_solidReflector;};
+        void   setSolidReflector(G4bool val){this->_solidReflector = val;};
+
+
     private:
 
         OMMaterialManager*                _MaterialManager;
         OMConstructionMessenger*          _ConstructionMessenger;
 
         G4bool                            _submerge;
+        G4bool                            _solidReflector;
 
         G4VPhysicalVolume*                _world_phsical;
         G4LogicalVolume*                  _world_logical;

@@ -4,61 +4,61 @@
 /vis/scene/add/trajectories
 
 /gps/ene/type Mono
-/gps/ene/mono 2.7825 eV
-/gps/position -38.7958 -232.128 -186.042 mm
-/gps/direction -0.247334 0.929568 0.273368
+/gps/ene/mono 2.9165 eV
+/gps/position 168.647 246.138 -31.2159 mm
+/gps/direction -0.589525 -0.741811 -0.319652
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.30626 eV
-/gps/position 282.409 -94.4518 -36.3902 mm
-/gps/direction -0.82667 0.376173 -0.418463
+/gps/ene/mono 3.38898 eV
+/gps/position -201.112 217.69 -46.5316 mm
+/gps/direction 0.75153 -0.55984 -0.348972
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.3774 eV
-/gps/position 157.034 107.398 231.961 mm
-/gps/direction -0.785158 -0.617154 0.0514538
+/gps/ene/mono 3.38166 eV
+/gps/position 245.316 170.155 29.4497 mm
+/gps/direction -0.880908 -0.328027 0.341173
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.27677 eV
-/gps/position 169.157 -221.812 -110.386 mm
-/gps/direction -0.329568 0.93157 -0.153501
+/gps/ene/mono 3.14485 eV
+/gps/position -170.132 81.1372 233.392 mm
+/gps/direction 0.759175 -0.221001 -0.612219
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.53072 eV
-/gps/position -147.395 72.2215 251.115 mm
-/gps/direction 0.665963 -0.587369 -0.459882
+/gps/ene/mono 3.25896 eV
+/gps/position 6.20412 154.426 -257.127 mm
+/gps/direction 0.0320941 -0.861168 0.507307
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.16106 eV
-/gps/position -70.735 141.754 -254.76 mm
-/gps/direction 0.425213 -0.842061 0.331855
+/gps/ene/mono 3.26488 eV
+/gps/position -43.4264 25.6231 -295.732 mm
+/gps/direction 0.243691 -0.555753 0.794829
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.07481 eV
-/gps/position 272.526 -122.271 27.9196 mm
-/gps/direction -0.903713 0.274365 0.328673
+/gps/ene/mono 3.30875 eV
+/gps/position 18.3581 147.475 -260.603 mm
+/gps/direction 0.409974 -0.503227 0.760713
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.18198 eV
-/gps/position 71.7794 223.563 -186.727 mm
-/gps/direction -0.317705 -0.937855 0.139616
+/gps/ene/mono 2.99583 eV
+/gps/position -197.334 -23.1304 -224.776 mm
+/gps/direction 0.933695 0.0580272 0.353337
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 2.63741 eV
-/gps/position 168.33 -241.513 57.7625 mm
-/gps/direction -0.593283 0.759084 0.267969
+/gps/ene/mono 3.22218 eV
+/gps/position 276.007 -1.055 117.554 mm
+/gps/direction -0.97157 -0.235718 -0.0221161
 /run/beamOn 5
 
 /gps/ene/type Mono
-/gps/ene/mono 3.17331 eV
-/gps/position -67.4699 -202.578 -210.737 mm
-/gps/direction 0.684574 0.642015 0.345216
+/gps/ene/mono 2.37276 eV
+/gps/position 124.241 -264.817 -66.6036 mm
+/gps/direction -0.181315 0.956058 -0.230385
 /run/beamOn 5

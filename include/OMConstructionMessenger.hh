@@ -39,6 +39,7 @@ class OMConstructionMessenger: public G4UImessenger
 
         // commands
         G4UIcmdWithABool*     submergeCmd;
+        G4UIcmdWithABool*     solidReflectorCmd;
         G4UIcmdWithAString*   gdmlfileCmd;
 
         G4UIcmdWith3Vector*   OUOrgCmd;

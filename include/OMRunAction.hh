@@ -21,5 +21,8 @@ class OMRunAction : public G4UserRunAction
         void BeginOfRunAction(const G4Run* run);
         void EndOfRunAction(const G4Run* run);
 
+        clock_t startClock;
+        clock_t endClock;
+
 };
 #endif

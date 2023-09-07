@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+ <define>
+ <position name="collar_compensator004_40_v0" unit="mm" x="-25.885543367023836" y="64.60199742695477" z="-120.37374415482454"/>
+ <position name="collar_compensator004_40_v1" unit="mm" x="-26.20576467628816" y="63.535687051658655" z="-120.87097284879522"/>
+ <position name="collar_compensator004_40_v2" unit="mm" x="-25.22623164408404" y="63.35007846272672" z="-120.95752355523351"/>
+ <position name="collar_compensator004_40_v3" unit="mm" x="-24.917314301342262" y="64.37327728507475" z="-120.48039810855747"/>
+ <position name="collar_compensator004_40_v4" unit="mm" x="-25.51252847865884" y="65.65411723998952" z="-119.88313262870982"/>
+ <position name="collar_compensator004_40_v5" unit="mm" x="-24.55789831871515" y="65.38283850245168" z="-120.00963198151828"/>
+ <position name="collar_compensator004_40_v6" unit="mm" x="-25.087480775251127" y="66.68990069185945" z="-119.40013887291265"/>
+ <position name="collar_compensator004_40_v7" unit="mm" x="-24.148712106096962" y="66.37671608904024" z="-119.54617925162346"/>
+ <position name="collar_compensator004_40_v8" unit="mm" x="-24.611267141811915" y="67.70723530167815" z="-118.92574795344805"/>
+ <position name="collar_compensator004_40_v9" unit="mm" x="-23.690584940148387" y="67.35289580423127" z="-119.09097917469428"/>
+ <position name="collar_compensator004_40_v10" unit="mm" x="-24.084858816293174" y="68.70404621498211" z="-118.46092739084189"/>
+ <position name="collar_compensator004_40_v11" unit="mm" x="-23.18444528364417" y="68.30939927478188" z="-118.64495428132473"/>
+ <position name="collar_compensator004_40_v12" unit="mm" x="-23.50932940874735" y="69.67830043539753" z="-118.00662518687238"/>
+ <position name="collar_compensator004_40_v13" unit="mm" x="-22.63131890380528" y="69.24428800428245" z="-118.20900850723581"/>
+ <position name="collar_compensator004_40_v14" unit="mm" x="-22.88585271169918" y="70.62801097093735" z="-117.56376789111967"/>
+ <position name="collar_compensator004_40_v15" unit="mm" x="-22.0323267934293" y="70.15566730180795" z="-117.78402536131573"/>
+ <position name="collar_compensator004_40_v16" unit="mm" x="-22.21570030619512" y="71.55124088647258" z="-117.13325871126779"/>
+ <position name="collar_compensator004_40_v17" unit="mm" x="-21.388682899031874" y="71.04169012179045" z="-117.3708661350578"/>
+ <position name="collar_compensator004_40_v18" unit="mm" x="-21.500238968413196" y="72.44610725411246" z="-116.71597567101196"/>
+ <position name="collar_compensator004_40_v19" unit="mm" x="-20.701691660603828" y="71.9005608073315" z="-116.97036815702516"/>
+ <position name="collar_compensator004_40_v20" unit="mm" x="-20.740927882122293" y="73.3107849934368" z="-116.31276981932882"/>
+ <position name="collar_compensator004_40_v21" unit="mm" x="-19.972745367969573" y="72.7305387293676" z="-116.58334309588015"/>
+ <position name="collar_compensator004_40_v22" unit="mm" x="-19.97274536796941" y="79.8835004257171" z="-131.92291895584142"/>
+ <position name="collar_compensator004_40_v23" unit="mm" x="-20.70169166060367" y="79.05352250368102" z="-132.30994401698644"/>
+ <position name="collar_compensator004_40_v24" unit="mm" x="-21.388682899031735" y="78.19465181813999" z="-132.71044199501907"/>
+ <position name="collar_compensator004_40_v25" unit="mm" x="-22.03232679342914" y="77.30862899815747" z="-133.123601221277"/>
+ <position name="collar_compensator004_40_v26" unit="mm" x="-22.631318903805123" y="76.39724970063199" z="-133.54858436719707"/>
+ <position name="collar_compensator004_40_v27" unit="mm" x="-23.184445283644006" y="75.4623609711314" z="-133.98453014128597"/>
+ <position name="collar_compensator004_40_v28" unit="mm" x="-23.690584940148227" y="74.50585750058082" z="-134.43055503465555"/>
+ <position name="collar_compensator004_40_v29" unit="mm" x="-24.14871210609681" y="73.52967778538975" z="-134.88575511158473"/>
+ <position name="collar_compensator004_40_v30" unit="mm" x="-24.55789831871499" y="72.53580019880123" z="-135.34920784147957"/>
+ <position name="collar_compensator004_40_v31" unit="mm" x="-24.9173143013421" y="71.52623898142429" z="-135.81997396851872"/>
+ <position name="collar_compensator004_40_v32" unit="mm" x="-25.22623164408387" y="70.50304015907625" z="-136.2970994151948"/>
+ <position name="collar_compensator004_40_v33" unit="mm" x="-30.1226498253976" y="79.96273329911065" z="-143.47816712316205"/>
+ <position name="collar_compensator004_40_v34" unit="mm" x="-29.007028651155302" y="77.47400404059616" z="-142.74361314755038"/>
+ <position name="collar_compensator004_40_v35" unit="mm" x="-30.632665406423552" y="78.70215181633705" z="-144.0659859223078"/>
+ <position name="collar_compensator004_40_v36" unit="mm" x="-31.078495168477385" y="77.42173797922074" z="-144.66305270016275"/>
+ <position name="collar_compensator004_40_v37" unit="mm" x="-31.45920494706435" y="76.12417468883052" z="-145.26811639941252"/>
+ <position name="collar_compensator004_40_v38" unit="mm" x="-28.095081040090324" y="74.03501166495185" z="-142.45217414071857"/>
+ <position name="collar_compensator004_40_v39" unit="mm" x="-27.35385974282809" y="76.31869669148807" z="-141.38727432403084"/>
+ <position name="collar_compensator004_40_v40" unit="mm" x="-26.898237133400436" y="77.43531679947577" z="-140.8665858164263"/>
+ <position name="collar_compensator004_40_v41" unit="mm" x="-27.753082094010743" y="75.18448211015853" z="-141.91616726929587"/>
+ <position name="collar_compensator004_40_v42" unit="mm" x="-28.914468080465912" y="82.41388090939802" z="-142.33517822121672"/>
+ <position name="collar_compensator004_40_v43" unit="mm" x="-27.98136163544658" y="79.84009103162889" z="-141.6402886637709"/>
+ <position name="collar_compensator004_40_v44" unit="mm" x="-29.549517080944895" y="81.20084108197855" z="-142.90082798238944"/>
+ <position name="collar_compensator004_40_v45" unit="mm" x="-26.387153702906875" y="78.53204010227356" z="-140.35517534145464"/>
+ <position name="collar_compensator004_40_v46" unit="mm" x="-25.821663241844817" y="79.60660529277226" z="-139.8540973639383"/>
+ <position name="collar_compensator004_40_v47" unit="mm" x="-27.464070830617523" y="84.75464763083161" z="-141.24366077305785"/>
+ <position name="collar_compensator004_40_v48" unit="mm" x="-26.721295715427203" y="82.11127723783504" z="-140.58121714272096"/>
+ <position name="collar_compensator004_40_v49" unit="mm" x="-28.218833466908034" y="83.59931105169144" z="-141.78240306765753"/>
+ <position name="collar_compensator004_40_v50" unit="mm" x="-25.202931721245015" y="80.65679675113557" z="-139.36438504437453"/>
+ <position name="collar_compensator004_40_v51" unit="mm" x="-24.5322348885842" y="81.68044911313277" z="-138.88704810868677"/>
+ <position name="collar_compensator004_40_v52" unit="mm" x="-24.86142895248623" y="88.01623334421717" z="-139.7227583771772"/>
+ <position name="collar_compensator004_40_v53" unit="mm" x="-25.237386419983196" y="84.26853701045756" z="-139.57527039011734"/>
+ <position name="collar_compensator004_40_v54" unit="mm" x="-25.78360800374408" y="86.96542494107074" z="-140.212758382818"/>
+ <position name="collar_compensator004_40_v55" unit="mm" x="-26.651761655193596" y="85.87746982500833" z="-140.72008018516686"/>
+ <position name="collar_compensator004_40_v56" unit="mm" x="-23.040581155698597" y="83.63975304457884" z="-137.97340968080024"/>
+ <position name="collar_compensator004_40_v57" unit="mm" x="-22.222699860033373" y="84.57136477289548" z="-137.53899199745916"/>
+ <position name="collar_compensator004_40_v58" unit="mm" x="-23.81095563735242" y="82.67545173485067" z="-138.42307076629535"/>
+ <position name="collar_compensator004_40_v59" unit="mm" x="-25.40461601743256" y="88.12769317356857" z="-138.89057779646413"/>
+ <position name="collar_compensator004_40_v60" unit="mm" x="-26.34826447819922" y="87.05234777316576" z="-139.3920195918337"/>
+ <position name="collar_compensator004_40_v61" unit="mm" x="-27.23654488286498" y="85.93893770350317" z="-139.91121123398426"/>
+ <position name="collar_compensator004_40_v62" unit="mm" x="-28.067590605287545" y="84.7898026766044" z="-140.44706169728136"/>
+ <position name="collar_compensator004_40_v63" unit="mm" x="-28.839655291879993" y="83.60735747666473" z="-140.99844494936187"/>
+ <position name="collar_compensator004_40_v64" unit="mm" x="-29.551116531385677" y="82.39408688564097" z="-141.56420231737047"/>
+ <position name="collar_compensator004_40_v65" unit="mm" x="-30.200479264201974" y="81.15254046174798" z="-142.14314492278672"/>
+ <position name="collar_compensator004_40_v66" unit="mm" x="-30.786378924087664" y="79.88532718183538" z="-142.7340561797257"/>
+ <position name="collar_compensator004_40_v67" unit="mm" x="-31.30758430565294" y="78.5951099589019" z="-143.33569435146305"/>
+ <position name="collar_compensator004_40_v68" unit="mm" x="-31.763000151605613" y="77.28460004626905" z="-143.94679515981178"/>
+ <position name="collar_compensator004_40_v69" unit="mm" x="-32.15166945431697" y="75.95655134017252" z="-144.56607444186747"/>
+ <position name="collar_compensator004_40_v70" unit="mm" x="-29.40437975723101" y="77.15843421134623" z="-141.78738785664984"/>
+ <position name="collar_compensator004_40_v71" unit="mm" x="-28.213904368095065" y="73.51112683350134" z="-141.26991582040012"/>
+ <position name="collar_compensator004_40_v72" unit="mm" x="-27.87053677787354" y="74.66582766865157" z="-140.73146997809158"/>
+ <position name="collar_compensator004_40_v73" unit="mm" x="-27.469667048345432" y="75.80520568989644" z="-140.2001692812516"/>
+ <position name="collar_compensator004_40_v74" unit="mm" x="-27.01212224887127" y="76.92691014689979" z="-139.67710990276433"/>
+ <position name="collar_compensator004_40_v75" unit="mm" x="-28.36457621467242" y="79.56039716620869" z="-140.66733413619278"/>
+ <position name="collar_compensator004_40_v76" unit="mm" x="-26.49884638009977" y="78.0286267531998" z="-139.16337101213006"/>
+ <position name="collar_compensator004_40_v77" unit="mm" x="-25.930898426317615" y="79.10808246101575" z="-138.66001254893638"/>
+ <position name="collar_compensator004_40_v78" unit="mm" x="-27.086477448755346" y="81.8659845611484" z="-139.5922210773868"/>
+ <position name="collar_compensator004_40_v79" unit="mm" x="-25.309450170566446" y="80.16305015097129" z="-138.168073036004"/>
+ <position name="collar_compensator004_40_v80" unit="mm" x="-24.635783777034828" y="81.19135322705918" z="-137.6885674367199"/>
+ <position name="collar_compensator004_40_v81" unit="mm" x="-25.580820966312025" y="84.05582679730037" z="-138.57108087251783"/>
+ <position name="collar_compensator004_40_v82" unit="mm" x="-23.911289145713454" y="82.19087010736646" z="-137.2224850609774"/>
+ <position name="collar_compensator004_40_v83" unit="mm" x="-23.13746104477089" y="83.15953860129568" z="-136.77078752404472"/>
+ <position name="collar_compensator004_40_v84" unit="mm" x="-22.315896026566893" y="84.09536016425027" z="-136.3344067625724"/>
+ <position name="collar_compensator004_40_v85" unit="mm" x="-20.740927882122126" y="80.8138551212254" z="-132.40315563343998"/>
+ <position name="collar_compensator004_40_v86" unit="mm" x="-21.500238968413033" y="79.94917738190105" z="-132.8063614851231"/>
+ <position name="collar_compensator004_40_v87" unit="mm" x="-22.215700306194943" y="79.05431101426116" z="-133.2236445253789"/>
+ <position name="collar_compensator004_40_v88" unit="mm" x="-22.885852711699005" y="78.13108109872593" z="-133.65415370523078"/>
+ <position name="collar_compensator004_40_v89" unit="mm" x="-23.509329408747185" y="77.1813705631861" z="-134.0970110009835"/>
+ <position name="collar_compensator004_40_v90" unit="mm" x="-24.084858816292993" y="76.20711634277072" z="-134.55131320495303"/>
+ <position name="collar_compensator004_40_v91" unit="mm" x="-24.61126714181175" y="75.21030542946674" z="-135.01613376755915"/>
+ <position name="collar_compensator004_40_v92" unit="mm" x="-25.087480775250967" y="74.19297081964804" z="-135.49052468702376"/>
+ <position name="collar_compensator004_40_v93" unit="mm" x="-25.512528478658673" y="73.15718736777809" z="-135.97351844282093"/>
+ <position name="collar_compensator004_40_v94" unit="mm" x="-25.88554336702367" y="72.10506755474336" z="-136.46412996893565"/>
+ <position name="collar_compensator004_40_v95" unit="mm" x="-26.205764676287995" y="71.03875717944726" z="-136.96135866290632"/>
+ <position name="collar_compensator004_40_v96" unit="mm" x="-19.98199846277658" y="80.09785869840479" z="-132.36436393557543"/>
+ <position name="collar_compensator004_40_v97" unit="mm" x="-20.009735455682254" y="80.32567920397514" z="-132.79822708846092"/>
+ <position name="collar_compensator004_40_v98" unit="mm" x="-20.747405048487153" y="80.96390591210678" z="-132.7121671192538"/>
+ <position name="collar_compensator004_40_v99" unit="mm" x="-20.05588952584102" y="80.56641310287549" z="-133.2234632001607"/>
+ <position name="collar_compensator004_40_v100" unit="mm" x="-20.76682094352112" y="81.12338026600604" z="-133.01587132627364"/>
+ <position name="collar_compensator004_40_v101" unit="mm" x="-20.120349484055268" y="80.81948044605764" z="-133.63904783963534"/>
+ <position name="collar_compensator004_40_v102" unit="mm" x="-20.79912879263225" y="81.29189399523628" z="-133.31353660446345"/>
+ <position name="collar_compensator004_40_v103" unit="mm" x="-20.202960040639617" y="81.08427157212572" z="-134.04397982708747"/>
+ <position name="collar_compensator004_40_v104" unit="mm" x="-20.90207815299126" y="81.65439492371146" z="-133.88789824331224"/>
+ <position name="collar_compensator004_40_v105" unit="mm" x="-20.84425076338222" y="81.46904113546378" z="-133.60444585209572"/>
+ <position name="collar_compensator004_40_v106" unit="mm" x="-20.303522179527416" y="81.36014857606412" z="-134.43728364589145"/>
+ <position name="collar_compensator004_40_v107" unit="mm" x="-20.97247165021273" y="81.84750882646833" z="-134.163210916475"/>
+ <position name="collar_compensator004_40_v108" unit="mm" x="-20.42179363771793" y="81.64644684600637" z="-134.81801179269846"/>
+ <position name="collar_compensator004_40_v109" unit="mm" x="-21.055261670946088" y="82.04791761542788" z="-134.4297206192399"/>
+ <position name="collar_compensator004_40_v110" unit="mm" x="-20.557489488908978" y="81.94247666434339" z="-135.185247060055"/>
+ <position name="collar_compensator004_40_v111" unit="mm" x="-21.2572041054802" y="82.468672231743" z="-134.93378568657613"/>
+ <position name="collar_compensator004_40_v112" unit="mm" x="-21.150248766779832" y="82.25513848826382" z="-134.68678530638948"/>
+ <position name="collar_compensator004_40_v113" unit="mm" x="-20.710282829909513" y="82.24752486931368" z="-135.53810474603594"/>
+ <position name="collar_compensator004_40_v114" unit="mm" x="-21.375870022268085" y="82.6880044243741" z="-135.17012671424934"/>
+ <position name="collar_compensator004_40_v115" unit="mm" x="-20.87980556817793" y="82.56085657307234" z="-135.87573478556908"/>
+ <position name="collar_compensator004_40_v116" unit="mm" x="-21.50596064055606" y="82.91260667569378" z="-135.39523902317242"/>
+ <position name="collar_compensator004_40_v117" unit="mm" x="-21.065649308589308" y="82.88171693210052" z="-136.19732379831638"/>
+ <position name="collar_compensator004_40_v118" unit="mm" x="-21.799135614756718" y="83.37544561590576" z="-135.80963658114132"/>
+ <position name="collar_compensator004_40_v119" unit="mm" x="-21.64716256065005" y="83.14193789920584" z="-135.60858029807565"/>
+ <position name="collar_compensator004_40_v120" unit="mm" x="-21.267366337295" y="83.20933296568916" z="-136.50209704817814"/>
+ <position name="collar_compensator004_40_v121" unit="mm" x="-21.96151368647749" y="83.61256728525117" z="-135.99792351017308"/>
+ <position name="collar_compensator004_40_v122" unit="mm" x="-21.484470700304552" y="83.54291541811763" z="-136.7893203097005"/>
+ <position name="collar_compensator004_40_v123" unit="mm" x="-22.133905592814916" y="83.85273166037123" z="-136.17298748546688"/>
+ <position name="collar_compensator004_40_v124" unit="mm" x="-21.716439374191356" y="83.88166066003963" z="-137.05830163688867"/>
+ <position name="collar_compensator004_40_v125" unit="mm" x="-21.96271352610198" y="84.2247526244968" z="-137.30839303016552"/>
+ <position name="collar_compensator004_40_v126" unit="mm" x="-25.228343680677952" y="70.590781629097" z="-136.48421674884614"/>
+ <position name="collar_compensator004_40_v127" unit="mm" x="-25.234660946206574" y="70.67927623576385" z="-136.67086879973297"/>
+ <position name="collar_compensator004_40_v128" unit="mm" x="-25.25049037907925" y="70.8041457086912" z="-136.9308211919002"/>
+ <position name="collar_compensator004_40_v129" unit="mm" x="-26.21376539860724" y="71.18354607915907" z="-137.26790138361451"/>
+ <position name="collar_compensator004_40_v130" unit="mm" x="-25.2744082782519" y="70.93017702286953" z="-137.18926367567715"/>
+ <position name="collar_compensator004_40_v131" unit="mm" x="-25.306337380683466" y="71.05718915136269" z="-137.44584626072594"/>
+ <position name="collar_compensator004_40_v132" unit="mm" x="-26.237659768576314" y="71.33017777060039" z="-137.57053315924523"/>
+ <position name="collar_compensator004_40_v133" unit="mm" x="-25.346200423332956" y="71.18500106723461" z="-137.70021895670882"/>
+ <position name="collar_compensator004_40_v134" unit="mm" x="-26.2772860907121" y="71.47863350596046" z="-137.86929377815724"/>
+ <position name="collar_compensator004_40_v135" unit="mm" x="-25.393920143159278" y="71.3134317435491" z="-137.95203177328784"/>
+ <position name="collar_compensator004_40_v136" unit="mm" x="-26.332482669531515" y="71.62889453742854" z="-138.16422302870927"/>
+ <position name="collar_compensator004_40_v137" unit="mm" x="-25.449404791268126" y="71.44232924311066" z="-138.20100426964316"/>
+ <position name="collar_compensator004_40_v138" unit="mm" x="-26.403181554696026" y="71.78095298649073" z="-138.45533763142052"/>
+ <position name="collar_compensator004_40_v139" unit="mm" x="-25.51254871947027" y="71.57171761569663" z="-138.44724028642457"/>
+ <position name="collar_compensator004_40_v140" unit="mm" x="-25.583351603140486" y="71.701607664622" z="-138.69076315201292"/>
+ <position name="collar_compensator004_40_v141" unit="mm" x="-25.66182345475785" y="71.8320000457235" z="-138.9315693195316"/>
+ <position name="collar_compensator004_40_v142" unit="mm" x="-26.48955159563429" y="71.93482843042341" z="-138.74259603756315"/>
+ <position name="collar_compensator004_40_v143" unit="mm" x="-26.55722245673342" y="72.04032234868346" z="-138.9353506904153"/>
+ <position name="collar_compensator004_40_v144" unit="mm" x="-25.747974286801448" y="71.96289541483772" z="-139.16965524210403"/>
+ <position name="collar_compensator004_40_v145" unit="mm" x="-26.640353583486807" y="72.15754678421169" z="-139.14561309457687"/>
+ <position name="collar_compensator004_40_v146" unit="mm" x="-25.84181411175038" y="72.0942944278014" z="-139.40501737285368"/>
+ <position name="collar_compensator004_40_v147" unit="mm" x="-26.722671394145866" y="72.26357402242108" z="-139.33226539120793"/>
+ <position name="collar_compensator004_40_v148" unit="mm" x="-25.943352942083717" y="72.22619774045116" z="-139.63765216490398"/>
+ <position name="collar_compensator004_40_v149" unit="mm" x="-26.802690500409092" y="72.3591652616384" z="-139.4976748191493"/>
+ <position name="collar_compensator004_40_v150" unit="mm" x="-26.052698783935174" y="72.35867445586057" z="-139.8676543780281"/>
+ <position name="collar_compensator004_40_v151" unit="mm" x="-26.88794917949203" y="72.45449513421798" z="-139.65993164965624"/>
+ <position name="collar_compensator004_40_v152" unit="mm" x="-26.97844015894778" y="72.54956451994197" z="-139.81904136721565"/>
+ <position name="collar_compensator004_40_v153" unit="mm" x="-26.169870498224146" y="72.49163038861366" z="-140.09481270017145"/>
+ <position name="collar_compensator004_40_v154" unit="mm" x="-26.294390454339833" y="72.62452443455751" z="-140.31820302072487"/>
+ <position name="collar_compensator004_40_v155" unit="mm" x="-27.07415598418084" y="72.64437378993277" z="-139.97500845560174"/>
+ <position name="collar_compensator004_40_v156" unit="mm" x="-26.444976332822108" y="72.77554651023783" z="-140.567573825692"/>
+ <position name="collar_compensator004_40_v157" unit="mm" x="-27.17508920059569" y="72.73892331531289" z="-140.1278373985889"/>
+ <position name="collar_compensator004_40_v158" unit="mm" x="-27.281232353596835" y="72.83321346720473" z="-140.2775326799514"/>
+ <position name="collar_compensator004_40_v159" unit="mm" x="-27.392589056424157" y="72.92724900926802" z="-140.4241027278667"/>
+ <position name="collar_compensator004_40_v160" unit="mm" x="-26.60416670790582" y="72.92553676650957" z="-140.81047511391156"/>
+ <position name="collar_compensator004_40_v161" unit="mm" x="-27.509270595785807" y="73.02105538816483" z="-140.56754705768248"/>
+ <position name="collar_compensator004_40_v162" unit="mm" x="-26.862974979004086" y="73.15203214343924" z="-141.1681597029475"/>
+ <position name="collar_compensator004_40_v163" unit="mm" x="-27.631176239025663" y="73.11452494729127" z="-140.7076846330149"/>
+ <position name="collar_compensator004_40_v164" unit="mm" x="-27.758137440093982" y="73.20751698959927" z="-140.84429711031697"/>
+ <position name="collar_compensator004_40_v165" unit="mm" x="-27.889985652940986" y="73.29989081804072" z="-140.97716614604153"/>
+ <position name="collar_compensator004_40_v166" unit="mm" x="-27.14136238492598" y="73.37623995913683" z="-141.51125251088723"/>
+ <position name="collar_compensator004_40_v167" unit="mm" x="-28.026552331516942" y="73.39150573556752" z="-141.10607339664153"/>
+ <position name="collar_compensator004_40_v168" unit="mm" x="-27.439370497775084" y="73.59815535645538" z="-141.83972255520567"/>
+ <position name="collar_compensator004_40_v169" unit="mm" x="-28.119260158709075" y="73.45153278700701" z="-141.18893787815682"/>
+ <position name="collar_compensator004_40_v170" unit="mm" x="-27.757207297800935" y="73.81775403567181" z="-142.15341483404492"/>
+ <position name="collar_compensator004_40_v171" unit="mm" x="-27.428395079635173" y="74.94768835582987" z="-141.6343591438411"/>
+ <position name="collar_compensator004_40_v172" unit="mm" x="-27.12083268628709" y="74.70862275096943" z="-141.3357594624343"/>
+ <position name="collar_compensator004_40_v173" unit="mm" x="-26.831135858711345" y="74.46786122555895" z="-141.02108757786235"/>
+ <position name="collar_compensator004_40_v174" unit="mm" x="-27.033843284062804" y="76.0686336092763" z="-141.1116537877865"/>
+ <position name="collar_compensator004_40_v175" unit="mm" x="-26.56000250194005" y="74.22598379520134" z="-140.69110156225702"/>
+ <position name="collar_compensator004_40_v176" unit="mm" x="-26.730705112190087" y="75.81699852654589" z="-140.81891535016956"/>
+ <position name="collar_compensator004_40_v177" unit="mm" x="-26.308085799978144" y="73.98357316381234" z="-140.34659638083338"/>
+ <position name="collar_compensator004_40_v178" unit="mm" x="-26.445175513617723" y="75.56439765425175" z="-140.50976424371692"/>
+ <position name="collar_compensator004_40_v179" unit="mm" x="-26.075992642225927" y="73.74121331983561" z="-139.98840197674852"/>
+ <position name="collar_compensator004_40_v180" unit="mm" x="-26.583551064400034" y="77.17219022947455" z="-140.5970568845804"/>
+ <position name="collar_compensator004_40_v181" unit="mm" x="-26.177942354158116" y="75.3114395300205" z="-140.18494524052258"/>
+ <position name="collar_compensator004_40_v182" unit="mm" x="-25.867361173595153" y="73.5031740401928" z="-139.6231425929791"/>
+ <position name="collar_compensator004_40_v183" unit="mm" x="-26.285462147227875" y="76.90818065256329" z="-140.31008876836577"/>
+ <position name="collar_compensator004_40_v184" unit="mm" x="-25.929649421899292" y="75.05873355212987" z="-139.845240858016"/>
+ <position name="collar_compensator004_40_v185" unit="mm" x="-25.673464386680404" y="73.2589799295525" z="-139.23442808705198"/>
+ <position name="collar_compensator004_40_v186" unit="mm" x="-26.00468850419502" y="76.64392409093722" z="-140.0063727991097"/>
+ <position name="collar_compensator004_40_v187" unit="mm" x="-25.70089487626293" y="74.80688851141508" z="-139.49146947380925"/>
+ <position name="collar_compensator004_40_v188" unit="mm" x="-26.07844686722483" y="78.25608281986443" z="-140.09162946906415"/>
+ <position name="collar_compensator004_40_v189" unit="mm" x="-25.503999014712047" y="73.02026812572194" z="-138.84046499058084"/>
+ <position name="collar_compensator004_40_v190" unit="mm" x="-25.74190654360034" y="76.38005716179947" z="-139.6866406551846"/>
+ <position name="collar_compensator004_40_v191" unit="mm" x="-25.495264528197985" y="74.56032286871667" z="-139.13018599842883"/>
+ <position name="collar_compensator004_40_v192" unit="mm" x="-25.78602182704302" y="77.97991924713006" z="-139.81032885417898"/>
+ <position name="collar_compensator004_40_v193" unit="mm" x="-25.36991588061332" y="72.80716935401566" z="-138.47680148585246"/>
+ <position name="collar_compensator004_40_v194" unit="mm" x="-25.49774933020392" y="76.11721554369436" z="-139.35166259933035"/>
+ <position name="collar_compensator004_40_v195" unit="mm" x="-25.30415690649729" y="74.30820457285445" z="-138.7451666007553"/>
+ <position name="collar_compensator004_40_v196" unit="mm" x="-25.510583059896696" y="77.70421468630619" z="-139.5119511746194"/>
+ <position name="collar_compensator004_40_v197" unit="mm" x="-25.230706083479827" y="72.55052830349106" z="-138.02332966598055"/>
+ <position name="collar_compensator004_40_v198" unit="mm" x="-25.272805060118447" y="75.85603244510207" z="-139.00224562302412"/>
+ <position name="collar_compensator004_40_v199" unit="mm" x="-25.51957215459886" y="79.31807652867064" z="-139.59641366973537"/>
+ <position name="collar_compensator004_40_v200" unit="mm" x="-25.137129258887303" y="74.06256704829619" z="-138.35443302089777"/>
+ <position name="collar_compensator004_40_v201" unit="mm" x="-25.252794121901466" y="77.42963333382873" z="-139.19721524835032"/>
+ <position name="collar_compensator004_40_v202" unit="mm" x="-25.127536910824944" y="72.3206319294668" z="-137.60212598842097"/>
+ <position name="collar_compensator004_40_v203" unit="mm" x="-25.070599816833752" y="75.60107270432681" z="-138.64487637986025"/>
+ <position name="collar_compensator004_40_v204" unit="mm" x="-25.2334139354869" y="79.03000451849935" z="-139.32066605042374"/>
+ <position name="collar_compensator004_40_v205" unit="mm" x="-25.00497488296642" y="73.84398855922768" z="-137.99332475033992"/>
+ <position name="collar_compensator004_40_v206" unit="mm" x="-25.01327604918863" y="77.15683668022632" z="-138.86687930178567"/>
+ <position name="collar_compensator004_40_v207" unit="mm" x="-25.06063488058144" y="72.13754256145907" z="-137.25605659032777"/>
+ <position name="collar_compensator004_40_v208" unit="mm" x="-24.882675400505136" y="75.34115314695389" z="-138.26349477017246"/>
+ <position name="collar_compensator004_40_v209" unit="mm" x="-24.963877964723302" y="78.74308325296295" z="-139.02751880617086"/>
+ <position name="collar_compensator004_40_v210" unit="mm" x="-24.86776758999916" y="73.58165827457628" z="-137.54250586391038"/>
+ <position name="collar_compensator004_40_v211" unit="mm" x="-24.79260586177465" y="76.8864819165316" z="-138.52173914315478"/>
+ <position name="collar_compensator004_40_v212" unit="mm" x="-24.90807925670205" y="80.35598165688928" z="-139.11243056000868"/>
+ <position name="collar_compensator004_40_v213" unit="mm" x="-24.990243371224373" y="71.87755616274623" z="-136.74750982238285"/>
+ <position name="collar_compensator004_40_v214" unit="mm" x="-24.7184298674986" y="75.08869733672533" z="-137.87594060913844"/>
+ <position name="collar_compensator004_40_v215" unit="mm" x="-24.711613578070168" y="78.45800395052152" z="-138.7176781543649"/>
+ <position name="collar_compensator004_40_v216" unit="mm" x="-24.766082484574625" y="73.3475455767732" z="-137.1232682904181"/>
+ <position name="collar_compensator004_40_v217" unit="mm" x="-24.59424264534432" y="76.6232776502449" z="-138.1682143853747"/>
+ <position name="collar_compensator004_40_v218" unit="mm" x="-24.62877788133344" y="80.05627132138483" z="-138.84210998092794"/>
+ <position name="collar_compensator004_40_v219" unit="mm" x="-24.588476735649678" y="74.8647241342636" z="-137.5173479347494"/>
+ <position name="collar_compensator004_40_v220" unit="mm" x="-24.95475559822473" y="71.65744974186708" z="-136.30019126996908"/>
+ <position name="collar_compensator004_40_v221" unit="mm" x="-24.47722850253074" y="78.17545339218458" z="-138.39189052827484"/>
+ <position name="collar_compensator004_40_v222" unit="mm" x="-24.700142826211913" y="73.16172205268272" z="-136.7784738502449"/>
+ <position name="collar_compensator004_40_v223" unit="mm" x="-24.40988891117209" y="76.35569584030392" z="-137.79040574273813"/>
+ <position name="collar_compensator004_40_v224" unit="mm" x="-24.365700456616434" y="79.7583877730719" z="-138.55407453308467"/>
+ <position name="collar_compensator004_40_v225" unit="mm" x="-24.453554851229583" y="74.59679286957757" z="-137.0691408282032"/>
+ <position name="collar_compensator004_40_v226" unit="mm" x="-24.261287392281677" y="77.8961122669957" z="-138.0509407788276"/>
+ <position name="collar_compensator004_40_v227" unit="mm" x="-24.24522899587099" y="81.36765817317507" z="-138.64067805288903"/>
+ <position name="collar_compensator004_40_v228" unit="mm" x="-24.630763884171646" y="72.89885888965073" z="-136.2712685395327"/>
+ <position name="collar_compensator004_40_v229" unit="mm" x="-24.248764146639573" y="76.09654323791999" z="-137.40597434717128"/>
+ <position name="collar_compensator004_40_v230" unit="mm" x="-24.11948075910999" y="79.46304863950994" z="-138.24901811910158"/>
+ <position name="collar_compensator004_40_v231" unit="mm" x="-24.353563475081614" y="74.35852925360544" z="-136.65183885964152"/>
+ <position name="collar_compensator004_40_v232" unit="mm" x="-24.067175202998094" y="77.62483004694977" z="-137.70118283274778"/>
+ <position name="collar_compensator004_40_v233" unit="mm" x="-23.973360348959915" y="81.05660362122121" z="-138.37564736881444"/>
+ <position name="collar_compensator004_40_v234" unit="mm" x="-24.121280206065116" y="75.86727144926229" z="-137.04985244410278"/>
+ <position name="collar_compensator004_40_v235" unit="mm" x="-24.595786595453607" y="72.67730215239017" z="-135.8246262807543"/>
+ <position name="collar_compensator004_40_v236" unit="mm" x="-23.890711953631705" y="79.17096541854032" z="-137.92767564659977"/>
+ <position name="collar_compensator004_40_v237" unit="mm" x="-24.288722147977833" y="74.17001398695525" z="-136.30829959963768"/>
+ <position name="collar_compensator004_40_v238" unit="mm" x="-23.88677226546387" y="77.34974079199553" z="-137.32687496921397"/>
+ <position name="collar_compensator004_40_v239" unit="mm" x="-23.717283903234307" y="80.74803481493203" z="-138.09259453859482"/>
+ <position name="collar_compensator004_40_v240" unit="mm" x="-23.98892192234481" y="75.59383900715832" z="-136.60421057871542"/>
+ <position name="collar_compensator004_40_v241" unit="mm" x="-23.67994516427177" y="78.88284176422587" z="-137.59082125774177"/>
+ <position name="collar_compensator004_40_v242" unit="mm" x="-23.532388086940074" y="82.35102012631977" z="-138.18212884339943"/>
+ <position name="collar_compensator004_40_v243" unit="mm" x="-24.22049882400787" y="73.90431868533364" z="-135.8024149368388"/>
+ <position name="collar_compensator004_40_v244" unit="mm" x="-23.729100488639283" y="77.084026698924" z="-136.94550324700367"/>
+ <position name="collar_compensator004_40_v245" unit="mm" x="-23.477616569281537" y="80.44269512358929" z="-137.79220146129074"/>
+ <position name="collar_compensator004_40_v246" unit="mm" x="-23.890830445260413" y="75.35149843730417" z="-136.18880972497087"/>
+ <position name="collar_compensator004_40_v247" unit="mm" x="-23.49048423733786" y="78.60366481790916" z="-137.24474468298098"/>
+ <position name="collar_compensator004_40_v248" unit="mm" x="-23.268512727838626" y="82.02893885716429" z="-137.92224000200025"/>
+ <position name="collar_compensator004_40_v249" unit="mm" x="-23.604348595376383" y="76.84956337629373" z="-136.5918021959842"/>
+ <position name="collar_compensator004_40_v250" unit="mm" x="-24.18610413839251" y="73.68133412968575" z="-135.35643848070887"/>
+ <position name="collar_compensator004_40_v251" unit="mm" x="-23.25493572670149" y="80.14132013725408" z="-137.47519181013666"/>
+ <position name="collar_compensator004_40_v252" unit="mm" x="-23.827221144171187" y="75.16033939165591" z="-135.84650327936032"/>
+ <position name="collar_compensator004_40_v253" unit="mm" x="-23.3144040648717" y="78.3212384049149" z="-136.8738581924304"/>
+ <position name="collar_compensator004_40_v254" unit="mm" x="-23.019965258900893" y="81.70998384937269" z="-137.64403033708032"/>
+ <position name="collar_compensator004_40_v255" unit="mm" x="-23.474826818682534" y="76.57074090213244" z="-136.14867374382285"/>
+ <position name="collar_compensator004_40_v256" unit="mm" x="-23.04977783314851" y="79.84463589466577" z="-137.14232928914907"/>
+ <position name="collar_compensator004_40_v257" unit="mm" x="-22.77102631924543" y="83.30403994622442" z="-137.73772840300435"/>
+ <position name="collar_compensator004_40_v258" unit="mm" x="-23.76029410628427" y="74.89186241669185" z="-135.34191573214352"/>
+ <position name="collar_compensator004_40_v259" unit="mm" x="-23.160510375357624" y="78.04911165160162" z="-136.49547674279992"/>
+ <position name="collar_compensator004_40_v260" unit="mm" x="-22.78734445274974" y="81.39492349349592" z="-137.34817008009082"/>
+ <position name="collar_compensator004_40_v261" unit="mm" x="-23.378837493093034" y="76.3244057488554" z="-135.73513559491957"/>
+ <position name="collar_compensator004_40_v262" unit="mm" x="-22.865358813442402" y="79.55776372751097" z="-136.7998410547963"/>
+ <position name="collar_compensator004_40_v263" unit="mm" x="-22.515688326139916" y="82.97127219483527" z="-137.4828227501095"/>
+ <position name="collar_compensator004_40_v264" unit="mm" x="-23.038747752301425" y="77.80957455151975" z="-136.14414163306188"/>
+ <position name="collar_compensator004_40_v265" unit="mm" x="-23.726552941337488" y="74.6674754846347" z="-134.89659321487284"/>
+ <position name="collar_compensator004_40_v266" unit="mm" x="-22.57121071328237" y="81.08451679752724" z="-137.0353719843051"/>
+ <position name="collar_compensator004_40_v267" unit="mm" x="-23.316591372489505" y="76.13065633891424" z="-135.39403705601617"/>
+ <position name="collar_compensator004_40_v268" unit="mm" x="-22.693964461470202" y="79.26818557175763" z="-136.43228947666344"/>
+ <position name="collar_compensator004_40_v269" unit="mm" x="-22.275182307972386" y="82.64225145707144" z="-137.20930681216055"/>
+ <position name="collar_compensator004_40_v270" unit="mm" x="-22.912329540435827" y="77.5254843042378" z="-135.70346958384815"/>
+ <position name="collar_compensator004_40_v271" unit="mm" x="-22.372084725608236" y="80.77951155838569" z="-136.70638960773374"/>
+ <position name="collar_compensator004_40_v272" unit="mm" x="-23.25109861591759" y="75.85945389131959" z="-134.89072041755907"/>
+ <position name="collar_compensator004_40_v273" unit="mm" x="-22.544166168922857" y="78.98980821075673" z="-136.05682273326585"/>
+ <position name="collar_compensator004_40_v274" unit="mm" x="-22.05008766480647" y="82.31777037270905" z="-136.91783951300928"/>
+ <position name="collar_compensator004_40_v275" unit="mm" x="-22.81864028439751" y="77.27524517433136" z="-135.2917518891444"/>
+ <position name="collar_compensator004_40_v276" unit="mm" x="-22.193087862222217" y="80.48515954241418" z="-136.367389284166"/>
+ <position name="collar_compensator004_40_v277" unit="mm" x="-22.42564387546496" y="78.74532555124257" z="-135.7077937757649"/>
+ <position name="collar_compensator004_40_v278" unit="mm" x="-23.218080541726927" y="75.63369291635705" z="-134.44603862701783"/>
+ <position name="collar_compensator004_40_v279" unit="mm" x="-21.84094666935348" y="81.99861064510155" z="-136.60912302290882"/>
+ <position name="collar_compensator004_40_v280" unit="mm" x="-22.757885688042105" y="77.07896415581172" z="-134.95183385870862"/>
+ <position name="collar_compensator004_40_v281" unit="mm" x="-22.02673272459054" y="80.18862980518716" z="-136.00307928171065"/>
+ <position name="collar_compensator004_40_v282" unit="mm" x="-22.30258988706458" y="78.45610065126998" z="-135.2695160544228"/>
+ <position name="collar_compensator004_40_v283" unit="mm" x="-21.648263160590105" y="81.68554115798779" z="-136.2839010669242"/>
+ <position name="collar_compensator004_40_v284" unit="mm" x="-22.6939622507074" y="76.80509805588406" z="-134.44975930173305"/>
+ <position name="collar_compensator004_40_v285" unit="mm" x="-21.881338694466706" y="79.90417677702874" z="-135.630445668437"/>
+ <position name="collar_compensator004_40_v286" unit="mm" x="-22.211393876176235" y="78.20205620104215" z="-134.85957280972664"/>
+ <position name="collar_compensator004_40_v287" unit="mm" x="-21.47505752280411" y="81.3839400877394" z="-135.94828103288017"/>
+ <position name="collar_compensator004_40_v288" unit="mm" x="-21.766301108841905" y="79.6548869732304" z="-135.28365831912967"/>
+ <position name="collar_compensator004_40_v289" unit="mm" x="-22.66173534643711" y="76.5779942046257" z="-134.00570370469254"/>
+ <position name="collar_compensator004_40_v290" unit="mm" x="-22.152256072493852" y="78.00330754952053" z="-134.5208054554572"/>
+ <position name="collar_compensator004_40_v291" unit="mm" x="-21.314084603126027" y="81.08067326362084" z="-135.58711258563594"/>
+ <position name="collar_compensator004_40_v292" unit="mm" x="-21.646865065933138" y="79.36067112801261" z="-134.84770791377682"/>
+ <position name="collar_compensator004_40_v293" unit="mm" x="-22.09003375657737" y="77.72684510967743" z="-134.01994159166745"/>
+ <position name="collar_compensator004_40_v294" unit="mm" x="-21.173394619840877" y="80.79033203610535" z="-135.21722468481525"/>
+ <position name="collar_compensator004_40_v295" unit="mm" x="-21.558350335032024" y="79.10292785986881" z="-134.439489456201"/>
+ <position name="collar_compensator004_40_v296" unit="mm" x="-21.062078935249627" y="80.53638341490483" z="-134.87260977774048"/>
+ <position name="collar_compensator004_40_v297" unit="mm" x="-22.058664470097717" y="77.4984323175767" z="-133.5764963637657"/>
+ <position name="collar_compensator004_40_v298" unit="mm" x="-21.50095125882201" y="78.90178063887427" z="-134.10184057324537"/>
+ <position name="collar_compensator004_40_v299" unit="mm" x="-20.946507100105062" y="80.23733062259595" z="-134.43891487785828"/>
+ <position name="collar_compensator004_40_v300" unit="mm" x="-21.440558359003898" y="78.62279452486337" z="-133.6021535180467"/>
+ <position name="collar_compensator004_40_v301" unit="mm" x="-20.860856155562427" y="79.97600266544438" z="-134.03236798821888"/>
+ <position name="collar_compensator004_40_v302" unit="mm" x="-21.410111369883897" y="78.39310942624716" z="-133.1593015764167"/>
+ <position name="collar_compensator004_40_v303" unit="mm" x="-20.805314156584267" y="79.772530884058" z="-133.69580306557586"/>
+ <position name="collar_compensator004_40_v304" unit="mm" x="-20.746875195516086" y="79.49109896512941" z="-133.19725650794064"/>
+ <position name="collar_compensator004_40_v305" unit="mm" x="-20.717413281662225" y="79.26018081766237" z="-132.75497954643268"/>
+ <position name="collar_compensator004_40_v306" unit="mm" x="-21.506779786897866" y="80.09695238278692" z="-133.1115093252619"/>
+ <position name="collar_compensator004_40_v307" unit="mm" x="-21.526234348536295" y="80.25244757933298" z="-133.41000161214507"/>
+ <position name="collar_compensator004_40_v308" unit="mm" x="-21.558422605394608" y="80.41555521210277" z="-133.7019308787087"/>
+ <position name="collar_compensator004_40_v309" unit="mm" x="-21.603256823849982" y="80.58622632504148" z="-133.9873498335151"/>
+ <position name="collar_compensator004_40_v310" unit="mm" x="-22.222458782853273" y="79.20181377824365" z="-133.5289193116706"/>
+ <position name="collar_compensator004_40_v311" unit="mm" x="-21.660737185355618" y="80.76446168425485" z="-134.26625979333375"/>
+ <position name="collar_compensator004_40_v312" unit="mm" x="-22.24256073202615" y="79.35649925202648" z="-133.82778917847924"/>
+ <position name="collar_compensator004_40_v313" unit="mm" x="-21.730951179057296" y="80.95031265097404" z="-134.53861364695018"/>
+ <position name="collar_compensator004_40_v314" unit="mm" x="-22.275820114342483" y="79.51826716998949" z="-134.120343164317"/>
+ <position name="collar_compensator004_40_v315" unit="mm" x="-21.826080300776333" y="81.17013547540081" z="-134.83903715332622"/>
+ <position name="collar_compensator004_40_v316" unit="mm" x="-22.32214627667632" y="79.68707222765907" z="-134.406632274986"/>
+ <position name="collar_compensator004_40_v317" unit="mm" x="-21.920469726657583" y="81.36535537627216" z="-135.08802907233172"/>
+ <position name="collar_compensator004_40_v318" unit="mm" x="-22.892815062614165" y="78.27830299702566" z="-133.95955946134123"/>
+ <position name="collar_compensator004_40_v319" unit="mm" x="-22.38153940651906" y="79.86291518358858" z="-134.68665783077725"/>
+ <position name="collar_compensator004_40_v320" unit="mm" x="-22.03541570876881" y="81.58247122401824" z="-135.34702800314284"/>
+ <position name="collar_compensator004_40_v321" unit="mm" x="-22.913523401385753" y="78.43215308319608" z="-134.25881887579112"/>
+ <position name="collar_compensator004_40_v322" unit="mm" x="-22.45408990438418" y="80.0458437576035" z="-134.96037441849185"/>
+ <position name="collar_compensator004_40_v323" unit="mm" x="-22.12846529617267" y="81.74606450581365" z="-135.53060468629758"/>
+ <position name="collar_compensator004_40_v324" unit="mm" x="-22.947786076632653" y="78.59253882295612" z="-134.55201738190985"/>
+ <position name="collar_compensator004_40_v325" unit="mm" x="-22.552384628531527" y="80.2617071910796" z="-135.26264421918984"/>
+ <position name="collar_compensator004_40_v326" unit="mm" x="-22.288316761105392" y="82.00821627110845" z="-135.80546893313866"/>
+ <position name="collar_compensator004_40_v327" unit="mm" x="-22.995509700612907" y="78.75941867915334" z="-134.83920422876886"/>
+ <position name="collar_compensator004_40_v328" unit="mm" x="-22.6499150420554" y="80.45299848804999" z="-135.51346807628016"/>
+ <position name="collar_compensator004_40_v329" unit="mm" x="-23.51648143420089" y="77.32830353984944" z="-134.40255148346563"/>
+ <position name="collar_compensator004_40_v330" unit="mm" x="-22.439650274433134" y="82.23947974052994" z="-136.0294034486307"/>
+ <position name="collar_compensator004_40_v331" unit="mm" x="-23.056694466473683" y="78.93279340254946" z="-135.12038074029255"/>
+ <position name="collar_compensator004_40_v332" unit="mm" x="-22.768686070309354" y="80.66533014276281" z="-135.77469791294084"/>
+ <position name="collar_compensator004_40_v333" unit="mm" x="-22.559950178064174" y="82.414052224327" z="-136.1875445348591"/>
+ <position name="collar_compensator004_40_v334" unit="mm" x="-23.537753927903516" y="77.4812942773317" z="-134.7022116187898"/>
+ <position name="collar_compensator004_40_v335" unit="mm" x="-23.131433501724274" y="79.11270695614671" z="-135.39550325511743"/>
+ <position name="collar_compensator004_40_v336" unit="mm" x="-22.8648320596826" y="80.82505058638124" z="-135.96008053019625"/>
+ <position name="collar_compensator004_40_v337" unit="mm" x="-23.572950017337085" y="77.64025819444578" z="-134.9960731316969"/>
+ <position name="collar_compensator004_40_v338" unit="mm" x="-22.762249124576552" y="82.69264883925885" z="-136.42137844312163"/>
+ <position name="collar_compensator004_40_v339" unit="mm" x="-23.232693356159103" y="79.32448550242044" z="-135.69967787000056"/>
+ <position name="collar_compensator004_40_v340" unit="mm" x="-23.030002886093843" y="81.08054913726312" z="-136.23804722186946"/>
+ <position name="collar_compensator004_40_v341" unit="mm" x="-23.621973770607912" y="77.80515762941687" z="-135.28418346414003"/>
+ <position name="collar_compensator004_40_v342" unit="mm" x="-22.944212633804487" y="82.92998145559802" z="-136.60327297251666"/>
+ <position name="collar_compensator004_40_v343" unit="mm" x="-23.333165843996724" y="79.51172367505993" z="-135.95239173000587"/>
+ <position name="collar_compensator004_40_v344" unit="mm" x="-24.09218592972563" y="76.35375293109976" z="-134.85699189558522"/>
+ <position name="collar_compensator004_40_v345" unit="mm" x="-23.18637230986217" y="81.30551391988526" z="-136.46491886325236"/>
+ <position name="collar_compensator004_40_v346" unit="mm" x="-23.684825386125073" y="77.97599332499155" z="-135.56654394378114"/>
+ <position name="collar_compensator004_40_v347" unit="mm" x="-23.455519684819794" y="79.71911949768682" z="-136.21592318296757"/>
+ <position name="collar_compensator004_40_v348" unit="mm" x="-23.310675421555857" y="81.47507937385589" z="-136.6253947658334"/>
+ <position name="collar_compensator004_40_v349" unit="mm" x="-24.113979193097396" y="76.50586211146026" z="-135.15706310774635"/>
+ <position name="collar_compensator004_40_v350" unit="mm" x="-23.761600528460075" y="78.15280537959342" z="-135.8431127113393"/>
+ <position name="collar_compensator004_40_v351" unit="mm" x="-23.55456598636731" y="79.87484435024015" z="-136.40316897493545"/>
+ <position name="collar_compensator004_40_v352" unit="mm" x="-24.150036914275" y="76.66336746129338" z="-135.45160476174652"/>
+ <position name="collar_compensator004_40_v353" unit="mm" x="-23.519706250216906" y="81.74525605802748" z="-136.86315495229056"/>
+ <position name="collar_compensator004_40_v354" unit="mm" x="-23.86561899365683" y="78.36038187354272" z="-136.14924677540128"/>
+ <position name="collar_compensator004_40_v355" unit="mm" x="-23.724719308271073" y="80.12347880743982" z="-136.68433644605895"/>
+ <position name="collar_compensator004_40_v356" unit="mm" x="-24.20026081286622" y="76.8262352943547" z="-135.7406624457185"/>
+ <position name="collar_compensator004_40_v357" unit="mm" x="-23.70772494124682" y="81.97501512949653" z="-137.04858108365795"/>
+ <position name="collar_compensator004_40_v358" unit="mm" x="-23.968828642117238" y="78.5434506677704" z="-136.40390484848976"/>
+ <position name="collar_compensator004_40_v359" unit="mm" x="-24.618754399571685" y="75.35663876724789" z="-135.3219538662442"/>
+ <position name="collar_compensator004_40_v360" unit="mm" x="-23.885805726959266" y="80.34194526104653" z="-136.91423830802697"/>
+ <position name="collar_compensator004_40_v361" unit="mm" x="-24.264651092137385" y="76.99446634516843" z="-136.02423749115837"/>
+ <position name="collar_compensator004_40_v362" unit="mm" x="-24.094515754787693" y="78.7457690858908" z="-136.6698039340564"/>
+ <position name="collar_compensator004_40_v363" unit="mm" x="-24.013858530454907" y="80.5063449831371" z="-137.07712303094365"/>
+ <position name="collar_compensator004_40_v364" unit="mm" x="-24.64102398524064" y="75.50784597998917" z="-135.62244567281357"/>
+ <position name="collar_compensator004_40_v365" unit="mm" x="-24.34330575861421" y="77.16809674770604" z="-136.3022898874397"/>
+ <position name="collar_compensator004_40_v366" unit="mm" x="-24.196260363526203" y="78.89738374350094" z="-136.85896634140278"/>
+ <position name="collar_compensator004_40_v367" unit="mm" x="-24.677869798421266" y="75.66385899265508" z="-135.91768321506336"/>
+ <position name="collar_compensator004_40_v368" unit="mm" x="-24.229194922781346" y="80.76783485970739" z="-137.3189339423103"/>
+ <position name="collar_compensator004_40_v369" unit="mm" x="-24.449870688859274" y="77.37136259429671" z="-136.61043403937663"/>
+ <position name="collar_compensator004_40_v370" unit="mm" x="-24.371049153134326" y="79.13895722707188" z="-137.14342639860342"/>
+ <position name="collar_compensator004_40_v371" unit="mm" x="-24.729191410665713" y="75.82464818657606" z="-136.207710184385"/>
+ <position name="collar_compensator004_40_v372" unit="mm" x="-24.422885331395523" y="80.98978033638328" z="-137.50800361276742"/>
+ <position name="collar_compensator004_40_v373" unit="mm" x="-24.555607001810984" y="77.55015425948122" z="-136.86708657049286"/>
+ <position name="collar_compensator004_40_v374" unit="mm" x="-25.095112907072092" y="74.33899466314723" z="-135.79648910526262"/>
+ <position name="collar_compensator004_40_v375" unit="mm" x="-24.536524030908076" y="79.3507389627925" z="-137.37644539571434"/>
+ <position name="collar_compensator004_40_v376" unit="mm" x="-24.79498902968293" y="75.99021428786374" z="-136.49252791619753"/>
+ <position name="collar_compensator004_40_v377" unit="mm" x="-24.68437104739747" y="77.74726405604366" z="-137.13541447618042"/>
+ <position name="collar_compensator004_40_v378" unit="mm" x="-24.66806536244665" y="79.50982478646218" z="-137.54180803015933"/>
+ <position name="collar_compensator004_40_v379" unit="mm" x="-25.117813396206767" y="74.4892813373353" z="-136.09741016600898"/>
+ <position name="collar_compensator004_40_v380" unit="mm" x="-24.87536280406861" y="76.16058937424921" z="-136.77209829133028"/>
+ <position name="collar_compensator004_40_v381" unit="mm" x="-24.78860645514474" y="77.89466229757728" z="-137.32654303063327"/>
+ <position name="collar_compensator004_40_v382" unit="mm" x="-25.15537215433536" y="74.64377128657017" z="-136.39335792440053"/>
+ <position name="collar_compensator004_40_v383" unit="mm" x="-24.88926813975481" y="79.76237869533863" z="-137.7877858516946"/>
+ <position name="collar_compensator004_40_v384" unit="mm" x="-24.98425686013157" y="76.35944477001458" z="-137.08229907026296"/>
+ <position name="collar_compensator004_40_v385" unit="mm" x="-24.967674230630344" y="78.12899232843223" z="-137.6143807653069"/>
+ <position name="collar_compensator004_40_v386" unit="mm" x="-25.207686809778263" y="74.80243904350591" z="-136.68437413603468"/>
+ <position name="collar_compensator004_40_v387" unit="mm" x="-25.08823523426459" y="79.97628646312899" z="-137.98060356735908"/>
+ <position name="collar_compensator004_40_v388" unit="mm" x="-25.092304188309566" y="76.53386027873135" z="-137.34099223665336"/>
+ <position name="collar_compensator004_40_v389" unit="mm" x="-25.520289918804213" y="73.30289610447508" z="-136.27962979777482"/>
+ <position name="collar_compensator004_40_v390" unit="mm" x="-25.137200081390738" y="78.33391659088164" z="-137.85059745471972"/>
+ <position name="collar_compensator004_40_v391" unit="mm" x="-25.274757574263514" y="74.9652853256683" z="-136.97046014033407"/>
+ <position name="collar_compensator004_40_v392" unit="mm" x="-25.22388255247441" y="76.72564085967082" z="-137.61180519639785"/>
+ <position name="collar_compensator004_40_v393" unit="mm" x="-25.271961662358443" y="78.48755118728822" z="-138.01850203818384"/>
+ <position name="collar_compensator004_40_v394" unit="mm" x="-25.543375013745212" y="73.45224554661482" z="-136.58098789700279"/>
+ <position name="collar_compensator004_40_v395" unit="mm" x="-25.356686534203554" y="75.13233807103276" z="-137.25157974852797"/>
+ <position name="collar_compensator004_40_v396" unit="mm" x="-25.330396171062393" y="76.86872506337724" z="-137.80494541972712"/>
+ <position name="collar_compensator004_40_v397" unit="mm" x="-25.581570115715138" y="73.6051848124434" z="-136.877658750942"/>
+ <position name="collar_compensator004_40_v398" unit="mm" x="-25.498579681469487" y="78.73093819328908" z="-138.26875445673159"/>
+ <position name="collar_compensator004_40_v399" unit="mm" x="-25.46768762660068" y="75.3266922076229" z="-137.56387949908543"/>
+ <position name="collar_compensator004_40_v400" unit="mm" x="-25.513377723604638" y="77.09564393545455" z="-138.09623903449452"/>
+ <position name="collar_compensator004_40_v401" unit="mm" x="-25.63477111858966" y="73.76169266122088" z="-137.16968214429133"/>
+ <position name="collar_compensator004_40_v402" unit="mm" x="-25.702417668382587" y="78.93660053101294" z="-138.46541707958082"/>
+ <position name="collar_compensator004_40_v403" unit="mm" x="-25.577825607423204" y="75.49664145762083" z="-137.8246553161197"/>
+ <position name="collar_compensator004_40_v404" unit="mm" x="-25.893418286032418" y="72.25045621477832" z="-136.7703905780882"/>
+ <position name="collar_compensator004_40_v405" unit="mm" x="-25.68660879929126" y="77.293551955068" z="-138.33572745167328"/>
+ <position name="collar_compensator004_40_v406" unit="mm" x="-25.702978237684018" y="73.92176980173124" z="-137.45705942054957"/>
+ <position name="collar_compensator004_40_v407" unit="mm" x="-25.71194993602458" y="75.68298309781021" z="-138.0980044955882"/>
+ <position name="collar_compensator004_40_v408" unit="mm" x="-25.82431578337397" y="77.44160911315004" z="-138.506232837341"/>
+ <position name="collar_compensator004_40_v409" unit="mm" x="-25.916840904716697" y="72.39885364285979" z="-137.07219260876224"/>
+ <position name="collar_compensator004_40_v410" unit="mm" x="-25.786295289022203" y="74.08543995712208" z="-137.73975635635256"/>
+ <position name="collar_compensator004_40_v411" unit="mm" x="-25.820524530872984" y="75.82166444042129" z="-138.29319780676403"/>
+ <position name="collar_compensator004_40_v412" unit="mm" x="-25.955594451597698" y="72.55021776792658" z="-137.36959796290137"/>
+ <position name="collar_compensator004_40_v413" unit="mm" x="-26.05588685672054" y="77.67561697699672" z="-138.76085882170213"/>
+ <position name="collar_compensator004_40_v414" unit="mm" x="-25.899177030968065" y="74.27521120650742" z="-138.05419314231003"/>
+ <position name="collar_compensator004_40_v415" unit="mm" x="-26.007046669500717" y="76.04101956272143" z="-138.58801845597688"/>
+ <position name="collar_compensator004_40_v416" unit="mm" x="-26.009573298430904" y="72.70453164250645" z="-137.6626444232208"/>
+ <position name="collar_compensator004_40_v417" unit="mm" x="-26.264180008357123" y="77.87284298003205" z="-138.96145537202347"/>
+ <position name="collar_compensator004_40_v418" unit="mm" x="-26.011181037966196" y="74.44061320447236" z="-138.3170893777909"/>
+ <position name="collar_compensator004_40_v419" unit="mm" x="-26.183629665245007" y="76.231766879565" z="-138.83084596369497"/>
+ <position name="collar_compensator004_40_v420" unit="mm" x="-26.078777663679677" y="72.861795966504" z="-137.95133333735996"/>
+ <position name="collar_compensator004_40_v421" unit="mm" x="-26.147577784366465" y="74.62141727150711" z="-138.593020770029"/>
+ <position name="collar_compensator004_40_v422" unit="mm" x="-26.32400119897736" y="76.37413176344948" z="-139.00400570041336"/>
+ <position name="collar_compensator004_40_v423" unit="mm" x="-26.163312881246654" y="73.0220301817625" z="-138.2356324783596"/>
+ <position name="collar_compensator004_40_v424" unit="mm" x="-26.2579919175329" y="74.7556159093921" z="-138.79030440074786"/>
+ <position name="collar_compensator004_40_v425" unit="mm" x="-26.560053037235487" y="76.59856737462867" z="-139.26309529949916"/>
+ <position name="collar_compensator004_40_v426" unit="mm" x="-26.277845050370107" y="73.20714626271445" z="-138.55224000500763"/>
+ <position name="collar_compensator004_40_v427" unit="mm" x="-26.4476742302478" y="74.96727011718713" z="-139.0887160453692"/>
+ <position name="collar_compensator004_40_v428" unit="mm" x="-26.772376539604906" y="76.78718334426236" z="-139.46770677433264"/>
+ <position name="collar_compensator004_40_v429" unit="mm" x="-26.391486651313567" y="73.36792928945506" z="-138.81729010214315"/>
+ <position name="collar_compensator004_40_v430" unit="mm" x="-26.627249004938513" y="75.15072687558398" z="-139.33494319632325"/>
+ <position name="collar_compensator004_40_v431" unit="mm" x="-26.529877634277835" y="73.54310844481392" z="-139.09584443377216"/>
+ <position name="collar_compensator004_40_v432" unit="mm" x="-26.76999880050476" y="75.287296258794" z="-139.51080541938902"/>
+ <position name="collar_compensator004_40_v433" unit="mm" x="-26.64190611608052" y="73.67275367682063" z="-139.2952513525227"/>
+ <position name="collar_compensator004_40_v434" unit="mm" x="-27.01004997582809" y="75.50198602940667" z="-139.7744395785661"/>
+ <position name="collar_compensator004_40_v435" unit="mm" x="-26.8343617457076" y="73.87658551140181" z="-139.59731062967867"/>
+ <position name="collar_compensator004_40_v436" unit="mm" x="-27.225970795037334" y="75.68183582709312" z="-139.9831387865112"/>
+ <position name="collar_compensator004_40_v437" unit="mm" x="-27.01656205649875" y="74.05263672477278" z="-139.8469910429911"/>
+ <position name="collar_compensator004_40_v438" unit="mm" x="-27.16139897561694" y="74.18331920075806" z="-140.02559837597857"/>
+ <position name="collar_compensator004_40_v439" unit="mm" x="-27.404959903509084" y="74.38810941955205" z="-140.29384877198103"/>
+ <position name="collar_compensator004_40_v440" unit="mm" x="-27.624037668935582" y="74.55905478535807" z="-140.5067001847036"/>
+ </define>
+
+<materials>
+<element name="Vacuum_el"  formula="Hv" Z="1">
+<atom value="1.008"/>
+</element> 
+<material name="Vacuum_ref">
+<D value="0.0000000000000000000001" unit="mg/cm3"/>
+<fraction n="1.0" ref="Vacuum_el"/>
+</material>
+</materials>
+ <solids>
+ <tessellated aunit="deg" lunit="mm" name="collar_compensator004_40_solid">
+ <triangular vertex1="collar_compensator004_40_v0" vertex2="collar_compensator004_40_v1" vertex3="collar_compensator004_40_v2"/>
+ <triangular vertex1="collar_compensator004_40_v0" vertex2="collar_compensator004_40_v2" vertex3="collar_compensator004_40_v3"/>
+ <triangular vertex1="collar_compensator004_40_v4" vertex2="collar_compensator004_40_v3" vertex3="collar_compensator004_40_v5"/>
+ <triangular vertex1="collar_compensator004_40_v4" vertex2="collar_compensator004_40_v0" vertex3="collar_compensator004_40_v3"/>
+ <triangular vertex1="collar_compensator004_40_v6" vertex2="collar_compensator004_40_v5" vertex3="collar_compensator004_40_v7"/>
+ <triangular vertex1="collar_compensator004_40_v6" vertex2="collar_compensator004_40_v4" vertex3="collar_compensator004_40_v5"/>
+ <triangular vertex1="collar_compensator004_40_v8" vertex2="collar_compensator004_40_v7" vertex3="collar_compensator004_40_v9"/>
+ <triangular vertex1="collar_compensator004_40_v8" vertex2="collar_compensator004_40_v6" vertex3="collar_compensator004_40_v7"/>
+ <triangular vertex1="collar_compensator004_40_v10" vertex2="collar_compensator004_40_v9" vertex3="collar_compensator004_40_v11"/>
+ <triangular vertex1="collar_compensator004_40_v10" vertex2="collar_compensator004_40_v8" vertex3="collar_compensator004_40_v9"/>
+ <triangular vertex1="collar_compensator004_40_v12" vertex2="collar_compensator004_40_v11" vertex3="collar_compensator004_40_v13"/>
+ <triangular vertex1="collar_compensator004_40_v12" vertex2="collar_compensator004_40_v10" vertex3="collar_compensator004_40_v11"/>
+ <triangular vertex1="collar_compensator004_40_v14" vertex2="collar_compensator004_40_v13" vertex3="collar_compensator004_40_v15"/>
+ <triangular vertex1="collar_compensator004_40_v14" vertex2="collar_compensator004_40_v12" vertex3="collar_compensator004_40_v13"/>
+ <triangular vertex1="collar_compensator004_40_v16" vertex2="collar_compensator004_40_v15" vertex3="collar_compensator004_40_v17"/>
+ <triangular vertex1="collar_compensator004_40_v16" vertex2="collar_compensator004_40_v14" vertex3="collar_compensator004_40_v15"/>
+ <triangular vertex1="collar_compensator004_40_v18" vertex2="collar_compensator004_40_v17" vertex3="collar_compensator004_40_v19"/>
+ <triangular vertex1="collar_compensator004_40_v18" vertex2="collar_compensator004_40_v16" vertex3="collar_compensator004_40_v17"/>
+ <triangular vertex1="collar_compensator004_40_v20" vertex2="collar_compensator004_40_v19" vertex3="collar_compensator004_40_v21"/>
+ <triangular vertex1="collar_compensator004_40_v20" vertex2="collar_compensator004_40_v18" vertex3="collar_compensator004_40_v19"/>
+ <triangular vertex1="collar_compensator004_40_v22" vertex2="collar_compensator004_40_v21" vertex3="collar_compensator004_40_v23"/>
+ <triangular vertex1="collar_compensator004_40_v23" vertex2="collar_compensator004_40_v19" vertex3="collar_compensator004_40_v24"/>
+ <triangular vertex1="collar_compensator004_40_v21" vertex2="collar_compensator004_40_v19" vertex3="collar_compensator004_40_v23"/>
+ <triangular vertex1="collar_compensator004_40_v24" vertex2="collar_compensator004_40_v17" vertex3="collar_compensator004_40_v25"/>
+ <triangular vertex1="collar_compensator004_40_v19" vertex2="collar_compensator004_40_v17" vertex3="collar_compensator004_40_v24"/>
+ <triangular vertex1="collar_compensator004_40_v25" vertex2="collar_compensator004_40_v15" vertex3="collar_compensator004_40_v26"/>
+ <triangular vertex1="collar_compensator004_40_v17" vertex2="collar_compensator004_40_v15" vertex3="collar_compensator004_40_v25"/>
+ <triangular vertex1="collar_compensator004_40_v26" vertex2="collar_compensator004_40_v13" vertex3="collar_compensator004_40_v27"/>
+ <triangular vertex1="collar_compensator004_40_v15" vertex2="collar_compensator004_40_v13" vertex3="collar_compensator004_40_v26"/>
+ <triangular vertex1="collar_compensator004_40_v27" vertex2="collar_compensator004_40_v11" vertex3="collar_compensator004_40_v28"/>
+ <triangular vertex1="collar_compensator004_40_v13" vertex2="collar_compensator004_40_v11" vertex3="collar_compensator004_40_v27"/>
+ <triangular vertex1="collar_compensator004_40_v28" vertex2="collar_compensator004_40_v9" vertex3="collar_compensator004_40_v29"/>
+ <triangular vertex1="collar_compensator004_40_v11" vertex2="collar_compensator004_40_v9" vertex3="collar_compensator004_40_v28"/>
+ <triangular vertex1="collar_compensator004_40_v29" vertex2="collar_compensator004_40_v7" vertex3="collar_compensator004_40_v30"/>
+ <triangular vertex1="collar_compensator004_40_v9" vertex2="collar_compensator004_40_v7" vertex3="collar_compensator004_40_v29"/>
+ <triangular vertex1="collar_compensator004_40_v30" vertex2="collar_compensator004_40_v5" vertex3="collar_compensator004_40_v31"/>
+ <triangular vertex1="collar_compensator004_40_v7" vertex2="collar_compensator004_40_v5" vertex3="collar_compensator004_40_v30"/>
+ <triangular vertex1="collar_compensator004_40_v5" vertex2="collar_compensator004_40_v3" vertex3="collar_compensator004_40_v31"/>
+ <triangular vertex1="collar_compensator004_40_v31" vertex2="collar_compensator004_40_v2" vertex3="collar_compensator004_40_v32"/>
+ <triangular vertex1="collar_compensator004_40_v3" vertex2="collar_compensator004_40_v2" vertex3="collar_compensator004_40_v31"/>
+ <triangular vertex1="collar_compensator004_40_v33" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v35"/>
+ <triangular vertex1="collar_compensator004_40_v35" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v36"/>
+ <triangular vertex1="collar_compensator004_40_v36" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v37"/>
+ <triangular vertex1="collar_compensator004_40_v37" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v38"/>
+ <triangular vertex1="collar_compensator004_40_v39" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v40"/>
+ <triangular vertex1="collar_compensator004_40_v41" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v39"/>
+ <triangular vertex1="collar_compensator004_40_v38" vertex2="collar_compensator004_40_v34" vertex3="collar_compensator004_40_v41"/>
+ <triangular vertex1="collar_compensator004_40_v42" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v44"/>
+ <triangular vertex1="collar_compensator004_40_v44" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v33"/>
+ <triangular vertex1="collar_compensator004_40_v45" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v46"/>
+ <triangular vertex1="collar_compensator004_40_v40" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v45"/>
+ <triangular vertex1="collar_compensator004_40_v34" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v40"/>
+ <triangular vertex1="collar_compensator004_40_v33" vertex2="collar_compensator004_40_v43" vertex3="collar_compensator004_40_v34"/>
+ <triangular vertex1="collar_compensator004_40_v47" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v49"/>
+ <triangular vertex1="collar_compensator004_40_v49" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v42"/>
+ <triangular vertex1="collar_compensator004_40_v50" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v51"/>
+ <triangular vertex1="collar_compensator004_40_v46" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v50"/>
+ <triangular vertex1="collar_compensator004_40_v43" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v46"/>
+ <triangular vertex1="collar_compensator004_40_v42" vertex2="collar_compensator004_40_v48" vertex3="collar_compensator004_40_v43"/>
+ <triangular vertex1="collar_compensator004_40_v52" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v54"/>
+ <triangular vertex1="collar_compensator004_40_v54" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v55"/>
+ <triangular vertex1="collar_compensator004_40_v55" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v47"/>
+ <triangular vertex1="collar_compensator004_40_v56" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v57"/>
+ <triangular vertex1="collar_compensator004_40_v58" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v56"/>
+ <triangular vertex1="collar_compensator004_40_v51" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v58"/>
+ <triangular vertex1="collar_compensator004_40_v57" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v52"/>
+ <triangular vertex1="collar_compensator004_40_v47" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v48"/>
+ <triangular vertex1="collar_compensator004_40_v48" vertex2="collar_compensator004_40_v53" vertex3="collar_compensator004_40_v51"/>
+ <triangular vertex1="collar_compensator004_40_v54" vertex2="collar_compensator004_40_v59" vertex3="collar_compensator004_40_v52"/>
+ <triangular vertex1="collar_compensator004_40_v60" vertex2="collar_compensator004_40_v59" vertex3="collar_compensator004_40_v54"/>
+ <triangular vertex1="collar_compensator004_40_v55" vertex2="collar_compensator004_40_v60" vertex3="collar_compensator004_40_v54"/>
+ <triangular vertex1="collar_compensator004_40_v61" vertex2="collar_compensator004_40_v60" vertex3="collar_compensator004_40_v55"/>
+ <triangular vertex1="collar_compensator004_40_v47" vertex2="collar_compensator004_40_v61" vertex3="collar_compensator004_40_v55"/>
+ <triangular vertex1="collar_compensator004_40_v62" vertex2="collar_compensator004_40_v61" vertex3="collar_compensator004_40_v47"/>
+ <triangular vertex1="collar_compensator004_40_v49" vertex2="collar_compensator004_40_v62" vertex3="collar_compensator004_40_v47"/>
+ <triangular vertex1="collar_compensator004_40_v63" vertex2="collar_compensator004_40_v62" vertex3="collar_compensator004_40_v49"/>
+ <triangular vertex1="collar_compensator004_40_v42" vertex2="collar_compensator004_40_v63" vertex3="collar_compensator004_40_v49"/>
+ <triangular vertex1="collar_compensator004_40_v64" vertex2="collar_compensator004_40_v63" vertex3="collar_compensator004_40_v42"/>
+ <triangular vertex1="collar_compensator004_40_v44" vertex2="collar_compensator004_40_v64" vertex3="collar_compensator004_40_v42"/>
+ <triangular vertex1="collar_compensator004_40_v65" vertex2="collar_compensator004_40_v64" vertex3="collar_compensator004_40_v44"/>
+ <triangular vertex1="collar_compensator004_40_v33" vertex2="collar_compensator004_40_v65" vertex3="collar_compensator004_40_v44"/>
+ <triangular vertex1="collar_compensator004_40_v66" vertex2="collar_compensator004_40_v65" vertex3="collar_compensator004_40_v33"/>
+ <triangular vertex1="collar_compensator004_40_v35" vertex2="collar_compensator004_40_v66" vertex3="collar_compensator004_40_v33"/>
+ <triangular vertex1="collar_compensator004_40_v67" vertex2="collar_compensator004_40_v66" vertex3="collar_compensator004_40_v35"/>
+ <triangular vertex1="collar_compensator004_40_v36" vertex2="collar_compensator004_40_v67" vertex3="collar_compensator004_40_v35"/>
+ <triangular vertex1="collar_compensator004_40_v68" vertex2="collar_compensator004_40_v67" vertex3="collar_compensator004_40_v36"/>
+ <triangular vertex1="collar_compensator004_40_v37" vertex2="collar_compensator004_40_v68" vertex3="collar_compensator004_40_v36"/>
+ <triangular vertex1="collar_compensator004_40_v69" vertex2="collar_compensator004_40_v68" vertex3="collar_compensator004_40_v37"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v69" vertex3="collar_compensator004_40_v71"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v71" vertex3="collar_compensator004_40_v72"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v72" vertex3="collar_compensator004_40_v73"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v73" vertex3="collar_compensator004_40_v74"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v66" vertex3="collar_compensator004_40_v67"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v67" vertex3="collar_compensator004_40_v68"/>
+ <triangular vertex1="collar_compensator004_40_v70" vertex2="collar_compensator004_40_v68" vertex3="collar_compensator004_40_v69"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v74" vertex3="collar_compensator004_40_v76"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v76" vertex3="collar_compensator004_40_v77"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v64" vertex3="collar_compensator004_40_v65"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v65" vertex3="collar_compensator004_40_v66"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v70" vertex3="collar_compensator004_40_v74"/>
+ <triangular vertex1="collar_compensator004_40_v75" vertex2="collar_compensator004_40_v66" vertex3="collar_compensator004_40_v70"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v77" vertex3="collar_compensator004_40_v79"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v79" vertex3="collar_compensator004_40_v80"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v62" vertex3="collar_compensator004_40_v63"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v63" vertex3="collar_compensator004_40_v64"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v64" vertex3="collar_compensator004_40_v75"/>
+ <triangular vertex1="collar_compensator004_40_v78" vertex2="collar_compensator004_40_v75" vertex3="collar_compensator004_40_v77"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v80" vertex3="collar_compensator004_40_v82"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v82" vertex3="collar_compensator004_40_v83"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v83" vertex3="collar_compensator004_40_v84"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v84" vertex3="collar_compensator004_40_v59"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v59" vertex3="collar_compensator004_40_v60"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v60" vertex3="collar_compensator004_40_v61"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v61" vertex3="collar_compensator004_40_v62"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v78" vertex3="collar_compensator004_40_v80"/>
+ <triangular vertex1="collar_compensator004_40_v81" vertex2="collar_compensator004_40_v62" vertex3="collar_compensator004_40_v78"/>
+ <triangular vertex1="collar_compensator004_40_v18" vertex2="collar_compensator004_40_v20" vertex3="collar_compensator004_40_v85"/>
+ <triangular vertex1="collar_compensator004_40_v18" vertex2="collar_compensator004_40_v85" vertex3="collar_compensator004_40_v86"/>
+ <triangular vertex1="collar_compensator004_40_v16" vertex2="collar_compensator004_40_v86" vertex3="collar_compensator004_40_v87"/>
+ <triangular vertex1="collar_compensator004_40_v16" vertex2="collar_compensator004_40_v18" vertex3="collar_compensator004_40_v86"/>
+ <triangular vertex1="collar_compensator004_40_v14" vertex2="collar_compensator004_40_v87" vertex3="collar_compensator004_40_v88"/>
+ <triangular vertex1="collar_compensator004_40_v14" vertex2="collar_compensator004_40_v88" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v14" vertex2="collar_compensator004_40_v16" vertex3="collar_compensator004_40_v87"/>
+ <triangular vertex1="collar_compensator004_40_v12" vertex2="collar_compensator004_40_v14" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v10" vertex2="collar_compensator004_40_v89" vertex3="collar_compensator004_40_v90"/>
+ <triangular vertex1="collar_compensator004_40_v10" vertex2="collar_compensator004_40_v90" vertex3="collar_compensator004_40_v91"/>
+ <triangular vertex1="collar_compensator004_40_v10" vertex2="collar_compensator004_40_v12" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v8" vertex2="collar_compensator004_40_v10" vertex3="collar_compensator004_40_v91"/>
+ <triangular vertex1="collar_compensator004_40_v6" vertex2="collar_compensator004_40_v91" vertex3="collar_compensator004_40_v92"/>
+ <triangular vertex1="collar_compensator004_40_v6" vertex2="collar_compensator004_40_v92" vertex3="collar_compensator004_40_v93"/>
+ <triangular vertex1="collar_compensator004_40_v6" vertex2="collar_compensator004_40_v8" vertex3="collar_compensator004_40_v91"/>
+ <triangular vertex1="collar_compensator004_40_v4" vertex2="collar_compensator004_40_v93" vertex3="collar_compensator004_40_v94"/>
+ <triangular vertex1="collar_compensator004_40_v4" vertex2="collar_compensator004_40_v6" vertex3="collar_compensator004_40_v93"/>
+ <triangular vertex1="collar_compensator004_40_v0" vertex2="collar_compensator004_40_v4" vertex3="collar_compensator004_40_v94"/>
+ <triangular vertex1="collar_compensator004_40_v1" vertex2="collar_compensator004_40_v94" vertex3="collar_compensator004_40_v95"/>
+ <triangular vertex1="collar_compensator004_40_v1" vertex2="collar_compensator004_40_v0" vertex3="collar_compensator004_40_v94"/>
+ <triangular vertex1="collar_compensator004_40_v22" vertex2="collar_compensator004_40_v85" vertex3="collar_compensator004_40_v20"/>
+ <triangular vertex1="collar_compensator004_40_v22" vertex2="collar_compensator004_40_v20" vertex3="collar_compensator004_40_v21"/>
+ <triangular vertex1="collar_compensator004_40_v96" vertex2="collar_compensator004_40_v85" vertex3="collar_compensator004_40_v22"/>
+ <triangular vertex1="collar_compensator004_40_v97" vertex2="collar_compensator004_40_v98" vertex3="collar_compensator004_40_v85"/>
+ <triangular vertex1="collar_compensator004_40_v97" vertex2="collar_compensator004_40_v85" vertex3="collar_compensator004_40_v96"/>
+ <triangular vertex1="collar_compensator004_40_v99" vertex2="collar_compensator004_40_v100" vertex3="collar_compensator004_40_v98"/>
+ <triangular vertex1="collar_compensator004_40_v99" vertex2="collar_compensator004_40_v98" vertex3="collar_compensator004_40_v97"/>
+ <triangular vertex1="collar_compensator004_40_v101" vertex2="collar_compensator004_40_v102" vertex3="collar_compensator004_40_v100"/>
+ <triangular vertex1="collar_compensator004_40_v101" vertex2="collar_compensator004_40_v100" vertex3="collar_compensator004_40_v99"/>
+ <triangular vertex1="collar_compensator004_40_v103" vertex2="collar_compensator004_40_v104" vertex3="collar_compensator004_40_v105"/>
+ <triangular vertex1="collar_compensator004_40_v103" vertex2="collar_compensator004_40_v105" vertex3="collar_compensator004_40_v102"/>
+ <triangular vertex1="collar_compensator004_40_v103" vertex2="collar_compensator004_40_v102" vertex3="collar_compensator004_40_v101"/>
+ <triangular vertex1="collar_compensator004_40_v106" vertex2="collar_compensator004_40_v107" vertex3="collar_compensator004_40_v104"/>
+ <triangular vertex1="collar_compensator004_40_v106" vertex2="collar_compensator004_40_v104" vertex3="collar_compensator004_40_v103"/>
+ <triangular vertex1="collar_compensator004_40_v108" vertex2="collar_compensator004_40_v109" vertex3="collar_compensator004_40_v107"/>
+ <triangular vertex1="collar_compensator004_40_v108" vertex2="collar_compensator004_40_v107" vertex3="collar_compensator004_40_v106"/>
+ <triangular vertex1="collar_compensator004_40_v110" vertex2="collar_compensator004_40_v111" vertex3="collar_compensator004_40_v112"/>
+ <triangular vertex1="collar_compensator004_40_v110" vertex2="collar_compensator004_40_v112" vertex3="collar_compensator004_40_v109"/>
+ <triangular vertex1="collar_compensator004_40_v110" vertex2="collar_compensator004_40_v109" vertex3="collar_compensator004_40_v108"/>
+ <triangular vertex1="collar_compensator004_40_v113" vertex2="collar_compensator004_40_v114" vertex3="collar_compensator004_40_v111"/>
+ <triangular vertex1="collar_compensator004_40_v113" vertex2="collar_compensator004_40_v111" vertex3="collar_compensator004_40_v110"/>
+ <triangular vertex1="collar_compensator004_40_v115" vertex2="collar_compensator004_40_v116" vertex3="collar_compensator004_40_v114"/>
+ <triangular vertex1="collar_compensator004_40_v115" vertex2="collar_compensator004_40_v114" vertex3="collar_compensator004_40_v113"/>
+ <triangular vertex1="collar_compensator004_40_v117" vertex2="collar_compensator004_40_v116" vertex3="collar_compensator004_40_v115"/>
+ <triangular vertex1="collar_compensator004_40_v117" vertex2="collar_compensator004_40_v118" vertex3="collar_compensator004_40_v119"/>
+ <triangular vertex1="collar_compensator004_40_v117" vertex2="collar_compensator004_40_v119" vertex3="collar_compensator004_40_v116"/>
+ <triangular vertex1="collar_compensator004_40_v120" vertex2="collar_compensator004_40_v121" vertex3="collar_compensator004_40_v118"/>
+ <triangular vertex1="collar_compensator004_40_v120" vertex2="collar_compensator004_40_v118" vertex3="collar_compensator004_40_v117"/>
+ <triangular vertex1="collar_compensator004_40_v122" vertex2="collar_compensator004_40_v121" vertex3="collar_compensator004_40_v120"/>
+ <triangular vertex1="collar_compensator004_40_v122" vertex2="collar_compensator004_40_v123" vertex3="collar_compensator004_40_v121"/>
+ <triangular vertex1="collar_compensator004_40_v124" vertex2="collar_compensator004_40_v123" vertex3="collar_compensator004_40_v122"/>
+ <triangular vertex1="collar_compensator004_40_v124" vertex2="collar_compensator004_40_v84" vertex3="collar_compensator004_40_v123"/>
+ <triangular vertex1="collar_compensator004_40_v125" vertex2="collar_compensator004_40_v84" vertex3="collar_compensator004_40_v124"/>
+ <triangular vertex1="collar_compensator004_40_v57" vertex2="collar_compensator004_40_v84" vertex3="collar_compensator004_40_v125"/>
+ <triangular vertex1="collar_compensator004_40_v57" vertex2="collar_compensator004_40_v59" vertex3="collar_compensator004_40_v84"/>
+ <triangular vertex1="collar_compensator004_40_v52" vertex2="collar_compensator004_40_v59" vertex3="collar_compensator004_40_v57"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v32" vertex3="collar_compensator004_40_v1"/>
+ <triangular vertex1="collar_compensator004_40_v1" vertex2="collar_compensator004_40_v32" vertex3="collar_compensator004_40_v2"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v126" vertex3="collar_compensator004_40_v32"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v127" vertex3="collar_compensator004_40_v126"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v128" vertex3="collar_compensator004_40_v127"/>
+ <triangular vertex1="collar_compensator004_40_v129" vertex2="collar_compensator004_40_v130" vertex3="collar_compensator004_40_v95"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v130" vertex3="collar_compensator004_40_v128"/>
+ <triangular vertex1="collar_compensator004_40_v129" vertex2="collar_compensator004_40_v131" vertex3="collar_compensator004_40_v130"/>
+ <triangular vertex1="collar_compensator004_40_v132" vertex2="collar_compensator004_40_v133" vertex3="collar_compensator004_40_v129"/>
+ <triangular vertex1="collar_compensator004_40_v129" vertex2="collar_compensator004_40_v133" vertex3="collar_compensator004_40_v131"/>
+ <triangular vertex1="collar_compensator004_40_v134" vertex2="collar_compensator004_40_v135" vertex3="collar_compensator004_40_v132"/>
+ <triangular vertex1="collar_compensator004_40_v132" vertex2="collar_compensator004_40_v135" vertex3="collar_compensator004_40_v133"/>
+ <triangular vertex1="collar_compensator004_40_v136" vertex2="collar_compensator004_40_v137" vertex3="collar_compensator004_40_v134"/>
+ <triangular vertex1="collar_compensator004_40_v134" vertex2="collar_compensator004_40_v137" vertex3="collar_compensator004_40_v135"/>
+ <triangular vertex1="collar_compensator004_40_v138" vertex2="collar_compensator004_40_v139" vertex3="collar_compensator004_40_v136"/>
+ <triangular vertex1="collar_compensator004_40_v136" vertex2="collar_compensator004_40_v139" vertex3="collar_compensator004_40_v137"/>
+ <triangular vertex1="collar_compensator004_40_v138" vertex2="collar_compensator004_40_v140" vertex3="collar_compensator004_40_v139"/>
+ <triangular vertex1="collar_compensator004_40_v138" vertex2="collar_compensator004_40_v141" vertex3="collar_compensator004_40_v140"/>
+ <triangular vertex1="collar_compensator004_40_v142" vertex2="collar_compensator004_40_v141" vertex3="collar_compensator004_40_v138"/>
+ <triangular vertex1="collar_compensator004_40_v143" vertex2="collar_compensator004_40_v144" vertex3="collar_compensator004_40_v142"/>
+ <triangular vertex1="collar_compensator004_40_v142" vertex2="collar_compensator004_40_v144" vertex3="collar_compensator004_40_v141"/>
+ <triangular vertex1="collar_compensator004_40_v145" vertex2="collar_compensator004_40_v146" vertex3="collar_compensator004_40_v143"/>
+ <triangular vertex1="collar_compensator004_40_v143" vertex2="collar_compensator004_40_v146" vertex3="collar_compensator004_40_v144"/>
+ <triangular vertex1="collar_compensator004_40_v147" vertex2="collar_compensator004_40_v148" vertex3="collar_compensator004_40_v145"/>
+ <triangular vertex1="collar_compensator004_40_v145" vertex2="collar_compensator004_40_v148" vertex3="collar_compensator004_40_v146"/>
+ <triangular vertex1="collar_compensator004_40_v149" vertex2="collar_compensator004_40_v150" vertex3="collar_compensator004_40_v147"/>
+ <triangular vertex1="collar_compensator004_40_v151" vertex2="collar_compensator004_40_v150" vertex3="collar_compensator004_40_v149"/>
+ <triangular vertex1="collar_compensator004_40_v147" vertex2="collar_compensator004_40_v150" vertex3="collar_compensator004_40_v148"/>
+ <triangular vertex1="collar_compensator004_40_v152" vertex2="collar_compensator004_40_v153" vertex3="collar_compensator004_40_v151"/>
+ <triangular vertex1="collar_compensator004_40_v151" vertex2="collar_compensator004_40_v153" vertex3="collar_compensator004_40_v150"/>
+ <triangular vertex1="collar_compensator004_40_v152" vertex2="collar_compensator004_40_v154" vertex3="collar_compensator004_40_v153"/>
+ <triangular vertex1="collar_compensator004_40_v155" vertex2="collar_compensator004_40_v154" vertex3="collar_compensator004_40_v152"/>
+ <triangular vertex1="collar_compensator004_40_v155" vertex2="collar_compensator004_40_v156" vertex3="collar_compensator004_40_v154"/>
+ <triangular vertex1="collar_compensator004_40_v157" vertex2="collar_compensator004_40_v156" vertex3="collar_compensator004_40_v155"/>
+ <triangular vertex1="collar_compensator004_40_v158" vertex2="collar_compensator004_40_v156" vertex3="collar_compensator004_40_v157"/>
+ <triangular vertex1="collar_compensator004_40_v159" vertex2="collar_compensator004_40_v160" vertex3="collar_compensator004_40_v158"/>
+ <triangular vertex1="collar_compensator004_40_v158" vertex2="collar_compensator004_40_v160" vertex3="collar_compensator004_40_v156"/>
+ <triangular vertex1="collar_compensator004_40_v161" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v159"/>
+ <triangular vertex1="collar_compensator004_40_v163" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v161"/>
+ <triangular vertex1="collar_compensator004_40_v164" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v163"/>
+ <triangular vertex1="collar_compensator004_40_v159" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v160"/>
+ <triangular vertex1="collar_compensator004_40_v165" vertex2="collar_compensator004_40_v166" vertex3="collar_compensator004_40_v164"/>
+ <triangular vertex1="collar_compensator004_40_v167" vertex2="collar_compensator004_40_v166" vertex3="collar_compensator004_40_v165"/>
+ <triangular vertex1="collar_compensator004_40_v164" vertex2="collar_compensator004_40_v166" vertex3="collar_compensator004_40_v162"/>
+ <triangular vertex1="collar_compensator004_40_v167" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v166"/>
+ <triangular vertex1="collar_compensator004_40_v169" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v167"/>
+ <triangular vertex1="collar_compensator004_40_v71" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v169"/>
+ <triangular vertex1="collar_compensator004_40_v71" vertex2="collar_compensator004_40_v170" vertex3="collar_compensator004_40_v168"/>
+ <triangular vertex1="collar_compensator004_40_v37" vertex2="collar_compensator004_40_v38" vertex3="collar_compensator004_40_v69"/>
+ <triangular vertex1="collar_compensator004_40_v69" vertex2="collar_compensator004_40_v38" vertex3="collar_compensator004_40_v71"/>
+ <triangular vertex1="collar_compensator004_40_v71" vertex2="collar_compensator004_40_v38" vertex3="collar_compensator004_40_v170"/>
+ <triangular vertex1="collar_compensator004_40_v41" vertex2="collar_compensator004_40_v170" vertex3="collar_compensator004_40_v38"/>
+ <triangular vertex1="collar_compensator004_40_v31" vertex2="collar_compensator004_40_v32" vertex3="collar_compensator004_40_v126"/>
+ <triangular vertex1="collar_compensator004_40_v22" vertex2="collar_compensator004_40_v23" vertex3="collar_compensator004_40_v96"/>
+ <triangular vertex1="collar_compensator004_40_v171" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v170"/>
+ <triangular vertex1="collar_compensator004_40_v171" vertex2="collar_compensator004_40_v170" vertex3="collar_compensator004_40_v41"/>
+ <triangular vertex1="collar_compensator004_40_v172" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v171"/>
+ <triangular vertex1="collar_compensator004_40_v173" vertex2="collar_compensator004_40_v166" vertex3="collar_compensator004_40_v168"/>
+ <triangular vertex1="collar_compensator004_40_v173" vertex2="collar_compensator004_40_v168" vertex3="collar_compensator004_40_v172"/>
+ <triangular vertex1="collar_compensator004_40_v174" vertex2="collar_compensator004_40_v41" vertex3="collar_compensator004_40_v39"/>
+ <triangular vertex1="collar_compensator004_40_v174" vertex2="collar_compensator004_40_v171" vertex3="collar_compensator004_40_v41"/>
+ <triangular vertex1="collar_compensator004_40_v175" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v166"/>
+ <triangular vertex1="collar_compensator004_40_v175" vertex2="collar_compensator004_40_v166" vertex3="collar_compensator004_40_v173"/>
+ <triangular vertex1="collar_compensator004_40_v176" vertex2="collar_compensator004_40_v171" vertex3="collar_compensator004_40_v174"/>
+ <triangular vertex1="collar_compensator004_40_v176" vertex2="collar_compensator004_40_v172" vertex3="collar_compensator004_40_v171"/>
+ <triangular vertex1="collar_compensator004_40_v177" vertex2="collar_compensator004_40_v160" vertex3="collar_compensator004_40_v162"/>
+ <triangular vertex1="collar_compensator004_40_v177" vertex2="collar_compensator004_40_v156" vertex3="collar_compensator004_40_v160"/>
+ <triangular vertex1="collar_compensator004_40_v177" vertex2="collar_compensator004_40_v162" vertex3="collar_compensator004_40_v175"/>
+ <triangular vertex1="collar_compensator004_40_v178" vertex2="collar_compensator004_40_v173" vertex3="collar_compensator004_40_v172"/>
+ <triangular vertex1="collar_compensator004_40_v178" vertex2="collar_compensator004_40_v172" vertex3="collar_compensator004_40_v176"/>
+ <triangular vertex1="collar_compensator004_40_v179" vertex2="collar_compensator004_40_v154" vertex3="collar_compensator004_40_v156"/>
+ <triangular vertex1="collar_compensator004_40_v179" vertex2="collar_compensator004_40_v156" vertex3="collar_compensator004_40_v177"/>
+ <triangular vertex1="collar_compensator004_40_v180" vertex2="collar_compensator004_40_v174" vertex3="collar_compensator004_40_v39"/>
+ <triangular vertex1="collar_compensator004_40_v180" vertex2="collar_compensator004_40_v39" vertex3="collar_compensator004_40_v40"/>
+ <triangular vertex1="collar_compensator004_40_v181" vertex2="collar_compensator004_40_v175" vertex3="collar_compensator004_40_v173"/>
+ <triangular vertex1="collar_compensator004_40_v181" vertex2="collar_compensator004_40_v173" vertex3="collar_compensator004_40_v178"/>
+ <triangular vertex1="collar_compensator004_40_v182" vertex2="collar_compensator004_40_v153" vertex3="collar_compensator004_40_v154"/>
+ <triangular vertex1="collar_compensator004_40_v182" vertex2="collar_compensator004_40_v150" vertex3="collar_compensator004_40_v153"/>
+ <triangular vertex1="collar_compensator004_40_v182" vertex2="collar_compensator004_40_v154" vertex3="collar_compensator004_40_v179"/>
+ <triangular vertex1="collar_compensator004_40_v183" vertex2="collar_compensator004_40_v176" vertex3="collar_compensator004_40_v174"/>
+ <triangular vertex1="collar_compensator004_40_v183" vertex2="collar_compensator004_40_v174" vertex3="collar_compensator004_40_v180"/>
+ <triangular vertex1="collar_compensator004_40_v184" vertex2="collar_compensator004_40_v175" vertex3="collar_compensator004_40_v181"/>
+ <triangular vertex1="collar_compensator004_40_v184" vertex2="collar_compensator004_40_v177" vertex3="collar_compensator004_40_v175"/>
+ <triangular vertex1="collar_compensator004_40_v185" vertex2="collar_compensator004_40_v150" vertex3="collar_compensator004_40_v182"/>
+ <triangular vertex1="collar_compensator004_40_v185" vertex2="collar_compensator004_40_v148" vertex3="collar_compensator004_40_v150"/>
+ <triangular vertex1="collar_compensator004_40_v185" vertex2="collar_compensator004_40_v146" vertex3="collar_compensator004_40_v148"/>
+ <triangular vertex1="collar_compensator004_40_v186" vertex2="collar_compensator004_40_v176" vertex3="collar_compensator004_40_v183"/>
+ <triangular vertex1="collar_compensator004_40_v186" vertex2="collar_compensator004_40_v178" vertex3="collar_compensator004_40_v176"/>
+ <triangular vertex1="collar_compensator004_40_v187" vertex2="collar_compensator004_40_v179" vertex3="collar_compensator004_40_v177"/>
+ <triangular vertex1="collar_compensator004_40_v187" vertex2="collar_compensator004_40_v177" vertex3="collar_compensator004_40_v184"/>
+ <triangular vertex1="collar_compensator004_40_v188" vertex2="collar_compensator004_40_v180" vertex3="collar_compensator004_40_v40"/>
+ <triangular vertex1="collar_compensator004_40_v188" vertex2="collar_compensator004_40_v40" vertex3="collar_compensator004_40_v45"/>
+ <triangular vertex1="collar_compensator004_40_v189" vertex2="collar_compensator004_40_v144" vertex3="collar_compensator004_40_v146"/>
+ <triangular vertex1="collar_compensator004_40_v189" vertex2="collar_compensator004_40_v146" vertex3="collar_compensator004_40_v185"/>
+ <triangular vertex1="collar_compensator004_40_v190" vertex2="collar_compensator004_40_v178" vertex3="collar_compensator004_40_v186"/>
+ <triangular vertex1="collar_compensator004_40_v190" vertex2="collar_compensator004_40_v181" vertex3="collar_compensator004_40_v178"/>
+ <triangular vertex1="collar_compensator004_40_v191" vertex2="collar_compensator004_40_v179" vertex3="collar_compensator004_40_v187"/>
+ <triangular vertex1="collar_compensator004_40_v191" vertex2="collar_compensator004_40_v182" vertex3="collar_compensator004_40_v179"/>
+ <triangular vertex1="collar_compensator004_40_v192" vertex2="collar_compensator004_40_v180" vertex3="collar_compensator004_40_v188"/>
+ <triangular vertex1="collar_compensator004_40_v192" vertex2="collar_compensator004_40_v183" vertex3="collar_compensator004_40_v180"/>
+ <triangular vertex1="collar_compensator004_40_v193" vertex2="collar_compensator004_40_v141" vertex3="collar_compensator004_40_v144"/>
+ <triangular vertex1="collar_compensator004_40_v193" vertex2="collar_compensator004_40_v140" vertex3="collar_compensator004_40_v141"/>
+ <triangular vertex1="collar_compensator004_40_v193" vertex2="collar_compensator004_40_v144" vertex3="collar_compensator004_40_v189"/>
+ <triangular vertex1="collar_compensator004_40_v194" vertex2="collar_compensator004_40_v184" vertex3="collar_compensator004_40_v181"/>
+ <triangular vertex1="collar_compensator004_40_v194" vertex2="collar_compensator004_40_v181" vertex3="collar_compensator004_40_v190"/>
+ <triangular vertex1="collar_compensator004_40_v195" vertex2="collar_compensator004_40_v185" vertex3="collar_compensator004_40_v182"/>
+ <triangular vertex1="collar_compensator004_40_v195" vertex2="collar_compensator004_40_v182" vertex3="collar_compensator004_40_v191"/>
+ <triangular vertex1="collar_compensator004_40_v196" vertex2="collar_compensator004_40_v183" vertex3="collar_compensator004_40_v192"/>
+ <triangular vertex1="collar_compensator004_40_v196" vertex2="collar_compensator004_40_v186" vertex3="collar_compensator004_40_v183"/>
+ <triangular vertex1="collar_compensator004_40_v197" vertex2="collar_compensator004_40_v139" vertex3="collar_compensator004_40_v140"/>
+ <triangular vertex1="collar_compensator004_40_v197" vertex2="collar_compensator004_40_v137" vertex3="collar_compensator004_40_v139"/>
+ <triangular vertex1="collar_compensator004_40_v197" vertex2="collar_compensator004_40_v140" vertex3="collar_compensator004_40_v193"/>
+ <triangular vertex1="collar_compensator004_40_v198" vertex2="collar_compensator004_40_v187" vertex3="collar_compensator004_40_v184"/>
+ <triangular vertex1="collar_compensator004_40_v198" vertex2="collar_compensator004_40_v184" vertex3="collar_compensator004_40_v194"/>
+ <triangular vertex1="collar_compensator004_40_v199" vertex2="collar_compensator004_40_v188" vertex3="collar_compensator004_40_v45"/>
+ <triangular vertex1="collar_compensator004_40_v199" vertex2="collar_compensator004_40_v45" vertex3="collar_compensator004_40_v46"/>
+ <triangular vertex1="collar_compensator004_40_v200" vertex2="collar_compensator004_40_v189" vertex3="collar_compensator004_40_v185"/>
+ <triangular vertex1="collar_compensator004_40_v200" vertex2="collar_compensator004_40_v185" vertex3="collar_compensator004_40_v195"/>
+ <triangular vertex1="collar_compensator004_40_v201" vertex2="collar_compensator004_40_v186" vertex3="collar_compensator004_40_v196"/>
+ <triangular vertex1="collar_compensator004_40_v201" vertex2="collar_compensator004_40_v194" vertex3="collar_compensator004_40_v190"/>
+ <triangular vertex1="collar_compensator004_40_v201" vertex2="collar_compensator004_40_v190" vertex3="collar_compensator004_40_v186"/>
+ <triangular vertex1="collar_compensator004_40_v202" vertex2="collar_compensator004_40_v135" vertex3="collar_compensator004_40_v137"/>
+ <triangular vertex1="collar_compensator004_40_v202" vertex2="collar_compensator004_40_v137" vertex3="collar_compensator004_40_v197"/>
+ <triangular vertex1="collar_compensator004_40_v203" vertex2="collar_compensator004_40_v191" vertex3="collar_compensator004_40_v187"/>
+ <triangular vertex1="collar_compensator004_40_v203" vertex2="collar_compensator004_40_v195" vertex3="collar_compensator004_40_v191"/>
+ <triangular vertex1="collar_compensator004_40_v203" vertex2="collar_compensator004_40_v187" vertex3="collar_compensator004_40_v198"/>
+ <triangular vertex1="collar_compensator004_40_v204" vertex2="collar_compensator004_40_v188" vertex3="collar_compensator004_40_v199"/>
+ <triangular vertex1="collar_compensator004_40_v204" vertex2="collar_compensator004_40_v192" vertex3="collar_compensator004_40_v188"/>
+ <triangular vertex1="collar_compensator004_40_v204" vertex2="collar_compensator004_40_v196" vertex3="collar_compensator004_40_v192"/>
+ <triangular vertex1="collar_compensator004_40_v205" vertex2="collar_compensator004_40_v189" vertex3="collar_compensator004_40_v200"/>
+ <triangular vertex1="collar_compensator004_40_v205" vertex2="collar_compensator004_40_v193" vertex3="collar_compensator004_40_v189"/>
+ <triangular vertex1="collar_compensator004_40_v206" vertex2="collar_compensator004_40_v198" vertex3="collar_compensator004_40_v194"/>
+ <triangular vertex1="collar_compensator004_40_v206" vertex2="collar_compensator004_40_v194" vertex3="collar_compensator004_40_v201"/>
+ <triangular vertex1="collar_compensator004_40_v207" vertex2="collar_compensator004_40_v133" vertex3="collar_compensator004_40_v135"/>
+ <triangular vertex1="collar_compensator004_40_v207" vertex2="collar_compensator004_40_v131" vertex3="collar_compensator004_40_v133"/>
+ <triangular vertex1="collar_compensator004_40_v207" vertex2="collar_compensator004_40_v135" vertex3="collar_compensator004_40_v202"/>
+ <triangular vertex1="collar_compensator004_40_v208" vertex2="collar_compensator004_40_v195" vertex3="collar_compensator004_40_v203"/>
+ <triangular vertex1="collar_compensator004_40_v208" vertex2="collar_compensator004_40_v200" vertex3="collar_compensator004_40_v195"/>
+ <triangular vertex1="collar_compensator004_40_v209" vertex2="collar_compensator004_40_v196" vertex3="collar_compensator004_40_v204"/>
+ <triangular vertex1="collar_compensator004_40_v210" vertex2="collar_compensator004_40_v193" vertex3="collar_compensator004_40_v205"/>
+ <triangular vertex1="collar_compensator004_40_v210" vertex2="collar_compensator004_40_v197" vertex3="collar_compensator004_40_v193"/>
+ <triangular vertex1="collar_compensator004_40_v211" vertex2="collar_compensator004_40_v198" vertex3="collar_compensator004_40_v206"/>
+ <triangular vertex1="collar_compensator004_40_v212" vertex2="collar_compensator004_40_v199" vertex3="collar_compensator004_40_v46"/>
+ <triangular vertex1="collar_compensator004_40_v212" vertex2="collar_compensator004_40_v50" vertex3="collar_compensator004_40_v51"/>
+ <triangular vertex1="collar_compensator004_40_v212" vertex2="collar_compensator004_40_v46" vertex3="collar_compensator004_40_v50"/>
+ <triangular vertex1="collar_compensator004_40_v213" vertex2="collar_compensator004_40_v131" vertex3="collar_compensator004_40_v207"/>
+ <triangular vertex1="collar_compensator004_40_v213" vertex2="collar_compensator004_40_v130" vertex3="collar_compensator004_40_v131"/>
+ <triangular vertex1="collar_compensator004_40_v213" vertex2="collar_compensator004_40_v128" vertex3="collar_compensator004_40_v130"/>
+ <triangular vertex1="collar_compensator004_40_v214" vertex2="collar_compensator004_40_v200" vertex3="collar_compensator004_40_v208"/>
+ <triangular vertex1="collar_compensator004_40_v215" vertex2="collar_compensator004_40_v196" vertex3="collar_compensator004_40_v209"/>
+ <triangular vertex1="collar_compensator004_40_v215" vertex2="collar_compensator004_40_v201" vertex3="collar_compensator004_40_v196"/>
+ <triangular vertex1="collar_compensator004_40_v216" vertex2="collar_compensator004_40_v202" vertex3="collar_compensator004_40_v197"/>
+ <triangular vertex1="collar_compensator004_40_v216" vertex2="collar_compensator004_40_v197" vertex3="collar_compensator004_40_v210"/>
+ <triangular vertex1="collar_compensator004_40_v217" vertex2="collar_compensator004_40_v198" vertex3="collar_compensator004_40_v211"/>
+ <triangular vertex1="collar_compensator004_40_v217" vertex2="collar_compensator004_40_v203" vertex3="collar_compensator004_40_v198"/>
+ <triangular vertex1="collar_compensator004_40_v218" vertex2="collar_compensator004_40_v199" vertex3="collar_compensator004_40_v212"/>
+ <triangular vertex1="collar_compensator004_40_v218" vertex2="collar_compensator004_40_v204" vertex3="collar_compensator004_40_v199"/>
+ <triangular vertex1="collar_compensator004_40_v219" vertex2="collar_compensator004_40_v200" vertex3="collar_compensator004_40_v214"/>
+ <triangular vertex1="collar_compensator004_40_v219" vertex2="collar_compensator004_40_v205" vertex3="collar_compensator004_40_v200"/>
+ <triangular vertex1="collar_compensator004_40_v220" vertex2="collar_compensator004_40_v31" vertex3="collar_compensator004_40_v126"/>
+ <triangular vertex1="collar_compensator004_40_v220" vertex2="collar_compensator004_40_v128" vertex3="collar_compensator004_40_v213"/>
+ <triangular vertex1="collar_compensator004_40_v220" vertex2="collar_compensator004_40_v127" vertex3="collar_compensator004_40_v128"/>
+ <triangular vertex1="collar_compensator004_40_v220" vertex2="collar_compensator004_40_v126" vertex3="collar_compensator004_40_v127"/>
+ <triangular vertex1="collar_compensator004_40_v221" vertex2="collar_compensator004_40_v206" vertex3="collar_compensator004_40_v201"/>
+ <triangular vertex1="collar_compensator004_40_v221" vertex2="collar_compensator004_40_v201" vertex3="collar_compensator004_40_v215"/>
+ <triangular vertex1="collar_compensator004_40_v222" vertex2="collar_compensator004_40_v202" vertex3="collar_compensator004_40_v216"/>
+ <triangular vertex1="collar_compensator004_40_v222" vertex2="collar_compensator004_40_v207" vertex3="collar_compensator004_40_v202"/>
+ <triangular vertex1="collar_compensator004_40_v222" vertex2="collar_compensator004_40_v213" vertex3="collar_compensator004_40_v207"/>
+ <triangular vertex1="collar_compensator004_40_v223" vertex2="collar_compensator004_40_v208" vertex3="collar_compensator004_40_v203"/>
+ <triangular vertex1="collar_compensator004_40_v223" vertex2="collar_compensator004_40_v203" vertex3="collar_compensator004_40_v217"/>
+ <triangular vertex1="collar_compensator004_40_v224" vertex2="collar_compensator004_40_v209" vertex3="collar_compensator004_40_v204"/>
+ <triangular vertex1="collar_compensator004_40_v224" vertex2="collar_compensator004_40_v204" vertex3="collar_compensator004_40_v218"/>
+ <triangular vertex1="collar_compensator004_40_v225" vertex2="collar_compensator004_40_v210" vertex3="collar_compensator004_40_v205"/>
+ <triangular vertex1="collar_compensator004_40_v225" vertex2="collar_compensator004_40_v205" vertex3="collar_compensator004_40_v219"/>
+ <triangular vertex1="collar_compensator004_40_v225" vertex2="collar_compensator004_40_v216" vertex3="collar_compensator004_40_v210"/>
+ <triangular vertex1="collar_compensator004_40_v226" vertex2="collar_compensator004_40_v211" vertex3="collar_compensator004_40_v206"/>
+ <triangular vertex1="collar_compensator004_40_v226" vertex2="collar_compensator004_40_v217" vertex3="collar_compensator004_40_v211"/>
+ <triangular vertex1="collar_compensator004_40_v226" vertex2="collar_compensator004_40_v206" vertex3="collar_compensator004_40_v221"/>
+ <triangular vertex1="collar_compensator004_40_v227" vertex2="collar_compensator004_40_v212" vertex3="collar_compensator004_40_v51"/>
+ <triangular vertex1="collar_compensator004_40_v228" vertex2="collar_compensator004_40_v213" vertex3="collar_compensator004_40_v222"/>
+ <triangular vertex1="collar_compensator004_40_v228" vertex2="collar_compensator004_40_v220" vertex3="collar_compensator004_40_v213"/>
+ <triangular vertex1="collar_compensator004_40_v229" vertex2="collar_compensator004_40_v214" vertex3="collar_compensator004_40_v208"/>
+ <triangular vertex1="collar_compensator004_40_v229" vertex2="collar_compensator004_40_v208" vertex3="collar_compensator004_40_v223"/>
+ <triangular vertex1="collar_compensator004_40_v230" vertex2="collar_compensator004_40_v215" vertex3="collar_compensator004_40_v209"/>
+ <triangular vertex1="collar_compensator004_40_v230" vertex2="collar_compensator004_40_v209" vertex3="collar_compensator004_40_v224"/>
+ <triangular vertex1="collar_compensator004_40_v231" vertex2="collar_compensator004_40_v216" vertex3="collar_compensator004_40_v225"/>
+ <triangular vertex1="collar_compensator004_40_v232" vertex2="collar_compensator004_40_v217" vertex3="collar_compensator004_40_v226"/>
+ <triangular vertex1="collar_compensator004_40_v233" vertex2="collar_compensator004_40_v212" vertex3="collar_compensator004_40_v227"/>
+ <triangular vertex1="collar_compensator004_40_v233" vertex2="collar_compensator004_40_v218" vertex3="collar_compensator004_40_v212"/>
+ <triangular vertex1="collar_compensator004_40_v233" vertex2="collar_compensator004_40_v224" vertex3="collar_compensator004_40_v218"/>
+ <triangular vertex1="collar_compensator004_40_v234" vertex2="collar_compensator004_40_v219" vertex3="collar_compensator004_40_v214"/>
+ <triangular vertex1="collar_compensator004_40_v234" vertex2="collar_compensator004_40_v214" vertex3="collar_compensator004_40_v229"/>
+ <triangular vertex1="collar_compensator004_40_v235" vertex2="collar_compensator004_40_v30" vertex3="collar_compensator004_40_v31"/>
+ <triangular vertex1="collar_compensator004_40_v235" vertex2="collar_compensator004_40_v31" vertex3="collar_compensator004_40_v220"/>
+ <triangular vertex1="collar_compensator004_40_v235" vertex2="collar_compensator004_40_v220" vertex3="collar_compensator004_40_v228"/>
+ <triangular vertex1="collar_compensator004_40_v236" vertex2="collar_compensator004_40_v221" vertex3="collar_compensator004_40_v215"/>
+ <triangular vertex1="collar_compensator004_40_v236" vertex2="collar_compensator004_40_v215" vertex3="collar_compensator004_40_v230"/>
+ <triangular vertex1="collar_compensator004_40_v237" vertex2="collar_compensator004_40_v222" vertex3="collar_compensator004_40_v216"/>
+ <triangular vertex1="collar_compensator004_40_v237" vertex2="collar_compensator004_40_v216" vertex3="collar_compensator004_40_v231"/>
+ <triangular vertex1="collar_compensator004_40_v238" vertex2="collar_compensator004_40_v223" vertex3="collar_compensator004_40_v217"/>
+ <triangular vertex1="collar_compensator004_40_v238" vertex2="collar_compensator004_40_v217" vertex3="collar_compensator004_40_v232"/>
+ <triangular vertex1="collar_compensator004_40_v238" vertex2="collar_compensator004_40_v229" vertex3="collar_compensator004_40_v223"/>
+ <triangular vertex1="collar_compensator004_40_v239" vertex2="collar_compensator004_40_v224" vertex3="collar_compensator004_40_v233"/>
+ <triangular vertex1="collar_compensator004_40_v239" vertex2="collar_compensator004_40_v230" vertex3="collar_compensator004_40_v224"/>
+ <triangular vertex1="collar_compensator004_40_v240" vertex2="collar_compensator004_40_v219" vertex3="collar_compensator004_40_v234"/>
+ <triangular vertex1="collar_compensator004_40_v240" vertex2="collar_compensator004_40_v225" vertex3="collar_compensator004_40_v219"/>
+ <triangular vertex1="collar_compensator004_40_v241" vertex2="collar_compensator004_40_v226" vertex3="collar_compensator004_40_v221"/>
+ <triangular vertex1="collar_compensator004_40_v241" vertex2="collar_compensator004_40_v221" vertex3="collar_compensator004_40_v236"/>
+ <triangular vertex1="collar_compensator004_40_v242" vertex2="collar_compensator004_40_v51" vertex3="collar_compensator004_40_v58"/>
+ <triangular vertex1="collar_compensator004_40_v242" vertex2="collar_compensator004_40_v227" vertex3="collar_compensator004_40_v51"/>
+ <triangular vertex1="collar_compensator004_40_v243" vertex2="collar_compensator004_40_v222" vertex3="collar_compensator004_40_v237"/>
+ <triangular vertex1="collar_compensator004_40_v243" vertex2="collar_compensator004_40_v228" vertex3="collar_compensator004_40_v222"/>
+ <triangular vertex1="collar_compensator004_40_v244" vertex2="collar_compensator004_40_v234" vertex3="collar_compensator004_40_v229"/>
+ <triangular vertex1="collar_compensator004_40_v244" vertex2="collar_compensator004_40_v229" vertex3="collar_compensator004_40_v238"/>
+ <triangular vertex1="collar_compensator004_40_v245" vertex2="collar_compensator004_40_v230" vertex3="collar_compensator004_40_v239"/>
+ <triangular vertex1="collar_compensator004_40_v246" vertex2="collar_compensator004_40_v225" vertex3="collar_compensator004_40_v240"/>
+ <triangular vertex1="collar_compensator004_40_v246" vertex2="collar_compensator004_40_v237" vertex3="collar_compensator004_40_v231"/>
+ <triangular vertex1="collar_compensator004_40_v246" vertex2="collar_compensator004_40_v231" vertex3="collar_compensator004_40_v225"/>
+ <triangular vertex1="collar_compensator004_40_v247" vertex2="collar_compensator004_40_v238" vertex3="collar_compensator004_40_v232"/>
+ <triangular vertex1="collar_compensator004_40_v247" vertex2="collar_compensator004_40_v226" vertex3="collar_compensator004_40_v241"/>
+ <triangular vertex1="collar_compensator004_40_v247" vertex2="collar_compensator004_40_v232" vertex3="collar_compensator004_40_v226"/>
+ <triangular vertex1="collar_compensator004_40_v248" vertex2="collar_compensator004_40_v227" vertex3="collar_compensator004_40_v242"/>
+ <triangular vertex1="collar_compensator004_40_v248" vertex2="collar_compensator004_40_v233" vertex3="collar_compensator004_40_v227"/>
+ <triangular vertex1="collar_compensator004_40_v249" vertex2="collar_compensator004_40_v234" vertex3="collar_compensator004_40_v244"/>
+ <triangular vertex1="collar_compensator004_40_v250" vertex2="collar_compensator004_40_v235" vertex3="collar_compensator004_40_v228"/>
+ <triangular vertex1="collar_compensator004_40_v250" vertex2="collar_compensator004_40_v29" vertex3="collar_compensator004_40_v30"/>
+ <triangular vertex1="collar_compensator004_40_v250" vertex2="collar_compensator004_40_v228" vertex3="collar_compensator004_40_v243"/>
+ <triangular vertex1="collar_compensator004_40_v250" vertex2="collar_compensator004_40_v30" vertex3="collar_compensator004_40_v235"/>
+ <triangular vertex1="collar_compensator004_40_v251" vertex2="collar_compensator004_40_v236" vertex3="collar_compensator004_40_v230"/>
+ <triangular vertex1="collar_compensator004_40_v251" vertex2="collar_compensator004_40_v230" vertex3="collar_compensator004_40_v245"/>
+ <triangular vertex1="collar_compensator004_40_v252" vertex2="collar_compensator004_40_v237" vertex3="collar_compensator004_40_v246"/>
+ <triangular vertex1="collar_compensator004_40_v253" vertex2="collar_compensator004_40_v238" vertex3="collar_compensator004_40_v247"/>
+ <triangular vertex1="collar_compensator004_40_v254" vertex2="collar_compensator004_40_v239" vertex3="collar_compensator004_40_v233"/>
+ <triangular vertex1="collar_compensator004_40_v254" vertex2="collar_compensator004_40_v233" vertex3="collar_compensator004_40_v248"/>
+ <triangular vertex1="collar_compensator004_40_v255" vertex2="collar_compensator004_40_v234" vertex3="collar_compensator004_40_v249"/>
+ <triangular vertex1="collar_compensator004_40_v255" vertex2="collar_compensator004_40_v240" vertex3="collar_compensator004_40_v234"/>
+ <triangular vertex1="collar_compensator004_40_v256" vertex2="collar_compensator004_40_v241" vertex3="collar_compensator004_40_v236"/>
+ <triangular vertex1="collar_compensator004_40_v256" vertex2="collar_compensator004_40_v247" vertex3="collar_compensator004_40_v241"/>
+ <triangular vertex1="collar_compensator004_40_v256" vertex2="collar_compensator004_40_v236" vertex3="collar_compensator004_40_v251"/>
+ <triangular vertex1="collar_compensator004_40_v257" vertex2="collar_compensator004_40_v57" vertex3="collar_compensator004_40_v125"/>
+ <triangular vertex1="collar_compensator004_40_v257" vertex2="collar_compensator004_40_v242" vertex3="collar_compensator004_40_v58"/>
+ <triangular vertex1="collar_compensator004_40_v257" vertex2="collar_compensator004_40_v56" vertex3="collar_compensator004_40_v57"/>
+ <triangular vertex1="collar_compensator004_40_v257" vertex2="collar_compensator004_40_v58" vertex3="collar_compensator004_40_v56"/>
+ <triangular vertex1="collar_compensator004_40_v257" vertex2="collar_compensator004_40_v248" vertex3="collar_compensator004_40_v242"/>
+ <triangular vertex1="collar_compensator004_40_v258" vertex2="collar_compensator004_40_v243" vertex3="collar_compensator004_40_v237"/>
+ <triangular vertex1="collar_compensator004_40_v258" vertex2="collar_compensator004_40_v250" vertex3="collar_compensator004_40_v243"/>
+ <triangular vertex1="collar_compensator004_40_v258" vertex2="collar_compensator004_40_v237" vertex3="collar_compensator004_40_v252"/>
+ <triangular vertex1="collar_compensator004_40_v259" vertex2="collar_compensator004_40_v244" vertex3="collar_compensator004_40_v238"/>
+ <triangular vertex1="collar_compensator004_40_v259" vertex2="collar_compensator004_40_v249" vertex3="collar_compensator004_40_v244"/>
+ <triangular vertex1="collar_compensator004_40_v259" vertex2="collar_compensator004_40_v238" vertex3="collar_compensator004_40_v253"/>
+ <triangular vertex1="collar_compensator004_40_v260" vertex2="collar_compensator004_40_v239" vertex3="collar_compensator004_40_v254"/>
+ <triangular vertex1="collar_compensator004_40_v260" vertex2="collar_compensator004_40_v245" vertex3="collar_compensator004_40_v239"/>
+ <triangular vertex1="collar_compensator004_40_v261" vertex2="collar_compensator004_40_v240" vertex3="collar_compensator004_40_v255"/>
+ <triangular vertex1="collar_compensator004_40_v261" vertex2="collar_compensator004_40_v246" vertex3="collar_compensator004_40_v240"/>
+ <triangular vertex1="collar_compensator004_40_v262" vertex2="collar_compensator004_40_v247" vertex3="collar_compensator004_40_v256"/>
+ <triangular vertex1="collar_compensator004_40_v263" vertex2="collar_compensator004_40_v125" vertex3="collar_compensator004_40_v124"/>
+ <triangular vertex1="collar_compensator004_40_v263" vertex2="collar_compensator004_40_v257" vertex3="collar_compensator004_40_v125"/>
+ <triangular vertex1="collar_compensator004_40_v263" vertex2="collar_compensator004_40_v248" vertex3="collar_compensator004_40_v257"/>
+ <triangular vertex1="collar_compensator004_40_v264" vertex2="collar_compensator004_40_v255" vertex3="collar_compensator004_40_v249"/>
+ <triangular vertex1="collar_compensator004_40_v264" vertex2="collar_compensator004_40_v249" vertex3="collar_compensator004_40_v259"/>
+ <triangular vertex1="collar_compensator004_40_v265" vertex2="collar_compensator004_40_v29" vertex3="collar_compensator004_40_v250"/>
+ <triangular vertex1="collar_compensator004_40_v265" vertex2="collar_compensator004_40_v28" vertex3="collar_compensator004_40_v29"/>
+ <triangular vertex1="collar_compensator004_40_v265" vertex2="collar_compensator004_40_v250" vertex3="collar_compensator004_40_v258"/>
+ <triangular vertex1="collar_compensator004_40_v266" vertex2="collar_compensator004_40_v251" vertex3="collar_compensator004_40_v245"/>
+ <triangular vertex1="collar_compensator004_40_v266" vertex2="collar_compensator004_40_v245" vertex3="collar_compensator004_40_v260"/>
+ <triangular vertex1="collar_compensator004_40_v267" vertex2="collar_compensator004_40_v246" vertex3="collar_compensator004_40_v261"/>
+ <triangular vertex1="collar_compensator004_40_v267" vertex2="collar_compensator004_40_v252" vertex3="collar_compensator004_40_v246"/>
+ <triangular vertex1="collar_compensator004_40_v268" vertex2="collar_compensator004_40_v253" vertex3="collar_compensator004_40_v247"/>
+ <triangular vertex1="collar_compensator004_40_v268" vertex2="collar_compensator004_40_v247" vertex3="collar_compensator004_40_v262"/>
+ <triangular vertex1="collar_compensator004_40_v269" vertex2="collar_compensator004_40_v124" vertex3="collar_compensator004_40_v122"/>
+ <triangular vertex1="collar_compensator004_40_v269" vertex2="collar_compensator004_40_v254" vertex3="collar_compensator004_40_v248"/>
+ <triangular vertex1="collar_compensator004_40_v269" vertex2="collar_compensator004_40_v263" vertex3="collar_compensator004_40_v124"/>
+ <triangular vertex1="collar_compensator004_40_v269" vertex2="collar_compensator004_40_v248" vertex3="collar_compensator004_40_v263"/>
+ <triangular vertex1="collar_compensator004_40_v270" vertex2="collar_compensator004_40_v255" vertex3="collar_compensator004_40_v264"/>
+ <triangular vertex1="collar_compensator004_40_v271" vertex2="collar_compensator004_40_v251" vertex3="collar_compensator004_40_v266"/>
+ <triangular vertex1="collar_compensator004_40_v271" vertex2="collar_compensator004_40_v256" vertex3="collar_compensator004_40_v251"/>
+ <triangular vertex1="collar_compensator004_40_v272" vertex2="collar_compensator004_40_v252" vertex3="collar_compensator004_40_v267"/>
+ <triangular vertex1="collar_compensator004_40_v272" vertex2="collar_compensator004_40_v258" vertex3="collar_compensator004_40_v252"/>
+ <triangular vertex1="collar_compensator004_40_v273" vertex2="collar_compensator004_40_v259" vertex3="collar_compensator004_40_v253"/>
+ <triangular vertex1="collar_compensator004_40_v273" vertex2="collar_compensator004_40_v253" vertex3="collar_compensator004_40_v268"/>
+ <triangular vertex1="collar_compensator004_40_v274" vertex2="collar_compensator004_40_v122" vertex3="collar_compensator004_40_v120"/>
+ <triangular vertex1="collar_compensator004_40_v274" vertex2="collar_compensator004_40_v260" vertex3="collar_compensator004_40_v254"/>
+ <triangular vertex1="collar_compensator004_40_v274" vertex2="collar_compensator004_40_v254" vertex3="collar_compensator004_40_v269"/>
+ <triangular vertex1="collar_compensator004_40_v274" vertex2="collar_compensator004_40_v269" vertex3="collar_compensator004_40_v122"/>
+ <triangular vertex1="collar_compensator004_40_v275" vertex2="collar_compensator004_40_v255" vertex3="collar_compensator004_40_v270"/>
+ <triangular vertex1="collar_compensator004_40_v275" vertex2="collar_compensator004_40_v261" vertex3="collar_compensator004_40_v255"/>
+ <triangular vertex1="collar_compensator004_40_v275" vertex2="collar_compensator004_40_v267" vertex3="collar_compensator004_40_v261"/>
+ <triangular vertex1="collar_compensator004_40_v276" vertex2="collar_compensator004_40_v256" vertex3="collar_compensator004_40_v271"/>
+ <triangular vertex1="collar_compensator004_40_v276" vertex2="collar_compensator004_40_v262" vertex3="collar_compensator004_40_v256"/>
+ <triangular vertex1="collar_compensator004_40_v277" vertex2="collar_compensator004_40_v259" vertex3="collar_compensator004_40_v273"/>
+ <triangular vertex1="collar_compensator004_40_v277" vertex2="collar_compensator004_40_v264" vertex3="collar_compensator004_40_v259"/>
+ <triangular vertex1="collar_compensator004_40_v278" vertex2="collar_compensator004_40_v258" vertex3="collar_compensator004_40_v272"/>
+ <triangular vertex1="collar_compensator004_40_v278" vertex2="collar_compensator004_40_v27" vertex3="collar_compensator004_40_v28"/>
+ <triangular vertex1="collar_compensator004_40_v278" vertex2="collar_compensator004_40_v28" vertex3="collar_compensator004_40_v265"/>
+ <triangular vertex1="collar_compensator004_40_v278" vertex2="collar_compensator004_40_v265" vertex3="collar_compensator004_40_v258"/>
+ <triangular vertex1="collar_compensator004_40_v279" vertex2="collar_compensator004_40_v120" vertex3="collar_compensator004_40_v117"/>
+ <triangular vertex1="collar_compensator004_40_v279" vertex2="collar_compensator004_40_v274" vertex3="collar_compensator004_40_v120"/>
+ <triangular vertex1="collar_compensator004_40_v279" vertex2="collar_compensator004_40_v260" vertex3="collar_compensator004_40_v274"/>
+ <triangular vertex1="collar_compensator004_40_v279" vertex2="collar_compensator004_40_v271" vertex3="collar_compensator004_40_v266"/>
+ <triangular vertex1="collar_compensator004_40_v279" vertex2="collar_compensator004_40_v266" vertex3="collar_compensator004_40_v260"/>
+ <triangular vertex1="collar_compensator004_40_v280" vertex2="collar_compensator004_40_v267" vertex3="collar_compensator004_40_v275"/>
+ <triangular vertex1="collar_compensator004_40_v281" vertex2="collar_compensator004_40_v262" vertex3="collar_compensator004_40_v276"/>
+ <triangular vertex1="collar_compensator004_40_v281" vertex2="collar_compensator004_40_v273" vertex3="collar_compensator004_40_v268"/>
+ <triangular vertex1="collar_compensator004_40_v281" vertex2="collar_compensator004_40_v268" vertex3="collar_compensator004_40_v262"/>
+ <triangular vertex1="collar_compensator004_40_v282" vertex2="collar_compensator004_40_v270" vertex3="collar_compensator004_40_v264"/>
+ <triangular vertex1="collar_compensator004_40_v282" vertex2="collar_compensator004_40_v275" vertex3="collar_compensator004_40_v270"/>
+ <triangular vertex1="collar_compensator004_40_v282" vertex2="collar_compensator004_40_v264" vertex3="collar_compensator004_40_v277"/>
+ <triangular vertex1="collar_compensator004_40_v283" vertex2="collar_compensator004_40_v271" vertex3="collar_compensator004_40_v279"/>
+ <triangular vertex1="collar_compensator004_40_v283" vertex2="collar_compensator004_40_v117" vertex3="collar_compensator004_40_v115"/>
+ <triangular vertex1="collar_compensator004_40_v283" vertex2="collar_compensator004_40_v279" vertex3="collar_compensator004_40_v117"/>
+ <triangular vertex1="collar_compensator004_40_v283" vertex2="collar_compensator004_40_v276" vertex3="collar_compensator004_40_v271"/>
+ <triangular vertex1="collar_compensator004_40_v284" vertex2="collar_compensator004_40_v278" vertex3="collar_compensator004_40_v272"/>
+ <triangular vertex1="collar_compensator004_40_v284" vertex2="collar_compensator004_40_v267" vertex3="collar_compensator004_40_v280"/>
+ <triangular vertex1="collar_compensator004_40_v284" vertex2="collar_compensator004_40_v272" vertex3="collar_compensator004_40_v267"/>
+ <triangular vertex1="collar_compensator004_40_v285" vertex2="collar_compensator004_40_v273" vertex3="collar_compensator004_40_v281"/>
+ <triangular vertex1="collar_compensator004_40_v286" vertex2="collar_compensator004_40_v275" vertex3="collar_compensator004_40_v282"/>
+ <triangular vertex1="collar_compensator004_40_v287" vertex2="collar_compensator004_40_v115" vertex3="collar_compensator004_40_v113"/>
+ <triangular vertex1="collar_compensator004_40_v287" vertex2="collar_compensator004_40_v283" vertex3="collar_compensator004_40_v115"/>
+ <triangular vertex1="collar_compensator004_40_v287" vertex2="collar_compensator004_40_v276" vertex3="collar_compensator004_40_v283"/>
+ <triangular vertex1="collar_compensator004_40_v288" vertex2="collar_compensator004_40_v273" vertex3="collar_compensator004_40_v285"/>
+ <triangular vertex1="collar_compensator004_40_v288" vertex2="collar_compensator004_40_v277" vertex3="collar_compensator004_40_v273"/>
+ <triangular vertex1="collar_compensator004_40_v289" vertex2="collar_compensator004_40_v26" vertex3="collar_compensator004_40_v27"/>
+ <triangular vertex1="collar_compensator004_40_v289" vertex2="collar_compensator004_40_v278" vertex3="collar_compensator004_40_v284"/>
+ <triangular vertex1="collar_compensator004_40_v289" vertex2="collar_compensator004_40_v27" vertex3="collar_compensator004_40_v278"/>
+ <triangular vertex1="collar_compensator004_40_v290" vertex2="collar_compensator004_40_v275" vertex3="collar_compensator004_40_v286"/>
+ <triangular vertex1="collar_compensator004_40_v290" vertex2="collar_compensator004_40_v280" vertex3="collar_compensator004_40_v275"/>
+ <triangular vertex1="collar_compensator004_40_v290" vertex2="collar_compensator004_40_v284" vertex3="collar_compensator004_40_v280"/>
+ <triangular vertex1="collar_compensator004_40_v291" vertex2="collar_compensator004_40_v113" vertex3="collar_compensator004_40_v110"/>
+ <triangular vertex1="collar_compensator004_40_v291" vertex2="collar_compensator004_40_v281" vertex3="collar_compensator004_40_v276"/>
+ <triangular vertex1="collar_compensator004_40_v291" vertex2="collar_compensator004_40_v285" vertex3="collar_compensator004_40_v281"/>
+ <triangular vertex1="collar_compensator004_40_v291" vertex2="collar_compensator004_40_v276" vertex3="collar_compensator004_40_v287"/>
+ <triangular vertex1="collar_compensator004_40_v291" vertex2="collar_compensator004_40_v287" vertex3="collar_compensator004_40_v113"/>
+ <triangular vertex1="collar_compensator004_40_v292" vertex2="collar_compensator004_40_v282" vertex3="collar_compensator004_40_v277"/>
+ <triangular vertex1="collar_compensator004_40_v292" vertex2="collar_compensator004_40_v277" vertex3="collar_compensator004_40_v288"/>
+ <triangular vertex1="collar_compensator004_40_v293" vertex2="collar_compensator004_40_v284" vertex3="collar_compensator004_40_v290"/>
+ <triangular vertex1="collar_compensator004_40_v294" vertex2="collar_compensator004_40_v110" vertex3="collar_compensator004_40_v108"/>
+ <triangular vertex1="collar_compensator004_40_v294" vertex2="collar_compensator004_40_v291" vertex3="collar_compensator004_40_v110"/>
+ <triangular vertex1="collar_compensator004_40_v294" vertex2="collar_compensator004_40_v288" vertex3="collar_compensator004_40_v285"/>
+ <triangular vertex1="collar_compensator004_40_v294" vertex2="collar_compensator004_40_v285" vertex3="collar_compensator004_40_v291"/>
+ <triangular vertex1="collar_compensator004_40_v295" vertex2="collar_compensator004_40_v282" vertex3="collar_compensator004_40_v292"/>
+ <triangular vertex1="collar_compensator004_40_v295" vertex2="collar_compensator004_40_v286" vertex3="collar_compensator004_40_v282"/>
+ <triangular vertex1="collar_compensator004_40_v296" vertex2="collar_compensator004_40_v108" vertex3="collar_compensator004_40_v106"/>
+ <triangular vertex1="collar_compensator004_40_v296" vertex2="collar_compensator004_40_v294" vertex3="collar_compensator004_40_v108"/>
+ <triangular vertex1="collar_compensator004_40_v296" vertex2="collar_compensator004_40_v288" vertex3="collar_compensator004_40_v294"/>
+ <triangular vertex1="collar_compensator004_40_v297" vertex2="collar_compensator004_40_v25" vertex3="collar_compensator004_40_v26"/>
+ <triangular vertex1="collar_compensator004_40_v297" vertex2="collar_compensator004_40_v26" vertex3="collar_compensator004_40_v289"/>
+ <triangular vertex1="collar_compensator004_40_v297" vertex2="collar_compensator004_40_v289" vertex3="collar_compensator004_40_v284"/>
+ <triangular vertex1="collar_compensator004_40_v297" vertex2="collar_compensator004_40_v284" vertex3="collar_compensator004_40_v293"/>
+ <triangular vertex1="collar_compensator004_40_v298" vertex2="collar_compensator004_40_v290" vertex3="collar_compensator004_40_v286"/>
+ <triangular vertex1="collar_compensator004_40_v298" vertex2="collar_compensator004_40_v286" vertex3="collar_compensator004_40_v295"/>
+ <triangular vertex1="collar_compensator004_40_v299" vertex2="collar_compensator004_40_v106" vertex3="collar_compensator004_40_v103"/>
+ <triangular vertex1="collar_compensator004_40_v299" vertex2="collar_compensator004_40_v296" vertex3="collar_compensator004_40_v106"/>
+ <triangular vertex1="collar_compensator004_40_v299" vertex2="collar_compensator004_40_v292" vertex3="collar_compensator004_40_v288"/>
+ <triangular vertex1="collar_compensator004_40_v299" vertex2="collar_compensator004_40_v295" vertex3="collar_compensator004_40_v292"/>
+ <triangular vertex1="collar_compensator004_40_v299" vertex2="collar_compensator004_40_v288" vertex3="collar_compensator004_40_v296"/>
+ <triangular vertex1="collar_compensator004_40_v300" vertex2="collar_compensator004_40_v290" vertex3="collar_compensator004_40_v298"/>
+ <triangular vertex1="collar_compensator004_40_v300" vertex2="collar_compensator004_40_v293" vertex3="collar_compensator004_40_v290"/>
+ <triangular vertex1="collar_compensator004_40_v300" vertex2="collar_compensator004_40_v297" vertex3="collar_compensator004_40_v293"/>
+ <triangular vertex1="collar_compensator004_40_v301" vertex2="collar_compensator004_40_v103" vertex3="collar_compensator004_40_v101"/>
+ <triangular vertex1="collar_compensator004_40_v301" vertex2="collar_compensator004_40_v299" vertex3="collar_compensator004_40_v103"/>
+ <triangular vertex1="collar_compensator004_40_v301" vertex2="collar_compensator004_40_v295" vertex3="collar_compensator004_40_v299"/>
+ <triangular vertex1="collar_compensator004_40_v302" vertex2="collar_compensator004_40_v297" vertex3="collar_compensator004_40_v300"/>
+ <triangular vertex1="collar_compensator004_40_v302" vertex2="collar_compensator004_40_v24" vertex3="collar_compensator004_40_v25"/>
+ <triangular vertex1="collar_compensator004_40_v302" vertex2="collar_compensator004_40_v25" vertex3="collar_compensator004_40_v297"/>
+ <triangular vertex1="collar_compensator004_40_v303" vertex2="collar_compensator004_40_v101" vertex3="collar_compensator004_40_v99"/>
+ <triangular vertex1="collar_compensator004_40_v303" vertex2="collar_compensator004_40_v295" vertex3="collar_compensator004_40_v301"/>
+ <triangular vertex1="collar_compensator004_40_v303" vertex2="collar_compensator004_40_v300" vertex3="collar_compensator004_40_v298"/>
+ <triangular vertex1="collar_compensator004_40_v303" vertex2="collar_compensator004_40_v301" vertex3="collar_compensator004_40_v101"/>
+ <triangular vertex1="collar_compensator004_40_v303" vertex2="collar_compensator004_40_v298" vertex3="collar_compensator004_40_v295"/>
+ <triangular vertex1="collar_compensator004_40_v304" vertex2="collar_compensator004_40_v99" vertex3="collar_compensator004_40_v97"/>
+ <triangular vertex1="collar_compensator004_40_v304" vertex2="collar_compensator004_40_v303" vertex3="collar_compensator004_40_v99"/>
+ <triangular vertex1="collar_compensator004_40_v304" vertex2="collar_compensator004_40_v300" vertex3="collar_compensator004_40_v303"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v97" vertex3="collar_compensator004_40_v96"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v24" vertex3="collar_compensator004_40_v302"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v304" vertex3="collar_compensator004_40_v97"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v300" vertex3="collar_compensator004_40_v304"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v23" vertex3="collar_compensator004_40_v24"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v302" vertex3="collar_compensator004_40_v300"/>
+ <triangular vertex1="collar_compensator004_40_v305" vertex2="collar_compensator004_40_v96" vertex3="collar_compensator004_40_v23"/>
+ <triangular vertex1="collar_compensator004_40_v72" vertex2="collar_compensator004_40_v169" vertex3="collar_compensator004_40_v167"/>
+ <triangular vertex1="collar_compensator004_40_v72" vertex2="collar_compensator004_40_v71" vertex3="collar_compensator004_40_v169"/>
+ <triangular vertex1="collar_compensator004_40_v85" vertex2="collar_compensator004_40_v306" vertex3="collar_compensator004_40_v86"/>
+ <triangular vertex1="collar_compensator004_40_v98" vertex2="collar_compensator004_40_v306" vertex3="collar_compensator004_40_v85"/>
+ <triangular vertex1="collar_compensator004_40_v98" vertex2="collar_compensator004_40_v307" vertex3="collar_compensator004_40_v306"/>
+ <triangular vertex1="collar_compensator004_40_v100" vertex2="collar_compensator004_40_v307" vertex3="collar_compensator004_40_v98"/>
+ <triangular vertex1="collar_compensator004_40_v102" vertex2="collar_compensator004_40_v308" vertex3="collar_compensator004_40_v100"/>
+ <triangular vertex1="collar_compensator004_40_v100" vertex2="collar_compensator004_40_v308" vertex3="collar_compensator004_40_v307"/>
+ <triangular vertex1="collar_compensator004_40_v102" vertex2="collar_compensator004_40_v309" vertex3="collar_compensator004_40_v308"/>
+ <triangular vertex1="collar_compensator004_40_v105" vertex2="collar_compensator004_40_v309" vertex3="collar_compensator004_40_v102"/>
+ <triangular vertex1="collar_compensator004_40_v86" vertex2="collar_compensator004_40_v310" vertex3="collar_compensator004_40_v87"/>
+ <triangular vertex1="collar_compensator004_40_v306" vertex2="collar_compensator004_40_v310" vertex3="collar_compensator004_40_v86"/>
+ <triangular vertex1="collar_compensator004_40_v104" vertex2="collar_compensator004_40_v311" vertex3="collar_compensator004_40_v105"/>
+ <triangular vertex1="collar_compensator004_40_v105" vertex2="collar_compensator004_40_v311" vertex3="collar_compensator004_40_v309"/>
+ <triangular vertex1="collar_compensator004_40_v306" vertex2="collar_compensator004_40_v312" vertex3="collar_compensator004_40_v310"/>
+ <triangular vertex1="collar_compensator004_40_v307" vertex2="collar_compensator004_40_v312" vertex3="collar_compensator004_40_v306"/>
+ <triangular vertex1="collar_compensator004_40_v107" vertex2="collar_compensator004_40_v313" vertex3="collar_compensator004_40_v104"/>
+ <triangular vertex1="collar_compensator004_40_v104" vertex2="collar_compensator004_40_v313" vertex3="collar_compensator004_40_v311"/>
+ <triangular vertex1="collar_compensator004_40_v307" vertex2="collar_compensator004_40_v314" vertex3="collar_compensator004_40_v312"/>
+ <triangular vertex1="collar_compensator004_40_v308" vertex2="collar_compensator004_40_v314" vertex3="collar_compensator004_40_v307"/>
+ <triangular vertex1="collar_compensator004_40_v109" vertex2="collar_compensator004_40_v315" vertex3="collar_compensator004_40_v107"/>
+ <triangular vertex1="collar_compensator004_40_v107" vertex2="collar_compensator004_40_v315" vertex3="collar_compensator004_40_v313"/>
+ <triangular vertex1="collar_compensator004_40_v309" vertex2="collar_compensator004_40_v316" vertex3="collar_compensator004_40_v308"/>
+ <triangular vertex1="collar_compensator004_40_v308" vertex2="collar_compensator004_40_v316" vertex3="collar_compensator004_40_v314"/>
+ <triangular vertex1="collar_compensator004_40_v112" vertex2="collar_compensator004_40_v317" vertex3="collar_compensator004_40_v109"/>
+ <triangular vertex1="collar_compensator004_40_v109" vertex2="collar_compensator004_40_v317" vertex3="collar_compensator004_40_v315"/>
+ <triangular vertex1="collar_compensator004_40_v87" vertex2="collar_compensator004_40_v318" vertex3="collar_compensator004_40_v88"/>
+ <triangular vertex1="collar_compensator004_40_v88" vertex2="collar_compensator004_40_v318" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v310" vertex2="collar_compensator004_40_v318" vertex3="collar_compensator004_40_v87"/>
+ <triangular vertex1="collar_compensator004_40_v311" vertex2="collar_compensator004_40_v319" vertex3="collar_compensator004_40_v309"/>
+ <triangular vertex1="collar_compensator004_40_v309" vertex2="collar_compensator004_40_v319" vertex3="collar_compensator004_40_v316"/>
+ <triangular vertex1="collar_compensator004_40_v112" vertex2="collar_compensator004_40_v320" vertex3="collar_compensator004_40_v317"/>
+ <triangular vertex1="collar_compensator004_40_v111" vertex2="collar_compensator004_40_v320" vertex3="collar_compensator004_40_v112"/>
+ <triangular vertex1="collar_compensator004_40_v310" vertex2="collar_compensator004_40_v321" vertex3="collar_compensator004_40_v318"/>
+ <triangular vertex1="collar_compensator004_40_v312" vertex2="collar_compensator004_40_v321" vertex3="collar_compensator004_40_v310"/>
+ <triangular vertex1="collar_compensator004_40_v311" vertex2="collar_compensator004_40_v322" vertex3="collar_compensator004_40_v319"/>
+ <triangular vertex1="collar_compensator004_40_v313" vertex2="collar_compensator004_40_v322" vertex3="collar_compensator004_40_v311"/>
+ <triangular vertex1="collar_compensator004_40_v114" vertex2="collar_compensator004_40_v323" vertex3="collar_compensator004_40_v111"/>
+ <triangular vertex1="collar_compensator004_40_v111" vertex2="collar_compensator004_40_v323" vertex3="collar_compensator004_40_v320"/>
+ <triangular vertex1="collar_compensator004_40_v314" vertex2="collar_compensator004_40_v324" vertex3="collar_compensator004_40_v312"/>
+ <triangular vertex1="collar_compensator004_40_v312" vertex2="collar_compensator004_40_v324" vertex3="collar_compensator004_40_v321"/>
+ <triangular vertex1="collar_compensator004_40_v315" vertex2="collar_compensator004_40_v325" vertex3="collar_compensator004_40_v313"/>
+ <triangular vertex1="collar_compensator004_40_v313" vertex2="collar_compensator004_40_v325" vertex3="collar_compensator004_40_v322"/>
+ <triangular vertex1="collar_compensator004_40_v114" vertex2="collar_compensator004_40_v326" vertex3="collar_compensator004_40_v323"/>
+ <triangular vertex1="collar_compensator004_40_v116" vertex2="collar_compensator004_40_v326" vertex3="collar_compensator004_40_v114"/>
+ <triangular vertex1="collar_compensator004_40_v316" vertex2="collar_compensator004_40_v327" vertex3="collar_compensator004_40_v314"/>
+ <triangular vertex1="collar_compensator004_40_v314" vertex2="collar_compensator004_40_v327" vertex3="collar_compensator004_40_v324"/>
+ <triangular vertex1="collar_compensator004_40_v315" vertex2="collar_compensator004_40_v328" vertex3="collar_compensator004_40_v325"/>
+ <triangular vertex1="collar_compensator004_40_v317" vertex2="collar_compensator004_40_v328" vertex3="collar_compensator004_40_v315"/>
+ <triangular vertex1="collar_compensator004_40_v318" vertex2="collar_compensator004_40_v329" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v116" vertex2="collar_compensator004_40_v330" vertex3="collar_compensator004_40_v326"/>
+ <triangular vertex1="collar_compensator004_40_v119" vertex2="collar_compensator004_40_v330" vertex3="collar_compensator004_40_v116"/>
+ <triangular vertex1="collar_compensator004_40_v319" vertex2="collar_compensator004_40_v331" vertex3="collar_compensator004_40_v316"/>
+ <triangular vertex1="collar_compensator004_40_v322" vertex2="collar_compensator004_40_v331" vertex3="collar_compensator004_40_v319"/>
+ <triangular vertex1="collar_compensator004_40_v316" vertex2="collar_compensator004_40_v331" vertex3="collar_compensator004_40_v327"/>
+ <triangular vertex1="collar_compensator004_40_v320" vertex2="collar_compensator004_40_v332" vertex3="collar_compensator004_40_v317"/>
+ <triangular vertex1="collar_compensator004_40_v317" vertex2="collar_compensator004_40_v332" vertex3="collar_compensator004_40_v328"/>
+ <triangular vertex1="collar_compensator004_40_v118" vertex2="collar_compensator004_40_v333" vertex3="collar_compensator004_40_v119"/>
+ <triangular vertex1="collar_compensator004_40_v119" vertex2="collar_compensator004_40_v333" vertex3="collar_compensator004_40_v330"/>
+ <triangular vertex1="collar_compensator004_40_v324" vertex2="collar_compensator004_40_v334" vertex3="collar_compensator004_40_v321"/>
+ <triangular vertex1="collar_compensator004_40_v321" vertex2="collar_compensator004_40_v334" vertex3="collar_compensator004_40_v318"/>
+ <triangular vertex1="collar_compensator004_40_v318" vertex2="collar_compensator004_40_v334" vertex3="collar_compensator004_40_v329"/>
+ <triangular vertex1="collar_compensator004_40_v322" vertex2="collar_compensator004_40_v335" vertex3="collar_compensator004_40_v331"/>
+ <triangular vertex1="collar_compensator004_40_v323" vertex2="collar_compensator004_40_v336" vertex3="collar_compensator004_40_v320"/>
+ <triangular vertex1="collar_compensator004_40_v320" vertex2="collar_compensator004_40_v336" vertex3="collar_compensator004_40_v332"/>
+ <triangular vertex1="collar_compensator004_40_v327" vertex2="collar_compensator004_40_v337" vertex3="collar_compensator004_40_v324"/>
+ <triangular vertex1="collar_compensator004_40_v324" vertex2="collar_compensator004_40_v337" vertex3="collar_compensator004_40_v334"/>
+ <triangular vertex1="collar_compensator004_40_v121" vertex2="collar_compensator004_40_v338" vertex3="collar_compensator004_40_v118"/>
+ <triangular vertex1="collar_compensator004_40_v118" vertex2="collar_compensator004_40_v338" vertex3="collar_compensator004_40_v333"/>
+ <triangular vertex1="collar_compensator004_40_v325" vertex2="collar_compensator004_40_v339" vertex3="collar_compensator004_40_v322"/>
+ <triangular vertex1="collar_compensator004_40_v328" vertex2="collar_compensator004_40_v339" vertex3="collar_compensator004_40_v325"/>
+ <triangular vertex1="collar_compensator004_40_v322" vertex2="collar_compensator004_40_v339" vertex3="collar_compensator004_40_v335"/>
+ <triangular vertex1="collar_compensator004_40_v326" vertex2="collar_compensator004_40_v340" vertex3="collar_compensator004_40_v323"/>
+ <triangular vertex1="collar_compensator004_40_v323" vertex2="collar_compensator004_40_v340" vertex3="collar_compensator004_40_v336"/>
+ <triangular vertex1="collar_compensator004_40_v327" vertex2="collar_compensator004_40_v341" vertex3="collar_compensator004_40_v337"/>
+ <triangular vertex1="collar_compensator004_40_v121" vertex2="collar_compensator004_40_v342" vertex3="collar_compensator004_40_v338"/>
+ <triangular vertex1="collar_compensator004_40_v83" vertex2="collar_compensator004_40_v342" vertex3="collar_compensator004_40_v84"/>
+ <triangular vertex1="collar_compensator004_40_v84" vertex2="collar_compensator004_40_v342" vertex3="collar_compensator004_40_v123"/>
+ <triangular vertex1="collar_compensator004_40_v123" vertex2="collar_compensator004_40_v342" vertex3="collar_compensator004_40_v121"/>
+ <triangular vertex1="collar_compensator004_40_v328" vertex2="collar_compensator004_40_v343" vertex3="collar_compensator004_40_v339"/>
+ <triangular vertex1="collar_compensator004_40_v89" vertex2="collar_compensator004_40_v344" vertex3="collar_compensator004_40_v90"/>
+ <triangular vertex1="collar_compensator004_40_v329" vertex2="collar_compensator004_40_v344" vertex3="collar_compensator004_40_v89"/>
+ <triangular vertex1="collar_compensator004_40_v330" vertex2="collar_compensator004_40_v345" vertex3="collar_compensator004_40_v326"/>
+ <triangular vertex1="collar_compensator004_40_v326" vertex2="collar_compensator004_40_v345" vertex3="collar_compensator004_40_v340"/>
+ <triangular vertex1="collar_compensator004_40_v327" vertex2="collar_compensator004_40_v346" vertex3="collar_compensator004_40_v341"/>
+ <triangular vertex1="collar_compensator004_40_v331" vertex2="collar_compensator004_40_v346" vertex3="collar_compensator004_40_v327"/>
+ <triangular vertex1="collar_compensator004_40_v328" vertex2="collar_compensator004_40_v347" vertex3="collar_compensator004_40_v343"/>
+ <triangular vertex1="collar_compensator004_40_v332" vertex2="collar_compensator004_40_v347" vertex3="collar_compensator004_40_v328"/>
+ <triangular vertex1="collar_compensator004_40_v338" vertex2="collar_compensator004_40_v348" vertex3="collar_compensator004_40_v333"/>
+ <triangular vertex1="collar_compensator004_40_v330" vertex2="collar_compensator004_40_v348" vertex3="collar_compensator004_40_v345"/>
+ <triangular vertex1="collar_compensator004_40_v333" vertex2="collar_compensator004_40_v348" vertex3="collar_compensator004_40_v330"/>
+ <triangular vertex1="collar_compensator004_40_v337" vertex2="collar_compensator004_40_v349" vertex3="collar_compensator004_40_v334"/>
+ <triangular vertex1="collar_compensator004_40_v329" vertex2="collar_compensator004_40_v349" vertex3="collar_compensator004_40_v344"/>
+ <triangular vertex1="collar_compensator004_40_v334" vertex2="collar_compensator004_40_v349" vertex3="collar_compensator004_40_v329"/>
+ <triangular vertex1="collar_compensator004_40_v331" vertex2="collar_compensator004_40_v350" vertex3="collar_compensator004_40_v346"/>
+ <triangular vertex1="collar_compensator004_40_v335" vertex2="collar_compensator004_40_v350" vertex3="collar_compensator004_40_v331"/>
+ <triangular vertex1="collar_compensator004_40_v332" vertex2="collar_compensator004_40_v351" vertex3="collar_compensator004_40_v347"/>
+ <triangular vertex1="collar_compensator004_40_v336" vertex2="collar_compensator004_40_v351" vertex3="collar_compensator004_40_v332"/>
+ <triangular vertex1="collar_compensator004_40_v337" vertex2="collar_compensator004_40_v352" vertex3="collar_compensator004_40_v349"/>
+ <triangular vertex1="collar_compensator004_40_v338" vertex2="collar_compensator004_40_v353" vertex3="collar_compensator004_40_v348"/>
+ <triangular vertex1="collar_compensator004_40_v339" vertex2="collar_compensator004_40_v354" vertex3="collar_compensator004_40_v335"/>
+ <triangular vertex1="collar_compensator004_40_v335" vertex2="collar_compensator004_40_v354" vertex3="collar_compensator004_40_v350"/>
+ <triangular vertex1="collar_compensator004_40_v336" vertex2="collar_compensator004_40_v355" vertex3="collar_compensator004_40_v351"/>
+ <triangular vertex1="collar_compensator004_40_v340" vertex2="collar_compensator004_40_v355" vertex3="collar_compensator004_40_v336"/>
+ <triangular vertex1="collar_compensator004_40_v346" vertex2="collar_compensator004_40_v356" vertex3="collar_compensator004_40_v341"/>
+ <triangular vertex1="collar_compensator004_40_v341" vertex2="collar_compensator004_40_v356" vertex3="collar_compensator004_40_v337"/>
+ <triangular vertex1="collar_compensator004_40_v337" vertex2="collar_compensator004_40_v356" vertex3="collar_compensator004_40_v352"/>
+ <triangular vertex1="collar_compensator004_40_v342" vertex2="collar_compensator004_40_v357" vertex3="collar_compensator004_40_v338"/>
+ <triangular vertex1="collar_compensator004_40_v83" vertex2="collar_compensator004_40_v357" vertex3="collar_compensator004_40_v342"/>
+ <triangular vertex1="collar_compensator004_40_v82" vertex2="collar_compensator004_40_v357" vertex3="collar_compensator004_40_v83"/>
+ <triangular vertex1="collar_compensator004_40_v338" vertex2="collar_compensator004_40_v357" vertex3="collar_compensator004_40_v353"/>
+ <triangular vertex1="collar_compensator004_40_v343" vertex2="collar_compensator004_40_v358" vertex3="collar_compensator004_40_v339"/>
+ <triangular vertex1="collar_compensator004_40_v339" vertex2="collar_compensator004_40_v358" vertex3="collar_compensator004_40_v354"/>
+ <triangular vertex1="collar_compensator004_40_v90" vertex2="collar_compensator004_40_v359" vertex3="collar_compensator004_40_v91"/>
+ <triangular vertex1="collar_compensator004_40_v91" vertex2="collar_compensator004_40_v359" vertex3="collar_compensator004_40_v92"/>
+ <triangular vertex1="collar_compensator004_40_v349" vertex2="collar_compensator004_40_v359" vertex3="collar_compensator004_40_v344"/>
+ <triangular vertex1="collar_compensator004_40_v344" vertex2="collar_compensator004_40_v359" vertex3="collar_compensator004_40_v90"/>
+ <triangular vertex1="collar_compensator004_40_v348" vertex2="collar_compensator004_40_v360" vertex3="collar_compensator004_40_v345"/>
+ <triangular vertex1="collar_compensator004_40_v345" vertex2="collar_compensator004_40_v360" vertex3="collar_compensator004_40_v340"/>
+ <triangular vertex1="collar_compensator004_40_v340" vertex2="collar_compensator004_40_v360" vertex3="collar_compensator004_40_v355"/>
+ <triangular vertex1="collar_compensator004_40_v346" vertex2="collar_compensator004_40_v361" vertex3="collar_compensator004_40_v356"/>
+ <triangular vertex1="collar_compensator004_40_v347" vertex2="collar_compensator004_40_v362" vertex3="collar_compensator004_40_v343"/>
+ <triangular vertex1="collar_compensator004_40_v343" vertex2="collar_compensator004_40_v362" vertex3="collar_compensator004_40_v358"/>
+ <triangular vertex1="collar_compensator004_40_v348" vertex2="collar_compensator004_40_v363" vertex3="collar_compensator004_40_v360"/>
+ <triangular vertex1="collar_compensator004_40_v349" vertex2="collar_compensator004_40_v364" vertex3="collar_compensator004_40_v359"/>
+ <triangular vertex1="collar_compensator004_40_v350" vertex2="collar_compensator004_40_v365" vertex3="collar_compensator004_40_v346"/>
+ <triangular vertex1="collar_compensator004_40_v346" vertex2="collar_compensator004_40_v365" vertex3="collar_compensator004_40_v361"/>
+ <triangular vertex1="collar_compensator004_40_v351" vertex2="collar_compensator004_40_v366" vertex3="collar_compensator004_40_v347"/>
+ <triangular vertex1="collar_compensator004_40_v355" vertex2="collar_compensator004_40_v366" vertex3="collar_compensator004_40_v351"/>
+ <triangular vertex1="collar_compensator004_40_v347" vertex2="collar_compensator004_40_v366" vertex3="collar_compensator004_40_v362"/>
+ <triangular vertex1="collar_compensator004_40_v352" vertex2="collar_compensator004_40_v367" vertex3="collar_compensator004_40_v349"/>
+ <triangular vertex1="collar_compensator004_40_v349" vertex2="collar_compensator004_40_v367" vertex3="collar_compensator004_40_v364"/>
+ <triangular vertex1="collar_compensator004_40_v356" vertex2="collar_compensator004_40_v367" vertex3="collar_compensator004_40_v352"/>
+ <triangular vertex1="collar_compensator004_40_v353" vertex2="collar_compensator004_40_v368" vertex3="collar_compensator004_40_v348"/>
+ <triangular vertex1="collar_compensator004_40_v348" vertex2="collar_compensator004_40_v368" vertex3="collar_compensator004_40_v363"/>
+ <triangular vertex1="collar_compensator004_40_v358" vertex2="collar_compensator004_40_v369" vertex3="collar_compensator004_40_v354"/>
+ <triangular vertex1="collar_compensator004_40_v354" vertex2="collar_compensator004_40_v369" vertex3="collar_compensator004_40_v350"/>
+ <triangular vertex1="collar_compensator004_40_v350" vertex2="collar_compensator004_40_v369" vertex3="collar_compensator004_40_v365"/>
+ <triangular vertex1="collar_compensator004_40_v355" vertex2="collar_compensator004_40_v370" vertex3="collar_compensator004_40_v366"/>
+ <triangular vertex1="collar_compensator004_40_v356" vertex2="collar_compensator004_40_v371" vertex3="collar_compensator004_40_v367"/>
+ <triangular vertex1="collar_compensator004_40_v80" vertex2="collar_compensator004_40_v372" vertex3="collar_compensator004_40_v82"/>
+ <triangular vertex1="collar_compensator004_40_v353" vertex2="collar_compensator004_40_v372" vertex3="collar_compensator004_40_v368"/>
+ <triangular vertex1="collar_compensator004_40_v82" vertex2="collar_compensator004_40_v372" vertex3="collar_compensator004_40_v357"/>
+ <triangular vertex1="collar_compensator004_40_v357" vertex2="collar_compensator004_40_v372" vertex3="collar_compensator004_40_v353"/>
+ <triangular vertex1="collar_compensator004_40_v358" vertex2="collar_compensator004_40_v373" vertex3="collar_compensator004_40_v369"/>
+ <triangular vertex1="collar_compensator004_40_v359" vertex2="collar_compensator004_40_v374" vertex3="collar_compensator004_40_v92"/>
+ <triangular vertex1="collar_compensator004_40_v355" vertex2="collar_compensator004_40_v375" vertex3="collar_compensator004_40_v370"/>
+ <triangular vertex1="collar_compensator004_40_v360" vertex2="collar_compensator004_40_v375" vertex3="collar_compensator004_40_v355"/>
+ <triangular vertex1="collar_compensator004_40_v356" vertex2="collar_compensator004_40_v376" vertex3="collar_compensator004_40_v371"/>
+ <triangular vertex1="collar_compensator004_40_v361" vertex2="collar_compensator004_40_v376" vertex3="collar_compensator004_40_v356"/>
+ <triangular vertex1="collar_compensator004_40_v365" vertex2="collar_compensator004_40_v376" vertex3="collar_compensator004_40_v361"/>
+ <triangular vertex1="collar_compensator004_40_v358" vertex2="collar_compensator004_40_v377" vertex3="collar_compensator004_40_v373"/>
+ <triangular vertex1="collar_compensator004_40_v366" vertex2="collar_compensator004_40_v377" vertex3="collar_compensator004_40_v362"/>
+ <triangular vertex1="collar_compensator004_40_v362" vertex2="collar_compensator004_40_v377" vertex3="collar_compensator004_40_v358"/>
+ <triangular vertex1="collar_compensator004_40_v360" vertex2="collar_compensator004_40_v378" vertex3="collar_compensator004_40_v375"/>
+ <triangular vertex1="collar_compensator004_40_v363" vertex2="collar_compensator004_40_v378" vertex3="collar_compensator004_40_v360"/>
+ <triangular vertex1="collar_compensator004_40_v359" vertex2="collar_compensator004_40_v379" vertex3="collar_compensator004_40_v374"/>
+ <triangular vertex1="collar_compensator004_40_v364" vertex2="collar_compensator004_40_v379" vertex3="collar_compensator004_40_v359"/>
+ <triangular vertex1="collar_compensator004_40_v365" vertex2="collar_compensator004_40_v380" vertex3="collar_compensator004_40_v376"/>
+ <triangular vertex1="collar_compensator004_40_v366" vertex2="collar_compensator004_40_v381" vertex3="collar_compensator004_40_v377"/>
+ <triangular vertex1="collar_compensator004_40_v364" vertex2="collar_compensator004_40_v382" vertex3="collar_compensator004_40_v379"/>
+ <triangular vertex1="collar_compensator004_40_v367" vertex2="collar_compensator004_40_v382" vertex3="collar_compensator004_40_v364"/>
+ <triangular vertex1="collar_compensator004_40_v368" vertex2="collar_compensator004_40_v383" vertex3="collar_compensator004_40_v363"/>
+ <triangular vertex1="collar_compensator004_40_v363" vertex2="collar_compensator004_40_v383" vertex3="collar_compensator004_40_v378"/>
+ <triangular vertex1="collar_compensator004_40_v369" vertex2="collar_compensator004_40_v384" vertex3="collar_compensator004_40_v365"/>
+ <triangular vertex1="collar_compensator004_40_v373" vertex2="collar_compensator004_40_v384" vertex3="collar_compensator004_40_v369"/>
+ <triangular vertex1="collar_compensator004_40_v365" vertex2="collar_compensator004_40_v384" vertex3="collar_compensator004_40_v380"/>
+ <triangular vertex1="collar_compensator004_40_v375" vertex2="collar_compensator004_40_v385" vertex3="collar_compensator004_40_v370"/>
+ <triangular vertex1="collar_compensator004_40_v370" vertex2="collar_compensator004_40_v385" vertex3="collar_compensator004_40_v366"/>
+ <triangular vertex1="collar_compensator004_40_v366" vertex2="collar_compensator004_40_v385" vertex3="collar_compensator004_40_v381"/>
+ <triangular vertex1="collar_compensator004_40_v371" vertex2="collar_compensator004_40_v386" vertex3="collar_compensator004_40_v367"/>
+ <triangular vertex1="collar_compensator004_40_v367" vertex2="collar_compensator004_40_v386" vertex3="collar_compensator004_40_v382"/>
+ <triangular vertex1="collar_compensator004_40_v372" vertex2="collar_compensator004_40_v387" vertex3="collar_compensator004_40_v368"/>
+ <triangular vertex1="collar_compensator004_40_v79" vertex2="collar_compensator004_40_v387" vertex3="collar_compensator004_40_v80"/>
+ <triangular vertex1="collar_compensator004_40_v80" vertex2="collar_compensator004_40_v387" vertex3="collar_compensator004_40_v372"/>
+ <triangular vertex1="collar_compensator004_40_v368" vertex2="collar_compensator004_40_v387" vertex3="collar_compensator004_40_v383"/>
+ <triangular vertex1="collar_compensator004_40_v377" vertex2="collar_compensator004_40_v388" vertex3="collar_compensator004_40_v373"/>
+ <triangular vertex1="collar_compensator004_40_v373" vertex2="collar_compensator004_40_v388" vertex3="collar_compensator004_40_v384"/>
+ <triangular vertex1="collar_compensator004_40_v92" vertex2="collar_compensator004_40_v389" vertex3="collar_compensator004_40_v93"/>
+ <triangular vertex1="collar_compensator004_40_v374" vertex2="collar_compensator004_40_v389" vertex3="collar_compensator004_40_v92"/>
+ <triangular vertex1="collar_compensator004_40_v375" vertex2="collar_compensator004_40_v390" vertex3="collar_compensator004_40_v385"/>
+ <triangular vertex1="collar_compensator004_40_v376" vertex2="collar_compensator004_40_v391" vertex3="collar_compensator004_40_v371"/>
+ <triangular vertex1="collar_compensator004_40_v371" vertex2="collar_compensator004_40_v391" vertex3="collar_compensator004_40_v386"/>
+ <triangular vertex1="collar_compensator004_40_v377" vertex2="collar_compensator004_40_v392" vertex3="collar_compensator004_40_v388"/>
+ <triangular vertex1="collar_compensator004_40_v375" vertex2="collar_compensator004_40_v393" vertex3="collar_compensator004_40_v390"/>
+ <triangular vertex1="collar_compensator004_40_v383" vertex2="collar_compensator004_40_v393" vertex3="collar_compensator004_40_v378"/>
+ <triangular vertex1="collar_compensator004_40_v378" vertex2="collar_compensator004_40_v393" vertex3="collar_compensator004_40_v375"/>
+ <triangular vertex1="collar_compensator004_40_v382" vertex2="collar_compensator004_40_v394" vertex3="collar_compensator004_40_v379"/>
+ <triangular vertex1="collar_compensator004_40_v379" vertex2="collar_compensator004_40_v394" vertex3="collar_compensator004_40_v374"/>
+ <triangular vertex1="collar_compensator004_40_v374" vertex2="collar_compensator004_40_v394" vertex3="collar_compensator004_40_v389"/>
+ <triangular vertex1="collar_compensator004_40_v380" vertex2="collar_compensator004_40_v395" vertex3="collar_compensator004_40_v376"/>
+ <triangular vertex1="collar_compensator004_40_v376" vertex2="collar_compensator004_40_v395" vertex3="collar_compensator004_40_v391"/>
+ <triangular vertex1="collar_compensator004_40_v385" vertex2="collar_compensator004_40_v396" vertex3="collar_compensator004_40_v381"/>
+ <triangular vertex1="collar_compensator004_40_v377" vertex2="collar_compensator004_40_v396" vertex3="collar_compensator004_40_v392"/>
+ <triangular vertex1="collar_compensator004_40_v381" vertex2="collar_compensator004_40_v396" vertex3="collar_compensator004_40_v377"/>
+ <triangular vertex1="collar_compensator004_40_v382" vertex2="collar_compensator004_40_v397" vertex3="collar_compensator004_40_v394"/>
+ <triangular vertex1="collar_compensator004_40_v383" vertex2="collar_compensator004_40_v398" vertex3="collar_compensator004_40_v393"/>
+ <triangular vertex1="collar_compensator004_40_v384" vertex2="collar_compensator004_40_v399" vertex3="collar_compensator004_40_v380"/>
+ <triangular vertex1="collar_compensator004_40_v380" vertex2="collar_compensator004_40_v399" vertex3="collar_compensator004_40_v395"/>
+ <triangular vertex1="collar_compensator004_40_v385" vertex2="collar_compensator004_40_v400" vertex3="collar_compensator004_40_v396"/>
+ <triangular vertex1="collar_compensator004_40_v391" vertex2="collar_compensator004_40_v401" vertex3="collar_compensator004_40_v386"/>
+ <triangular vertex1="collar_compensator004_40_v386" vertex2="collar_compensator004_40_v401" vertex3="collar_compensator004_40_v382"/>
+ <triangular vertex1="collar_compensator004_40_v382" vertex2="collar_compensator004_40_v401" vertex3="collar_compensator004_40_v397"/>
+ <triangular vertex1="collar_compensator004_40_v77" vertex2="collar_compensator004_40_v402" vertex3="collar_compensator004_40_v79"/>
+ <triangular vertex1="collar_compensator004_40_v79" vertex2="collar_compensator004_40_v402" vertex3="collar_compensator004_40_v387"/>
+ <triangular vertex1="collar_compensator004_40_v387" vertex2="collar_compensator004_40_v402" vertex3="collar_compensator004_40_v383"/>
+ <triangular vertex1="collar_compensator004_40_v383" vertex2="collar_compensator004_40_v402" vertex3="collar_compensator004_40_v398"/>
+ <triangular vertex1="collar_compensator004_40_v384" vertex2="collar_compensator004_40_v403" vertex3="collar_compensator004_40_v399"/>
+ <triangular vertex1="collar_compensator004_40_v388" vertex2="collar_compensator004_40_v403" vertex3="collar_compensator004_40_v384"/>
+ <triangular vertex1="collar_compensator004_40_v93" vertex2="collar_compensator004_40_v404" vertex3="collar_compensator004_40_v94"/>
+ <triangular vertex1="collar_compensator004_40_v94" vertex2="collar_compensator004_40_v404" vertex3="collar_compensator004_40_v95"/>
+ <triangular vertex1="collar_compensator004_40_v95" vertex2="collar_compensator004_40_v404" vertex3="collar_compensator004_40_v129"/>
+ <triangular vertex1="collar_compensator004_40_v389" vertex2="collar_compensator004_40_v404" vertex3="collar_compensator004_40_v93"/>
+ <triangular vertex1="collar_compensator004_40_v390" vertex2="collar_compensator004_40_v405" vertex3="collar_compensator004_40_v385"/>
+ <triangular vertex1="collar_compensator004_40_v393" vertex2="collar_compensator004_40_v405" vertex3="collar_compensator004_40_v390"/>
+ <triangular vertex1="collar_compensator004_40_v385" vertex2="collar_compensator004_40_v405" vertex3="collar_compensator004_40_v400"/>
+ <triangular vertex1="collar_compensator004_40_v391" vertex2="collar_compensator004_40_v406" vertex3="collar_compensator004_40_v401"/>
+ <triangular vertex1="collar_compensator004_40_v388" vertex2="collar_compensator004_40_v407" vertex3="collar_compensator004_40_v403"/>
+ <triangular vertex1="collar_compensator004_40_v392" vertex2="collar_compensator004_40_v407" vertex3="collar_compensator004_40_v388"/>
+ <triangular vertex1="collar_compensator004_40_v396" vertex2="collar_compensator004_40_v407" vertex3="collar_compensator004_40_v392"/>
+ <triangular vertex1="collar_compensator004_40_v393" vertex2="collar_compensator004_40_v408" vertex3="collar_compensator004_40_v405"/>
+ <triangular vertex1="collar_compensator004_40_v389" vertex2="collar_compensator004_40_v409" vertex3="collar_compensator004_40_v404"/>
+ <triangular vertex1="collar_compensator004_40_v129" vertex2="collar_compensator004_40_v409" vertex3="collar_compensator004_40_v132"/>
+ <triangular vertex1="collar_compensator004_40_v404" vertex2="collar_compensator004_40_v409" vertex3="collar_compensator004_40_v129"/>
+ <triangular vertex1="collar_compensator004_40_v394" vertex2="collar_compensator004_40_v409" vertex3="collar_compensator004_40_v389"/>
+ <triangular vertex1="collar_compensator004_40_v391" vertex2="collar_compensator004_40_v410" vertex3="collar_compensator004_40_v406"/>
+ <triangular vertex1="collar_compensator004_40_v399" vertex2="collar_compensator004_40_v410" vertex3="collar_compensator004_40_v395"/>
+ <triangular vertex1="collar_compensator004_40_v395" vertex2="collar_compensator004_40_v410" vertex3="collar_compensator004_40_v391"/>
+ <triangular vertex1="collar_compensator004_40_v396" vertex2="collar_compensator004_40_v411" vertex3="collar_compensator004_40_v407"/>
+ <triangular vertex1="collar_compensator004_40_v409" vertex2="collar_compensator004_40_v412" vertex3="collar_compensator004_40_v132"/>
+ <triangular vertex1="collar_compensator004_40_v132" vertex2="collar_compensator004_40_v412" vertex3="collar_compensator004_40_v134"/>
+ <triangular vertex1="collar_compensator004_40_v394" vertex2="collar_compensator004_40_v412" vertex3="collar_compensator004_40_v409"/>
+ <triangular vertex1="collar_compensator004_40_v397" vertex2="collar_compensator004_40_v412" vertex3="collar_compensator004_40_v394"/>
+ <triangular vertex1="collar_compensator004_40_v398" vertex2="collar_compensator004_40_v413" vertex3="collar_compensator004_40_v393"/>
+ <triangular vertex1="collar_compensator004_40_v393" vertex2="collar_compensator004_40_v413" vertex3="collar_compensator004_40_v408"/>
+ <triangular vertex1="collar_compensator004_40_v399" vertex2="collar_compensator004_40_v414" vertex3="collar_compensator004_40_v410"/>
+ <triangular vertex1="collar_compensator004_40_v403" vertex2="collar_compensator004_40_v414" vertex3="collar_compensator004_40_v399"/>
+ <triangular vertex1="collar_compensator004_40_v396" vertex2="collar_compensator004_40_v415" vertex3="collar_compensator004_40_v411"/>
+ <triangular vertex1="collar_compensator004_40_v400" vertex2="collar_compensator004_40_v415" vertex3="collar_compensator004_40_v396"/>
+ <triangular vertex1="collar_compensator004_40_v134" vertex2="collar_compensator004_40_v416" vertex3="collar_compensator004_40_v136"/>
+ <triangular vertex1="collar_compensator004_40_v412" vertex2="collar_compensator004_40_v416" vertex3="collar_compensator004_40_v134"/>
+ <triangular vertex1="collar_compensator004_40_v397" vertex2="collar_compensator004_40_v416" vertex3="collar_compensator004_40_v412"/>
+ <triangular vertex1="collar_compensator004_40_v406" vertex2="collar_compensator004_40_v416" vertex3="collar_compensator004_40_v401"/>
+ <triangular vertex1="collar_compensator004_40_v401" vertex2="collar_compensator004_40_v416" vertex3="collar_compensator004_40_v397"/>
+ <triangular vertex1="collar_compensator004_40_v402" vertex2="collar_compensator004_40_v417" vertex3="collar_compensator004_40_v398"/>
+ <triangular vertex1="collar_compensator004_40_v398" vertex2="collar_compensator004_40_v417" vertex3="collar_compensator004_40_v413"/>
+ <triangular vertex1="collar_compensator004_40_v76" vertex2="collar_compensator004_40_v417" vertex3="collar_compensator004_40_v77"/>
+ <triangular vertex1="collar_compensator004_40_v77" vertex2="collar_compensator004_40_v417" vertex3="collar_compensator004_40_v402"/>
+ <triangular vertex1="collar_compensator004_40_v403" vertex2="collar_compensator004_40_v418" vertex3="collar_compensator004_40_v414"/>
+ <triangular vertex1="collar_compensator004_40_v405" vertex2="collar_compensator004_40_v419" vertex3="collar_compensator004_40_v400"/>
+ <triangular vertex1="collar_compensator004_40_v400" vertex2="collar_compensator004_40_v419" vertex3="collar_compensator004_40_v415"/>
+ <triangular vertex1="collar_compensator004_40_v416" vertex2="collar_compensator004_40_v420" vertex3="collar_compensator004_40_v136"/>
+ <triangular vertex1="collar_compensator004_40_v136" vertex2="collar_compensator004_40_v420" vertex3="collar_compensator004_40_v138"/>
+ <triangular vertex1="collar_compensator004_40_v406" vertex2="collar_compensator004_40_v420" vertex3="collar_compensator004_40_v416"/>
+ <triangular vertex1="collar_compensator004_40_v403" vertex2="collar_compensator004_40_v421" vertex3="collar_compensator004_40_v418"/>
+ <triangular vertex1="collar_compensator004_40_v407" vertex2="collar_compensator004_40_v421" vertex3="collar_compensator004_40_v403"/>
+ <triangular vertex1="collar_compensator004_40_v408" vertex2="collar_compensator004_40_v422" vertex3="collar_compensator004_40_v405"/>
+ <triangular vertex1="collar_compensator004_40_v413" vertex2="collar_compensator004_40_v422" vertex3="collar_compensator004_40_v408"/>
+ <triangular vertex1="collar_compensator004_40_v405" vertex2="collar_compensator004_40_v422" vertex3="collar_compensator004_40_v419"/>
+ <triangular vertex1="collar_compensator004_40_v410" vertex2="collar_compensator004_40_v423" vertex3="collar_compensator004_40_v406"/>
+ <triangular vertex1="collar_compensator004_40_v138" vertex2="collar_compensator004_40_v423" vertex3="collar_compensator004_40_v142"/>
+ <triangular vertex1="collar_compensator004_40_v142" vertex2="collar_compensator004_40_v423" vertex3="collar_compensator004_40_v143"/>
+ <triangular vertex1="collar_compensator004_40_v406" vertex2="collar_compensator004_40_v423" vertex3="collar_compensator004_40_v420"/>
+ <triangular vertex1="collar_compensator004_40_v420" vertex2="collar_compensator004_40_v423" vertex3="collar_compensator004_40_v138"/>
+ <triangular vertex1="collar_compensator004_40_v415" vertex2="collar_compensator004_40_v424" vertex3="collar_compensator004_40_v411"/>
+ <triangular vertex1="collar_compensator004_40_v407" vertex2="collar_compensator004_40_v424" vertex3="collar_compensator004_40_v421"/>
+ <triangular vertex1="collar_compensator004_40_v411" vertex2="collar_compensator004_40_v424" vertex3="collar_compensator004_40_v407"/>
+ <triangular vertex1="collar_compensator004_40_v413" vertex2="collar_compensator004_40_v425" vertex3="collar_compensator004_40_v422"/>
+ <triangular vertex1="collar_compensator004_40_v143" vertex2="collar_compensator004_40_v426" vertex3="collar_compensator004_40_v145"/>
+ <triangular vertex1="collar_compensator004_40_v418" vertex2="collar_compensator004_40_v426" vertex3="collar_compensator004_40_v414"/>
+ <triangular vertex1="collar_compensator004_40_v410" vertex2="collar_compensator004_40_v426" vertex3="collar_compensator004_40_v423"/>
+ <triangular vertex1="collar_compensator004_40_v423" vertex2="collar_compensator004_40_v426" vertex3="collar_compensator004_40_v143"/>
+ <triangular vertex1="collar_compensator004_40_v414" vertex2="collar_compensator004_40_v426" vertex3="collar_compensator004_40_v410"/>
+ <triangular vertex1="collar_compensator004_40_v415" vertex2="collar_compensator004_40_v427" vertex3="collar_compensator004_40_v424"/>
+ <triangular vertex1="collar_compensator004_40_v74" vertex2="collar_compensator004_40_v428" vertex3="collar_compensator004_40_v76"/>
+ <triangular vertex1="collar_compensator004_40_v76" vertex2="collar_compensator004_40_v428" vertex3="collar_compensator004_40_v417"/>
+ <triangular vertex1="collar_compensator004_40_v417" vertex2="collar_compensator004_40_v428" vertex3="collar_compensator004_40_v413"/>
+ <triangular vertex1="collar_compensator004_40_v413" vertex2="collar_compensator004_40_v428" vertex3="collar_compensator004_40_v425"/>
+ <triangular vertex1="collar_compensator004_40_v145" vertex2="collar_compensator004_40_v429" vertex3="collar_compensator004_40_v147"/>
+ <triangular vertex1="collar_compensator004_40_v147" vertex2="collar_compensator004_40_v429" vertex3="collar_compensator004_40_v149"/>
+ <triangular vertex1="collar_compensator004_40_v418" vertex2="collar_compensator004_40_v429" vertex3="collar_compensator004_40_v426"/>
+ <triangular vertex1="collar_compensator004_40_v426" vertex2="collar_compensator004_40_v429" vertex3="collar_compensator004_40_v145"/>
+ <triangular vertex1="collar_compensator004_40_v419" vertex2="collar_compensator004_40_v430" vertex3="collar_compensator004_40_v415"/>
+ <triangular vertex1="collar_compensator004_40_v422" vertex2="collar_compensator004_40_v430" vertex3="collar_compensator004_40_v419"/>
+ <triangular vertex1="collar_compensator004_40_v415" vertex2="collar_compensator004_40_v430" vertex3="collar_compensator004_40_v427"/>
+ <triangular vertex1="collar_compensator004_40_v149" vertex2="collar_compensator004_40_v431" vertex3="collar_compensator004_40_v151"/>
+ <triangular vertex1="collar_compensator004_40_v421" vertex2="collar_compensator004_40_v431" vertex3="collar_compensator004_40_v418"/>
+ <triangular vertex1="collar_compensator004_40_v429" vertex2="collar_compensator004_40_v431" vertex3="collar_compensator004_40_v149"/>
+ <triangular vertex1="collar_compensator004_40_v418" vertex2="collar_compensator004_40_v431" vertex3="collar_compensator004_40_v429"/>
+ <triangular vertex1="collar_compensator004_40_v422" vertex2="collar_compensator004_40_v432" vertex3="collar_compensator004_40_v430"/>
+ <triangular vertex1="collar_compensator004_40_v151" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v152"/>
+ <triangular vertex1="collar_compensator004_40_v152" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v155"/>
+ <triangular vertex1="collar_compensator004_40_v431" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v151"/>
+ <triangular vertex1="collar_compensator004_40_v421" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v431"/>
+ <triangular vertex1="collar_compensator004_40_v424" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v421"/>
+ <triangular vertex1="collar_compensator004_40_v427" vertex2="collar_compensator004_40_v433" vertex3="collar_compensator004_40_v424"/>
+ <triangular vertex1="collar_compensator004_40_v425" vertex2="collar_compensator004_40_v434" vertex3="collar_compensator004_40_v422"/>
+ <triangular vertex1="collar_compensator004_40_v422" vertex2="collar_compensator004_40_v434" vertex3="collar_compensator004_40_v432"/>
+ <triangular vertex1="collar_compensator004_40_v155" vertex2="collar_compensator004_40_v435" vertex3="collar_compensator004_40_v157"/>
+ <triangular vertex1="collar_compensator004_40_v157" vertex2="collar_compensator004_40_v435" vertex3="collar_compensator004_40_v158"/>
+ <triangular vertex1="collar_compensator004_40_v430" vertex2="collar_compensator004_40_v435" vertex3="collar_compensator004_40_v427"/>
+ <triangular vertex1="collar_compensator004_40_v433" vertex2="collar_compensator004_40_v435" vertex3="collar_compensator004_40_v155"/>
+ <triangular vertex1="collar_compensator004_40_v427" vertex2="collar_compensator004_40_v435" vertex3="collar_compensator004_40_v433"/>
+ <triangular vertex1="collar_compensator004_40_v73" vertex2="collar_compensator004_40_v436" vertex3="collar_compensator004_40_v74"/>
+ <triangular vertex1="collar_compensator004_40_v428" vertex2="collar_compensator004_40_v436" vertex3="collar_compensator004_40_v425"/>
+ <triangular vertex1="collar_compensator004_40_v74" vertex2="collar_compensator004_40_v436" vertex3="collar_compensator004_40_v428"/>
+ <triangular vertex1="collar_compensator004_40_v425" vertex2="collar_compensator004_40_v436" vertex3="collar_compensator004_40_v434"/>
+ <triangular vertex1="collar_compensator004_40_v158" vertex2="collar_compensator004_40_v437" vertex3="collar_compensator004_40_v159"/>
+ <triangular vertex1="collar_compensator004_40_v430" vertex2="collar_compensator004_40_v437" vertex3="collar_compensator004_40_v435"/>
+ <triangular vertex1="collar_compensator004_40_v432" vertex2="collar_compensator004_40_v437" vertex3="collar_compensator004_40_v430"/>
+ <triangular vertex1="collar_compensator004_40_v435" vertex2="collar_compensator004_40_v437" vertex3="collar_compensator004_40_v158"/>
+ <triangular vertex1="collar_compensator004_40_v432" vertex2="collar_compensator004_40_v438" vertex3="collar_compensator004_40_v437"/>
+ <triangular vertex1="collar_compensator004_40_v159" vertex2="collar_compensator004_40_v438" vertex3="collar_compensator004_40_v161"/>
+ <triangular vertex1="collar_compensator004_40_v161" vertex2="collar_compensator004_40_v438" vertex3="collar_compensator004_40_v163"/>
+ <triangular vertex1="collar_compensator004_40_v437" vertex2="collar_compensator004_40_v438" vertex3="collar_compensator004_40_v159"/>
+ <triangular vertex1="collar_compensator004_40_v432" vertex2="collar_compensator004_40_v439" vertex3="collar_compensator004_40_v438"/>
+ <triangular vertex1="collar_compensator004_40_v163" vertex2="collar_compensator004_40_v439" vertex3="collar_compensator004_40_v164"/>
+ <triangular vertex1="collar_compensator004_40_v164" vertex2="collar_compensator004_40_v439" vertex3="collar_compensator004_40_v165"/>
+ <triangular vertex1="collar_compensator004_40_v438" vertex2="collar_compensator004_40_v439" vertex3="collar_compensator004_40_v163"/>
+ <triangular vertex1="collar_compensator004_40_v434" vertex2="collar_compensator004_40_v439" vertex3="collar_compensator004_40_v432"/>
+ <triangular vertex1="collar_compensator004_40_v436" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v434"/>
+ <triangular vertex1="collar_compensator004_40_v434" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v439"/>
+ <triangular vertex1="collar_compensator004_40_v439" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v165"/>
+ <triangular vertex1="collar_compensator004_40_v73" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v436"/>
+ <triangular vertex1="collar_compensator004_40_v165" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v167"/>
+ <triangular vertex1="collar_compensator004_40_v72" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v73"/>
+ <triangular vertex1="collar_compensator004_40_v167" vertex2="collar_compensator004_40_v440" vertex3="collar_compensator004_40_v72"/>
+ </tessellated>
+ <box lunit="mm" name="worldsolid" x="1000" y="1000" z="1000"/>
+ </solids>
+ <structure>
+ <volume name="collar_compensator004_40">
+ <materialref ref="Vacuum_ref"/>
+ <solidref ref="collar_compensator004_40_solid"/>
+ </volume>
+ </structure>
+ <setup name="Default" version="1.0">
+ <world ref="collar_compensator004_40"/>
+ </setup>
+</gdml>

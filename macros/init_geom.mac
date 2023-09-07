@@ -12,6 +12,10 @@
 ##  /geometry/gdml/submerge <true/false>
 ##  for this, a suitable method depending on the geometry has to exist in OMConstruction::submerge()
 ##
+##  set a solid reflector around the gelpad with
+##  /geometry/gdml/solidReflector <true/false>
+##  This is implemented for proof of concept/validation reasons and is not part of the final P-OM design.
+##
 ##  set rotational center of optical units (i.e. the center of each hemisphere) with 
 ##  /geometry/optical_unit/SetOrigin x y z
 ##
@@ -27,11 +31,13 @@
 # gdml settings
 #######
 
-# /geometry/gdml/file     ../P-OM/geometry/PDOR_v11_assemb_simple/mother.gdml
-# /geometry/gdml/file     ../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother.gdml
-/geometry/gdml/file     ../P-OM/geometry/PDOR_v11_assemb_simple_full_module/mother_closed_frame.gdml
+# /geometry/gdml/file     geometry/P-OM_hemisphere_v11/mother.gdml
+# /geometry/gdml/file     geometry/P-OM_module_v11/mother.gdml
+# /geometry/gdml/file     geometry/P-OM_hemisphere_v13/mother.gdml
+/geometry/gdml/file     geometry/P-OM_module_v13/mother.gdml
 
-/geometry/gdml/submerge   true
+/geometry/gdml/submerge        true
+/geometry/gdml/solidReflector  false
 
 
 #######
@@ -41,7 +47,9 @@
 /geometry/optical_unit/photocathodeTubeSize 3 mm
 /geometry/optical_unit/gelRingOffset        0 mm
 
+#######
 # single pmt
+#######
 
 #/geometry/optical_unit/setOrigin   0 0 0
 #/geometry/optical_unit/setRefX     1 0 0
@@ -50,34 +58,39 @@
 #/geometry/optical_unit/place 25 0 0
 
 
+#######
 # hemisphere 1
+#######
 
-/geometry/optical_unit/setOrigin   0 0 45
-/geometry/optical_unit/setRefX     1 0 0
-/geometry/optical_unit/setRefY     0 1 0
-
-/geometry/optical_unit/place 199.90 65 0
-/geometry/optical_unit/place 199.90 65 90
-/geometry/optical_unit/place 199.90 65 180
-/geometry/optical_unit/place 199.90 65 270
-
-/geometry/optical_unit/place 199.90 32.5 45
-/geometry/optical_unit/place 199.90 32.5 135
-/geometry/optical_unit/place 199.90 32.5 225
-/geometry/optical_unit/place 199.90 32.5 315
-
-# hemisphere 2
-
-/geometry/optical_unit/setOrigin   0 0 -45
-/geometry/optical_unit/setRefX     0 1 0
+/geometry/optical_unit/setOrigin  80 0 0
+/geometry/optical_unit/setRefX     0 0 1
 /geometry/optical_unit/setRefY     1 0 0
 
-/geometry/optical_unit/place 199.90 65 0
-/geometry/optical_unit/place 199.90 65 90
-/geometry/optical_unit/place 199.90 65 180
-/geometry/optical_unit/place 199.90 65 270
+/geometry/optical_unit/place 199.90 32.5 0
+/geometry/optical_unit/place 199.90 32.5 90
+/geometry/optical_unit/place 199.90 32.5 180
+/geometry/optical_unit/place 199.90 32.5 270
 
-/geometry/optical_unit/place 199.90 32.5 45
-/geometry/optical_unit/place 199.90 32.5 135
-/geometry/optical_unit/place 199.90 32.5 225
-/geometry/optical_unit/place 199.90 32.5 315
+/geometry/optical_unit/place 199.90 65 45
+/geometry/optical_unit/place 199.90 65 135
+/geometry/optical_unit/place 199.90 65 225
+/geometry/optical_unit/place 199.90 65 315
+
+
+#######
+# hemisphere 2
+#######
+
+/geometry/optical_unit/setOrigin -80 0  0
+/geometry/optical_unit/setRefX     0 0 -1
+/geometry/optical_unit/setRefY     1 0  0
+
+/geometry/optical_unit/place 199.90 32.5 0
+/geometry/optical_unit/place 199.90 32.5 90
+/geometry/optical_unit/place 199.90 32.5 180
+/geometry/optical_unit/place 199.90 32.5 270
+
+/geometry/optical_unit/place 199.90 65 45
+/geometry/optical_unit/place 199.90 65 135
+/geometry/optical_unit/place 199.90 65 225
+/geometry/optical_unit/place 199.90 65 315

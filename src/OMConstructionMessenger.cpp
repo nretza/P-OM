@@ -30,6 +30,12 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->submergeCmd->AvailableForStates(G4State_PreInit);
     this->submergeCmd->SetToBeBroadcasted(false);
 
+    this->solidReflectorCmd = new G4UIcmdWithABool("/geometry/gdml/solidReflector",this);
+    this->solidReflectorCmd->SetGuidance("Places a solid reflector around the Gelpad edge. Same properties as the PMT reflector.");
+    this->solidReflectorCmd->SetParameterName("yes/no",false);
+    this->solidReflectorCmd->AvailableForStates(G4State_PreInit);
+    this->solidReflectorCmd->SetToBeBroadcasted(false);
+
     this->OUOrgCmd = new G4UIcmdWith3Vector("/geometry/optical_unit/setOrigin", this);
     this->OUOrgCmd->SetGuidance("Sets the optical unit coord origin to selected value");
     this->OUOrgCmd->AvailableForStates(G4State_PreInit);
@@ -78,6 +84,7 @@ OMConstructionMessenger::~OMConstructionMessenger()
     delete this->GDMLDir;
     delete this->OpticalUnitDir;
     delete this->submergeCmd;
+    delete this->solidReflectorCmd;
     delete this->gdmlfileCmd;
     delete this->OUOrgCmd;
     delete this->OURefXCmd;
@@ -99,6 +106,12 @@ void OMConstructionMessenger::SetNewValue(G4UIcommand* command,G4String newValue
     if ( command == this->submergeCmd )
     {
         this->_Construction->setSubmerge(this->submergeCmd->GetNewBoolValue(newValue));
+    }
+
+    // set solid reflector
+    if ( command == this->solidReflectorCmd )
+    {
+        this->_Construction->setSolidReflector(this->solidReflectorCmd->GetNewBoolValue(newValue));
     }
 
     // Set OU origin
