@@ -15,7 +15,7 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->GDMLDir = new G4UIdirectory("/geometry/gdml/");
     this->GDMLDir->SetGuidance("options for the imported GDML file");
 
-    this->OpticalUnitDir = new G4UIdirectory("/geometry/optical_unit/");
+    this->OpticalUnitDir = new G4UIdirectory("/geometry/PMT/");
     this->OpticalUnitDir->SetGuidance("options for the placement of optical units (pmt + gelpad)");
 
     this->gdmlfileCmd = new G4UIcmdWithAString("/geometry/gdml/file",this);
@@ -36,22 +36,22 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->solidReflectorCmd->AvailableForStates(G4State_PreInit);
     this->solidReflectorCmd->SetToBeBroadcasted(false);
 
-    this->OUOrgCmd = new G4UIcmdWith3Vector("/geometry/optical_unit/setOrigin", this);
+    this->OUOrgCmd = new G4UIcmdWith3Vector("/geometry/PMT/setOrigin", this);
     this->OUOrgCmd->SetGuidance("Sets the optical unit coord origin to selected value");
     this->OUOrgCmd->AvailableForStates(G4State_PreInit);
     this->OUOrgCmd->SetToBeBroadcasted(false);
 
-    this->OURefXCmd = new G4UIcmdWith3Vector("/geometry/optical_unit/setRefX", this);
+    this->OURefXCmd = new G4UIcmdWith3Vector("/geometry/PMT/setRefX", this);
     this->OURefXCmd->SetGuidance("sets the optical unit coord refX to the selected value");
     this->OURefXCmd->AvailableForStates(G4State_PreInit);
     this->OURefXCmd->SetToBeBroadcasted(false);
 
-    this->OURefYCmd = new G4UIcmdWith3Vector("/geometry/optical_unit/setRefY", this);
+    this->OURefYCmd = new G4UIcmdWith3Vector("/geometry/PMT/setRefY", this);
     this->OURefYCmd->SetGuidance("sets the optical unit coord refY to the selected value");
     this->OURefYCmd->AvailableForStates(G4State_PreInit);
     this->OURefYCmd->SetToBeBroadcasted(false);
 
-    this->OUPlaceCmd = new G4UIcommand("/geometry/optical_unit/place", this);
+    this->OUPlaceCmd = new G4UIcommand("/geometry/PMT/place", this);
     this->OUPlaceCmd->SetGuidance("places a optical unit on to the specified coordinates");
     this->OUPlaceCmd->AvailableForStates(G4State_PreInit);
     this->OUPlaceCmd->SetToBeBroadcasted(false);
@@ -66,13 +66,13 @@ OMConstructionMessenger::OMConstructionMessenger(OMConstruction* Constr)
     this->OUPlaceCmd->SetParameter(theta_parameter);
     this->OUPlaceCmd->SetParameter(phi_parameter);
 
-    this->GelRingCmd = new G4UIcmdWithADoubleAndUnit("/geometry/optical_unit/gelRingOffset", this);
+    this->GelRingCmd = new G4UIcmdWithADoubleAndUnit("/geometry/PMT/GelRingOffset", this);
     this->GelRingCmd->SetGuidance("sets the offset of an interface gel ring around the gelpad as it occurs during the curing in the hemisphere");
     this->GelRingCmd->AvailableForStates(G4State_PreInit);
     this->GelRingCmd->SetDefaultValue(0);
     this->GelRingCmd->SetToBeBroadcasted(false);
 
-    this->PhotocathodeTubeCmd = new G4UIcmdWithADoubleAndUnit("/geometry/optical_unit/photocathodeTubeSize", this);
+    this->PhotocathodeTubeCmd = new G4UIcmdWithADoubleAndUnit("/geometry/PMT/PCTubeSize", this);
     this->PhotocathodeTubeCmd->SetGuidance("sets how much of the tube part of the inner vacuum of the PMT should be covered with the photocathode");
     this->PhotocathodeTubeCmd->AvailableForStates(G4State_PreInit);
     this->PhotocathodeTubeCmd->SetDefaultValue(0);

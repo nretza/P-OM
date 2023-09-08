@@ -313,8 +313,8 @@ void OMConstruction::submerge()
         this->_world_logical->SetMaterial(this->_MaterialManager->BuildWater());
     }
 
-    else if ( _gdml_filename == "geometry/PDOR_v11_assemb_simple/mother.gdml" ||
-              _gdml_filename == "geometry/P-OM_internal_v13_asm_step/mother.gdml")
+    else if ( _gdml_filename == "geometry/P-OM_hemisphere_v13/mother.gdml" ||
+              _gdml_filename == "geometry/P-OM_hemisphere_v11/mother.gdml")
     {
         // transformations
         G4Point3D from1(this->_ou_coord_refX);
@@ -364,8 +364,8 @@ void OMConstruction::submerge()
         new G4PVPlacement(ou2global, "water", waterLog, this->_world_phsical, false, 0);
     }
 
-    else if ( _gdml_filename == "geometry/PDOR_v11_assemb_simple_full_module/mother.gdml"  ||
-              _gdml_filename == "geometry/PDOR_v11_assemb_simple_full_module/mother_closed_frame.gdml")
+    else if ( _gdml_filename == "geometry/P-OM_module_v11/mother.gdml"  ||
+              _gdml_filename == "geometry/P-OM_module_v11/mother_closed_frame.gdml")
     {   
         G4double air_indside_radius = 207 * mm;
         G4double air_middle_offset  = 45 * mm;
@@ -422,10 +422,67 @@ void OMConstruction::submerge()
         new G4PVPlacement(G4Transform3D(), "water", waterLog, this->_world_phsical, false, 0);
     }
 
+    else if ( _gdml_filename == "geometry/P-OM_module_v13/mother.gdml")
+    {   
+        G4double air_indside_radius = 207 * mm;
+        G4double air_middle_offset  =  80 * mm;
+
+        // create air volumes
+        G4Tubs*  air_inbetween = new G4Tubs("air_inbetween",
+                                            0,
+                                            air_indside_radius,
+                                            air_middle_offset/2,
+                                            0,
+                                            360 * degree);
+    
+        G4Ellipsoid*  air_inside_left = new G4Ellipsoid("air_inside_left",
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                0,
+                                                air_indside_radius);
+        
+        G4Ellipsoid* air_inside_right = new G4Ellipsoid("air_inside_right",
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                air_indside_radius,
+                                                - air_indside_radius,
+                                                0);
+
+        // subtract from air inside
+        G4VSolid* water = this->_world_logical->GetSolid();
+        water = new G4SubtractionSolid("water", water, air_inbetween, new G4RotationMatrix(), G4ThreeVector(0,0,0));
+        water = new G4SubtractionSolid("water", water, air_inside_left, new G4RotationMatrix(), G4ThreeVector(0,0,air_middle_offset));
+        water = new G4SubtractionSolid("water", water, air_inside_right, new G4RotationMatrix(), G4ThreeVector(0,0,- air_middle_offset));
+
+        // subtract overlaps with P-OM
+        const int nr_of_objects = this->_world_logical->GetNoDaughters();
+        for(int i=0; i<nr_of_objects; i++)
+        {
+            G4VPhysicalVolume* obj_phsical  = this->_world_logical->GetDaughter(i);
+            G4LogicalVolume*   obj_logical  = obj_phsical->GetLogicalVolume();
+            G4VSolid*          obj_solid    = obj_logical->GetSolid();
+            G4String           obj_name     = obj_phsical->GetName();
+
+            // from relevant parts
+            if (obj_name.find("GlasHemisphere") != std::string::npos)
+            {
+                water = new G4SubtractionSolid("water",
+                                                water,
+                                                obj_solid);
+            }
+        }
+
+        // logical and placement
+        G4LogicalVolume* waterLog = new G4LogicalVolume(water, this->_MaterialManager->BuildWater(), "water");
+        waterLog->SetVisAttributes(new G4VisAttributes(false));
+        new G4PVPlacement(G4Transform3D(), "water", waterLog, this->_world_phsical, false, 0);
+    }
+
     else
     {
         G4Exception("void OMConstruction::submerge()",
-                    "no suitable implementation for drowning exist!",
+                    "no suitable implementation for submerging exist!",
                     JustWarning,
                     "No suitable implementation exists for submerging the existing geometry in water. Will continue run with air world.\nPlease implement a method in OMConstruction::submerge() to make this warning disappear.");
     }

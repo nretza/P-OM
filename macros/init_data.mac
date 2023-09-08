@@ -5,7 +5,7 @@
 ##  HOWTO:
 ##
 ##  set the output file with
-##  /data_acquisition/output_file path/to/file
+##  /daq/output_file path/to/file
 ##  make sure no not accidentally overwrite existing data! (you'll receive a warning though)
 ##
 ##  filters currently available:
@@ -20,13 +20,13 @@
 # data settings
 #######
 
-/data_acquisition/output_file ../P-OM/data/out.csv
+/daq/output_file ../P-OM/data/out.csv
 
 #######
 # data filters
 #######
 
-/data_acquisition/outProcess_filter   nan
-/data_acquisition/outVolume_filter    nan
-/data_acquisition/glass_filter        true
-/data_acquisition/photons_filter      true
+/daq/outProcess_filter   nan
+/daq/outVolume_filter    nan
+/daq/glass_filter        true
+/daq/photons_filter      true

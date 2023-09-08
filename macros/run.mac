@@ -2,6 +2,6 @@
 ########### P-OM run macro ####################################################
 ###############################################################################
 
-/data_acquisition/output_file /home/nretza/ECP_libraries/Geant4-Simulations/P-OM/data/out_mu.csv
+/daq/output_file /home/nretza/ECP_libraries/Geant4-Simulations/P-OM/data/out_mu.csv
 
 /run/beamOn 100

@@ -1,6 +1,6 @@
 # Disclaimer
 
-This is a copy of the P-OM subfolder in the [P-ONE Geant4 repository](https://github.com/pone-software/Geant4-Simulations/) up to commit 0bd089020c009e65b843f763440599c849501763. This repository exists purely for personal archival purposes.
+This is a copy of the P-OM subfolder in the [P-ONE Geant4 repository](https://github.com/pone-software/Geant4-Simulations/) up to commit 83adf021f046d3416b88fd6cef13e6ffb0e5d3cc. This repository exists purely for personal archival purposes.
 
 # P-ONE Optical Module Geant4 Simulations
 
@@ -14,7 +14,7 @@ Instead, the existing SolidWorks CAD Drawings of the P-OM were used as a baselin
 
 The P-OM Geant4 implementation offers a full implementation of the P-OMs geometry, as well as a full PMT implementation with both reflector and realistic photocathode. It was build with easy controllability in mind, offering a series of macro and configuration files, through which geometry, data acquisition, visualization, optical properties and primary photon generation can be controlled.
 
-![the P-OM with simulated photons](screenshots/P-OM_with_photons.png "the P-OM with simulated photons")
+![the P-OM (how it should look like...)](screenshots/P-OM_v13.png "the P-OM (how it should look like...)")
 
 ## Requirements
 
@@ -36,7 +36,7 @@ The geometry for the Geant4 P-OM implementation was imported from SolidWorks uti
 
 Because of that, a key optical component - the gelpad - was modelled by hand in C++, then fit in the correct places in the module with additional measures to make sure no gaps and overlaps appear. While based on an imported tessellated object, the PMTs were also modified by hand as to include reflective and absorbing components to produce realistic behavior.
 
-PMTs and gelpads can be placed together via the `/geometry/optical_unit/place` command. (see [init_geom.mac](macros/init_geom.mac) for more info)
+PMTs and gelpads can be placed together via the `/geometry/PMT/place` command. (see [init_geom.mac](macros/init_geom.mac) for more info)
 
 This repository comes with a slightly modified PDOR_v11 assembly which was converted into tessellated objects. Gelpads and PMTs were removed from the assembly as they are placed manually while minor components like o-rings and springs were removed to speed up initialization and runtime.
 
@@ -60,7 +60,7 @@ Per default, a muon with 1 Tev energy is generated on a trajectory perpendicular
 
 ## Data Aquisition
 
-The Simulation outputs data in text formats. The output file can be set via `/data_acquisition/output_file`. The user should take care not to accidentally overwrite already existing data.
+The Simulation outputs data in text formats. The output file can be set via `/daq/output_file`. The user should take care not to accidentally overwrite already existing data.
 
 An output file contains information for a single run, where each line represents one photon track (with one track per event, as no secondary particles exist). The different columns represent:
 * __PID__: The Particle ID. -22 for photons, 13 for muons.
